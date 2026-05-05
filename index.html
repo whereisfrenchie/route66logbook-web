@@ -63,16 +63,17 @@
     .hero-bg {
       position: absolute; inset: 0;
       background:
-        linear-gradient(to top right, rgba(0, 0, 0, 0.30) 0%, rgba(43,48,51,0.0) 50%), url('images/blueswallow.jpg') center/cover no-repeat;
+        linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.0) 70%), url('images/blueswallow.jpg') center/cover no-repeat;
     }
+    .hero-bg-mobile { display: none; }
     .hero-photo-hint { display: none; }
     .hero-logo {
       position: absolute;
       top: 24px;
       left: 32px;
       z-index: 10;
-      width: 120px;
-      height: 120px;
+      width: 160px;
+      height: 160px;
     }
     .hero-logo img {
       width: 100%;
@@ -90,7 +91,7 @@
       opacity: 0; animation: fadeUp 0.8s ease forwards 0.3s;
     }
     .hero-title {
-      font-weight: 700; font-size: clamp(40px, 6vw, 80px);
+      font-weight: 700; font-size: clamp(48px, 7vw, 92px);
       color: white; line-height: 0.9; letter-spacing: -2px; margin-bottom: 22px;
       opacity: 0; animation: fadeUp 0.8s ease forwards 0.5s;
     }
@@ -324,7 +325,7 @@
       gap: 12px;
       margin-bottom: 12px;
     }
-    .photos-grid-top .photo-cell { height: 280px; }
+    .photos-grid-top .photo-cell { height: 420px; }
     .photos-grid-bottom {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -332,7 +333,7 @@
       gap: 12px;
     }
     .photos-grid-bottom .photo-cell { height: 220px; }
-    .pc-wigwam { grid-column: 2; grid-row: 1 / 3; height: auto !important; }
+    .pc-wigwam { grid-column: 2; grid-row: 1 / 3; height: auto !important; min-height: 584px; }
     .photo-cell {
       border-radius: 18px; overflow: hidden; position: relative; background: #c8b89a;
     }
@@ -432,6 +433,16 @@
     @media (max-width: 960px) {
       nav { padding: 16px 24px; }
       .nav-links { display: none; }
+      .hero-content { padding: 180px 24px 60px !important; max-width: 100% !important; }
+      .hero-logo { width: 130px !important; height: 130px !important; }
+      .hero-bg { display: none; }
+      .hero-bg-mobile {
+        display: block;
+        position: absolute; inset: 0;
+        background:
+          linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.0) 75%),
+          url('images/blueswallow-mobile.jpg') center/cover no-repeat;
+      }
       .hero-content { padding: 0 24px 64px; }
       .pain, .solution, .screenshots, .editorial, .community, .download { padding-left: 24px; padding-right: 24px; }
       .pain-inner { grid-template-columns: 1fr; gap: 48px; }
@@ -469,6 +480,7 @@
 
   <section class="hero">
     <div class="hero-bg"></div>
+    <div class="hero-bg-mobile"></div>
     <div class="hero-logo">
       <img src="images/Route66logbook-logo.png" alt="Route 66 Logbook">
     </div>

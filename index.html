@@ -63,7 +63,7 @@
     .hero-bg {
       position: absolute; inset: 0;
       background:
-        linear-gradient(95deg, rgba(43,48,51,0.85) 35%, rgba(43,48,51,0.05) 68%),
+        linear-gradient(to top right, rgba(43,48,51,0.92) 30%, rgba(43,48,51,0.0) 70%),
         url('images/blueswallow.jpg') center/cover no-repeat;
     }
     .hero-photo-hint { display: none; }
@@ -308,23 +308,23 @@
     }
     .photos-grid {
       display: grid;
-      grid-template-columns: 1fr 2fr 1fr;
-      grid-template-rows: 280px 280px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 240px 220px 220px;
       gap: 12px;
     }
     .photo-cell {
       border-radius: 18px; overflow: hidden; position: relative; background: #c8b89a;
     }
-    /* vertical 1: col 1, spans both rows */
-    .photo-cell:nth-child(1) { grid-column: 1; grid-row: 1 / 3; }
-    /* horizontal 1: col 2, row 1 */
-    .photo-cell:nth-child(2) { grid-column: 2; grid-row: 1; }
-    /* horizontal 2: col 2, row 2 */
-    .photo-cell:nth-child(3) { grid-column: 2; grid-row: 2; }
-    /* horizontal 3: col 3, row 1 */
-    .photo-cell:nth-child(4) { grid-column: 3; grid-row: 1; }
-    /* vertical 2: col 3, spans both rows — override to single row, use row 2 */
-    .photo-cell:nth-child(5) { grid-column: 3; grid-row: 2; }
+    /* Row 1 col 1: Roy's */
+    .photo-cell:nth-child(1) { grid-column: 1; grid-row: 1; }
+    /* Row 1 col 2: Mayor */
+    .photo-cell:nth-child(5) { display: block; grid-column: 2; grid-row: 1; }
+    /* Row 2 col 1: Road Closed */
+    .photo-cell:nth-child(3) { grid-column: 1; grid-row: 2; }
+    /* Row 2+3 col 2: Wigwam vertical */
+    .photo-cell:nth-child(2) { grid-column: 2; grid-row: 2 / 4; }
+    /* Row 3 col 1: Gas Station */
+    .photo-cell:nth-child(4) { grid-column: 1; grid-row: 3; }
     .photo-placeholder {
       position: absolute; inset: 0; display: flex; flex-direction: column;
       align-items: center; justify-content: center; gap: 10px;
@@ -432,20 +432,22 @@
       .phone-wrap { max-width: 160px; min-width: 140px; flex-shrink: 0; }
       .phone-wrap:nth-child(2), .phone-wrap:nth-child(4) { margin-bottom: 24px; }
       .photos-grid {
-        display: flex !important;
-        overflow-x: auto !important;
-        gap: 10px !important;
-        padding-bottom: 12px !important;
-        scroll-snap-type: x mandatory !important;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        grid-template-rows: 180px 160px 160px !important;
+        overflow-x: unset !important;
       }
-      .photo-cell {
-        grid-column: auto !important;
-        grid-row: auto !important;
-        min-width: 72vw !important;
-        height: 260px !important;
-        flex-shrink: 0 !important;
-        scroll-snap-align: start !important;
-      }
+      .photo-cell { display: block !important; }
+      /* Row 1 col 1: Roy's */
+      .photo-cell:nth-child(1) { grid-column: 1 !important; grid-row: 1 !important; }
+      /* Row 1 col 2: Mayor */
+      .photo-cell:nth-child(5) { grid-column: 2 !important; grid-row: 1 !important; }
+      /* Row 2 col 1: Road Closed */
+      .photo-cell:nth-child(3) { grid-column: 1 !important; grid-row: 2 !important; }
+      /* Row 2+3 col 2: Wigwam vertical */
+      .photo-cell:nth-child(2) { grid-column: 2 !important; grid-row: 2 / 4 !important; }
+      /* Row 3 col 1: Gas Station */
+      .photo-cell:nth-child(4) { grid-column: 1 !important; grid-row: 3 !important; }
       .stats-row { gap: 32px; }
       footer { flex-direction: column; gap: 14px; text-align: center; padding: 32px 24px; }
     }
@@ -671,28 +673,23 @@
       <div class="photos-grid reveal">
         <!-- vertical: Wigwam + car, col 1 spanning both rows -->
         <div class="photo-cell">
-          <img src="images/3.jpg" alt="Wigwam Motel" draggable="false">
-          <p class="photo-caption">Wigwam Motel, Holbrook AZ</p>
+          <img src="images/3.jpg" alt="Wigwam Motel" draggable="false"><p class="photo-caption">Wigwam Motel</p>
         </div>
         <!-- horizontal: Roy's, col 2 row 1 -->
         <div class="photo-cell">
           <img src="images/1.jpg" alt="Roy's Motel Cafe" draggable="false">
-          <p class="photo-caption">Roy's Motel &amp; Cafe, Amboy CA</p>
         </div>
         <!-- horizontal: Road Closed, col 2 row 2 -->
         <div class="photo-cell">
-          <img src="images/2.jpg" alt="Original Route 66 pavement" draggable="false">
-          <p class="photo-caption">Original alignment, Texas</p>
+          <img src="images/2.jpg" alt="Original alignment" draggable="false"><p class="photo-caption">Original alignment</p>
         </div>
         <!-- horizontal: Gas station, col 3 row 1 -->
         <div class="photo-cell">
-          <img src="images/4.jpg" alt="Abandoned gas station" draggable="false">
-          <p class="photo-caption">Abandoned gas station, New Mexico</p>
+          <img src="images/4.jpg" alt="Abandoned gas station" draggable="false"><p class="photo-caption">Abandoned gas station</p>
         </div>
         <!-- vertical: Muffler Man, col 3 row 2 -->
         <div class="photo-cell">
-          <img src="images/5.jpg" alt="Muffler Man" draggable="false">
-          <p class="photo-caption">Muffler Man, Illinois</p>
+          <img src="images/5.jpg" alt="Muffler Man" draggable="false"><p class="photo-caption">Muffler Man</p>
         </div>
       </div>
     </div>

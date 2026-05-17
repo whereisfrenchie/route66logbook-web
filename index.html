@@ -199,26 +199,12 @@
     .feature-row-phone {
       display: flex; justify-content: center; align-items: center;
     }
-    .feat-phone-frame {
-      width: 260px;
-      aspect-ratio: 9/19.5;
-      background: var(--charcoal);
-      border-radius: 36px;
-      border: 2px solid rgba(43,48,51,0.12);
-      overflow: hidden;
-      position: relative;
-      box-shadow: 0 40px 80px rgba(43,48,51,0.15), 0 8px 24px rgba(43,48,51,0.1);
-    }
-    .feat-phone-notch {
-      position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
-      width: 56px; height: 10px; background: var(--charcoal);
-      border-radius: 10px; z-index: 2; border: 2px solid rgba(255,255,255,0.07);
-    }
-    .feat-phone-screen {
-      width: 100%; height: 100%;
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      gap: 12px; padding: 24px; text-align: center;
-      color: rgba(255,255,255,0.2); font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+    .feat-phone-img {
+      width: 264px;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      filter: drop-shadow(0 40px 80px rgba(43,48,51,0.15)) drop-shadow(0 8px 24px rgba(43,48,51,0.1));
     }
     .features-cta {
       text-align: center;
@@ -447,7 +433,7 @@
       .features-grid { grid-template-columns: 1fr; }
       .feature-row { grid-template-columns: 1fr; gap: 40px; margin-bottom: 60px; padding-bottom: 60px; }
       .feature-row-reverse { direction: ltr; }
-      .feat-phone-frame { width: 200px; }
+      .feat-phone-img { width: 210px; }
       .phones-row { gap: 12px; overflow-x: auto; padding-bottom: 16px; }
       .phone-wrap { max-width: 160px; min-width: 140px; flex-shrink: 0; }
       .phone-wrap:nth-child(2), .phone-wrap:nth-child(4) { margin-bottom: 24px; }
@@ -556,12 +542,7 @@
           <p class="feature-text">1000+ stops across all 8 states. Diners, neon signs, ghost towns, ruins, motels, and more. Updated by the community as things open, close, and change.</p>
         </div>
         <div class="feature-row-phone">
-          <div class="feat-phone-frame">
-            <div class="feat-phone-notch"></div>
-            <div class="feat-phone-screen">
-              <img src="images/map.png" alt="A Living Map" style="width:100%;height:100%;object-fit:cover">
-            </div>
-          </div>
+          <img class="feat-phone-img" src="images/map.png" alt="A Living Map">
         </div>
       </div>
 
@@ -573,12 +554,7 @@
           <p class="feature-text">Every stop has a full card with photos, hours, categories, community reports, and navigation. Tap any pin to see what's there before you pull over.</p>
         </div>
         <div class="feature-row-phone">
-          <div class="feat-phone-frame">
-            <div class="feat-phone-notch"></div>
-            <div class="feat-phone-screen">
-              <img src="images/stop.png" alt="Stop Detail" style="width:100%;height:100%;object-fit:cover">
-            </div>
-          </div>
+          <img class="feat-phone-img" src="images/stop.png" alt="Stop Detail">
         </div>
       </div>
 
@@ -590,12 +566,7 @@
           <p class="feature-text">Automatically tracks stops as you drive past them. Confirm what you saw, add notes, earn achievements. Your Route 66 story, recorded forever.</p>
         </div>
         <div class="feature-row-phone">
-          <div class="feat-phone-frame">
-            <div class="feat-phone-notch"></div>
-            <div class="feat-phone-screen">
-              <img src="images/logbook.png" alt="Your Personal Logbook" style="width:100%;height:100%;object-fit:cover">
-            </div>
-          </div>
+          <img class="feat-phone-img" src="images/logbook.png" alt="Your Personal Logbook">
         </div>
       </div>
 
@@ -607,12 +578,7 @@
           <p class="feature-text">From First Sighting to Mother Road Complete. Earn badges for states crossed, categories mastered, streaks kept, and moments only this road can give you.</p>
         </div>
         <div class="feature-row-phone">
-          <div class="feat-phone-frame">
-            <div class="feat-phone-notch"></div>
-            <div class="feat-phone-screen">
-              <img src="images/profile.png" alt="60+ Achievements" style="width:100%;height:100%;object-fit:cover">
-            </div>
-          </div>
+          <img class="feat-phone-img" src="images/profile.png" alt="60+ Achievements">
         </div>
       </div>
 
@@ -624,12 +590,7 @@
           <p class="feature-text">Neon hunter? Diner obsessive? Ghost town seeker? Filter the map to show only what matters to you: 11 categories, fully searchable.</p>
         </div>
         <div class="feature-row-phone">
-          <div class="feat-phone-frame">
-            <div class="feat-phone-notch"></div>
-            <div class="feat-phone-screen">
-              <img src="images/filter.png" alt="Filter by Passion" style="width:100%;height:100%;object-fit:cover">
-            </div>
-          </div>
+          <img class="feat-phone-img" src="images/filter.png" alt="Filter by Passion">
         </div>
       </div>
 
@@ -641,12 +602,7 @@
           <p class="feature-text">Crowd-sourced accuracy. If something closes, travellers flag it. If a hidden gem opens, they add it. The map reflects reality. Not a guidebook from 2010.</p>
         </div>
         <div class="feature-row-phone">
-          <div class="feat-phone-frame">
-            <div class="feat-phone-notch"></div>
-            <div class="feat-phone-screen">
-              <img src="images/edit.png" alt="Community Truth" style="width:100%;height:100%;object-fit:cover">
-            </div>
-          </div>
+          <img class="feat-phone-img" src="images/edit.png" alt="Community Truth">
         </div>
       </div>
 

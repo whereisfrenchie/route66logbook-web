@@ -366,7 +366,10 @@
     .btn-community:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(43,48,51,0.35); }
 
     /* DOWNLOAD: sand bg */
-    .download { padding: 160px 52px; background: var(--sand); position: relative; overflow: hidden; }
+    .download {
+      padding: 160px 52px; position: relative; overflow: hidden;
+      background: linear-gradient(rgba(247,244,240,0.5), rgba(247,244,240,0.5)), url('images/morten-andreassen-mX0tCOykgSY-unsplash.jpg') center/cover no-repeat;
+    }
     .download::before {
       content: 'ROUTE 66'; position: absolute; font-weight: 700; font-size: 260px;
       color: rgba(43,48,51,0.04); top: 50%; left: 50%;
@@ -471,8 +474,8 @@
     <div class="hero-photo-hint">YOUR HERO PHOTO HERE</div>
     <div class="hero-content">
       <p class="hero-eyebrow">Chicago · 2,278 miles · Santa Monica</p>
-      <h1 class="hero-title">Keep the<br><em>Mother Road</em> Alive.</h1>
-      <p class="hero-sub">The living, community-built guide to every mile of Route 66, from the diners still standing to the ruins worth finding.</p>
+      <h1 class="hero-title">The <em>Mother Road</em> awaits.<br>Don't waste a mile.</h1>
+      <p class="hero-sub">The diners, the neon, the ghost towns &mdash; the best of Route 66 hides off the highway. Plan your route, log every stop, and share the road with people who live for it.</p>
       <div class="hero-actions">
         <a href="#download" class="btn-primary">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="white" stroke-width="2"><path d="M8 2v8M4 7l4 4 4-4"/><path d="M2 13h12"/></svg>
@@ -493,8 +496,8 @@
     <div class="pain-inner">
       <div class="reveal">
         <p class="section-eyebrow ec">The problem</p>
-        <h2 class="pain-title">Route 66 is slipping away.</h2>
-        <p class="pain-body">Diners close overnight. Neon signs go dark. Ghost towns get swallowed by desert. The road is alive. But only if someone is watching.</p>
+        <h2 class="pain-title">Blink and you'll miss it.</h2>
+        <p class="pain-body">Diners close overnight. Neon goes dark. The best stops aren't on the highway, they're the ones nobody tells you about. Show up with the wrong map and you'll drive 2,278 miles right past them.</p>
       </div>
       <div class="pain-cards reveal">
         <div class="pain-card">
@@ -530,9 +533,9 @@
 
   <section class="solution" id="features">
     <div class="solution-inner">
-      <p class="section-eyebrow et reveal">The solution</p>
-      <h2 class="solution-title reveal">Built by travellers,<br><em>for travellers.</em></h2>
-      <p class="solution-intro reveal">Route 66 Logbook is a living map, updated in real time by the people driving the road right now.</p>
+      <p class="section-eyebrow et reveal">How it works</p>
+      <h2 class="solution-title reveal">Plan it. Drive it.<br><em>Log it. Share it.</em></h2>
+      <p class="solution-intro reveal">Everything you need to turn 2,278 miles into the trip of your life, and a community that's already driven every one of them.</p>
 
       <!-- ROW 1: text left, phone right -->
       <div class="feature-row reveal">
@@ -610,8 +613,8 @@
       <div class="feature-row reveal">
         <div class="feature-row-text">
           <div class="feature-num">07</div>
-          <h3 class="feature-title">Community Truth</h3>
-          <p class="feature-text">Crowd-sourced accuracy. If something closes, travellers flag it. If a hidden gem opens, they add it. The map reflects reality. Not a guidebook from 2010.</p>
+          <h3 class="feature-title">Share the Road</h3>
+          <p class="feature-text">Found a diner worth the detour? A ghost town nobody's logged? Add it to the map, flag what's changed, and pass it on to the traveller right behind you.</p>
         </div>
         <div class="feature-row-phone">
           <img class="feat-phone-img" src="images/edit.png" alt="Community Truth">
@@ -623,7 +626,7 @@
     <!-- CTA after features -->
     <div class="features-cta reveal">
       <h3 class="features-cta-title">Ready to hit the road?</h3>
-      <p class="features-cta-sub">Free to explore. One-time unlock to contribute.</p>
+      <p class="features-cta-sub">Free to explore every mile. Start mapping your trip today.</p>
       <a href="#download" class="btn-primary">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="white" stroke-width="2"><path d="M8 2v8M4 7l4 4 4-4"/><path d="M2 13h12"/></svg>
         Download the app
@@ -664,9 +667,9 @@
 
   <section class="community" id="community">
     <div class="community-inner">
-      <p class="section-eyebrow es reveal">Built together</p>
+      <p class="section-eyebrow es reveal">The community</p>
       <h2 class="community-title reveal">The road lives<br>because <em>you</em> do.</h2>
-      <p class="community-body reveal">Every stop you add, every edit you suggest, every flag you raise. It keeps Route 66 documented for the next traveller behind you. This isn't a guidebook. It's a living record.</p>
+      <p class="community-body reveal">The best part of Route 66 was never the asphalt. It's the people who can't stop driving it. Every stop you add, every edit you suggest, every flag you raise. It keeps Route 66 documented for the next traveller behind you. This isn't a guidebook. It's a living record.</p>
       <div class="stats-row reveal">
         <div class="stat"><div class="stat-num">1000+</div><div class="stat-label">Stops documented</div></div>
         <div class="stat"><div class="stat-num">8</div><div class="stat-label">States covered</div></div>
@@ -695,7 +698,7 @@
   <footer>
     <div class="footer-logo">Route 66 <span>Logbook</span></div>
     <div class="footer-tagline">Keep the Mother Road Alive.</div>
-    <div class="footer-copy">© 2026 Route 66 Logbook</div>
+    <div class="footer-copy">© 2026 Route 66 Logbook - Built by a Route 66 lover</div>
   </footer>
 
   <script>

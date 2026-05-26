@@ -83,7 +83,7 @@
     .hero-content {
       position: relative; z-index: 2;
       padding: 0 52px 72px 52px;
-      max-width: 560px;
+      max-width: 40%;
     }
     .hero-eyebrow {
       font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
@@ -368,7 +368,12 @@
     .btn-community:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(43,48,51,0.35); }
 
     /* DOWNLOAD: sand bg */
-    .download { padding: 160px 52px; background: var(--charcoal); position: relative; overflow: hidden; }
+    .download {
+      padding: 160px 52px; position: relative; overflow: hidden;
+      background-color: var(--charcoal);
+      background-image: linear-gradient(rgba(43,48,51,0.5), rgba(43,48,51,0.5)), url('images/morten-andreassen-mX0tCOykgSY-unsplash.jpg');
+      background-size: cover; background-position: center; background-repeat: no-repeat;
+    }
     .download-inner { max-width: 680px; margin: 0 auto; text-align: center; position: relative; z-index: 1; }
     .download-title {
       font-weight: 800; font-size: clamp(54px, 8.5vw, 112px);

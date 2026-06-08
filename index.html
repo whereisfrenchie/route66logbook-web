@@ -819,7 +819,7 @@
       wlStatus.style.color = ok ? 'var(--teal)' : 'var(--coral)';
     }
 
-    async function joinWaitlist() {
+async function joinWaitlist() {
       const email = wlEmail.value.trim();
 
       if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
@@ -842,23 +842,22 @@
           body: JSON.stringify({ email: email })
         });
 
-        // 201 = added. 409 = already on the list. Both are a win for the visitor.
         if (res.ok || res.status === 409) {
           setStatus("You're on the list. We'll be in touch.", true);
           wlEmail.value = '';
-        } else {
-          throw new Error('Request failed with status ' + res.status);
+          return;
         }
+
+        const detail = await res.text();
+        console.error('Waitlist insert failed:', res.status, detail);
+        setStatus('Error ' + res.status + ': ' + (detail || 'see console'), false);
+        wlButton.disabled = false;
       } catch (err) {
-        setStatus('Something went wrong. Please try again.', false);
+        console.error('Waitlist network error:', err);
+        setStatus('Network error: ' + err.message, false);
         wlButton.disabled = false;
       }
     }
-
-    wlButton.addEventListener('click', joinWaitlist);
-    wlEmail.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') joinWaitlist();
-    });
   </script>
 
 </body>

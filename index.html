@@ -394,6 +394,50 @@
     .badge-btn-label { font-size: 10px; opacity: 0.52; display: block; letter-spacing: 0.5px; margin-bottom: 2px; }
     .badge-btn-store { font-size: 17px; font-weight: 700; display: block; letter-spacing: -0.3px; }
 
+    /* ANDROID WAITLIST: sand bg */
+    .android {
+      background: var(--sand); padding: 130px 52px; text-align: center;
+      border-top: 1px solid rgba(43,48,51,0.07);
+    }
+    .android-inner { max-width: 620px; margin: 0 auto; }
+    .android-title {
+      font-weight: 800; font-size: clamp(40px, 5.5vw, 72px);
+      color: var(--charcoal); line-height: 0.93; letter-spacing: -2px; margin-bottom: 22px;
+    }
+    .android-title em { color: var(--coral); font-style: normal; }
+    .android-body {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 20px; color: rgba(43,48,51,0.52); line-height: 1.7; margin-bottom: 44px;
+    }
+    .android-form {
+      display: flex; gap: 10px; max-width: 460px; margin: 0 auto;
+      flex-wrap: wrap; justify-content: center;
+    }
+    .android-input {
+      flex: 1; min-width: 220px; padding: 16px 22px;
+      border: 1px solid rgba(43,48,51,0.15); border-radius: 100px;
+      font-family: 'Public Sans', sans-serif; font-size: 15px; color: var(--charcoal);
+      background: white; outline: none; transition: border-color 0.2s;
+    }
+    .android-input:focus { border-color: var(--coral); }
+    .android-input::placeholder { color: rgba(43,48,51,0.4); }
+    .android-btn {
+      background: var(--coral); color: white; padding: 16px 34px;
+      border: none; border-radius: 100px; font-family: 'Public Sans', sans-serif;
+      font-size: 14px; font-weight: 600; letter-spacing: 0.3px; cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .android-btn:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(234,91,86,0.4); }
+    .android-btn:disabled { opacity: 0.55; cursor: default; transform: none; box-shadow: none; }
+    .android-status {
+      font-family: 'Public Sans', sans-serif; font-size: 14px; font-weight: 500;
+      color: var(--teal); margin-top: 18px; min-height: 1.2em;
+    }
+    .android-consent {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 14px; color: rgba(43,48,51,0.4); margin-top: 10px;
+    }
+
     /* FOOTER */
     footer {
       background: var(--charcoal); padding: 44px 52px;
@@ -442,7 +486,7 @@
         background: url('images/blueswallow-mobile.jpg') center/cover no-repeat;
       }
       .hero-content { padding: 0 24px 64px; }
-      .pain, .solution, .screenshots, .editorial, .community, .download { padding-left: 24px; padding-right: 24px; }
+      .pain, .solution, .screenshots, .editorial, .community, .download, .android { padding-left: 24px; padding-right: 24px; }
       .pain-inner { grid-template-columns: 1fr; gap: 48px; }
       .features-grid { grid-template-columns: 1fr; }
       .feature-row { grid-template-columns: 1fr; gap: 40px; margin-bottom: 60px; padding-bottom: 60px; }
@@ -707,6 +751,20 @@
     </div>
   </section>
 
+  <section class="android" id="android">
+    <div class="android-inner">
+      <p class="section-eyebrow ec reveal">Coming soon</p>
+      <h2 class="android-title reveal">Android, <em>on the way.</em></h2>
+      <p class="android-body reveal">The app is on iOS first, with Android close behind. Leave your email and we'll let you know the moment it lands on Google Play.</p>
+      <div class="android-form reveal">
+        <input id="wl-email" class="android-input" type="email" inputmode="email" autocomplete="email" placeholder="you@email.com" aria-label="Email address">
+        <button id="wl-button" class="android-btn" type="button">Notify me</button>
+      </div>
+      <p id="wl-status" class="android-status" role="status" aria-live="polite"></p>
+      <p class="android-consent">We'll only use your email to tell you about the Android release.</p>
+    </div>
+  </section>
+
   <footer>
     <div class="footer-left">
       <div class="footer-logo">Route 66 <span>Logbook</span></div>
@@ -746,6 +804,61 @@
       });
     }, { threshold: 0.08 });
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    /* ANDROID WAITLIST -------------------------------------------------- */
+    /* Fill these two in from your Supabase project settings (API section). */
+    const SUPABASE_URL = 'https://YOUR-PROJECT.supabase.co';
+    const SUPABASE_ANON_KEY = 'YOUR-ANON-KEY';
+
+    const wlButton = document.getElementById('wl-button');
+    const wlEmail  = document.getElementById('wl-email');
+    const wlStatus = document.getElementById('wl-status');
+
+    function setStatus(message, ok) {
+      wlStatus.textContent = message;
+      wlStatus.style.color = ok ? 'var(--teal)' : 'var(--coral)';
+    }
+
+    async function joinWaitlist() {
+      const email = wlEmail.value.trim();
+
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+        setStatus('Please enter a valid email.', false);
+        return;
+      }
+
+      wlButton.disabled = true;
+      setStatus('Just a moment…', true);
+
+      try {
+        const res = await fetch(SUPABASE_URL + '/rest/v1/android_waitlist', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'apikey': SUPABASE_ANON_KEY,
+            'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
+            'Prefer': 'return=minimal'
+          },
+          body: JSON.stringify({ email: email })
+        });
+
+        // 201 = added. 409 = already on the list. Both are a win for the visitor.
+        if (res.ok || res.status === 409) {
+          setStatus("You're on the list. We'll be in touch.", true);
+          wlEmail.value = '';
+        } else {
+          throw new Error('Request failed with status ' + res.status);
+        }
+      } catch (err) {
+        setStatus('Something went wrong. Please try again.', false);
+        wlButton.disabled = false;
+      }
+    }
+
+    wlButton.addEventListener('click', joinWaitlist);
+    wlEmail.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') joinWaitlist();
+    });
   </script>
 
 </body>

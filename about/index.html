@@ -112,6 +112,23 @@
     .portrait { max-width: 460px; margin-inline: auto; aspect-ratio: 4 / 5; }
     .photo-wide { aspect-ratio: 16 / 9; }
 
+    /* PORTRAIT + TEXT SPLIT */
+    .split { max-width: 1040px; margin: 0 auto; padding: 20px 52px 8px; }
+    .split-grid {
+      display: grid; grid-template-columns: 0.82fr 1.18fr;
+      gap: 56px; align-items: center;
+    }
+    .split-portrait img {
+      width: 100%; display: block; border-radius: 20px;
+      border: 1px solid rgba(43,48,51,0.08);
+    }
+    .split-text p:first-child { margin-top: 0; }
+    @media (max-width: 820px) {
+      .split { padding: 12px 24px 4px; }
+      .split-grid { grid-template-columns: 1fr; gap: 28px; }
+      .split-portrait { max-width: 360px; margin: 0 auto; }
+    }
+
     /* PULL QUOTE */
     .pull { text-align: center; margin: 44px 0; }
     .pull .pull-mark {
@@ -222,31 +239,31 @@
       <p class="intro-lede">Route 66 Logbook is a one-person studio. Which mostly means me, the road, and a lot of late nights.</p>
     </section>
 
-    <!-- PORTRAIT -->
-    <section class="shell reveal">
-      
-           <div class="photo portrait"><img src="/images/carole-portrait.jpg" alt="Carole on Route 66"></div>
-      
+    <!-- PORTRAIT + OPENING (side by side on desktop, stacked on mobile) -->
+    <section class="split reveal">
+      <div class="split-grid">
+        <div class="split-portrait">
+          <img src="/images/carole-portrait.jpg" alt="Carole on Route 66">
+        </div>
+        <div class="split-text prose">
+          <p>Hi, I'm Carole. I'm French born and living in Australia, and for as long as I can remember I said I would go to the US. It was my childhood dream. Somewhere inside that dream there was always one road: Route 66. The Mother Road. A diner in the middle of nowhere, a neon sign, the desert opening up ahead.</p>
+
+          <p>I first drove a piece of it in 2017, part of a long loop that took me through 35 states and more than 51,000 km, around 31,700 miles. We did a little of 66 back then, Illinois especially, properly. That was all it took to fall for it. The old diners still serving milkshakes, the neon, the ghost signs, the people keeping their piece of history alive against the chains and the freeways. I knew straight away that one day I would come back and drive the whole thing, end to end.</p>
+        </div>
+      </div>
     </section>
 
-    <!-- STORY: PART ONE -->
-    <section class="section shell reveal" style="padding-top: 30px; padding-bottom: 30px;">
-      <div class="prose">
-        <p>Hi, I'm Carole. I'm French, and for as long as I can remember I said I would go to the US. It was my childhood dream. Somewhere inside that dream there was always one road: Route 66. The Mother Road. A diner in the middle of nowhere, a neon sign, the desert opening up ahead.</p>
-
-        <p>I first drove a piece of it in 2017, part of a long loop that took me through 35 states and more than 51,000 km, around 31,700 miles. We did a little of 66 back then, Illinois especially, properly. To follow the original alignment I downloaded a map a stranger had made a couple of years earlier. By the time I got there, so much of it was already gone. Diners closed. Motels boarded up. Whole stops that simply weren't there anymore. It felt like the Great Barrier Reef: if you don't go now, what's left will be gone in a few years.</p>
-
-        <p>But every place that was still standing felt like a small miracle. A milkshake at a counter that had been serving them since the 1950s. A corn dog at a spot that had been frying them since the 1940s. Real people keeping a piece of history alive against the chains and the freeways. Even with everything else I was seeing, I knew Route 66 deserved a trip of its own one day, the full road, end to end.</p>
-      </div>
+    <!-- STORY CONTINUES -->
+    <section class="section shell reveal" style="padding-top: 8px;">
 
       <!-- ROAD PHOTO -->
-      
-           <div class="photo photo-wide"><img src="/images/about-road.jpg" alt="On Route 66"></div>
-     
+      <figure class="figure">
+        <div class="photo photo-wide"><img src="/images/about-road.jpg" alt="On Route 66"></div>
+        <figcaption>Somewhere on the Mother Road.</figcaption>
       </figure>
 
-      <div class="prose" style="padding-top: 30px;">
-        <p>In March 2026 I went back to do exactly that, Los Angeles to Chicago, the whole route this time. I made sure I had the latest guides, the 2025 editions, and I still hit the same wall, worse. The information is patchy, out of date, scattered across forums, old blogs and maps nobody has touched in years. You arrive somewhere full of excitement and find a padlock and a faded sign.</p>
+      <div class="prose">
+        <p>In March 2026 I came back to do exactly that, Los Angeles to Chicago, the full road. This time I wanted to prepare properly, to make the most of every mile, and to hold on to the trip afterwards. So I gathered the guides and the passports, and with the centennial there are more of them than ever. I loved parts of it. But guides date quickly, and a passport is always a fixed list, someone else's idea of the route. They run out of pages, they go out of print, and they are never quite the trip you are actually having. Because everyone experiences Route 66 differently.</p>
       </div>
 
       <!-- PULL QUOTE -->
@@ -258,11 +275,13 @@
       <div class="prose">
         <p>So I made this.</p>
 
-        <p>Route 66 Logbook is the app I wish I'd had on both trips. A living map of the road, stop by stop, showing what is actually still there: what's open, what's closed, what's gone. I'm a designer, not a tech company. I built it on my own, out of love for the road, and the unglamorous part was the data. Hundreds of stops researched and checked one by one, because outdated information is the whole problem I was trying to solve.</p>
+        <p>Route 66 Logbook is the app I wish I'd had. A place to plan your trip before you go, to save it as you drive, and to look back and see how far you have come: the miles behind you, the states you have crossed, the stops you found along the way. Not someone else's version of the road. Yours.</p>
 
-        <p>The Route 66 community is powerful and passionate, and the app is really built for it. You can flag what you find on the road, when something has closed, changed or disappeared, so the map stays current for whoever drives it next. And you can log your own trip as you go. With Route 66 turning 100, there is a flood of paper passports and stamp books to keep track of, so I wanted one simple place to record your journey: your own logbook of the Mother Road.</p>
+        <p>And it is built for the community, not for advertisers. Route 66 keeps going because of the people who love it, so they are the ones who keep the map alive: adding places, flagging what has changed, sharing what they find with whoever drives it next. No ads, no noise, no one selling your trip back to you. Just travellers looking out for each other, and for the road.</p>
 
-        <p>I'm not here to sell you a perfect product. I'm a traveller who got tired of arriving too late, and decided to do something about it. If it helps one more person catch a diner before it closes for good, it was worth every late night.</p>
+        <p>I'm a designer, not a tech company, and I built this on my own, out of love for the road. Every stop was checked by hand, because a map is only worth having if you can trust it. I'm not here to sell you a perfect product. If it helps you plan your Route 66, enjoy every mile of it, and keep the trip long after you are home, it was worth every late night.</p>
+
+        <p>And this is just the beginning. I've got a long list of features I still want to build, so watch this space.</p>
       </div>
 
       <!-- SIGN OFF -->

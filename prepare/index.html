@@ -331,6 +331,40 @@
     .tool.dark p { color: rgba(255,255,255,0.58); }
     .tool.dark p strong { color: #fff; }
 
+
+    /* COLOR VARIANTS */
+    .way.red { background: var(--coral); }
+    .way.teal { background: var(--teal); }
+    .way.red, .way.teal { border-color: transparent; }
+    .way.red h3, .way.teal h3 { color: #fff; }
+    .way.red .way-days, .way.teal .way-days { background: rgba(255,255,255,0.18); color: #fff; }
+    .way.red .way-best, .way.teal .way-best { color: rgba(255,255,255,0.75); }
+    .way.red p.body, .way.teal p.body { color: rgba(255,255,255,0.88); }
+    .way.red .note, .way.teal .note { color: rgba(255,255,255,0.65); border-color: rgba(255,255,255,0.25); }
+
+    .ride.teal { background: var(--teal); }
+    .ride.red { background: var(--coral); }
+    .ride.teal, .ride.red { border-color: transparent; }
+    .ride.teal h3, .ride.red h3 { color: #fff; }
+    .ride.teal .ride-kicker, .ride.red .ride-kicker { color: rgba(255,255,255,0.75); }
+    .ride.teal p, .ride.red p { color: rgba(255,255,255,0.88); }
+    .ride.teal li, .ride.red li { color: rgba(255,255,255,0.88); }
+    .ride.teal li::before, .ride.red li::before { background: #fff; }
+
+    .stay.red { background: var(--coral); }
+    .stay.dark { background: var(--charcoal); }
+    .stay.red, .stay.dark { border-color: transparent; }
+    .stay.red h3, .stay.dark h3 { color: #fff; }
+    .stay.red .price { color: rgba(255,255,255,0.75); }
+    .stay.dark .price { color: var(--teal); }
+    .stay.red p { color: rgba(255,255,255,0.88); }
+    .stay.dark p { color: rgba(255,255,255,0.6); }
+
+    .tool.teal { background: var(--teal); border-color: transparent; }
+    .tool.teal h3 { color: #fff; }
+    .tool.teal p { color: rgba(255,255,255,0.88); }
+    .tool.teal p strong { color: #fff; }
+
     /* PACKING */
     .packing-band { background: var(--charcoal); padding: 110px 52px; margin-top: 100px; }
     .packing-inner { max-width: 1000px; margin: 0 auto; }
@@ -509,7 +543,7 @@
             <p class="body">The dream of every Mother Road adventurer: two weeks means you can find a seat and an extra piece of pie in an iconic diner, revel in the view, and stay an extra night anywhere that touches your soul.</p>
             <p class="note">Only ~170 miles (275 km) a day, not even four hours of driving.</p>
           </div>
-          <div class="way reveal">
+          <div class="way red reveal">
             <span class="way-days">10 days</span>
             <h3>The Whole Road, Briskly</h3>
             <p class="way-best">For full-route drivers on a schedule</p>
@@ -523,7 +557,7 @@
             <p class="body">There's usually an interstate not far from Route 66. Use it to link the great clusters of original road, then give each cluster your full attention: Chicago to Springfield, Springfield MO to Joplin, western Oklahoma, Tucumcari to Gallup, Seligman to Topock.</p>
             <p class="note">Maximum icons, zero rushed stops.</p>
           </div>
-          <div class="way reveal">
+          <div class="way teal reveal">
             <span class="way-days">5–6 days</span>
             <h3>One Great Stretch</h3>
             <p class="way-best">For doing less, better</p>
@@ -581,7 +615,7 @@
           <p class="section-intro">Your own car, a rental, an RV, a Harley or an EV: each is a different trip. Whatever you choose, make sure you get unlimited mileage.</p>
         </div>
         <div class="rides">
-          <div class="ride reveal">
+          <div class="ride teal reveal">
             <p class="ride-kicker">From $25–75/day · $125–500/week</p>
             <h3>Rental car</h3>
             <p>The classic choice. You'll need a major credit card (not debit), a valid license, and to be at least 25; some companies rent from 21 with a daily surcharge. Enterprise, Budget, Hertz and Avis have centers at airports, in cities and mid-sized towns along the route.</p>
@@ -636,7 +670,7 @@
         </div>
 
         <div class="rides" style="margin-top:14px;">
-          <div class="ride reveal">
+          <div class="ride red reveal">
             <p class="ride-kicker">Don't skip this one</p>
             <h3>Insurance</h3>
             <p>That great rental deal won't look so good if you also spend $30 a day on insurance. Agency staff are incentivized to sell an alphabet soup of add-ons; Collision Damage Waiver (CDW) and Loss Damage Waiver (LDW) are the most common. Credit cards and your own policy may already cover you, but check carefully before you arrive at the counter. In an accident, dial 911.</p>
@@ -764,7 +798,7 @@
           <p class="section-intro">Motels and Route 66 have a symbiotic relationship going back decades. There were once hundreds along the route; today, a beautiful few survive.</p>
         </div>
         <div class="stays">
-          <div class="stay reveal">
+          <div class="stay red reveal">
             <p class="price">Vintage motels · from $60/night</p>
             <h3>The real deal</h3>
             <p>Mother Road icons like the Munger Moss Motel (Lebanon, MO), the Blue Swallow (Tucumcari, NM) and the Wigwam Motel (Holbrook, AZ) are beautifully restored classics, and must be booked in advance. Others barely hang on, so look for recent reviews, and ask to see a room before committing. One perk: parking right in front of your room.</p>
@@ -774,7 +808,7 @@
             <h3>The reliable option</h3>
             <p>Chain hotels cluster around interstate interchanges, reliable but similar from brand to brand. More lavish properties await in Chicago, St. Louis, Tulsa, Oklahoma City, Albuquerque and LA. Wi-fi is essentially universal; pools are welcome after a summer day on the road.</p>
           </div>
-          <div class="stay reveal">
+          <div class="stay dark reveal">
             <p class="price">Campgrounds · from $15/night</p>
             <h3>Under the stars</h3>
             <p>Campgrounds are found in and near state parks and national forests along the whole route, and most welcome RVs. Regulations vary widely across the regions Route 66 traverses, so check locally before settling in for the night.</p>
@@ -836,7 +870,7 @@
             <h3>Safety &amp; weather</h3>
             <p>For the Route 66 traveler, petty theft is the biggest concern: lock valuables in your trunk before you set out for the day. Tornado season (May–June, MO/TX/OK/KS) is trackable on your phone. In summer, extreme desert heat can be deadly for both humans and cars, and watch for sudden thunderstorms that flood roads. Solo travelers won't face unusual hazards; keep an eye on your phone signal on remote detours.</p>
           </div>
-          <div class="tool reveal">
+          <div class="tool teal reveal">
             <h3>Travel responsibly</h3>
             <p><strong>Go local, eat local, stay local.</strong> The whole point of Route 66 is the authentic, idiosyncratic businesses that give the route its character. Your support keeps them alive. Sign the guestbooks (they fuel grant applications), carry a refillable water container, and travel respectfully through the lands of the 25+ tribal nations along the route.</p>
           </div>

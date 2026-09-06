@@ -56,11 +56,6 @@
     <div class="hero-logo">
       <img src="/images/Route66logbook-logo.png" alt="Route 66 Logbook">
     </div>
-    <nav class="lang-switch" aria-label="{{switch.aria}}">
-      <a href="/"{{@current.en}} hreflang="en" data-lang="en">{{switch.en}}</a>
-      <a href="/fr/"{{@current.fr}} hreflang="fr" data-lang="fr">{{switch.fr}}</a>
-      <a href="/es/"{{@current.es}} hreflang="es" data-lang="es">{{switch.es}}</a>
-    </nav>
     <div class="hero-photo-hint">YOUR HERO PHOTO HERE</div>
     <div class="hero-content">
       <p class="hero-eyebrow">{{hero.eyebrow}}</p>
@@ -300,6 +295,12 @@
       <a href="/about" class="maker-btn reveal">{{mk.cta}}</a>
     </div>
   </section>
+
+  <nav class="lang-switch" aria-label="{{switch.aria}}">
+    <a href="/"{{@current.en}} hreflang="en" data-lang="en">{{switch.en}}</a>
+    <a href="/fr/"{{@current.fr}} hreflang="fr" data-lang="fr">{{switch.fr}}</a>
+    <a href="/es/"{{@current.es}} hreflang="es" data-lang="es">{{switch.es}}</a>
+  </nav>
 
   <site-footer></site-footer>
 

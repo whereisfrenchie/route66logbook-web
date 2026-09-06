@@ -53,10 +53,17 @@ const REDIRECT = `  <script>
         var qs = location.search;
         /* An explicit ?lang=en is a decision. Record it and never redirect. */
         if (qs.indexOf('lang=en') > -1) { try { localStorage.setItem('r66lang', 'en'); } catch (e) {} return; }
-        /* A stored preference always wins over the browser's languages. */
+        /* A stored preference always wins over the browser's languages — and it
+           is acted on, not merely obeyed by standing still. Someone who chose
+           Français and later types the bare domain wants French, not English.
+           Choosing English stores 'en', which lands here and stays put, so the
+           switcher still always wins. */
         var stored = null;
         try { stored = localStorage.getItem('r66lang'); } catch (e) { return; }
-        if (stored) return;
+        if (stored === 'en') return;
+        if (stored === 'fr') { location.replace('/fr/'); return; }
+        if (stored === 'es') { location.replace('/es/'); return; }
+        /* Anything else stored is not a language we have — fall through. */
         var langs = navigator.languages || [navigator.language || ''];
         for (var i = 0; i < langs.length; i++) {
           var primary = String(langs[i] || '').toLowerCase().split('-')[0];

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://route66logbook.com/sitemap.xml

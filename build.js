@@ -38,6 +38,54 @@ const LANGS    = [
 
 const PLACEHOLDER = /\{\{([^}]+)\}\}/g;
 
+const SITE = 'https://route66logbook.com';
+
+/**
+ * Pages for the sitemap. The three home pages are handled separately because
+ * they need xhtml:link alternates; these are the standalone English ones.
+ * /delete-account is deliberately absent — it is a support destination, not
+ * something to surface in search.
+ */
+const OTHER_PAGES = [
+  '/about/', '/help/', '/history/', '/prepare/',
+  '/privacy/', '/terms/', '/community-guidelines/',
+];
+
+/**
+ * SoftwareApplication, English home page only. Not on /fr/ or /es/: it points
+ * at store listings that are still English, and asserting a French app page
+ * that resolves to English would be a claim we cannot back.
+ *
+ * No aggregateRating. We have no ratings data, and inventing one would be a
+ * fabricated review. No paid offer either — the unlock price varies by
+ * storefront and is set in RevenueCat, so the only price this file can state
+ * honestly is the free download.
+ */
+function schemaFor(values) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'Route 66 Logbook',
+    description: values['meta.description'],
+    applicationCategory: 'TravelApplication',
+    operatingSystem: 'iOS, Android',
+    url: SITE + '/',
+    image: SITE + '/images/og-home.jpg',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+    },
+    sameAs: [
+      'https://apps.apple.com/app/route-66-logbook/id6774524322',
+      'https://play.google.com/store/apps/details?id=com.route66logbook.app',
+      'https://www.instagram.com/route66logbook/',
+      'https://www.facebook.com/Route66Logbook/',
+    ],
+  };
+}
+
 /**
  * Redirect on first visit, English page only. /fr/ and /es/ never carry this,
  * which is what makes a loop impossible.
@@ -138,6 +186,11 @@ for (const lang of LANGS) {
   // English-only redirect. Keeping these out of the strings files means a
   // translator never has to understand them.
   values['@redirect'] = lang.code === 'en' ? REDIRECT : '';
+  values['@schema'] = lang.code === 'en'
+    ? '  <script type="application/ld+json">\n' +
+      JSON.stringify(schemaFor(values), null, 2).split('\n').map((l) => '  ' + l).join('\n') +
+      '\n  </script>\n'
+    : '';
   for (const c of ['en', 'fr', 'es']) {
     values['@current.' + c] = c === lang.code ? ' aria-current="page" class="is-current"' : '';
   }
@@ -174,4 +227,50 @@ for (const lang of LANGS) {
   wrote++;
 }
 
-console.log(`\nBuilt ${wrote} pages.\n`);
+// ── sitemap.xml ───────────────────────────────────────────────────────────────
+//
+// The three home pages are one page in three languages, not three competing
+// pages, so each entry lists all three alternates plus x-default — the same
+// rule the hreflang tags follow. No <lastmod>: it is only worth having if it
+// is true, and keeping it true by hand is exactly the kind of derived value
+// that rots.
+const alternates = [
+  `    <xhtml:link rel="alternate" hreflang="en" href="${SITE}/"/>`,
+  `    <xhtml:link rel="alternate" hreflang="fr" href="${SITE}/fr/"/>`,
+  `    <xhtml:link rel="alternate" hreflang="es" href="${SITE}/es/"/>`,
+  `    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE}/"/>`,
+].join('\n');
+
+const homeEntries = ['/', '/fr/', '/es/'].map((path) =>
+  `  <url>\n    <loc>${SITE}${path}</loc>\n${alternates}\n  </url>`
+);
+const otherEntries = OTHER_PAGES.map((path) => `  <url>\n    <loc>${SITE}${path}</loc>\n  </url>`);
+
+const sitemap =
+  '<?xml version="1.0" encoding="UTF-8"?>\n' +
+  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n' +
+  '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' +
+  homeEntries.concat(otherEntries).join('\n') + '\n</urlset>\n';
+
+const robots = [
+  'User-agent: *',
+  'Allow: /',
+  '',
+  `Sitemap: ${SITE}/sitemap.xml`,
+  '',
+].join('\n');
+
+for (const [name, body] of [['sitemap.xml', sitemap], ['robots.txt', robots]]) {
+  const dest = path.join(ROOT, name);
+  const tmp = dest + '.tmp';
+  try {
+    fs.writeFileSync(tmp, body, 'utf8');
+    fs.renameSync(tmp, dest);
+  } catch (e) {
+    try { fs.unlinkSync(tmp); } catch (_) {}
+    die(`cannot write ${name} — ${e.message}`);
+  }
+  console.log(`  ${name.padEnd(15)} ${body.length} bytes`);
+}
+
+console.log(`\nBuilt ${wrote} pages, a sitemap and robots.txt.\n`);

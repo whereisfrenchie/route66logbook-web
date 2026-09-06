@@ -455,12 +455,43 @@
   .reveal { opacity: 0; transform: translateY(36px); transition: opacity 0.75s ease, transform 0.75s ease; }
   .reveal.visible { opacity: 1; transform: translateY(0); }
 
+  /* LANGUAGE SWITCHER
+     Top-right of the hero, opposite the logo, so it is above the fold on
+     every page. Text endonyms, no flags: a flag names a country, not a
+     language, and the app's own picker labels languages this way too
+     (src/lib/i18n.ts). */
+  .lang-switch {
+    position: absolute; top: 36px; right: 32px; z-index: 11;
+    display: flex; align-items: center; gap: 16px;
+  }
+  .lang-switch a {
+    font-size: 12px; font-weight: 600; letter-spacing: 0.4px;
+    color: rgba(255,255,255,0.6); text-decoration: none;
+    padding-bottom: 3px; border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.45);
+  }
+  .lang-switch a:hover { color: #fff; }
+  .lang-switch a.is-current { color: #fff; border-bottom-color: var(--coral); }
+
   /* RESPONSIVE */
   @media (max-width: 960px) {
     nav { padding: 16px 24px; }
     .nav-links { display: none; }
     .hero-content { padding: 180px 24px 60px !important; max-width: 100% !important; }
     .hero-logo { width: 130px !important; height: 130px !important; }
+    /* Top-right collides with the 130px logo below 960px — measured, the two
+       overlap at 320. Drop it under the logo instead, where the hero is empty:
+       full endonyms survive at every width and nothing has to be abbreviated. */
+    .lang-switch {
+      top: 162px; left: 24px; right: auto; gap: 14px;
+      background: rgba(23,26,28,0.42); backdrop-filter: blur(6px);
+      padding: 7px 14px; border-radius: 100px;
+    }
+    /* Below the logo the hero photo is at its brightest — the neon sits right
+       there — so the labels get a scrim rather than relying on a text shadow
+       that a bright sign wins against. */
+    .lang-switch a { font-size: 11px; letter-spacing: 0.2px; padding-bottom: 2px; text-shadow: none; }
     .hero-bg { display: none; }
     .hero-bg-mobile {
       display: block;

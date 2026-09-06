@@ -1,42 +1,17 @@
 <!DOCTYPE html>
 <!--
   GENERATED FILE — DO NOT EDIT.
-  Built from index.template.html + strings.en.json by `node build.js`.
+  Built from index.template.html + strings.es.json by `node build.js`.
   Any change made here is lost the next time the build runs.
 -->
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script>
-    /* First-visit language redirect. ENGLISH PAGE ONLY — /fr/ and /es/ never
-       carry this script, which is what makes a redirect loop impossible.
-       It runs before the page renders but hides nothing: if it throws, if
-       storage is unavailable, or if the browser is not French or Spanish, the
-       English page simply renders. Never fails to a blank screen. */
-    (function () {
-      try {
-        var qs = location.search;
-        /* An explicit ?lang=en is a decision. Record it and never redirect. */
-        if (qs.indexOf('lang=en') > -1) { try { localStorage.setItem('r66lang', 'en'); } catch (e) {} return; }
-        /* A stored preference always wins over the browser's languages. */
-        var stored = null;
-        try { stored = localStorage.getItem('r66lang'); } catch (e) { return; }
-        if (stored) return;
-        var langs = navigator.languages || [navigator.language || ''];
-        for (var i = 0; i < langs.length; i++) {
-          var primary = String(langs[i] || '').toLowerCase().split('-')[0];
-          if (primary === 'fr') { location.replace('/fr/'); return; }
-          if (primary === 'es') { location.replace('/es/'); return; }
-          if (primary === 'en') { return; }
-        }
-      } catch (e) { /* render English */ }
-    })();
-  </script>
-  <title>Route 66 Logbook: Keep the Mother Road Alive</title>
-  <meta name="description" content="A living map of 1,000+ Route 66 stops, kept current by the travellers driving it. Free to explore, with a logbook for every stop you visit.">
+  <title>Route 66 Logbook: mantén viva la Mother Road</title>
+  <meta name="description" content="Un mapa vivo con más de 1000 paradas de la Route 66, actualizado por quienes la recorren. Explorar es gratis, con una bitácora para cada parada que visitas.">
 
-  <link rel="canonical" href="https://route66logbook.com/">
+  <link rel="canonical" href="https://route66logbook.com/es/">
   <link rel="alternate" hreflang="en" href="https://route66logbook.com/">
   <link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/">
   <link rel="alternate" hreflang="es" href="https://route66logbook.com/es/">
@@ -47,16 +22,16 @@
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Route 66 Logbook">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:url" content="https://route66logbook.com/">
-  <meta property="og:title" content="Route 66 Logbook: Keep the Mother Road Alive">
-  <meta property="og:description" content="A living map of 1,000+ Route 66 stops, kept current by the travellers driving it. Free to explore, with a logbook for every stop you visit.">
+  <meta property="og:locale" content="es_419">
+  <meta property="og:url" content="https://route66logbook.com/es/">
+  <meta property="og:title" content="Route 66 Logbook: mantén viva la Mother Road">
+  <meta property="og:description" content="Un mapa vivo con más de 1000 paradas de la Route 66, actualizado por quienes la recorren. Explorar es gratis, con una bitácora para cada parada que visitas.">
   <meta property="og:image" content="https://route66logbook.com/images/og-home.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Route 66 Logbook: Keep the Mother Road Alive">
-  <meta name="twitter:description" content="A living map of 1,000+ Route 66 stops, kept current by the travellers driving it. Free to explore, with a logbook for every stop you visit.">
+  <meta name="twitter:title" content="Route 66 Logbook: mantén viva la Mother Road">
+  <meta name="twitter:description" content="Un mapa vivo con más de 1000 paradas de la Route 66, actualizado por quienes la recorren. Explorar es gratis, con una bitácora para cada parada que visitas.">
   <meta name="twitter:image" content="https://route66logbook.com/images/og-home.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -86,26 +61,26 @@
     <div class="hero-logo">
       <img src="/images/Route66logbook-logo.png" alt="Route 66 Logbook">
     </div>
-    <nav class="lang-switch" aria-label="Choose a language">
-      <a href="/" aria-current="page" class="is-current" hreflang="en" data-lang="en">English</a>
+    <nav class="lang-switch" aria-label="Elegir idioma">
+      <a href="/" hreflang="en" data-lang="en">English</a>
       <a href="/fr/" hreflang="fr" data-lang="fr">Français</a>
-      <a href="/es/" hreflang="es" data-lang="es">Español</a>
+      <a href="/es/" aria-current="page" class="is-current" hreflang="es" data-lang="es">Español</a>
     </nav>
     <div class="hero-photo-hint">YOUR HERO PHOTO HERE</div>
     <div class="hero-content">
-      <p class="hero-eyebrow">Chicago · 2,448 miles · Santa Monica</p>
-      <h1 class="hero-title"><span class="hero-line-1">Route 66 awaits.</span><span class="hero-line-2">Don't waste a mile.</span></h1>
-      <p class="hero-sub">The diners, the neon, the ghost towns &mdash; the best of Route 66 hides off the highway. Plan your route, log every stop, and share the road with people who live for it.</p>
+      <p class="hero-eyebrow">Chicago · 2448 millas · Santa Monica</p>
+      <h1 class="hero-title"><span class="hero-line-1">Route 66 te espera.</span><span class="hero-line-2">No te pierdas ni una milla.</span></h1>
+      <p class="hero-sub">Los diners, los letreros de neón, los pueblos fantasma: lo mejor de la Route 66 está fuera de la carretera principal. Planea tu ruta, registra cada parada y comparte el camino con quienes la viven.</p>
       <div class="hero-actions">
         <a href="#download" class="btn-primary">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="white" stroke-width="2"><path d="M8 2v8M4 7l4 4 4-4"/><path d="M2 13h12"/></svg>
-          Download the app
+          Descargar la app
         </a>
-        <a href="#features" class="btn-ghost">See how it works</a>
+        <a href="#features" class="btn-ghost">Mira cómo funciona</a>
       </div>
     </div>
     <div class="scroll-hint">
-      scroll to explore
+      desliza para explorar
       <div class="scroll-arrow">
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="white" stroke-width="1.5"><path d="M6 2v8M3 7l3 3 3-3"/></svg>
       </div>
@@ -115,9 +90,9 @@
   <section class="pain">
     <div class="pain-inner">
       <div class="reveal">
-        <p class="section-eyebrow ec">The problem</p>
-        <h2 class="pain-title">Blink and you'll miss it.</h2>
-        <p class="pain-body">Diners close overnight. Neon goes dark. The best stops aren't on the highway, they're the ones nobody tells you about. Show up with the wrong map and you'll drive 2,448 miles right past them.</p>
+        <p class="section-eyebrow ec">El problema</p>
+        <h2 class="pain-title">Parpadeas y ya no está.</h2>
+        <p class="pain-body">Hay diners que cierran de un día para otro. Hay neones que se apagan. Las mejores paradas no están en la carretera principal: son las que nadie te menciona. Con el mapa equivocado, manejas 2448 millas y pasas de largo.</p>
       </div>
       <div class="pain-cards reveal">
         <div class="pain-card">
@@ -125,8 +100,8 @@
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#ea5b56" stroke-width="1.6"><circle cx="9" cy="9" r="7"/><path d="M9 5.5v4l2.5 2.5"/></svg>
           </div>
           <div>
-            <p class="pain-card-title">Outdated information everywhere</p>
-            <p class="pain-card-text">Blog posts from 2014. Google reviews that haven't been updated since the place closed. You show up and there's nothing there.</p>
+            <p class="pain-card-title">Información desactualizada por todos lados</p>
+            <p class="pain-card-text">Entradas de blog de 2014. Reseñas de Google que nadie actualizó desde que el lugar cerró. Llegas y no hay nada.</p>
           </div>
         </div>
         <div class="pain-card">
@@ -134,8 +109,8 @@
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#ea5b56" stroke-width="1.6"><rect x="3" y="4" width="12" height="10" rx="1"/><path d="M6 4V3M12 4V3M3 8h12"/></svg>
           </div>
           <div>
-            <p class="pain-card-title">Paper passports miss half the stops</p>
-            <p class="pain-card-text">Static, incomplete, and they don't tell you what's actually open today. Route 66 deserves better than a pamphlet.</p>
+            <p class="pain-card-title">Los pasaportes de papel se saltan la mitad de las paradas</p>
+            <p class="pain-card-text">Estáticos, incompletos, y no te dicen qué está abierto hoy. La Route 66 merece algo mejor que un folleto.</p>
           </div>
         </div>
         <div class="pain-card">
@@ -143,8 +118,8 @@
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#ea5b56" stroke-width="1.6"><circle cx="9" cy="9" r="7"/><path d="M2 9h14M9 2a10.8 10.8 0 010 14M9 2a10.8 10.8 0 000 14"/></svg>
           </div>
           <div>
-            <p class="pain-card-title">No way to properly track your journey</p>
-            <p class="pain-card-text">You drive 2,448 miles and come home with a handful of photos and no record of what you saw. Or what you missed.</p>
+            <p class="pain-card-title">Ninguna forma de llevar registro de tu viaje</p>
+            <p class="pain-card-text">Manejas 2448 millas y vuelves con un puñado de fotos y ningún registro de lo que viste. Ni de lo que te perdiste.</p>
           </div>
         </div>
       </div>
@@ -153,19 +128,19 @@
 
   <section class="solution" id="features">
     <div class="solution-inner">
-      <p class="section-eyebrow et reveal">How it works</p>
-      <h2 class="solution-title reveal">Plan it. Drive it.<br><em>Log it. Share it.</em></h2>
-      <p class="solution-intro reveal">Everything you need to turn 2,448 miles into the trip of your life, and a community that's already driven every one of them.</p>
+      <p class="section-eyebrow et reveal">Cómo funciona</p>
+      <h2 class="solution-title reveal">Planea. Maneja.<br><em>Registra. Comparte.</em></h2>
+      <p class="solution-intro reveal">Todo lo que necesitas para convertir 2448 millas en el viaje de tu vida, y una comunidad que ya las recorrió todas.</p>
 
       <!-- ROW 1: text left, phone right -->
       <div class="feature-row reveal">
         <div class="feature-row-text">
           <div class="feature-num">01</div>
-          <h3 class="feature-title">A Living Map</h3>
-          <p class="feature-text">1000+ stops across all 8 states. Diners, neon signs, ghost towns, ruins, motels, and more. Updated by the community as things open, close, and change.</p>
+          <h3 class="feature-title">Un mapa vivo</h3>
+          <p class="feature-text">Más de 1000 paradas en los 8 estados. Diners, letreros de neón, pueblos fantasma, ruinas, moteles y más. Actualizado por la comunidad conforme las cosas abren, cierran y cambian.</p>
         </div>
         <div class="feature-row-phone">
-          <img class="feat-phone-img" src="/images/map.png" alt="A Living Map">
+          <img class="feat-phone-img" src="/images/map.png" alt="Un mapa vivo">
         </div>
       </div>
 
@@ -173,11 +148,11 @@
       <div class="feature-row feature-row-reverse reveal">
         <div class="feature-row-text">
           <div class="feature-num">02</div>
-          <h3 class="feature-title">Stop Detail</h3>
-          <p class="feature-text">Every stop has a full card with photos, hours, categories, community reports, and navigation. Tap any pin to see what's there before you pull over.</p>
+          <h3 class="feature-title">El detalle de una parada</h3>
+          <p class="feature-text">Cada parada tiene su ficha completa: fotos, horarios, categorías, reportes de la comunidad y navegación. Toca cualquier punto del mapa para ver qué hay antes de detenerte.</p>
         </div>
         <div class="feature-row-phone">
-          <img class="feat-phone-img" src="/images/stop.png" alt="Stop Detail">
+          <img class="feat-phone-img" src="/images/stop.png" alt="El detalle de una parada">
         </div>
       </div>
 
@@ -185,11 +160,11 @@
       <div class="feature-row reveal">
         <div class="feature-row-text">
           <div class="feature-num">03</div>
-          <h3 class="feature-title">Trip Planning</h3>
-          <p class="feature-text">Save what catches your eye and build your route before you go. Simply use the Favorites filter to see your bookmarked stops on the map or the list.</p>
+          <h3 class="feature-title">Planear el viaje</h3>
+          <p class="feature-text">Guarda lo que te llame la atención y arma tu ruta antes de salir. El filtro Mis favoritos muestra tus paradas guardadas en el mapa o en la lista.</p>
         </div>
         <div class="feature-row-phone">
-          <img class="feat-phone-img" src="/images/filtered-favourites.png" alt="Trip Planning">
+          <img class="feat-phone-img" src="/images/filtered-favourites.png" alt="Planear el viaje">
         </div>
       </div>
 
@@ -197,11 +172,11 @@
       <div class="feature-row feature-row-reverse reveal">
         <div class="feature-row-text">
           <div class="feature-num">04</div>
-          <h3 class="feature-title">Your Personal Logbook</h3>
-          <p class="feature-text">Automatically tracks stops as you drive past them. Confirm what you saw, add notes, earn achievements. Your Route 66 story, recorded forever.</p>
+          <h3 class="feature-title">Tu bitácora</h3>
+          <p class="feature-text">Las paradas se registran solas mientras manejas. Confirma lo que viste, agrega notas, gana logros. Tu historia de la Route 66, guardada para siempre.</p>
         </div>
         <div class="feature-row-phone">
-          <img class="feat-phone-img" src="/images/logbook.png" alt="Your Personal Logbook">
+          <img class="feat-phone-img" src="/images/logbook.png" alt="Tu bitácora">
         </div>
       </div>
 
@@ -209,11 +184,11 @@
       <div class="feature-row reveal">
         <div class="feature-row-text">
           <div class="feature-num">05</div>
-          <h3 class="feature-title">60+ Achievements</h3>
-          <p class="feature-text">From First Sighting to Mother Road Complete. Earn badges for states crossed, categories mastered, streaks kept, and moments only this road can give you.</p>
+          <h3 class="feature-title">Más de 60 logros</h3>
+          <p class="feature-text">De Primera parada a Mother Road completa. Gana insignias por estados recorridos, categorías dominadas, rachas mantenidas y momentos que solo este camino te puede dar.</p>
         </div>
         <div class="feature-row-phone">
-          <img class="feat-phone-img" src="/images/profile.png" alt="60+ Achievements">
+          <img class="feat-phone-img" src="/images/profile.png" alt="Más de 60 logros">
         </div>
       </div>
 
@@ -221,11 +196,11 @@
       <div class="feature-row feature-row-reverse reveal">
         <div class="feature-row-text">
           <div class="feature-num">06</div>
-          <h3 class="feature-title">Filter by Passion</h3>
-          <p class="feature-text">Neon hunter? Diner obsessive? Ghost town seeker? Filter the map to show only what matters to you: 11 categories, fully searchable.</p>
+          <h3 class="feature-title">Filtra según lo que te gusta</h3>
+          <p class="feature-text">¿Los neones? ¿Los diners? ¿Los pueblos fantasma? Filtra el mapa para ver solo lo que te importa: 11 categorías, todas con búsqueda.</p>
         </div>
         <div class="feature-row-phone">
-          <img class="feat-phone-img" src="/images/filter.png" alt="Filter by Passion">
+          <img class="feat-phone-img" src="/images/filter.png" alt="Filtra según lo que te gusta">
         </div>
       </div>
 
@@ -233,11 +208,11 @@
       <div class="feature-row reveal">
         <div class="feature-row-text">
           <div class="feature-num">07</div>
-          <h3 class="feature-title">Share the Road</h3>
-          <p class="feature-text">Found a diner worth the detour? A ghost town nobody's logged? Add it to the map, flag what's changed, and pass it on to the traveller right behind you.</p>
+          <h3 class="feature-title">Comparte el camino</h3>
+          <p class="feature-text">¿Un diner que vale el desvío? ¿Un pueblo fantasma que nadie registró? Agrégalo al mapa, marca lo que cambió y pásaselo a quien viene manejando detrás de ti.</p>
         </div>
         <div class="feature-row-phone">
-          <img class="feat-phone-img" src="/images/edit.png" alt="Adding a stop to the map">
+          <img class="feat-phone-img" src="/images/edit.png" alt="Agregar una parada al mapa">
         </div>
       </div>
 
@@ -245,11 +220,11 @@
 
     <!-- CTA after features -->
     <div class="features-cta reveal">
-      <h3 class="features-cta-title">Ready to hit the road?</h3>
-      <p class="features-cta-sub">Free to explore every mile. Start mapping your trip today.</p>
+      <h3 class="features-cta-title">¿Nos vamos?</h3>
+      <p class="features-cta-sub">Explorar cada milla es gratis. Empieza a planear tu viaje hoy.</p>
       <a href="#download" class="btn-primary">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="white" stroke-width="2"><path d="M8 2v8M4 7l4 4 4-4"/><path d="M2 13h12"/></svg>
-        Download the app
+        Descargar la app
       </a>
     </div>
 
@@ -258,8 +233,8 @@
   <section class="editorial">
     <div class="editorial-inner">
       <div class="editorial-header reveal">
-        <h2 class="editorial-title">The road, documented.</h2>
-        <p class="editorial-sub">2,448 miles of American mythology</p>
+        <h2 class="editorial-title">El camino, documentado.</h2>
+        <p class="editorial-sub">2448 millas de mitología estadounidense</p>
       </div>
       <!-- Grid 1: Roy's + Mayor -->
       <div class="photos-grid-top reveal">
@@ -273,13 +248,13 @@
       <!-- Grid 2: Road Closed + Wigwam / Gas Station + Wigwam -->
       <div class="photos-grid-bottom reveal">
         <div class="photo-cell">
-          <img src="/images/2.jpg" alt="Original alignment" draggable="false"><p class="photo-caption">Original alignment</p>
+          <img src="/images/2.jpg" alt="Trazado original" draggable="false"><p class="photo-caption">Trazado original</p>
         </div>
         <div class="photo-cell pc-wigwam">
           <img src="/images/3.jpg" alt="Wigwam Motel" draggable="false"><p class="photo-caption">Wigwam Motel</p>
         </div>
         <div class="photo-cell">
-          <img src="/images/4.jpg" alt="Abandoned gas station" draggable="false"><p class="photo-caption">Abandoned gas station</p>
+          <img src="/images/4.jpg" alt="Gasolinera abandonada" draggable="false"><p class="photo-caption">Gasolinera abandonada</p>
         </div>
       </div>
     </div>
@@ -287,34 +262,34 @@
 
   <section class="community" id="community">
     <div class="community-inner">
-      <p class="section-eyebrow es reveal">The community</p>
-      <h2 class="community-title reveal">The road lives<br>because <em>you</em> do.</h2>
-      <p class="community-body reveal">The best part of Route 66 was never the asphalt. It's the people who can't stop driving it. Every stop you add, every edit you suggest, every flag you raise. It keeps Route 66 documented for the next traveller behind you. This isn't a guidebook. It's a living record.</p>
+      <p class="section-eyebrow es reveal">La comunidad</p>
+      <h2 class="community-title reveal">El camino vive<br>gracias a <em>ti</em>.</h2>
+      <p class="community-body reveal">Lo mejor de la Route 66 nunca fue el asfalto. Es la gente que no puede dejar de recorrerla. Cada parada que agregas, cada corrección que propones, cada reporte que levantas. Todo eso mantiene documentada la Route 66 para quien viene detrás de ti. Esto no es una guía. Es un registro vivo.</p>
       <div class="stats-row reveal">
-        <div class="stat"><div class="stat-num">1000+</div><div class="stat-label">Stops documented</div></div>
-        <div class="stat"><div class="stat-num">8</div><div class="stat-label">States covered</div></div>
-        <div class="stat"><div class="stat-num">60+</div><div class="stat-label">Achievements</div></div>
+        <div class="stat"><div class="stat-num">1000+</div><div class="stat-label">Paradas documentadas</div></div>
+        <div class="stat"><div class="stat-num">8</div><div class="stat-label">Estados recorridos</div></div>
+        <div class="stat"><div class="stat-num">60+</div><div class="stat-label">Logros</div></div>
       </div>
-      <a href="#download" class="btn-community reveal">Join the community →</a>
+      <a href="#download" class="btn-community reveal">Únete a la comunidad →</a>
     </div>
   </section>
 
   <section class="download" id="download">
     <div class="download-inner">
-      <h2 class="download-title reveal">Ready to<br>hit the <em>road?</em></h2>
-      <p class="download-sub reveal">Free to explore. One-time unlock to contribute.</p>
+      <h2 class="download-title reveal">¿Nos vamos<br><em>de viaje?</em></h2>
+      <p class="download-sub reveal">Explorar es gratis. Un solo pago para contribuir.</p>
       <div class="download-badges reveal">
         <a href="https://apps.apple.com/app/route-66-logbook/id6774524322" class="badge-btn" target="_blank" rel="noopener">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
           <div>
-            <span class="badge-btn-label">Download on the</span>
+            <span class="badge-btn-label">Consíguelo en el</span>
             <span class="badge-btn-store">App Store</span>
           </div>
         </a>
         <a href="https://play.google.com/store/apps/details?id=com.route66logbook.app" class="badge-btn badge-btn-android" target="_blank" rel="noopener">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.6 9.48l1.84-3.18a.38.38 0 00-.14-.52.38.38 0 00-.52.14l-1.87 3.23a11.36 11.36 0 00-9.82 0L5.22 5.92a.38.38 0 00-.52-.14.38.38 0 00-.14.52L6.4 9.48A10.78 10.78 0 001 18h22a10.78 10.78 0 00-5.4-8.52M7 15.25a1.1 1.1 0 111.1-1.1 1.1 1.1 0 01-1.1 1.1m10 0a1.1 1.1 0 111.1-1.1 1.1 1.1 0 01-1.1 1.1"/></svg>
           <div>
-            <span class="badge-btn-label">Get it on</span>
+            <span class="badge-btn-label">Disponible en</span>
             <span class="badge-btn-store">Google Play</span>
           </div>
         </a>
@@ -325,9 +300,9 @@
 
   <section class="maker">
     <div class="maker-inner">
-      <p class="maker-eyebrow reveal">A passion project</p>
-      <h2 class="maker-title reveal">Who's behind <em>the app?</em></h2>
-      <a href="/about" class="maker-btn reveal">Read my story →</a>
+      <p class="maker-eyebrow reveal">Un proyecto hecho con pasión</p>
+      <h2 class="maker-title reveal">¿Quién está detrás <em>de la app?</em></h2>
+      <a href="/about" class="maker-btn reveal">Lee mi historia →</a>
     </div>
   </section>
 

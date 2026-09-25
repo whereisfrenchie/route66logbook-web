@@ -47,7 +47,7 @@ const SITE = 'https://route66logbook.com';
  * something to surface in search.
  */
 const OTHER_PAGES = [
-  '/about/', '/help/', '/history/', '/prepare/',
+  '/about/', '/help/', '/history/', '/prepare/', '/press/',
   '/privacy/', '/terms/', '/community-guidelines/',
 ];
 

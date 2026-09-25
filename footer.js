@@ -46,6 +46,7 @@
         <div class="footer-links">
           <a href="/history">History</a>
           <a href="/prepare">Prepare</a>
+          <a href="/press">Press</a>
           <a href="/privacy">Privacy</a>
           <a href="/terms">Terms</a>
           <a href="/community-guidelines">Guidelines</a>

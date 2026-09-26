@@ -21,9 +21,13 @@ The Grand Canyon is the obvious example. It is not Route 66, but it is close eno
 
 Santa Fe is one of the most meaningful historic detours because the [original 1926 Route 66 alignment](/history/) passed through it before the highway was rerouted in 1937. It adds history, architecture, food, art and a different sense of New Mexico. If you are interested in the road’s evolution rather than only the later alignment, Santa Fe is more than a detour. It is part of the Route 66 story.
 
+![A downtown street corner in Santa Fe, New Mexico, lined with adobe buildings and a Santa Fe Trail street sign](/images/guides/santa-fe-street.jpg "Santa Fe, New Mexico")
+
 ## Petrified Forest and Painted Desert
 
 [Petrified Forest National Park](/guides/route-66-hidden-gems/) and the Painted Desert are among the most rewarding landscape experiences connected directly to the Route 66 corridor. The park preserves a visible trace of the historic highway, including old roadbed and telephone poles. It also gives you geology, colour, silence and a reminder that the road’s human history sits inside a much older natural history.
+
+![The pueblo-style Painted Desert Inn on the rim above the colourful Painted Desert badlands](/images/guides/painted-desert-inn.jpg "The Painted Desert Inn, on the rim of the Painted Desert in Petrified Forest National Park")
 
 ## Meramec Caverns
 
@@ -37,17 +41,19 @@ In California, desert side trips can be beautiful but demanding. Heat, distance 
 
 Ask three questions before taking a side trip. Does it connect to the story I am following? Do I have enough time to enjoy it properly? What will I sacrifice on the main route? If the answer is clear, go. If you are adding it because everyone else does, pause.
 
-![The rim and bowl of Meteor Crater in the Arizona desert, with a viewing platform on the far edge](/images/guides/meteor-crater.jpg "Meteor Crater, near Winslow, Arizona: a short detour off the road")
-
 ## Side trips that are really old alignments or older histories
 
 Some of the best 'side trips' are not side trips in the usual sense. The Santa Fe loop in New Mexico was part of the original 1926 to 1937 Route 66 alignment before the road was redirected along a shorter cut-off. Taking it is not a detour from the story; it is choosing an earlier chapter.
+
+![Evening on the main street of Las Vegas, New Mexico, with the El Rialto Restaurant sign lit](/images/guides/las-vegas-new-mexico.jpg "Las Vegas, New Mexico, near the original 1926 alignment to Santa Fe")
 
 Petrified Forest National Park is another essential example because it contains traces of historic Route 66, including old roadbed and weathered telephone poles. The National Park Service describes it as the only National Park System unit containing a section of Historic Route 66. That makes it more than scenery. It is a rare place where deep geological time, Indigenous history, highway history and modern travel overlap.
 
 ## How to judge a side trip
 
 Ask three questions. Does it reveal an earlier layer of the corridor? Does it help you understand the landscape the road passed through? Does it add meaning without stealing too much time from the main route? The Grand Canyon, Santa Fe, nearby national parks, old mining towns and museum stops can be worth it if they fit your pace.
+
+![The rim and bowl of Meteor Crater in the Arizona desert, with a viewing platform on the far edge](/images/guides/meteor-crater.jpg "Meteor Crater, near Winslow, Arizona: a short detour off the road")
 
 The danger with side trips is not that they are wrong. It is that they can turn Route 66 into a blur between famous destinations. Use them deliberately. A side trip should deepen the road, not replace it.
 

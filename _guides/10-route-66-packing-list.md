@@ -31,7 +31,7 @@ Pack layers. Route 66 can give you hot afternoons and cool mornings, especially 
 
 Bring the camera you will actually use. A heavy kit is useless if it stays in the boot. A phone can do a lot, but [photographers](/guides/route-66-photography-guide/) may want a wide lens for landscapes, a longer lens for signs and details, and [a tripod for neon](/guides/route-66-neon-motels-diners/). Bring extra storage and chargers. More importantly, bring a system for recording names and locations. After [three weeks](/guides/how-many-days-route-66/), every gas station photo starts to blur unless you log it.
 
-![My Fujifilm camera with a zoom lens on a white table, a map of the United States on the wall behind](/images/guides/packing-camera.jpg "My camera for the trip: bring the one you will actually use")
+![My Fujifilm X-T5 with a Sigma 16–300mm zoom lens on a white table, a map of the United States on the wall behind](/images/guides/packing-camera.jpg "If you like taking pictures, investing in a good camera is worthwhile. I chose a Fujifilm X-T5 with a Sigma 16–300mm zoom for the convenience and versatility: one lens covers wide desert landscapes and signs across the street, so I’m not changing lenses at every stop.")
 
 ## Health and comfort
 

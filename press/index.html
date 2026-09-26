@@ -112,7 +112,10 @@
     }
     .photo-cell.r1610 { aspect-ratio: 16 / 10; }
     .photo-cell.r45 { aspect-ratio: 4 / 5; }
-    .photo-cell.phone { aspect-ratio: 9 / 19.5; border-radius: 28px; background: #3a4044; }
+    .photo-cell.phone {
+      aspect-ratio: 9 / 19.5; border-radius: 28px; background: #3a4044;
+      box-shadow: 0 24px 50px -12px rgba(43,48,51,0.35), 0 8px 18px -6px rgba(43,48,51,0.18);
+    }
     .photo-placeholder {
       position: absolute; inset: 0; display: flex; flex-direction: column;
       align-items: center; justify-content: center; gap: 8px;
@@ -193,6 +196,15 @@
       font-size: 15px; font-weight: 600; letter-spacing: 0.2px;
       transition: transform 0.2s, box-shadow 0.2s;
     }
+    .contact-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+    .btn-ghost {
+      display: inline-flex; align-items: center;
+      color: #fff; text-decoration: none;
+      padding: 14.5px 32px; border-radius: 100px; border: 1.5px solid rgba(255,255,255,0.6);
+      font-size: 15px; font-weight: 600; letter-spacing: 0.2px;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,0.12); border-color: #fff; }
     .btn-mail:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(43,48,51,0.35); }
 
     /* REVEAL */
@@ -241,9 +253,9 @@
     </section>
 
     <!-- HERO PHOTO -->
-    <div class="shell wide reveal">
+    <div class="shell wide">
       <div class="photo-band">
-        <div class="photo-cell r1610 captioned">
+        <div class="photo-cell reveal r1610 captioned">
           <div class="photo-placeholder">images/press-hero.jpg<br>16:10 · approx 1600 × 1000 px</div>
           <img src="/images/press-hero.jpg" alt="On the road on Route 66" onerror="this.remove()">
           <div class="photo-caption">Route 66, 2026 · the centennial year</div>
@@ -268,12 +280,12 @@
 
       <!-- PHOTO PAIR · loss and revival -->
       <div class="photo-band pair">
-        <div class="photo-cell r45 captioned">
+        <div class="photo-cell reveal r45 captioned">
           <div class="photo-placeholder">images/press-fort-courage.jpg<br>4:5 · approx 1200 × 1500 px</div>
           <img src="/images/press-fort-courage.jpg" alt="Fort Courage Trading Post in Houck, Arizona" onerror="this.remove()">
           <div class="photo-caption">Fort Courage Trading Post · Houck, AZ</div>
         </div>
-        <div class="photo-cell r45 captioned">
+        <div class="photo-cell reveal r45 captioned">
           <div class="photo-placeholder">images/press-spencer-station.jpg<br>4:5 · approx 1200 × 1500 px</div>
           <img src="/images/press-spencer-station.jpg" alt="Spencer Station in Missouri, under restoration" onerror="this.remove()">
           <div class="photo-caption">Spencer Station · Missouri</div>
@@ -288,7 +300,7 @@
 
       <!-- PHOTO · Blue Swallow -->
       <div class="photo-band">
-        <div class="photo-cell r1610 captioned">
+        <div class="photo-cell reveal r1610 captioned">
           <div class="photo-placeholder">images/press-blue-swallow.jpg<br>16:10 · approx 1600 × 1000 px</div>
           <img src="/images/press-blue-swallow.jpg" alt="The Blue Swallow Motel neon in Tucumcari, New Mexico" onerror="this.remove()">
           <div class="photo-caption">Blue Swallow Motel · Tucumcari, NM</div>
@@ -304,21 +316,21 @@
       <!-- APP SCREENS -->
       <div class="photo-band screens">
         <figure>
-          <div class="photo-cell phone">
+          <div class="photo-cell reveal phone">
             <div class="photo-placeholder">images/press-app-map.jpg<br>9:19.5 · approx 1170 × 2532 px</div>
             <img src="/images/press-app-map.jpg" alt="The Route 66 Logbook map screen" onerror="this.remove()">
           </div>
           <figcaption>The map</figcaption>
         </figure>
         <figure>
-          <div class="photo-cell phone">
+          <div class="photo-cell reveal phone">
             <div class="photo-placeholder">images/press-app-logbook.jpg<br>9:19.5 · approx 1170 × 2532 px</div>
             <img src="/images/press-app-logbook.jpg" alt="The Route 66 Logbook logbook screen" onerror="this.remove()">
           </div>
           <figcaption>The Logbook</figcaption>
         </figure>
         <figure>
-          <div class="photo-cell phone">
+          <div class="photo-cell reveal phone">
             <div class="photo-placeholder">images/press-app-gems.jpg<br>9:19.5 · approx 1170 × 2532 px</div>
             <img src="/images/press-app-gems.jpg" alt="The Route 66 Logbook Gems tab" onerror="this.remove()">
           </div>
@@ -377,7 +389,7 @@
 
       <!-- PHOTO · centennial revival -->
       <div class="photo-band">
-        <div class="photo-cell r1610 captioned">
+        <div class="photo-cell reveal r1610 captioned">
           <div class="photo-placeholder">images/press-revival.jpg<br>16:10 · approx 1600 × 1000 px</div>
           <img src="/images/press-revival.jpg" alt="Campbell's Service, a restored Phillips 66 service station and Route 66 museum" onerror="this.remove()">
           <div class="photo-caption">Campbell’s Service, a Route 66 museum sharing a collection of more than 1,000 pieces of memorabilia · <a href="https://tourroute66.com/" target="_blank" rel="noopener">tourroute66.com</a></div>
@@ -410,7 +422,7 @@
   <section class="contact reveal">
     <div class="shell wide">
       <div class="contact-grid">
-        <div class="photo-cell r45">
+        <div class="photo-cell reveal r45">
           <div class="photo-placeholder">images/press-carole.jpg<br>4:5 · approx 1200 × 1500 px</div>
           <img src="/images/press-carole.jpg" alt="Carole Richard, creator of Route 66 Logbook" onerror="this.remove()">
         </div>
@@ -422,10 +434,13 @@
             <a href="https://route66logbook.com">route66logbook.com</a><br>
             <a href="https://www.instagram.com/route66logbook/" target="_blank" rel="noopener">@route66logbook</a>
           </p>
-          <a class="btn-mail" href="mailto:hello@route66logbook.com">
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
-            Get in touch
-          </a>
+          <div class="contact-actions">
+            <a class="btn-mail" href="mailto:hello@route66logbook.com">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+              Get in touch
+            </a>
+            <a class="btn-ghost" href="/about">About Carole</a>
+          </div>
         </div>
       </div>
     </div>

@@ -134,6 +134,37 @@ img { max-width: 100%; }
 }
 .prose .figure figcaption a { color: inherit; }
 
+/* App screenshot: phone-width, with the press page's phone shadow */
+.prose .figure.screen { max-width: 280px; margin-left: auto; margin-right: auto; }
+.prose .figure.screen img {
+  border-radius: 28px; background: #3a4044;
+  box-shadow: 0 24px 50px -12px rgba(43,48,51,0.35), 0 8px 18px -6px rgba(43,48,51,0.18);
+}
+
+/* Pull quote */
+.prose .pullout { text-align: center; margin: 44px 0; }
+.prose .pullout::before {
+  content: "\201C"; display: block; height: 34px;
+  font-family: 'Instrument Serif', serif; font-style: italic;
+  font-size: 64px; line-height: 1; color: var(--coral);
+}
+.prose .pullout p {
+  font-family: 'Instrument Serif', serif; font-style: italic;
+  font-size: clamp(24px, 3.4vw, 32px); line-height: 1.3; letter-spacing: -0.3px;
+  color: var(--charcoal); max-width: 560px; margin: 0 auto;
+}
+
+/* Fact call-out */
+.prose .fact {
+  background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
+  padding: 26px 30px; margin: 36px 0;
+}
+.prose .fact .fact-figure {
+  font-weight: 800; font-size: clamp(26px, 3.6vw, 34px); line-height: 1.05;
+  letter-spacing: -1px; color: var(--coral); margin-bottom: 8px;
+}
+.prose .fact .fact-text { font-size: 15px; line-height: 1.6; color: rgba(43,48,51,0.65); margin: 0; }
+
 /* In-article app button (the Word file's "CTA:" lines) */
 .cta-row { margin: 4px 0 30px; }
 .btn-coral {

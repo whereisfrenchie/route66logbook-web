@@ -29,7 +29,12 @@
  *                       a photo inside the article, on a line of its own.
  *                       The file must exist; the caption is optional and
  *                       may contain a [link](url). Upright photos are shown
- *                       narrower than landscape ones.
+ *                       narrower than landscape ones. Add {screen} after the
+ *                       closing ) for an app screenshot: phone-width, with a
+ *                       shadow.
+ *   > text              a pull quote
+ *   >> figure | text    a fact call-out: a big figure ("2,400 miles") and a
+ *                       line explaining it
  *   **bold** *italic* [text](url)   inside any paragraph, heading or item
  * Anything else is a paragraph. Raw HTML is escaped, never passed through.
  *
@@ -111,7 +116,7 @@ function jpegSize(file) {
   return null;
 }
 
-const IMAGE_LINE = /^!\[([^\]]*)\]\((\/images\/[^)\s]+\.jpe?g)(?:\s+"([^"]*)")?\)$/i;
+const IMAGE_LINE = /^!\[([^\]]*)\]\((\/images\/[^)\s]+\.jpe?g)(?:\s+"([^"]*)")?\)(?:\s+\{(screen)\})?$/i;
 
 /** The body format described at the top. Returns [html, wordCount]. */
 function renderBody(src, label, die, root) {
@@ -128,18 +133,35 @@ function renderBody(src, label, die, root) {
     if (line.startsWith('![')) {
       const m = line.match(IMAGE_LINE);
       if (!m) die(`${label}: cannot read the photo line "${line.slice(0, 70)}" — expected ![description](/images/file.jpg "Caption")`);
-      const [, alt, src, caption] = m;
+      const [, alt, src, caption, variant] = m;
       if (!alt) die(`${label}: the photo ${src} needs a description between the [ ]`);
       const file = path.join(root, src);
       if (!fs.existsSync(file)) die(`${label}: the photo ${src} does not exist`);
       const size = jpegSize(file);
       if (!size) die(`${label}: cannot read the size of ${src} — is it really a JPEG?`);
       closeList();
-      const upright = size.h > size.w;
-      out.push(`      <figure class="figure${upright ? ' upright' : ''} reveal">\n` +
+      const cls = variant === 'screen' ? ' screen' : size.h > size.w ? ' upright' : '';
+      out.push(`      <figure class="figure${cls} reveal">\n` +
         `        <img src="${src}" alt="${esc(alt)}" width="${size.w}" height="${size.h}" loading="lazy">\n` +
         (caption ? `        <figcaption>${inline(caption)}</figcaption>\n` : '') +
         `      </figure>`);
+      continue;
+    }
+    if (line.startsWith('>> ')) {
+      const [figure, text] = line.slice(3).split(' | ');
+      if (!figure || !text) die(`${label}: a fact call-out needs ">> figure | text" — got "${line.slice(0, 60)}"`);
+      closeList();
+      words += line.split(/\s+/).length;
+      out.push(`      <aside class="fact reveal">\n` +
+        `        <p class="fact-figure">${inline(figure.trim())}</p>\n` +
+        `        <p class="fact-text">${inline(text.trim())}</p>\n` +
+        `      </aside>`);
+      continue;
+    }
+    if (line.startsWith('> ')) {
+      closeList();
+      words += line.split(/\s+/).length;
+      out.push(`      <blockquote class="pullout reveal"><p>${inline(line.slice(2))}</p></blockquote>`);
       continue;
     }
     words += line.replace(/^(#+|-)\s/, '').split(/\s+/).length;

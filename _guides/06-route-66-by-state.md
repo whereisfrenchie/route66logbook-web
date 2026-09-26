@@ -65,6 +65,8 @@ Use [Route 66 Logbook](#download) to follow the road across all eight states and
 
 State borders are useful reset points. Each time you cross one, ask what changed: the road surface, the signs, the architecture, the food, the accents, the climate, the colour of the light. Route 66 is often described as one road, but it is more accurate to think of it as eight conversations joined by asphalt.
 
+![The old Chain of Rocks Bridge crossing the Mississippi River, with its steel trusses and famous bend](/images/guides/chain-of-rocks-bridge.jpg "The Chain of Rocks Bridge, crossing the Mississippi from Illinois into Missouri")
+
 ## Short does not mean minor
 
 Do not let the shorter states fool you. Kansas, for example, is brief, but brief does not mean minor. A compact section can be easier to understand deeply because the stops sit close together and the local pride is concentrated.

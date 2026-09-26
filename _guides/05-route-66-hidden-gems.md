@@ -6,7 +6,7 @@ order: 5
 standfirst: The soul of the road often lives in places that do not shout.
 description: Go beyond the biggest Route 66 attractions with overlooked stops, old alignments, local museums, historic bridges and small places that can become the highlights of your trip.
 published: 2026-09-26
-photoalt: The old Chain of Rocks Bridge crossing the Mississippi River, with its steel trusses and famous bend
+photoalt: The old white clapboard Bourbon Lodge with green trim, wooden barrels and yard ornaments out front
 ---
 
 ## The quieter road
@@ -96,6 +96,8 @@ Route 66 Logbook helps you find and record the smaller places between the [famou
 ## Train your eye for the small details
 
 Hidden gems often reveal themselves through repetition. After a few days, you start noticing patterns: the old canopy shape of a gas station, the curved motel office, the ghost sign on a brick wall, the little shield painted on a kerb. Once your eye adjusts, the road becomes denser.
+
+![The vintage Washing Lady sign, a woman in a washtub on a tilted stand, against a cloudy sky](/images/guides/washing-lady-sign.jpg "The Washing Lady: the kind of detail you only catch when you look up")
 
 ## A hidden gem can be quiet
 

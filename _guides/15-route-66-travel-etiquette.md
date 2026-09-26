@@ -39,6 +39,8 @@ Preservation is not only about saving beautiful signs. It is about roofs, wiring
 
 Drive patiently through small towns. Do not block business entrances for photos. Buy something if you use a restroom. Talk to people with respect. Remember that your dream road is someone else’s home. The best Route 66 travellers bring curiosity without entitlement.
 
+![The abandoned Paradise Cafe, its windows broken and walls marked with graffiti, in dry grass under a cloudy sky](/images/guides/paradise-cafe.jpg "As tempting as it may be, never enter an abandoned building: respect private property, history and your own safety.")
+
 ## The future of the road
 
 Route 66 will not survive by accident. The [centennial brings attention](/guides/route-66-centennial-2026/), but attention must become care. The road needs travellers who understand that preservation and enjoyment belong together. Go for the neon, the diners, the desert and the stories. Then do your part to make sure someone else can go after you.

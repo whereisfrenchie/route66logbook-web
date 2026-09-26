@@ -32,6 +32,8 @@ Posting locations can help businesses, but it can also overwhelm fragile places.
 
 Preservation is not only about saving beautiful signs. It is about roofs, wiring, paint, insurance, zoning, volunteers, grants, tourism dollars and community will. When you see a restored building, remember that someone fought for it. When you see a decaying one, remember that saving it may be more complicated than wanting it saved.
 
+![Campbell’s Service, a restored Phillips 66 service station and Route 66 museum](/images/press-revival.jpg "Campbell’s Service, a Route 66 museum sharing a collection of more than 1,000 pieces of memorabilia · [tourroute66.com](https://tourroute66.com/)")
+
 ## Be a better guest
 
 Drive patiently through small towns. Do not block business entrances for photos. Buy something if you use a restroom. Talk to people with respect. Remember that your dream road is someone else’s home. The best Route 66 travellers bring curiosity without entitlement.

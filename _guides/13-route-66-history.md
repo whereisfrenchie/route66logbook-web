@@ -21,6 +21,8 @@ One of the road’s deepest associations is migration. During the Dust Bowl year
 
 Route 66 helped shape roadside commerce. Gas stations, diners, motels, garages, souvenir shops, trading posts and tourist courts grew around the needs of motorists. The road changed how businesses looked. Buildings faced traffic. Signs got taller. Mascots got stranger. Menus, architecture and advertising all adapted to the moving customer. In that sense, Route 66 is a design and business history corridor.
 
+![A vintage postcard street scene of US Highway 66 in Kingman, Arizona, lined with drugstores, a café and a car dealer](/images/history-kingman.jpg "Kingman, Arizona, on a vintage postcard: drugstores, a café and a Chevrolet–Buick dealer lining US 66")
+
 ## Music and myth
 
 The road’s cultural image was amplified by song, film, television, literature and [photography](/guides/route-66-photography-guide/). Once a road becomes a symbol, people travel it not only to go somewhere, but to feel something they have already imagined. That is why Route 66 is powerful. You arrive with inherited images in your head, then the real road corrects them.

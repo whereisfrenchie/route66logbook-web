@@ -24,6 +24,8 @@ The best approach now is to treat centennial information as live. Check official
 
 The centennial is not simply a birthday party for an old highway. Throughout 2026, it has given communities a reason to preserve buildings, document local history, attract visitors and widen the stories associated with Route 66.
 
+![The giant red Mighty Pretty cowboy boot sculpture in Oklahoma City](/images/history-centennial.jpg "Oklahoma City’s “Mighty Pretty” boot")
+
 Those stories include Indigenous lands and communities, Black travel history, migration, immigrant businesses, roadside architecture, music, food, tourism, engineering and the enormous economic changes caused by the interstate system. The anniversary is most interesting when it reveals more of that history rather than reducing the road to neon signs and nostalgia.
 
 If you are travelling during the final months of the centennial year, enjoy the celebrations, but leave room for the ordinary Route 66 moments too. A temporary exhibition or major festival may only exist in 2026, but the small museum, family-run diner and old alignment beside the interstate are what connect the anniversary back to the road itself.

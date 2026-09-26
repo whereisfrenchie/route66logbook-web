@@ -24,6 +24,8 @@ The Blue Whale of Catoosa is pure joy. It has no business being as beloved as it
 
 The Muffler Men and Uniroyal Gals of Route 66 belong to the era when businesses needed to be seen from a moving car. Big figures, bright signs and improbable mascots were part of the sales strategy. Today they are nostalgic, but they are also design objects: scale, silhouette, humour and roadside visibility all rolled into one. They tell you how commercial creativity worked before digital advertising flattened everything into screens.
 
+![A roadside giant statue in a stars-and-stripes outfit holding a golf ball](/images/5.jpg "One of the roadside giants still standing along the route")
+
 ## The Midpoint
 
 The Midpoint Café in Adrian, Texas, carries a symbolic weight because it marks the halfway point between Chicago and Los Angeles. Travellers love a marker. We need to know where we are in the story. Standing at the midpoint, even briefly, gives the trip a chapter break. You are no longer leaving the East; you are heading fully into the West.
@@ -31,6 +33,8 @@ The Midpoint Café in Adrian, Texas, carries a symbolic weight because it marks 
 ## Wigwam Motels
 
 The Wigwam Motels are complicated and memorable. They are iconic, photogenic and part of Route 66’s [motor-court history](/guides/route-66-history/), but they also raise questions about cultural imagery, roadside fantasy and how mid-century tourism borrowed from Native American forms. A thoughtful traveller can enjoy the architecture and still understand that these places belong to a larger, more complex story.
+
+![A concrete wigwam motel room with a vintage turquoise Chevrolet parked in front](/images/3.jpg "A Wigwam Motel room, with a classic Chevrolet parked outside")
 
 ## Seligman and Oatman
 

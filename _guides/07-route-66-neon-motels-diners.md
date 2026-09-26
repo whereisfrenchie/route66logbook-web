@@ -21,9 +21,13 @@ Neon is Route 66’s visual language. It turns business names into landmarks. A 
 
 [Tucumcari, New Mexico](/guides/route-66-by-state/) is one of the essential neon towns. The signs are part of the town’s identity, and the best way to experience them is to [stay overnight](/guides/route-66-itinerary/). Do not drive through at midday and say you have seen it. You have not. Walk or cruise when the sky has gone blue-black and the signs begin to hum visually against the desert evening. That is when the town makes sense.
 
+![The Blue Swallow Motel in Tucumcari, New Mexico, with its neon lit after dark](/images/blueswallow.jpg "The Blue Swallow Motel in Tucumcari after dark")
+
 ## Classic motels
 
 A classic Route 66 motel is not just a place to sleep. It is a design experience. Look at the sign, the office, the court layout, the car spaces, the colour palette, the old postcard view. Many were built for travellers who wanted convenience, visibility and a sense of modern comfort. The best restored motels understand that nostalgia alone is not enough; they preserve character while offering enough comfort to keep modern travellers happy.
+
+![Three concrete wigwam motel rooms lit up at night with vintage cars parked outside](/images/prepare-3.jpg "A Wigwam Motel at night")
 
 ## Diners
 

@@ -120,6 +120,20 @@ img { max-width: 100%; }
 .prose a:hover { color: var(--coral); }
 .prose strong { color: var(--charcoal); }
 
+/* Photos inside an article */
+.prose .figure { margin: 36px 0 40px; }
+.prose .figure img {
+  display: block; width: 100%; height: auto;
+  border-radius: 20px; background: #cbbfae;
+}
+.prose .figure.upright { max-width: 420px; margin-left: auto; margin-right: auto; }
+.prose .figure figcaption {
+  font-family: 'Instrument Serif', serif; font-style: italic;
+  font-size: 15px; line-height: 1.5; color: rgba(43,48,51,0.55);
+  text-align: center; margin-top: 12px;
+}
+.prose .figure figcaption a { color: inherit; }
+
 /* In-article app button (the Word file's "CTA:" lines) */
 .cta-row { margin: 4px 0 30px; }
 .btn-coral {

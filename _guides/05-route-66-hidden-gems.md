@@ -24,6 +24,8 @@ Some overlooked Route 66 stops are not hidden at all. They simply sit between bi
 
 Built in 1933, this beautifully restored filling station served motorists for decades before eventually becoming the Village of Dwight visitor centre. The old pumps, canopy and service bays make it an easy place to understand what a small Route 66 station actually looked like before service plazas and interstate exits changed the way Americans travelled.
 
+![A blue 1986 Chevy G20 van parked at the pumps of Ambler’s Texaco in Dwight, Illinois](/images/about-road.jpg "Sullivan, our 1986 Chevy G20, at Ambler’s Texaco in Dwight, Illinois")
+
 ### Devil’s Elbow, Missouri
 
 Rather than one attraction, Devil’s Elbow is a whole surviving Route 66 landscape. The old road winds through the wooded Ozarks around the Big Piney River, with historic road sections, bridges and roadside buildings still giving the area the feeling of an earlier journey through Missouri. It is the kind of place that rewards slowing down rather than checking off a single landmark.

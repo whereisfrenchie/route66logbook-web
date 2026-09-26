@@ -6,6 +6,7 @@ order: 12
 standfirst: The Mother Road is a masterclass in signs, colour, scale, nostalgia and place.
 description: A Route 66 photography guide for travellers who love signs, neon, roadside architecture, colour and Americana, with advice on light, composition and visual storytelling.
 published: 2026-09-26
+photoalt: Weathered storefronts with faded painted signs and boarded wooden fronts beside the road
 ---
 
 ## A visual road
@@ -15,6 +16,8 @@ Route 66 is a dream for visual people because it was built to be noticed. Signs 
 ## Lettering and signage
 
 Pay attention to lettering. Route 66 is full of scripts, block letters, arrows, shields, stars, hand-painted panels, bulb signs, [neon tubes](/guides/route-66-neon-motels-diners/) and mid-century type. Some signs are beautifully restored; others are barely hanging on. Photograph the whole sign, then photograph the details: the mounting, the shadows, the repairs, the mismatched paint, the way the letters sit against the sky.
+
+![A vintage Murphey’s Drugs sign with a Drink Coca-Cola panel and a Soda Fountain plate](/images/guides/murpheys-drugs-sign.jpg "Murphey’s Drugs: lettering built to be read from a moving car")
 
 ## Colour
 

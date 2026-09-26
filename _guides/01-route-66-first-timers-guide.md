@@ -65,6 +65,8 @@ The part first-timers underestimate is how much emotional contrast sits inside o
 
 I would also encourage first-timers to learn the names of alignments as they go. The 1926 path, later bypasses, business loops and optional spurs are not academic details. They explain why one guide sends you through a town while another keeps you closer to the interstate. Once you understand that the road evolved, the confusion becomes part of the fascination.
 
+![An abandoned stretch of old Route 66 alignment, overgrown, with a Road Closed sign](/images/2.jpg "An old alignment, closed to traffic and going back to grass")
+
 ## Do not rush the finish
 
 Finally, do not let the famous end point at Santa Monica make the earlier days feel like a countdown. The Pacific is a beautiful finish, but the road's meaning builds in small increments: the first old pump, the first hand-painted sign, the first time a local tells you which bit of pavement is original, the first sunset when you realise you are not just crossing distance anymore.

@@ -6,6 +6,7 @@ order: 6
 standfirst: Eight states, one road, and a completely different mood every few hundred miles.
 description: Explore Route 66 state by state, from Illinois to California, with a practical overview of the landscapes, history, towns and road-trip character of all eight states.
 published: 2026-09-26
+photoalt: The giant Arizona US 66 shield painted on the street in Winslow, Arizona
 ---
 
 ## The changing road

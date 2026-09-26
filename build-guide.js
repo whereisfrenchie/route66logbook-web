@@ -25,6 +25,11 @@
  *   ### Heading         sub-heading
  *   - item              bullet list
  *   {{cta}}             the "Explore Route 66 Logbook" button
+ *   ![description](/images/file.jpg "Caption")
+ *                       a photo inside the article, on a line of its own.
+ *                       The file must exist; the caption is optional and
+ *                       may contain a [link](url). Upright photos are shown
+ *                       narrower than landscape ones.
  *   **bold** *italic* [text](url)   inside any paragraph, heading or item
  * Anything else is a paragraph. Raw HTML is escaped, never passed through.
  *
@@ -90,8 +95,26 @@ function inline(s) {
     });
 }
 
+/** Width and height of a JPEG, read from its header — enough to reserve the
+ *  photo's space before it loads, and to tell upright from landscape. */
+function jpegSize(file) {
+  const b = fs.readFileSync(file);
+  if (b[0] !== 0xff || b[1] !== 0xd8) return null;
+  for (let i = 2; i < b.length - 9;) {
+    if (b[i] !== 0xff) { i++; continue; }
+    const marker = b[i + 1];
+    if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+      return { h: b.readUInt16BE(i + 5), w: b.readUInt16BE(i + 7) };
+    }
+    i += 2 + b.readUInt16BE(i + 2);
+  }
+  return null;
+}
+
+const IMAGE_LINE = /^!\[([^\]]*)\]\((\/images\/[^)\s]+\.jpe?g)(?:\s+"([^"]*)")?\)$/i;
+
 /** The body format described at the top. Returns [html, wordCount]. */
-function renderBody(src, label, die) {
+function renderBody(src, label, die, root) {
   const out = [];
   let list = null;
   let words = 0;
@@ -101,6 +124,24 @@ function renderBody(src, label, die) {
     const line = raw.trim();
     if (!line) { closeList(); continue; }
     if (/<[a-z/!]/i.test(line)) die(`${label}: raw HTML is not allowed — "${line.slice(0, 60)}"`);
+
+    if (line.startsWith('![')) {
+      const m = line.match(IMAGE_LINE);
+      if (!m) die(`${label}: cannot read the photo line "${line.slice(0, 70)}" — expected ![description](/images/file.jpg "Caption")`);
+      const [, alt, src, caption] = m;
+      if (!alt) die(`${label}: the photo ${src} needs a description between the [ ]`);
+      const file = path.join(root, src);
+      if (!fs.existsSync(file)) die(`${label}: the photo ${src} does not exist`);
+      const size = jpegSize(file);
+      if (!size) die(`${label}: cannot read the size of ${src} — is it really a JPEG?`);
+      closeList();
+      const upright = size.h > size.w;
+      out.push(`      <figure class="figure${upright ? ' upright' : ''} reveal">\n` +
+        `        <img src="${src}" alt="${esc(alt)}" width="${size.w}" height="${size.h}" loading="lazy">\n` +
+        (caption ? `        <figcaption>${inline(caption)}</figcaption>\n` : '') +
+        `      </figure>`);
+      continue;
+    }
     words += line.replace(/^(#+|-)\s/, '').split(/\s+/).length;
 
     if (line.startsWith('- ')) {
@@ -126,7 +167,7 @@ function renderBody(src, label, die) {
   return [out.join('\n'), words];
 }
 
-function parseArticle(file, text, die) {
+function parseArticle(file, text, die, root) {
   const m = text.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
   if (!m) die(`${file}: must start with front matter between --- lines`);
   const meta = {};
@@ -141,7 +182,7 @@ function parseArticle(file, text, die) {
   if (meta.published && !/^\d{4}-\d{2}-\d{2}$/.test(meta.published)) die(`${file}: published must be YYYY-MM-DD`);
   meta.order = Number(meta.order);
   if (!Number.isInteger(meta.order)) die(`${file}: order must be a whole number`);
-  const [body, words] = renderBody(m[2], file, die);
+  const [body, words] = renderBody(m[2], file, die, root);
   return Object.assign(meta, { file, body, readTime: Math.max(1, Math.ceil(words / WORDS_PER_MINUTE)) });
 }
 
@@ -164,7 +205,7 @@ module.exports = function buildGuide({ ROOT, SITE, die, write }) {
 
   const articles = fs.readdirSync(dir)
     .filter((f) => /^\d+-.+\.md$/.test(f))
-    .map((f) => parseArticle('_guides/' + f, read('_guides/' + f), die))
+    .map((f) => parseArticle('_guides/' + f, read('_guides/' + f), die, ROOT))
     .sort((a, b) => a.order - b.order);
   if (!articles.length) die('guides: _guides/ has no articles');
 

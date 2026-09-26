@@ -17,6 +17,8 @@ Route 66 travellers are drawn to ruins: old gas stations, empty motels, collapse
 
 A ruin can explain Route 66 faster than a paragraph. Stand in front of an abandoned service station beside a road that no longer carries much traffic, and you understand what decommissioning meant at ground level. The road did not simply become historic. Some businesses lost their lifeline. Some towns adapted. Some did not. The ruins are the physical memory of that transition.
 
+![The Fort Courage Trading Post sign in Houck, Arizona, with a For Sale sign beneath it](/images/press-fort-courage.jpg "Fort Courage Trading Post in Houck, Arizona, which was torn down in early 2026")
+
 ## Ghost towns versus living towns
 
 Be precise with language. Some places called ghost towns still have residents nearby, [private property](/guides/route-66-travel-etiquette/), active businesses or cultural significance. Others are true remnants. The traveller’s job is to look carefully and behave respectfully. Do not turn someone’s struggling town into an aesthetic. Do not treat abandonment as entertainment without acknowledging why it happened.
@@ -60,6 +62,8 @@ The California desert gives some of the most dramatic ruin experiences on Route 
 ## Old gas stations
 
 Gas stations are among the most powerful abandoned Route 66 sites because they represent the road’s basic need: movement. Their canopies, pumps, service bays and signs were built around cars, travellers and commerce. When they close, they leave behind a shape that still tells you what used to happen there. You can almost hear the bell hose, the tools, the screen door, the owner stepping out to ask where you are headed.
+
+![An abandoned roadside service station with its old pumps still standing under the canopy](/images/4.jpg "An abandoned service station, its pumps still standing")
 
 ## Ethics of photographing ruins
 

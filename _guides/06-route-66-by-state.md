@@ -14,11 +14,11 @@ One reason Route 66 stays interesting is that it never stays the same. It begins
 
 ## Illinois
 
-Illinois is the gentle beginning. You get brick streets, restored gas stations, small-town museums, roadside giants, classic diners and a strong sense that communities have embraced the road as heritage. It is a good state for learning how to slow down. The stops come often, and the distances are manageable. For first-timers, Illinois teaches the rhythm: drive a little, stop a little, read a sign, take a photo, move on.
+Illinois is the gentle beginning. You get brick streets, restored gas stations, small-town museums, roadside giants, classic diners and a strong sense that communities have embraced the road as heritage. It is a good state for learning how to slow down. The stops come often, and the distances are manageable. For [first-timers](/guides/route-66-first-timers-guide/), Illinois teaches the rhythm: drive a little, stop a little, read a sign, take a photo, move on.
 
 ## Missouri and Kansas
 
-Missouri adds hills, caves, rivers, old motor courts and towns with layers of rail, road and tourism history. The road feels less tidy and more varied. Kansas has only a short slice of Route 66, but it punches above its weight. Because the mileage is small, travellers sometimes rush it. Do not. Short sections can carry a lot of character.
+Missouri adds hills, caves, rivers, old motor courts and towns with layers of [rail, road and tourism history](/guides/route-66-history/). The road feels less tidy and more varied. Kansas has only a short slice of Route 66, but it punches above its weight. Because the mileage is small, travellers sometimes rush it. Do not. Short sections can carry a lot of character.
 
 ## Oklahoma
 
@@ -26,15 +26,15 @@ Oklahoma is essential. It has more drivable Route 66 mileage than many traveller
 
 ## Texas
 
-Texas is big sky, wind, cattle, humour and visual drama. The Panhandle section is not the longest, but it has some of the most recognisable stops: Shamrock’s art deco service station, the midpoint in Adrian, Amarillo and Cadillac Ranch. The landscape opens up. The road feels less like a town-to-town heritage trail and more like a line across space.
+Texas is big sky, wind, cattle, humour and visual drama. The Panhandle section is not the longest, but it has some of the most recognisable stops: Shamrock’s art deco service station, the midpoint in Adrian, Amarillo and [Cadillac Ranch](/guides/best-route-66-stops/). The landscape opens up. The road feels less like a town-to-town heritage trail and more like a line across space.
 
 ## New Mexico
 
-New Mexico changes the light. The colours shift: adobe, turquoise, neon, desert, mountain, sky. The route has old and newer alignments, and the Santa Fe loop adds historical depth if you choose it. Tucumcari is one of the great neon towns. Albuquerque brings urban complexity. Gallup gives railroad and trading-post history. This is a state to slow down in.
+New Mexico changes the light. The colours shift: adobe, turquoise, neon, desert, mountain, sky. The route has old and newer alignments, and the Santa Fe loop adds historical depth if you choose it. Tucumcari is [one of the great neon towns](/guides/route-66-neon-motels-diners/). Albuquerque brings urban complexity. Gallup gives railroad and trading-post history. This is a state to slow down in.
 
 ## Arizona
 
-Arizona gives Route 66 some of its grandest landscapes. Petrified Forest, Painted Desert, high plateau towns, Flagstaff, Williams, Seligman, Kingman and the road toward Oatman all bring different energies. This is also where many travellers add the Grand Canyon, even though it is not directly on Route 66. Arizona feels like the road has entered myth: desert, railroads, canyons, vintage signs and long western horizons.
+Arizona gives Route 66 some of its grandest landscapes. Petrified Forest, Painted Desert, high plateau towns, Flagstaff, Williams, Seligman, Kingman and the road toward Oatman all bring different energies. This is also where many travellers add [the Grand Canyon](/guides/route-66-side-trips/), even though it is not directly on Route 66. Arizona feels like the road has entered myth: desert, railroads, canyons, vintage signs and long western horizons.
 
 ## California
 
@@ -52,7 +52,7 @@ If you want one fact to carry in each state: Chicago is the traditional eastern 
 
 ## Take it with you in Route 66 Logbook
 
-Use Route 66 Logbook to follow the road across all eight states and keep a record of how each one felt. Give every state a one-sentence mood when you leave it. By California, you will have a far better description of your own Route 66 than any generic itinerary can provide.
+Use [Route 66 Logbook](#download) to follow the road across all eight states and keep a record of how each one felt. Give every state a one-sentence mood when you leave it. By California, you will have a far better description of your own Route 66 than any [generic itinerary](/guides/route-66-itinerary/) can provide.
 
 {{cta}}
 

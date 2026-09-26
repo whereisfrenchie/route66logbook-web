@@ -10,11 +10,11 @@ published: 2026-09-26
 
 ## The quieter road
 
-Hidden gems are not always secret. Sometimes they are simply overlooked because they sit between bigger names. Route 66 is full of them: small museums with handwritten labels, restored bridges, fading gas stations, family diners, county courthouses, murals, old cabins, forgotten alignments and roadside ruins that make you pull over without knowing why. These are the places that turn a standard itinerary into your itinerary.
+Hidden gems are not always secret. Sometimes they are simply overlooked because they sit between bigger names. Route 66 is full of them: small museums with handwritten labels, restored bridges, fading gas stations, family diners, county courthouses, murals, old cabins, forgotten alignments and roadside ruins that make you pull over without knowing why. These are the places that turn a [standard itinerary](/guides/route-66-itinerary/) into your itinerary.
 
 ## Why they matter
 
-The obvious stops create the shared Route 66 story. Hidden gems create the personal one. When you talk to other travellers, everyone has a Cadillac Ranch photo. Not everyone remembers the little town where a volunteer unlocked a museum for them, or the abandoned service station glowing pink at sunset, or the mural they found behind a main street building. Those memories feel earned.
+The obvious stops create the shared Route 66 story. Hidden gems create the personal one. When you talk to other travellers, everyone has a Cadillac Ranch photo. Not everyone remembers the little town where a volunteer unlocked a museum for them, or the [abandoned service station](/guides/route-66-ghost-towns/) glowing pink at sunset, or the mural they found behind a main street building. Those memories feel earned.
 
 ## Route 66 hidden gems worth adding to your map
 
@@ -60,7 +60,7 @@ Route 66 has many small clues: brown historical markers, hand-painted arrows, ol
 
 ## Hidden does not mean untouched
 
-Be careful with the word hidden. Many places are private property, fragile ruins or businesses trying to survive. Do not trespass for a photo. Do not climb on old structures. Do not treat abandoned towns like film sets. The best travellers leave places as they found them and spend money where they can. Preservation is not an abstract idea on Route 66; it is often the difference between a place surviving and disappearing.
+Be careful with the word hidden. Many places are [private property](/guides/route-66-travel-etiquette/), fragile ruins or businesses trying to survive. Do not trespass for a photo. Do not climb on old structures. Do not treat abandoned towns like film sets. The best travellers leave places as they found them and spend money where they can. Preservation is not an abstract idea on Route 66; it is often the difference between a place surviving and disappearing.
 
 ## A few types of hidden gems
 
@@ -68,7 +68,7 @@ Look for old bridges, especially where the new road bypasses them. Look for inde
 
 ## Build your own Route 66 map
 
-A hidden gem becomes more powerful when you record why it mattered. Was it beautiful? Weird? Sad? Funny? Well-preserved? Nearly gone? Did someone tell you a story there? Did it change your understanding of a town? The act of logging these places is not just useful. It is a form of respect. Route 66 Logbook gives you one place to save that stop and the reason it stood out while the memory is still fresh.
+A hidden gem becomes more powerful when you record why it mattered. Was it beautiful? Weird? Sad? Funny? Well-preserved? Nearly gone? Did someone tell you a story there? Did it change your understanding of a town? The act of logging these places is not just useful. It is a form of respect. [Route 66 Logbook](#download) gives you one place to save that stop and the reason it stood out while the memory is still fresh.
 
 ## Hidden gems are usually preservation stories
 
@@ -78,13 +78,13 @@ Look for bridges, old roadbed, motor court layouts, service station canopies, gh
 
 ## What makes a lesser-known stop worth logging
 
-A good hidden gem usually does at least one of three things: it shows how people lived with the road, it preserves a piece of infrastructure, or it reveals a story that the polished travel guides skip. The Negro Motorist Green Book, first published in 1936 and continuing into the mid-1960s, is one example of why the road's hidden histories matter. For Black travellers, the open road was not equally open, and safe places to sleep, eat and buy fuel could determine whether a trip was possible.
+A good hidden gem usually does at least one of three things: it shows how people lived with the road, it preserves a piece of infrastructure, or it reveals a story that the polished travel guides skip. The [Negro Motorist Green Book](/guides/route-66-history/), first published in 1936 and continuing into the mid-1960s, is one example of why the road's hidden histories matter. For Black travellers, the open road was not equally open, and safe places to sleep, eat and buy fuel could determine whether a trip was possible.
 
 That is why a logbook should never only rank stops by spectacle. It should also let travellers mark why a place matters: preserved, threatened, family-run, Green Book history, old alignment, local art, neon, closed but visible, or community-restored. Those categories help the road become a living archive instead of a checklist.
 
 ## Take it with you in Route 66 Logbook
 
-Route 66 Logbook helps you find and record the smaller places between the famous stops. Create a “nearly missed” habit as you travel and save the places that surprised you. Those stops may become the ones you care about most when the trip is over.
+Route 66 Logbook helps you find and record the smaller places between the [famous stops](/guides/best-route-66-stops/). Create a “nearly missed” habit as you travel and save the places that surprised you. Those stops may become the ones you care about most when the trip is over.
 
 {{cta}}
 

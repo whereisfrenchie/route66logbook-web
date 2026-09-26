@@ -14,15 +14,15 @@ Route 66 travellers face a constant temptation: should we leave the road? The an
 
 ## The Grand Canyon
 
-The Grand Canyon is the obvious example. It is not Route 66, but it is close enough to the Arizona section that many travellers include it. If you have never seen it, go. But do not pretend it is a quick photo stop. The canyon deserves time, and the detour can reshape your itinerary. Build it in properly or save it for another trip.
+The Grand Canyon is the obvious example. It is not Route 66, but it is close enough to the Arizona section that many travellers include it. If you have never seen it, go. But do not pretend it is a quick photo stop. The canyon deserves time, and the detour can [reshape your itinerary](/guides/route-66-itinerary/). Build it in properly or save it for another trip.
 
 ## Santa Fe
 
-Santa Fe is one of the most meaningful historic detours because the original 1926 Route 66 alignment passed through it before the highway was rerouted in 1937. It adds history, architecture, food, art and a different sense of New Mexico. If you are interested in the road’s evolution rather than only the later alignment, Santa Fe is more than a detour. It is part of the Route 66 story.
+Santa Fe is one of the most meaningful historic detours because the [original 1926 Route 66 alignment](/history/) passed through it before the highway was rerouted in 1937. It adds history, architecture, food, art and a different sense of New Mexico. If you are interested in the road’s evolution rather than only the later alignment, Santa Fe is more than a detour. It is part of the Route 66 story.
 
 ## Petrified Forest and Painted Desert
 
-Petrified Forest National Park and the Painted Desert are among the most rewarding landscape experiences connected directly to the Route 66 corridor. The park preserves a visible trace of the historic highway, including old roadbed and telephone poles. It also gives you geology, colour, silence and a reminder that the road’s human history sits inside a much older natural history.
+[Petrified Forest National Park](/guides/route-66-hidden-gems/) and the Painted Desert are among the most rewarding landscape experiences connected directly to the Route 66 corridor. The park preserves a visible trace of the historic highway, including old roadbed and telephone poles. It also gives you geology, colour, silence and a reminder that the road’s human history sits inside a much older natural history.
 
 ## Meramec Caverns
 
@@ -52,7 +52,7 @@ Side trips also help explain why Route 66 became a travel legend rather than onl
 
 ## Take it with you in Route 66 Logbook
 
-Use Route 66 Logbook to keep the main route visible while you weigh up detours. Save side trips separately from your must-see Route 66 stops, then ask whether each diversion adds enough scenery, history or meaning to justify the time it takes away from the Mother Road.
+Use [Route 66 Logbook](#download) to keep the main route visible while you weigh up detours. Save side trips separately from your must-see Route 66 stops, then ask whether each diversion adds enough scenery, history or meaning to justify the time it takes away from the Mother Road.
 
 {{cta}}
 

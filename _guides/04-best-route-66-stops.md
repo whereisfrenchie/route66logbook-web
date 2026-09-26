@@ -10,7 +10,7 @@ published: 2026-09-26
 
 ## Beyond the checklist
 
-Every traveller knows the big names: Cadillac Ranch, Blue Whale of Catoosa, Gemini Giant, Midpoint Café, Wigwam Motels, Tucumcari neon, Seligman, Oatman, Santa Monica Pier. These stops appear in guidebooks, blogs, YouTube videos and souvenir shops. It is tempting to dismiss them as overdone, but that would be too easy. The famous places still matter because they give shape to a road that can otherwise feel overwhelming.
+Every traveller knows the big names: Cadillac Ranch, Blue Whale of Catoosa, Gemini Giant, Midpoint Café, Wigwam Motels, [Tucumcari neon](/guides/route-66-neon-motels-diners/), Seligman, Oatman, Santa Monica Pier. These stops appear in guidebooks, blogs, YouTube videos and souvenir shops. It is tempting to dismiss them as overdone, but that would be too easy. The famous places still matter because they give shape to a road that can otherwise feel overwhelming.
 
 ## Cadillac Ranch
 
@@ -30,7 +30,7 @@ The Midpoint Café in Adrian, Texas, carries a symbolic weight because it marks 
 
 ## Wigwam Motels
 
-The Wigwam Motels are complicated and memorable. They are iconic, photogenic and part of Route 66’s motor-court history, but they also raise questions about cultural imagery, roadside fantasy and how mid-century tourism borrowed from Native American forms. A thoughtful traveller can enjoy the architecture and still understand that these places belong to a larger, more complex story.
+The Wigwam Motels are complicated and memorable. They are iconic, photogenic and part of Route 66’s [motor-court history](/guides/route-66-history/), but they also raise questions about cultural imagery, roadside fantasy and how mid-century tourism borrowed from Native American forms. A thoughtful traveller can enjoy the architecture and still understand that these places belong to a larger, more complex story.
 
 ## Seligman and Oatman
 
@@ -38,7 +38,7 @@ Seligman is often called one of the towns that helped revive interest in histori
 
 ## How to visit the icons
 
-Visit the famous stops, but do not let them be the only stops. Take the photograph, then look around. What business is next door? What road alignment brought you there? What town is trying to survive around the attraction? Route 66 icons are not isolated props. They are anchors in a much bigger landscape.
+Visit the famous stops, but do not let them be the only stops. [Take the photograph](/guides/route-66-photography-guide/), then look around. What business is next door? What road alignment brought you there? What town is trying to survive around the attraction? Route 66 icons are not isolated props. They are anchors in a much bigger landscape.
 
 ## Why the famous stops became famous
 
@@ -54,7 +54,7 @@ Famous stops deserve attention, but they should not be treated like isolated tro
 
 ## Take it with you in Route 66 Logbook
 
-Use Route 66 Logbook to look beyond the headline attractions. For every famous stop you save, add one nearby place you did not already know. The big icon gives you the shared Route 66 story; the smaller stop often gives you your own.
+Use [Route 66 Logbook](#download) to look beyond the headline attractions. For every famous stop you save, add one nearby place you did not already know. The big icon gives you the shared Route 66 story; [the smaller stop](/guides/route-66-hidden-gems/) often gives you your own.
 
 {{cta}}
 

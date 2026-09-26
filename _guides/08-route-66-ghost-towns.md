@@ -10,7 +10,7 @@ published: 2026-09-26
 
 ## The appeal
 
-Route 66 travellers are drawn to ruins: old gas stations, empty motels, collapsed cabins, weathered signs, ghost towns and desert structures half-returned to dust. There is a romance to them, but there is also a responsibility. These places are not props placed for our cameras. They are the remains of economic shifts, bypasses, family businesses, drought, migration, tourism booms, tourism collapses and the brutal efficiency of the interstate system.
+Route 66 travellers are drawn to ruins: old gas stations, empty motels, collapsed cabins, weathered signs, ghost towns and desert structures half-returned to dust. There is a romance to them, but there is also a responsibility. These places are not props placed for our cameras. They are the remains of economic shifts, bypasses, family businesses, drought, migration, tourism booms, tourism collapses and the brutal efficiency of the [interstate system](/guides/route-66-history/).
 
 ## What ruins teach
 
@@ -18,7 +18,7 @@ A ruin can explain Route 66 faster than a paragraph. Stand in front of an abando
 
 ## Ghost towns versus living towns
 
-Be precise with language. Some places called ghost towns still have residents nearby, private property, active businesses or cultural significance. Others are true remnants. The traveller’s job is to look carefully and behave respectfully. Do not turn someone’s struggling town into an aesthetic. Do not treat abandonment as entertainment without acknowledging why it happened.
+Be precise with language. Some places called ghost towns still have residents nearby, [private property](/guides/route-66-travel-etiquette/), active businesses or cultural significance. Others are true remnants. The traveller’s job is to look carefully and behave respectfully. Do not turn someone’s struggling town into an aesthetic. Do not treat abandonment as entertainment without acknowledging why it happened.
 
 ## Route 66 ghost towns, ruins and abandoned places to look for
 
@@ -54,7 +54,7 @@ Visit them for what they can teach you, not simply because they look abandoned. 
 
 ## The Mojave
 
-The California desert gives some of the most dramatic ruin experiences on Route 66. Long distances, heat, dry air and changing transport patterns created a landscape where old stations and settlements can feel suspended in time. The desert makes everything look cinematic, but it is also harsh. Carry water, watch your fuel, and do not wander into unsafe structures.
+The California desert gives some of the most dramatic ruin experiences on Route 66. Long distances, heat, dry air and changing transport patterns created a landscape where old stations and settlements can feel suspended in time. The desert makes everything look cinematic, but it is also harsh. [Carry water](/guides/route-66-packing-list/), watch your fuel, and do not wander into unsafe structures.
 
 ## Old gas stations
 
@@ -70,9 +70,9 @@ Ruins are beautiful because they are honest. They show that Route 66 is not only
 
 ## Abandoned places are not empty stories
 
-Ruins on Route 66 often look romantic, but many are evidence of a brutal economic shift. When interstates bypassed towns, traffic could disappear almost overnight. A cafe built for passing motorists could not survive if the stream of cars moved to a faster road several miles away. The National Park Service notes that the 1984 bypassing of the last U.S. 66 section by I-40 led to the 1985 decommissioning, and that process affected countless roadside businesses and communities.
+Ruins on Route 66 often look romantic, but many are evidence of a brutal economic shift. When interstates bypassed towns, traffic could disappear almost overnight. A cafe built for passing motorists could not survive if the stream of cars moved to a faster road several miles away. The National Park Service notes that the 1984 bypassing of the last U.S. 66 section by I-40 led to the [1985 decommissioning](/history/), and that process affected countless roadside businesses and communities.
 
-That is why abandoned service stations, motel shells and cracked forecourts should be handled carefully in writing and photography. They are beautiful because time has made them graphic, but they are also the remains of people's work. Some were family businesses. Some closed because the owner aged out. Some lost traffic. Some were simply outcompeted by chains and interstates.
+That is why abandoned service stations, motel shells and cracked forecourts should be handled carefully in [writing and photography](/guides/route-66-photography-guide/). They are beautiful because time has made them graphic, but they are also the remains of people's work. Some were family businesses. Some closed because the owner aged out. Some lost traffic. Some were simply outcompeted by chains and interstates.
 
 ## A better way to visit ruins
 
@@ -82,7 +82,7 @@ The most interesting ghost towns and abandoned stretches often sit where transpo
 
 ## Take it with you in Route 66 Logbook
 
-Use Route 66 Logbook to record what a ruin or abandoned stop actually was, not just how it looks today. Check the stop details before you detour, stay on public ground, and add one line about its history and one about what you noticed there.
+Use [Route 66 Logbook](#download) to record what a ruin or abandoned stop actually was, not just how it looks today. Check the stop details before you detour, stay on public ground, and add one line about its history and one about what you noticed there.
 
 {{cta}}
 

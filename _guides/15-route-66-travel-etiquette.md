@@ -14,7 +14,7 @@ Route 66 is fun, but it is not disposable fun. The road survives through local l
 
 ## Spend locally
 
-The simplest way to support Route 66 is to spend money with the people keeping it alive. Stay at independent motels. Eat at local cafes. Buy postcards from museum shops. Pay for tours. Tip well. Purchase something from the restored gas station or visitor centre. A photograph does not pay the electricity bill for a neon sign. A small purchase might help.
+The simplest way to support Route 66 is to [spend money](/guides/route-66-on-a-budget/) with the people keeping it alive. Stay at independent motels. Eat at local cafes. Buy postcards from museum shops. Pay for tours. Tip well. Purchase something from the restored gas station or visitor centre. A photograph does not pay the electricity bill for a [neon sign](/guides/route-66-neon-motels-diners/). A small purchase might help.
 
 ## Respect private property
 
@@ -26,7 +26,7 @@ Avoid reducing Route 66 to only white nostalgia, burgers and classic cars. Those
 
 ## Use social media carefully
 
-Posting locations can help businesses, but it can also overwhelm fragile places. Tag active businesses that want visitors. Be more careful with abandoned or delicate sites. Share context, not only aesthetics. A caption that says what a place is and why it matters is better than another empty 'vibes' post.
+Posting locations can help businesses, but it can also overwhelm fragile places. Tag active businesses that want visitors. Be more careful with [abandoned or delicate sites](/guides/route-66-ghost-towns/). Share context, not only aesthetics. A caption that says what a place is and why it matters is better than another empty 'vibes' post.
 
 ## Preservation is practical
 
@@ -38,7 +38,7 @@ Drive patiently through small towns. Do not block business entrances for photos.
 
 ## The future of the road
 
-Route 66 will not survive by accident. The centennial brings attention, but attention must become care. The road needs travellers who understand that preservation and enjoyment belong together. Go for the neon, the diners, the desert and the stories. Then do your part to make sure someone else can go after you.
+Route 66 will not survive by accident. The [centennial brings attention](/guides/route-66-centennial-2026/), but attention must become care. The road needs travellers who understand that preservation and enjoyment belong together. Go for the neon, the diners, the desert and the stories. Then do your part to make sure someone else can go after you.
 
 ## Respect is preservation in daily form
 
@@ -56,7 +56,7 @@ If a traveller wants one rule, it is this: verify before you amplify. A closed b
 
 ## Take it with you in Route 66 Logbook
 
-Route 66 Logbook is community-maintained, so accurate updates matter. Use it to keep track of the places you support and, where the app allows, contribute useful information about changes or closures. A good road-trip tool should help travellers find places while also helping those places be represented accurately.
+[Route 66 Logbook](#download) is community-maintained, so accurate updates matter. Use it to keep track of the places you support and, where the app allows, contribute useful information about changes or closures. A good road-trip tool should help travellers find places while also helping those places be represented accurately.
 
 {{cta}}
 

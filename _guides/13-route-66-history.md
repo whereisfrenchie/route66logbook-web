@@ -10,7 +10,7 @@ published: 2026-09-26
 
 ## More than a slogan
 
-Route 66 is often sold as neon, burgers and classic cars. Those things are part of it, but they are not the whole story. The road became famous because it carried people, goods, dreams, hardship, advertising, architecture, music and myth across a changing country. To travel it well, you need to look beneath the surface.
+Route 66 is often sold as [neon, burgers and classic cars](/guides/route-66-neon-motels-diners/). Those things are part of it, but they are not the whole story. The road became famous because it carried people, goods, dreams, hardship, advertising, architecture, music and myth across a changing country. To travel it well, you need to look beneath the surface.
 
 ## Migration
 
@@ -22,7 +22,7 @@ Route 66 helped shape roadside commerce. Gas stations, diners, motels, garages, 
 
 ## Music and myth
 
-The road’s cultural image was amplified by song, film, television, literature and photography. Once a road becomes a symbol, people travel it not only to go somewhere, but to feel something they have already imagined. That is why Route 66 is powerful. You arrive with inherited images in your head, then the real road corrects them.
+The road’s cultural image was amplified by song, film, television, literature and [photography](/guides/route-66-photography-guide/). Once a road becomes a symbol, people travel it not only to go somewhere, but to feel something they have already imagined. That is why Route 66 is powerful. You arrive with inherited images in your head, then the real road corrects them.
 
 ## Communities
 
@@ -30,7 +30,7 @@ The road crosses many communities, including Indigenous nations, immigrant busin
 
 ## The interstate
 
-The interstate system changed everything. Faster highways bypassed towns and made long-distance travel more efficient. Efficiency is wonderful when you need it, but it can be brutal for places built around slower traffic. Route 66’s decommissioning did not end the story. It created a new one: preservation, memory, tourism and local reinvention.
+The interstate system changed everything. Faster highways bypassed towns and made long-distance travel more efficient. Efficiency is wonderful when you need it, but it can be brutal for places built around slower traffic. Route 66’s [decommissioning did not end the story](/history/). It created a new one: preservation, memory, tourism and local reinvention.
 
 ## Why the myth survives
 
@@ -52,7 +52,7 @@ This is why Route 66 is still such fertile material for writing. The same mile c
 
 ## Take it with you in Route 66 Logbook
 
-Use Route 66 Logbook as a way to connect the history to real places on the road. When you save a stop, add a note about the larger story it belongs to: migration, Green Book history, roadside commerce, neon, an old alignment, preservation or the interstate era.
+Use [Route 66 Logbook](#download) as a way to connect the history to real places on the road. When you save a stop, add a note about the larger story it belongs to: migration, Green Book history, roadside commerce, neon, an old alignment, preservation or the interstate era.
 
 {{cta}}
 

@@ -11,7 +11,7 @@ published: 2026-09-26
 
 ## Why 2026 matters
 
-Route 66 was commissioned in 1926, making 2026 its centennial year. Across the eight states, the anniversary has already brought a new wave of festivals, exhibitions, car shows, public art, preservation projects and community celebrations to the Mother Road.
+Route 66 was [commissioned in 1926](/history/), making 2026 its centennial year. Across the [eight states](/guides/route-66-by-state/), the anniversary has already brought a new wave of festivals, exhibitions, car shows, public art, preservation projects and community celebrations to the Mother Road.
 
 But the centennial is not over yet. Events continue throughout the final months of 2026, with communities still marking the road’s hundredth year through local festivals, exhibitions, drives and special programmes.
 
@@ -37,9 +37,9 @@ The centennial also arrives after decades of preservation work. The National Par
 
 Expect towns to lean into their Route 66 identity. Expect festivals, anniversary signs, limited-edition souvenirs, museum exhibitions, car events and special road-trip itineraries. Also expect pressure on fragile places. A centennial year can bring money and attention, but it can also bring overcrowding and careless behaviour if travellers treat the road like a backdrop instead of a lived corridor.
 
-The smart 2026 traveller should book key motels early, verify opening hours, build flexible days into the itinerary and spend money in the communities that keep the road alive. A centennial trip should not only consume Route 66. It should contribute to it.
+The smart 2026 traveller should book key motels early, verify opening hours, build [flexible days into the itinerary](/guides/route-66-itinerary/) and [spend money in the communities](/guides/route-66-travel-etiquette/) that keep the road alive. A centennial trip should not only consume Route 66. It should contribute to it.
 
-Because 2026 is a centennial year, travellers should treat event information as live rather than fixed. Dates, programmes, exhibitions, parades and caravan details can change. The reliable planning habit is to use official event pages and local tourism offices, then keep a few flexible nights for the surprises that will inevitably appear along the road. Use the official centennial calendar for event dates, then keep the stops and route itself organised in Route 66 Logbook.
+Because 2026 is a centennial year, travellers should treat event information as live rather than fixed. Dates, programmes, exhibitions, parades and caravan details can change. The reliable planning habit is to use official event pages and local tourism offices, then keep a few flexible nights for the surprises that will inevitably appear along the road. Use the official centennial calendar for event dates, then keep the stops and route itself organised in [Route 66 Logbook](#download).
 
 ## Take it with you in Route 66 Logbook
 
@@ -53,7 +53,7 @@ Centennial travel will likely create two kinds of experiences: carefully organis
 
 ## Document the road as it is now
 
-The centennial is also a reminder to document the road as it is now, not only as it used to be. Photograph electric signs, new murals, restored buildings, current owners and modern travellers. In another twenty-five years, today's version of Route 66 will also be history.
+The centennial is also a reminder to document the road as it is now, not only as it used to be. Photograph [electric signs](/guides/route-66-neon-motels-diners/), new murals, restored buildings, current owners and modern travellers. In another twenty-five years, today's version of Route 66 will also be history.
 
 ## Build quiet days around busy events
 

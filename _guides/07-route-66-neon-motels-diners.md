@@ -18,7 +18,7 @@ Neon is Route 66’s visual language. It turns business names into landmarks. A 
 
 ## Tucumcari
 
-Tucumcari, New Mexico is one of the essential neon towns. The signs are part of the town’s identity, and the best way to experience them is to stay overnight. Do not drive through at midday and say you have seen it. You have not. Walk or cruise when the sky has gone blue-black and the signs begin to hum visually against the desert evening. That is when the town makes sense.
+[Tucumcari, New Mexico](/guides/route-66-by-state/) is one of the essential neon towns. The signs are part of the town’s identity, and the best way to experience them is to [stay overnight](/guides/route-66-itinerary/). Do not drive through at midday and say you have seen it. You have not. Walk or cruise when the sky has gone blue-black and the signs begin to hum visually against the desert evening. That is when the town makes sense.
 
 ## Classic motels
 
@@ -30,7 +30,7 @@ Diners and cafes are where Route 66 becomes human. Museums tell you the story of
 
 ## How to plan for neon
 
-If neon is a priority, schedule your overnights around it. Stay in towns with signs you want to photograph. Check whether signs are currently working. Some famous signs are restored, some are decorative, some only light at certain times, and some are waiting for preservation. Bring a tripod if you are serious about photography, but do not let the camera become the whole experience. Stand there for a minute without shooting.
+If neon is a priority, schedule your overnights around it. Stay in towns with [signs you want to photograph](/guides/route-66-photography-guide/). Check whether signs are currently working. Some famous signs are restored, some are decorative, some only light at certain times, and some are waiting for preservation. Bring a tripod if you are serious about photography, but do not let the camera become the whole experience. Stand there for a minute without shooting.
 
 ## The melancholy
 
@@ -52,7 +52,7 @@ A fun detail for design-minded travellers: the word 'vacancy' is one of the grea
 
 ## Take it with you in Route 66 Logbook
 
-Use Route 66 Logbook to save the motels, diners and signs you want to return to after dark, and check stop details before making a special detour. Try two notes in your logbook: “still glowing” and “gone dark”. Both belong to the story of Route 66.
+Use [Route 66 Logbook](#download) to save the motels, diners and signs you want to return to after dark, and check stop details before making a special detour. Try two notes in your logbook: “still glowing” and “gone dark”. Both belong to the story of Route 66.
 
 {{cta}}
 

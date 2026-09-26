@@ -10,11 +10,11 @@ published: 2026-09-26
 
 ## Budget reality
 
-Route 66 can be expensive if you treat it like a long holiday with premium accommodation, constant shopping and major side trips. It can also be surprisingly manageable if you travel simply. The original spirit of the road was not luxury. It was movement, access, migration, family travel, working people, roadside businesses and affordable adventure. A budget trip can feel authentic if you make good choices.
+Route 66 can be expensive if you treat it like a long holiday with premium accommodation, constant shopping and [major side trips](/guides/route-66-side-trips/). It can also be surprisingly manageable if you travel simply. The original spirit of the road was not luxury. It was movement, access, migration, family travel, working people, roadside businesses and affordable adventure. A budget trip can feel authentic if you make good choices.
 
 ## Where the money goes
 
-The big costs are transport, fuel, accommodation, food, attractions, insurance and flights if you are coming from overseas. Car rental can be significant, especially with one-way fees. Fuel varies by state and year. Accommodation prices rise around events, peak periods and iconic motels. Museums and small attractions are usually not expensive individually, but they add up over weeks.
+The big costs are transport, fuel, accommodation, food, attractions, insurance and flights if you are coming from overseas. [Car rental](/prepare/) can be significant, especially with one-way fees. Fuel varies by state and year. Accommodation prices rise around events, peak periods and [iconic motels](/guides/route-66-neon-motels-diners/). Museums and small attractions are usually not expensive individually, but they add up over weeks.
 
 ## Save on accommodation
 
@@ -26,7 +26,7 @@ Diners, cafes and local restaurants are part of the Route 66 experience, but you
 
 ## Choose paid stops wisely
 
-Many Route 66 highlights are free or low-cost: murals, signs, old streets, bridges, town squares, roadside giants, public art and scenic drives. Museums are worth supporting, but you do not need to enter every single one. Pick the museums that match your interests: cars, local history, neon, migration, railroads, Indigenous history, architecture or state-specific stories.
+Many [Route 66 highlights](/guides/best-route-66-stops/) are free or low-cost: murals, signs, old streets, bridges, town squares, roadside giants, public art and scenic drives. Museums are worth supporting, but you do not need to enter every single one. Pick the museums that match your interests: cars, local history, neon, migration, railroads, Indigenous history, architecture or state-specific stories.
 
 ## Do not false-economise
 
@@ -52,7 +52,7 @@ There is also a preservation reason to budget intentionally. Small museums, rest
 
 ## Take it with you in Route 66 Logbook
 
-Use Route 66 Logbook to keep track of the stops that were genuinely worth the money, including the free ones. Saving the places you loved can also help you see where your spending supported independent motels, diners, museums and roadside businesses rather than disappearing into the logistics of the trip.
+Use [Route 66 Logbook](#download) to keep track of the stops that were genuinely worth the money, including the free ones. Saving the places you loved can also help you see where your spending supported independent motels, diners, museums and roadside businesses rather than disappearing into the logistics of the trip.
 
 {{cta}}
 

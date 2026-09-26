@@ -10,11 +10,11 @@ published: 2026-09-26
 
 ## A visual road
 
-Route 66 is a dream for visual people because it was built to be noticed. Signs had to compete with speed. Buildings had to announce themselves from the roadside. Motels used shape, colour and light to promise comfort. Diners used chrome, curves, lettering and mascots to become memorable. Even decay has a visual language here: peeling paint, sun-bleached colour, ghost signs, rust, cracked asphalt and desert shadows.
+Route 66 is a dream for visual people because it was built to be noticed. Signs had to compete with speed. Buildings had to announce themselves from the roadside. Motels used shape, colour and light to promise comfort. Diners used chrome, curves, lettering and mascots to become memorable. Even decay has a visual language here: [peeling paint, sun-bleached colour](/guides/route-66-ghost-towns/), ghost signs, rust, cracked asphalt and desert shadows.
 
 ## Lettering and signage
 
-Pay attention to lettering. Route 66 is full of scripts, block letters, arrows, shields, stars, hand-painted panels, bulb signs, neon tubes and mid-century type. Some signs are beautifully restored; others are barely hanging on. Photograph the whole sign, then photograph the details: the mounting, the shadows, the repairs, the mismatched paint, the way the letters sit against the sky.
+Pay attention to lettering. Route 66 is full of scripts, block letters, arrows, shields, stars, hand-painted panels, bulb signs, [neon tubes](/guides/route-66-neon-motels-diners/) and mid-century type. Some signs are beautifully restored; others are barely hanging on. Photograph the whole sign, then photograph the details: the mounting, the shadows, the repairs, the mismatched paint, the way the letters sit against the sky.
 
 ## Colour
 
@@ -26,11 +26,11 @@ Classic Route 66 compositions use depth: road leading lines, signs against sky, 
 
 ## Morning and evening
 
-Midday can be harsh, especially in the west. Early morning gives you empty streets, soft light and quiet signs. Evening gives you neon, long shadows and atmosphere. If you care about photography, plan your days around light. The best shot may require staying overnight rather than passing through.
+Midday can be harsh, especially in the west. Early morning gives you empty streets, soft light and quiet signs. Evening gives you neon, long shadows and atmosphere. If you care about photography, plan your days around light. The best shot may require [staying overnight](/guides/route-66-itinerary/) rather than passing through.
 
 ## People and permission
 
-The road is not only objects. Photograph people respectfully. Ask before making someone the subject. Business owners, museum volunteers, mechanics, cooks and motel hosts are part of the story. A portrait with permission and a name will matter more than another anonymous sign.
+The road is not only objects. Photograph people respectfully. Ask before making someone the subject. Business owners, museum volunteers, mechanics, cooks and motel hosts are part of the story. A portrait [with permission](/guides/route-66-travel-etiquette/) and a name will matter more than another anonymous sign.
 
 ## Avoid visual laziness
 
@@ -50,7 +50,7 @@ For designers and photographers, the honest challenge is restraint. Route 66 is 
 
 ## Take it with you in Route 66 Logbook
 
-Route 66 Logbook can become part of your visual record. Save the locations you photograph, note the light or detail that caught your eye, and build a trail of signs, motels, murals, road fragments and small visual discoveries rather than relying only on your camera roll to remember where everything was.
+[Route 66 Logbook](#download) can become part of your visual record. Save the locations you photograph, note the light or detail that caught your eye, and build a trail of signs, motels, murals, road fragments and small visual discoveries rather than relying only on your camera roll to remember where everything was.
 
 {{cta}}
 

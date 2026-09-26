@@ -10,7 +10,7 @@ published: 2026-09-26
 
 ## The honest answer
 
-People always ask how many days they need for Route 66, and the honest answer is that it depends on what kind of traveller they are. You can physically drive from Chicago to Santa Monica in well under two weeks if you keep moving, skip side trips and treat the road like a long itinerary. But Route 66 is not at its best when rushed. The road is a chain of small moments: breakfast counters, old bridges, murals, restored filling stations, museum rooms, gravel shoulders, desert sunsets and conversations. If you compress it too hard, you turn it into a blur.
+People always ask how many days they need for Route 66, and the honest answer is that it depends on what kind of traveller they are. You can physically drive from Chicago to Santa Monica in well under two weeks if you keep moving, skip side trips and treat the road like a [long itinerary](/guides/route-66-itinerary/). But Route 66 is not at its best when rushed. The road is a chain of small moments: breakfast counters, old bridges, murals, restored filling stations, museum rooms, gravel shoulders, desert sunsets and conversations. If you compress it too hard, you turn it into a blur.
 
 ## A rushed trip
 
@@ -22,7 +22,7 @@ Two weeks is the common compromise. It gives you enough time to follow many hist
 
 ## The three-week trip
 
-Three weeks is where Route 66 starts to breathe. This is the timeframe I would recommend to most travellers who are doing it once and want the story, not just the souvenir. With three weeks, you can take slower mornings, follow older alignments, visit museums without watching the clock, stop for photos when the light changes, and add side trips like the Grand Canyon, Petrified Forest, Santa Fe, Meramec Caverns or the Mojave Preserve without destroying the rhythm.
+Three weeks is where Route 66 starts to breathe. This is the timeframe I would recommend to most travellers who are doing it once and want the story, not just the souvenir. With three weeks, you can take slower mornings, follow older alignments, visit museums without watching the clock, stop for photos when the light changes, and add [side trips like the Grand Canyon](/guides/route-66-side-trips/), Petrified Forest, Santa Fe, Meramec Caverns or the Mojave Preserve without destroying the rhythm.
 
 ## The month-long trip
 
@@ -30,11 +30,11 @@ A month on Route 66 is a luxury, but it is also the most faithful way to travel 
 
 ## How to choose
 
-Your ideal number of days depends on your priorities. Photographers need more time because good light matters. Families need more time because everyone needs breaks. International travellers often need more time because rental logistics, jet lag and long-haul flights make a punishing pace miserable. Motorcycle riders need flexibility for weather. RV travellers need time for campsites and slower sections. History lovers need museum time. Neon lovers need evenings.
+Your ideal number of days depends on your priorities. [Photographers](/guides/route-66-photography-guide/) need more time because good light matters. Families need more time because everyone needs breaks. International travellers often need more time because [rental logistics, jet lag](/prepare/) and long-haul flights make a punishing pace miserable. Motorcycle riders need flexibility for weather. RV travellers need time for campsites and slower sections. History lovers need museum time. Neon lovers need evenings.
 
 ## My practical recommendation
 
-For a first full Route 66 trip, aim for twenty-one days if you can. If you only have fourteen, build a sharper itinerary and accept the trade-offs. If you have ten, choose a section rather than forcing the whole road. A brilliant Illinois-to-Oklahoma or New-Mexico-to-California section is better than a frantic full crossing where every day feels like a deadline.
+For a [first full Route 66 trip](/guides/route-66-first-timers-guide/), aim for twenty-one days if you can. If you only have fourteen, build a sharper itinerary and accept the trade-offs. If you have ten, choose a section rather than forcing the whole road. A brilliant Illinois-to-Oklahoma or New-Mexico-to-California section is better than a frantic full crossing where every day feels like a deadline.
 
 ## Why the old mileage does not tell the whole story
 
@@ -44,7 +44,7 @@ The interstate era is the reason pace became complicated. From the 1950s through
 
 ## A historical way to think about time
 
-The Dust Bowl migrant, the 1940s serviceman, the 1950s family in a new car, the trucker, the motorcyclist and the modern overseas visitor all experience different versions of the same corridor. A fast two-week drive can still be wonderful, but it mostly samples the visible icons. A three-week drive gives you enough time to see how one town was saved by preservation while another was hollowed out by a bypass.
+[The Dust Bowl migrant](/guides/route-66-history/), the 1940s serviceman, the 1950s family in a new car, the trucker, the motorcyclist and the modern overseas visitor all experience different versions of the same corridor. A fast two-week drive can still be wonderful, but it mostly samples the visible icons. A three-week drive gives you enough time to see how one town was saved by preservation while another was hollowed out by a bypass.
 
 Here is the practical truth: miles are cheap, attention is expensive. If you want to understand why the road became famous, count your stops and conversations, not just your daily distance. A 120-mile day through towns, museums and old roadbed can teach you more than a 400-mile push across interstate.
 
@@ -52,7 +52,7 @@ One small historical detail helps with pacing: Route 66 was not built for the ki
 
 ## Take it with you in Route 66 Logbook
 
-Use Route 66 Logbook to build your own record of the journey as the miles add up. Before you leave, choose your non-negotiables, then log the places that actually justified your time. It makes it much easier to see whether your itinerary is serving your interests or simply pushing you west.
+Use [Route 66 Logbook](#download) to build your own record of the journey as the miles add up. Before you leave, choose your non-negotiables, then log the places that actually justified your time. It makes it much easier to see whether your itinerary is serving your interests or simply pushing you west.
 
 {{cta}}
 

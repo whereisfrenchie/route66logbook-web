@@ -14,7 +14,7 @@ The first time I drove Route 66, I expected a road. That sounds obvious, but it 
 
 ## What first-timers need to understand
 
-The most important thing to understand is that Route 66 was decommissioned as a federal highway in 1985. The road did not vanish, but the official, continuous highway system did. What remains is a historic corridor made of old alignments, bypassed sections, state-marked roads, business loops, town streets, preserved bridges, museums, diners, motels, ruins and living communities. If you drive only by the fastest navigation setting, you will miss the soul of it. The interstate may get you across America, but Route 66 asks you to notice America.
+The most important thing to understand is that Route 66 was [decommissioned as a federal highway in 1985](/history/). The road did not vanish, but the official, continuous highway system did. What remains is a historic corridor made of old alignments, bypassed sections, state-marked roads, business loops, town streets, preserved bridges, museums, diners, motels, ruins and living communities. If you drive only by the fastest navigation setting, you will miss the soul of it. The interstate may get you across America, but Route 66 asks you to notice America.
 
 ## The right mindset
 
@@ -22,7 +22,7 @@ A good first Route 66 trip is not about ticking off every attraction as quickly 
 
 ## Planning without killing the magic
 
-Plan enough to avoid frustration, but not so much that you flatten the trip. Book key accommodation during busy periods, especially around major centennial events, classic motels or small towns with limited rooms. Keep a list of must-see stops, but also leave blank space for the unexpected. The best Route 66 days often begin with a plan and end with a conversation you did not schedule: a motel owner telling you how the town changed, a museum volunteer pointing you to an old alignment, or a diner waitress explaining which neon sign still gets switched on at dusk.
+[Plan enough to avoid frustration](/guides/route-66-itinerary/), but not so much that you flatten the trip. Book key accommodation during busy periods, especially around major centennial events, classic motels or small towns with limited rooms. Keep a list of must-see stops, but also leave blank space for the unexpected. The best Route 66 days often begin with a plan and end with a conversation you did not schedule: a motel owner telling you how the town changed, a museum volunteer pointing you to an old alignment, or a diner waitress explaining which neon sign still gets switched on at dusk.
 
 ## Navigation
 
@@ -30,15 +30,15 @@ Use a dedicated Route 66 map, guidebook or app, plus a normal navigation app for
 
 ## What to look for
 
-Do not only look for the famous icons. Look for old road cuts, motel signs, abandoned service stations, painted water towers, oddball statues, angled parking, ghost signs on brick walls, court-style motels, small museums, hand-painted menus, 1950s rooflines and the way towns position themselves around the road. These details teach you more than a checklist ever will.
+Do not only look for the [famous icons](/guides/best-route-66-stops/). Look for old road cuts, motel signs, [abandoned service stations](/guides/route-66-ghost-towns/), painted water towers, oddball statues, angled parking, ghost signs on brick walls, court-style motels, small museums, hand-painted menus, 1950s rooflines and the way towns position themselves around the road. These details teach you more than a checklist ever will.
 
 ## First-timer advice
 
-Start with a simple promise: you are not driving Route 66 to be efficient. You are driving it to pay attention. Give yourself permission to stop too often, photograph small things, read historical markers, buy a coffee where the locals are, and ask questions. The road rewards curiosity more than speed.
+Start with a simple promise: you are not driving Route 66 to be efficient. You are driving it to pay attention. Give yourself permission to stop too often, [photograph small things](/guides/route-66-photography-guide/), read historical markers, buy a coffee where the locals are, and ask questions. The road rewards curiosity more than speed.
 
 ## History to know before the first mile
 
-Route 66 was born in the 1920s, when the United States was trying to turn a patchwork of local roads into a numbered highway system. The road was commissioned in 1926, originally linking Chicago with Los Angeles through eight states. Its official western terminus was extended to Santa Monica in 1936. That matters for first-timers because Route 66 was never simply a tourist route. It was a working road, built to connect towns, farms, cities, service stations, courts, garages and families who needed a reliable way west.
+Route 66 was born in the 1920s, when the United States was trying to turn a patchwork of local roads into a numbered highway system. The road was commissioned in 1926, originally linking Chicago with Los Angeles through [eight states](/guides/route-66-by-state/). Its official western terminus was extended to Santa Monica in 1936. That matters for first-timers because Route 66 was never simply a tourist route. It was a working road, built to connect towns, farms, cities, service stations, courts, garages and families who needed a reliable way west.
 
 One detail worth knowing before you reach California is that the famous “End of the Trail” sign on Santa Monica Pier is a symbolic finish rather than the historic highway terminus itself. Route 66 was extended from Los Angeles to Santa Monica in 1936, with its official western endpoint at the intersection of Lincoln and Olympic Boulevards. The Pier has since become the place most travellers choose to celebrate the end of the journey, which is why both locations belong to the modern Route 66 story.
 
@@ -52,7 +52,7 @@ Springfield, Missouri calls itself the Birthplace of Route 66 because the number
 
 ## Take it with you in Route 66 Logbook
 
-Use Route 66 Logbook to follow the historic road, explore stops along the way and keep a record of what you actually discovered. At the end of each day, save the best stop, the strangest stop and the place you nearly missed. After a week, your logbook will show the shape of your trip rather than somebody else’s checklist.
+Use [Route 66 Logbook](#download) to follow the historic road, explore stops along the way and keep a record of what you actually discovered. At the end of each day, save the best stop, the strangest stop and the place you nearly missed. After a week, your logbook will show the shape of your trip rather than somebody else’s checklist.
 
 {{cta}}
 

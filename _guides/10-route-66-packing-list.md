@@ -14,7 +14,7 @@ Route 66 packing is about comfort, safety and flexibility. You do not need to pa
 
 ## Documents and navigation
 
-Carry your licence, rental paperwork, insurance details, roadside assistance information and a backup payment method. International travellers should check licence and insurance requirements before departure. For navigation, use your phone, but do not rely on it alone. Have offline maps, a dedicated Route 66 guide or app, and ideally a printed overview. Phones fail, signals drop, batteries die and old alignments do not always behave the way modern navigation expects.
+Carry your licence, [rental paperwork](/prepare/), insurance details, roadside assistance information and a backup payment method. International travellers should check licence and insurance requirements before departure. For navigation, use your phone, but do not rely on it alone. Have offline maps, a dedicated Route 66 guide or app, and ideally a printed overview. Phones fail, signals drop, batteries die and old alignments do not always behave the way modern navigation expects.
 
 ## Car essentials
 
@@ -26,7 +26,7 @@ Pack layers. Route 66 can give you hot afternoons and cool mornings, especially 
 
 ## Photography and memory
 
-Bring the camera you will actually use. A heavy kit is useless if it stays in the boot. A phone can do a lot, but photographers may want a wide lens for landscapes, a longer lens for signs and details, and a tripod for neon. Bring extra storage and chargers. More importantly, bring a system for recording names and locations. After three weeks, every gas station photo starts to blur unless you log it.
+Bring the camera you will actually use. A heavy kit is useless if it stays in the boot. A phone can do a lot, but [photographers](/guides/route-66-photography-guide/) may want a wide lens for landscapes, a longer lens for signs and details, and [a tripod for neon](/guides/route-66-neon-motels-diners/). Bring extra storage and chargers. More importantly, bring a system for recording names and locations. After [three weeks](/guides/how-many-days-route-66/), every gas station photo starts to blur unless you log it.
 
 ## Health and comfort
 
@@ -44,7 +44,7 @@ A printed map is not nostalgia. It is backup. A dedicated Route 66 guide or app 
 
 ## Historical packing thought
 
-One reason Route 66 became famous is that it made independent travel feel possible. But independent travel has always required self-reliance. Dust Bowl migrants packed what they could carry. Post-war families packed cars for long summer drives. Motorcyclists pack with ruthless discipline. Your packing list is a modern version of the same question: what do I need to keep moving safely while leaving enough room for surprise?
+One reason Route 66 became famous is that it made independent travel feel possible. But independent travel has always required self-reliance. [Dust Bowl migrants](/guides/route-66-history/) packed what they could carry. Post-war families packed cars for long summer drives. Motorcyclists pack with ruthless discipline. Your packing list is a modern version of the same question: what do I need to keep moving safely while leaving enough room for surprise?
 
 Leave behind anything that makes you rush. Too many outfits, too much camera gear, too many fixed bookings and too many imagined obligations can make the trip feel like work. Pack the essentials, then protect your attention.
 
@@ -52,7 +52,7 @@ Another practical fact: many classic stops keep local hours rather than big-attr
 
 ## Take it with you in Route 66 Logbook
 
-Keep navigation and trip memory separate from the clutter in your car. Route 66 Logbook gives you a dedicated map and place to save stops as you go, so screenshots, notes and saved locations do not have to live across five different apps. Before each driving day, check the stops you care about and keep your essentials easy to reach.
+Keep navigation and trip memory separate from the clutter in your car. [Route 66 Logbook](#download) gives you a dedicated map and place to save stops as you go, so screenshots, notes and saved locations do not have to live across five different apps. Before each driving day, check the stops you care about and keep your essentials easy to reach.
 
 {{cta}}
 

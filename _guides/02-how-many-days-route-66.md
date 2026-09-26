@@ -6,7 +6,7 @@ order: 2
 standfirst: You can cross the country quickly, but you cannot understand Route 66 in a hurry.
 description: How long does Route 66 take? Compare 7-day, 2-week, 3-week and month-long itineraries, with practical advice for choosing the right pace for your road trip.
 published: 2026-09-26
-photoalt: A long, straight two-lane road running to the horizon through high desert
+photoalt: An old brick-paved stretch of Route 66 running through farmland under a stormy sky
 ---
 
 ## The honest answer

@@ -6,12 +6,14 @@ order: 12
 standfirst: The Mother Road is a masterclass in signs, colour, scale, nostalgia and place.
 description: A Route 66 photography guide for travellers who love signs, neon, roadside architecture, colour and Americana, with advice on light, composition and visual storytelling.
 published: 2026-09-26
-photoalt: Weathered storefronts with faded painted signs and boarded wooden fronts beside the road
+photoalt: A vintage red Coca-Cola vending machine against a white and red wall, with old licence plates and a wooden Seven-Up crate
 ---
 
 ## A visual road
 
 Route 66 is a dream for visual people because it was built to be noticed. Signs had to compete with speed. Buildings had to announce themselves from the roadside. Motels used shape, colour and light to promise comfort. Diners used chrome, curves, lettering and mascots to become memorable. Even decay has a visual language here: [peeling paint, sun-bleached colour](/guides/route-66-ghost-towns/), ghost signs, rust, cracked asphalt and desert shadows.
+
+![Weathered storefronts with faded painted signs and boarded wooden fronts beside the road](/images/guides/weathered-storefronts.jpg "Faded paint and ghost signs: decay has its own visual language")
 
 ## Lettering and signage
 

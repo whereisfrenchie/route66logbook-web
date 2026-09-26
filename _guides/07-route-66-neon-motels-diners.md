@@ -17,6 +17,8 @@ Route 66 is famous in daylight, but it becomes emotional after dark. Neon was ne
 
 Neon is Route 66’s visual language. It turns business names into landmarks. A motel sign is not only a sign; it is a promise of vacancy, rest, air-conditioning, a shower, a bed, perhaps a pool, perhaps a story. A diner sign promises coffee, pie, conversation and a pause from the road. Neon gave buildings personality, and in many towns it still gives them memory.
 
+![The neon Dell Rhea’s Chicken Basket and Cocktail Lounge sign in Willowbrook, Illinois](/images/guides/dell-rhea-chicken-basket.jpg "Dell Rhea’s Chicken Basket in Willowbrook, Illinois")
+
 ## Tucumcari
 
 [Tucumcari, New Mexico](/guides/route-66-by-state/) is one of the essential neon towns. The signs are part of the town’s identity, and the best way to experience them is to [stay overnight](/guides/route-66-itinerary/). Do not drive through at midday and say you have seen it. You have not. Walk or cruise when the sky has gone blue-black and the signs begin to hum visually against the desert evening. That is when the town makes sense.
@@ -33,7 +35,7 @@ A classic Route 66 motel is not just a place to sleep. It is a design experience
 
 Diners and cafes are where Route 66 becomes human. Museums tell you the story officially. Diners tell it casually. You hear where people are from, what weather is coming, which road is closed, who owns the building now, and whether the pie is worth ordering. The décor might be nostalgic, but the experience is current. You are not stepping back in time; you are participating in a living roadside economy.
 
-![The neon Dell Rhea’s Chicken Basket and Cocktail Lounge sign in Willowbrook, Illinois](/images/guides/dell-rhea-chicken-basket.jpg "Dell Rhea’s Chicken Basket in Willowbrook, Illinois")
+![The coffee station behind the counter at Peggy Sue’s diner, with glass pots on the warmer and stacks of filters](/images/guides/peggy-sues-coffee.jpg "Coffee on the go behind the counter at Peggy Sue’s")
 
 ## How to plan for neon
 

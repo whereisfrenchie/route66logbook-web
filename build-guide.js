@@ -42,6 +42,12 @@ const GROUPS = {
   places: { name: 'Where to stop',  title: 'Where to <em>stop.</em>' },
   road:   { name: 'Road culture',   title: 'Road <em>culture.</em>' },
 };
+// The three guides tiled at the end of /history/ and /prepare/. Prepare gets
+// the planning guides that have the fewest links from other articles.
+const KEEP_READING = {
+  'history/index.html': ['route-66-history', 'route-66-centennial-2026', 'route-66-ghost-towns'],
+  'prepare/index.html': ['how-many-days-route-66', 'route-66-on-a-budget', 'route-66-packing-list'],
+};
 const REQUIRED = ['title', 'slug', 'group', 'order', 'standfirst', 'description'];
 const WORDS_PER_MINUTE = 230;
 
@@ -167,15 +173,17 @@ module.exports = function buildGuide({ ROOT, SITE, die, write }) {
   }
 
   const hasPhoto = (a) => fs.existsSync(path.join(ROOT, 'images', 'guides', a.slug + '.jpg'));
-  // The hero fades in on its own; a tile's photo moves with its tile.
-  const photo = (a, indent, alt, reveal) =>
-    `${indent}<div class="photo-cell${reveal ? ' reveal' : ''}">\n` +
+  const photo = (a, indent, alt) =>
+    `${indent}<div class="photo-cell reveal">\n` +
     `${indent}  <div class="photo-placeholder">images/guides/${a.slug}.jpg<br>16:10 · approx 1600 × 1000 px</div>\n` +
     `${indent}  <img src="/images/guides/${a.slug}.jpg" alt="${esc(alt)}" loading="lazy" onerror="this.remove()">\n` +
     `${indent}</div>`;
   const tile = (a) =>
     `        <a class="tile reveal" href="/guides/${a.slug}/">\n` +
-    photo(a, '          ', '', false) + '\n' +
+    `          <div class="tile-photo">\n` +
+    `            <div class="tile-photo-label">images/guides/${a.slug}.jpg</div>\n` +
+    `            <img src="/images/guides/${a.slug}.jpg" alt="" loading="lazy" onerror="this.remove()">\n` +
+    `          </div>\n` +
     `          <div class="tile-body">\n` +
     `            <p class="tile-kicker">${GROUPS[a.group].name} · ${a.readTime} min</p>\n` +
     `            <h3 class="tile-title">${esc(a.title)}</h3>\n` +
@@ -244,7 +252,7 @@ module.exports = function buildGuide({ ROOT, SITE, die, write }) {
       groupName: GROUPS[a.group].name,
       readTime: String(a.readTime),
       updated: a.updated ? `<span>Updated ${esc(a.updated)}</span>` : '',
-      heroPhoto: photo(a, '        ', a.title, true),
+      heroPhoto: photo(a, '        ', a.title),
       body: a.body,
       related: related.slice(0, 3).map(tile).join('\n'),
       download,
@@ -289,6 +297,22 @@ module.exports = function buildGuide({ ROOT, SITE, die, write }) {
     schema: jsonld(list),
     groups, sources, download,
   }, 'guide.template.html + _guides/'));
+
+  // ── "Keep reading" on hand-written pages ──
+  // These pages are edited by hand, so only the part between the markers is
+  // rewritten. A page that has lost its markers stops the build rather than
+  // silently going without.
+  for (const [file, slugs] of Object.entries(KEEP_READING)) {
+    const html = read(file);
+    const m = html.match(/(<!-- GUIDES:START[^>]*-->)[\s\S]*?(<!-- GUIDES:END -->)/);
+    if (!m) die(`${file}: cannot find the GUIDES:START / GUIDES:END markers`);
+    const tiles = slugs.map((s) => {
+      const a = articles.find((x) => x.slug === s);
+      if (!a) die(`build-guide.js: KEEP_READING for ${file} names "${s}", which is not an article`);
+      return tile(a);
+    }).join('\n');
+    write(file, html.replace(m[0], m[1] + '\n' + tiles + '\n        ' + m[2]));
+  }
 
   return { pages: ['/guides/'].concat(pages), count: articles.length };
 };

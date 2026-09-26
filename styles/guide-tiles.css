@@ -1,0 +1,80 @@
+/* Route 66 Logbook · guide tiles
+   The article tiles used on /guides/, at the end of every guide, and in the
+   "Keep reading" row on /history/ and /prepare/. The tiles themselves are
+   written by `node build.js` (build-guide.js); on /history/ and /prepare/
+   they go between the GUIDES:START and GUIDES:END markers.
+
+   Every rule is scoped to a .tile* or .guides-more* class, because /history/
+   and /prepare/ carry their own inline styles, including a .photo-cell of
+   their own. Colours come from the page's --coral / --teal / --charcoal. */
+
+.tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.tile {
+  display: flex; flex-direction: column; text-decoration: none; color: var(--charcoal);
+  background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
+  overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;
+}
+.tile:hover { transform: translateY(-4px); box-shadow: 0 18px 44px -18px rgba(43,48,51,0.3); }
+.tile-photo { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: #cbbfae; }
+.tile-photo img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; display: block;
+}
+.tile-photo-label {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  color: rgba(255,255,255,0.6); font-size: 10px; letter-spacing: 2px;
+  text-transform: uppercase; text-align: center; padding: 20px; line-height: 1.8;
+}
+.tile-body { padding: 22px 24px 26px; display: flex; flex-direction: column; flex: 1; }
+.tile-kicker {
+  font-size: 10.5px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--teal); margin-bottom: 10px;
+}
+.tile-title {
+  font-weight: 800; font-size: 19px; line-height: 1.2; letter-spacing: -0.4px;
+  margin-bottom: 10px;
+}
+.tile-text {
+  font-family: 'Instrument Serif', serif; font-style: italic;
+  font-size: 16px; line-height: 1.5; color: rgba(43,48,51,0.6);
+}
+.tile-more {
+  margin-top: auto; padding-top: 18px;
+  font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+  color: var(--coral);
+}
+
+/* "Keep reading" row on /history/ and /prepare/ */
+.guides-more { padding: 110px 52px 100px; }
+/* History gives its CTA band a top margin and Prepare does not; the row
+   supplies the gap itself so both pages match. */
+.guides-more + .cta-band { margin-top: 0; }
+.guides-more-inner { max-width: 1000px; margin: 0 auto; }
+.guides-more-head {
+  display: flex; align-items: flex-end; justify-content: space-between;
+  gap: 20px; flex-wrap: wrap; margin-bottom: 32px;
+}
+.guides-more-kicker {
+  font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--coral); margin-bottom: 14px;
+}
+.guides-more-title {
+  font-weight: 800; font-size: clamp(30px, 4.4vw, 48px);
+  line-height: 0.96; letter-spacing: -1.4px;
+}
+.guides-more-title em { color: var(--coral); font-style: normal; }
+.guides-more-all {
+  font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+  color: var(--charcoal); text-decoration: none; opacity: 0.6; transition: opacity 0.2s;
+}
+.guides-more-all:hover { opacity: 1; }
+
+@media (max-width: 960px) {
+  .tiles { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 820px) {
+  .guides-more { padding: 80px 24px; }
+}
+@media (max-width: 600px) {
+  .tiles { grid-template-columns: 1fr; }
+}

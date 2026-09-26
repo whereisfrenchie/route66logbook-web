@@ -32,6 +32,8 @@
  *   title, slug, group (plan | places | road), order, standfirst, description
  *   updated    optional, shown in the byline ("September 2026")
  *   published  optional ISO date (2026-09-26); becomes datePublished
+ *   photoalt   optional description of the photo for screen readers and
+ *              search; without it the photo is described by the title
  */
 'use strict';
 const fs   = require('fs');
@@ -252,7 +254,7 @@ module.exports = function buildGuide({ ROOT, SITE, die, write }) {
       groupName: GROUPS[a.group].name,
       readTime: String(a.readTime),
       updated: a.updated ? `<span>Updated ${esc(a.updated)}</span>` : '',
-      heroPhoto: photo(a, '        ', a.title),
+      heroPhoto: photo(a, '        ', a.photoalt || a.title),
       body: a.body,
       related: related.slice(0, 3).map(tile).join('\n'),
       download,

@@ -6,6 +6,7 @@ order: 13
 standfirst: The road is bigger than nostalgia. It carries a century of American movement.
 description: Explore the history of Route 66 through migration, commerce, music, segregation, roadside business and the interstate era, and see how the Mother Road became an American myth.
 published: 2026-09-26
+photoalt: Farm machinery half buried by drifting soil during the Dust Bowl, 1936
 ---
 
 ## More than a slogan

@@ -6,6 +6,7 @@ order: 1
 standfirst: The Mother Road is not one simple road anymore. That is exactly why it is worth learning how to travel it properly.
 description: Planning your first Route 66 road trip? Learn how the historic alignments work, how to navigate them, what to look for and how to make the most of the Mother Road.
 published: 2026-09-26
+photoalt: A Route 66 shield painted on the road through the desert
 ---
 
 ## Why Route 66 feels confusing at first

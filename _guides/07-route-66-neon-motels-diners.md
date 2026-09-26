@@ -6,6 +6,7 @@ order: 7
 standfirst: Some of the road’s best moments happen when the signs switch on.
 description: Discover Route 66 after dark through neon signs, classic motels and diners, with tips for planning overnight stops and photographing the Mother Road at night.
 published: 2026-09-26
+photoalt: The U-Drop Inn and Conoco station in Shamrock, Texas, with its neon lit at dusk
 ---
 
 ## The night road

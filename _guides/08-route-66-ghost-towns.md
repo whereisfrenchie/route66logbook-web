@@ -6,6 +6,7 @@ order: 8
 standfirst: The empty places are not just scenery. They are evidence.
 description: Explore Route 66 ghost towns, ruins and abandoned roadside places responsibly, with historical context, safety advice and tips for understanding what these sites reveal.
 published: 2026-09-26
+photoalt: Roy’s Motel and Café in Amboy, California, beside Route 66 shields painted on the road
 ---
 
 ## The appeal

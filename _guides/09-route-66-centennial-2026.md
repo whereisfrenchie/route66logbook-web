@@ -7,6 +7,7 @@ standfirst: A hundred years after its commissioning, the road is not frozen in t
 description: Planning Route 66 in its 2026 centennial year? Learn what the 100th anniversary means for events, accommodation, crowds, preservation and road-trip planning.
 updated: September 2026
 published: 2026-09-26
+photoalt: The restored main street of Sapulpa, Oklahoma, with a painted Edgerton & Hilles hardware sign
 ---
 
 ## Why 2026 matters

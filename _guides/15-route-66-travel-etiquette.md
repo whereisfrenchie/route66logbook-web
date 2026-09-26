@@ -21,6 +21,8 @@ The simplest way to support Route 66 is to [spend money](/guides/route-66-on-a-b
 
 Many ruins, signs, old buildings and roadside objects sit on private land. Do not trespass. Do not move objects. Do not climb fences. Do not enter unstable buildings for a better photo. A respectful traveller understands that access is not the same as permission. If you are unsure, ask or stay back.
 
+![The abandoned buildings of Twin Arrows, Arizona, covered in graffiti, under a deep blue sky](/images/guides/twin-arrows-graffiti.jpg "Twin Arrows, Arizona: empty, but still somebody’s property, and covered in graffiti")
+
 ## Tell fuller stories
 
 Avoid reducing Route 66 to only white nostalgia, burgers and classic cars. Those are part of the road, but the corridor also includes Indigenous histories, Black travel history, immigrant entrepreneurship, women-owned businesses, labour, migration, environmental change and communities that experienced both opportunity and loss. Tell the broader story whenever you can.

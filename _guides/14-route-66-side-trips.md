@@ -6,6 +6,7 @@ order: 14
 standfirst: Side trips can deepen the journey, but they can also steal the road from itself.
 description: Discover the best Route 66 side trips and historic detours, including the Grand Canyon, Santa Fe, Petrified Forest and other places worth adding to your road trip.
 published: 2026-09-26
+photoalt: Layered red and gold canyon walls of the Grand Canyon, with the Colorado River far below
 ---
 
 ## The side-trip question
@@ -45,6 +46,8 @@ Petrified Forest National Park is another essential example because it contains 
 ## How to judge a side trip
 
 Ask three questions. Does it reveal an earlier layer of the corridor? Does it help you understand the landscape the road passed through? Does it add meaning without stealing too much time from the main route? The Grand Canyon, Santa Fe, nearby national parks, old mining towns and museum stops can be worth it if they fit your pace.
+
+![The rim and bowl of Meteor Crater in the Arizona desert, with a viewing platform on the far edge](/images/guides/meteor-crater.jpg "Meteor Crater, near Winslow, Arizona: a short detour off the road")
 
 The danger with side trips is not that they are wrong. It is that they can turn Route 66 into a blur between famous destinations. Use them deliberately. A side trip should deepen the road, not replace it.
 

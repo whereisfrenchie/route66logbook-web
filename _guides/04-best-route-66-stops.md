@@ -41,6 +41,8 @@ The Wigwam Motels are complicated and memorable. They are iconic, photogenic and
 
 Seligman is often called one of the towns that helped revive interest in historic Route 66. It has colour, humour, gift shops and character. Oatman is stranger: a former mining town, wild burros, wooden sidewalks, staged frontier energy and desert drama. Both towns show how Route 66 survives partly through performance. They know travellers are coming, and they have built an experience around that expectation.
 
+![The Seligman Grocery building with a painted Seligman mural and an old rusted car parked in front](/images/guides/seligman-grocery.jpg "Seligman, Arizona")
+
 ## How to visit the icons
 
 Visit the famous stops, but do not let them be the only stops. [Take the photograph](/guides/route-66-photography-guide/), then look around. What business is next door? What road alignment brought you there? What town is trying to survive around the attraction? Route 66 icons are not isolated props. They are anchors in a much bigger landscape.

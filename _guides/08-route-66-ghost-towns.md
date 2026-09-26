@@ -6,7 +6,7 @@ order: 8
 standfirst: The empty places are not just scenery. They are evidence.
 description: Explore Route 66 ghost towns, ruins and abandoned roadside places responsibly, with historical context, safety advice and tips for understanding what these sites reveal.
 published: 2026-09-26
-photoalt: Roy’s Motel and Café in Amboy, California, beside Route 66 shields painted on the road
+photoalt: The abandoned Amboy School in Amboy, California, behind a chain-link fence, with desert mountains beyond
 ---
 
 ## The appeal
@@ -50,6 +50,8 @@ Two Guns grew into a roadside attraction around the dramatic Canyon Diablo lands
 ### Amboy, California
 
 Amboy shows that “ghost town” does not necessarily mean completely abandoned. The Mojave Desert settlement lost much of its traffic after Interstate 40 bypassed the old highway, but Roy’s Motel and Café remains its unmistakable landmark. Fuel and limited services have returned, and preservation work continues, making Amboy a useful example of a place that declined dramatically without disappearing entirely.
+
+![Roy’s Motel and Café in Amboy, California, beside Route 66 shields painted on the road](/images/guides/roys-amboy.jpg "Roy’s Motel and Café, Amboy")
 
 These stops are compelling because they show different stages of survival. Glenrio preserves the remains of an entire roadside economy. Amboy is slowly being revived. Elsewhere, an abandoned roadbed or empty service station may be all that remains.
 

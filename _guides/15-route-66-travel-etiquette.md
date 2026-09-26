@@ -6,6 +6,7 @@ order: 15
 standfirst: The Mother Road survives because people care for it, spend with it and tell its stories well.
 description: Travel Route 66 responsibly with practical advice on supporting local businesses, respecting private property, sharing accurate information and helping preserve the Mother Road.
 published: 2026-09-26
+photoalt: The brick historical museum building in Chelsea, Oklahoma
 ---
 
 ## The responsibility

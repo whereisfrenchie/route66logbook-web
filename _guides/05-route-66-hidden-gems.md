@@ -6,6 +6,7 @@ order: 5
 standfirst: The soul of the road often lives in places that do not shout.
 description: Go beyond the biggest Route 66 attractions with overlooked stops, old alignments, local museums, historic bridges and small places that can become the highlights of your trip.
 published: 2026-09-26
+photoalt: The old Chain of Rocks Bridge crossing the Mississippi River, with its steel trusses and famous bend
 ---
 
 ## The quieter road
@@ -51,6 +52,8 @@ These places are a good reminder that a Route 66 hidden gem does not need to be 
 ## Look between towns
 
 Some of the best discoveries happen outside the town centres. Old alignments often run beside the interstate, across farmland, through scrub, past railroad tracks or along cracked pavement where the traffic has moved on. These sections are not always dramatic, but they are powerful. You feel the difference between a road built for movement and a highway built for speed.
+
+![The empty shells of the old Avon Motel cabins beside a quiet stretch of road](/images/guides/avon-motel-ruins.jpg "What is left of the Avon Motel, easy to pass without noticing")
 
 ## Talk to people
 

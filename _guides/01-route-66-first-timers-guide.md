@@ -33,6 +33,8 @@ Use a dedicated Route 66 map, guidebook or app, plus a normal navigation app for
 
 Do not only look for the [famous icons](/guides/best-route-66-stops/). Look for old road cuts, motel signs, [abandoned service stations](/guides/route-66-ghost-towns/), painted water towers, oddball statues, angled parking, ghost signs on brick walls, court-style motels, small museums, hand-painted menus, 1950s rooflines and the way towns position themselves around the road. These details teach you more than a checklist ever will.
 
+![A small green cottage-style Phillips 66 station with a patterned roof and a Phillips 66 shield sign](/images/guides/phillips-66-cottage-station.jpg "A cottage-style Phillips 66 station, the kind of small detail worth stopping for")
+
 ## First-timer advice
 
 Start with a simple promise: you are not driving Route 66 to be efficient. You are driving it to pay attention. Give yourself permission to stop too often, [photograph small things](/guides/route-66-photography-guide/), read historical markers, buy a coffee where the locals are, and ask questions. The road rewards curiosity more than speed.

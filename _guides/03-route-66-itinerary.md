@@ -6,6 +6,7 @@ order: 3
 standfirst: The magic lives between the bookings, the map and the thing you did not expect.
 description: Plan a Route 66 itinerary that gives you structure without scheduling away the fun. Learn how to choose overnight stops, historic alignments and flexible daily priorities.
 published: 2026-09-26
+photoalt: The streamlined white Boots Court motel in Carthage, Missouri, at sunset
 ---
 
 ## The planning trap
@@ -31,6 +32,8 @@ One way to make the itinerary more memorable is to think in themes. Have a [neon
 ## Plan for night
 
 A common mistake is to plan only daylight stops. Route 66 changes after dark. Neon signs glow, motel courts come alive, diners feel warmer, and towns like Tucumcari, Tulsa, Albuquerque, Williams and Seligman show a different face. If neon matters to you, do not schedule those towns as quick lunchtime stops. Sleep there. Walk after dusk. Let the signs do what they were made to do.
+
+![The 66 Drive-In Theatre screen and ticket booth in Carthage, Missouri](/images/guides/66-drive-in-carthage.jpg "The 66 Drive-In in Carthage, Missouri, one of the road’s surviving drive-in theatres")
 
 ## The flex list
 

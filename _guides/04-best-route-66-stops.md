@@ -6,6 +6,7 @@ order: 4
 standfirst: The famous stops are famous for a reason, but the trick is to see past the postcard.
 description: Discover the most famous Route 66 stops, from Cadillac Ranch and the Blue Whale to Seligman and Santa Monica, and understand why these roadside icons still matter.
 published: 2026-09-26
+photoalt: The Midpoint painted across the road in Adrian, Texas, halfway between Chicago and Los Angeles
 ---
 
 ## Beyond the checklist

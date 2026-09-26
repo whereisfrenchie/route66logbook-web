@@ -63,7 +63,7 @@ The California desert gives some of the most dramatic ruin experiences on Route 
 
 Gas stations are among the most powerful abandoned Route 66 sites because they represent the road’s basic need: movement. Their canopies, pumps, service bays and signs were built around cars, travellers and commerce. When they close, they leave behind a shape that still tells you what used to happen there. You can almost hear the bell hose, the tools, the screen door, the owner stepping out to ask where you are headed.
 
-![An abandoned roadside service station with its old pumps still standing under the canopy](/images/4.jpg "An abandoned service station, its pumps still standing")
+![The collapsing shell of Wilkerson’s, an abandoned roadside business, in dry grass](/images/guides/wilkersons-ruin.jpg "Wilkerson’s, slowly giving way to the weather")
 
 ## Ethics of photographing ruins
 

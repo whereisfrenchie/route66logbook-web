@@ -33,6 +33,8 @@ A classic Route 66 motel is not just a place to sleep. It is a design experience
 
 Diners and cafes are where Route 66 becomes human. Museums tell you the story officially. Diners tell it casually. You hear where people are from, what weather is coming, which road is closed, who owns the building now, and whether the pie is worth ordering. The décor might be nostalgic, but the experience is current. You are not stepping back in time; you are participating in a living roadside economy.
 
+![The neon Dell Rhea’s Chicken Basket and Cocktail Lounge sign in Willowbrook, Illinois](/images/guides/dell-rhea-chicken-basket.jpg "Dell Rhea’s Chicken Basket in Willowbrook, Illinois")
+
 ## How to plan for neon
 
 If neon is a priority, schedule your overnights around it. Stay in towns with [signs you want to photograph](/guides/route-66-photography-guide/). Check whether signs are currently working. Some famous signs are restored, some are decorative, some only light at certain times, and some are waiting for preservation. Bring a tripod if you are serious about photography, but do not let the camera become the whole experience. Stand there for a minute without shooting.

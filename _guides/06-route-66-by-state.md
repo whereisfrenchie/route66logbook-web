@@ -17,6 +17,8 @@ One reason Route 66 stays interesting is that it never stays the same. It begins
 
 Illinois is the gentle beginning. You get brick streets, restored gas stations, small-town museums, roadside giants, classic diners and a strong sense that communities have embraced the road as heritage. It is a good state for learning how to slow down. The stops come often, and the distances are manageable. For [first-timers](/guides/route-66-first-timers-guide/), Illinois teaches the rhythm: drive a little, stop a little, read a sign, take a photo, move on.
 
+![The American Giants Museum in Atlanta, Illinois, with red gas pumps and a classic car out front](/images/guides/american-giants-museum.jpg "The American Giants Museum in Atlanta, Illinois")
+
 ## Missouri and Kansas
 
 Missouri adds hills, caves, rivers, old motor courts and towns with layers of [rail, road and tourism history](/guides/route-66-history/). The road feels less tidy and more varied. Kansas has only a short slice of Route 66, but it punches above its weight. Because the mileage is small, travellers sometimes rush it. Do not. Short sections can carry a lot of character.
@@ -24,6 +26,8 @@ Missouri adds hills, caves, rivers, old motor courts and towns with layers of [r
 ## Oklahoma
 
 Oklahoma is essential. It has more drivable Route 66 mileage than many travellers expect and a deep relationship with the road’s identity. It gives you museums, diners, tribal history, oil-boom towns, the Blue Whale, old bridges and long stretches that feel properly road-worn. Oklahoma is where many travellers realise Route 66 is not only a nostalgic brand. It is infrastructure, migration, commerce, displacement, resilience and memory.
+
+![A colourful Greetings from Route 66 mural in Tulsa, Oklahoma](/images/guides/greetings-from-tulsa-mural.jpg "The “Greetings from Route 66” mural in Tulsa, Oklahoma")
 
 ## Texas
 

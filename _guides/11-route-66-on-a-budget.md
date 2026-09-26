@@ -6,6 +6,7 @@ order: 11
 standfirst: The road was built for ordinary travellers. You do not need luxury to experience it well.
 description: Plan a memorable Route 66 road trip on a realistic budget, with practical advice on accommodation, food, attractions, fuel and where spending locally matters most.
 published: 2026-09-26
+photoalt: A vintage Western Motel sign advertising clean rooms, low rates and vacancy
 ---
 
 ## Budget reality

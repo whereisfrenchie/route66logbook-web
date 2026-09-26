@@ -33,6 +33,8 @@ The road crosses many communities, including Indigenous nations, immigrant busin
 
 The interstate system changed everything. Faster highways bypassed towns and made long-distance travel more efficient. Efficiency is wonderful when you need it, but it can be brutal for places built around slower traffic. Route 66’s [decommissioning did not end the story](/history/). It created a new one: preservation, memory, tourism and local reinvention.
 
+![The abandoned shell of a Whiting Bros. gas station, its yellow canopy overgrown with trees](/images/guides/whiting-bros-station.jpg "An abandoned Whiting Bros. station: once a familiar name along the western half of the road, left behind when the interstate passed it by")
+
 ## Why the myth survives
 
 The myth survives because it contains something people still want: freedom, movement, self-invention, the open road, small-town encounters and a sense that travel can change your perspective. The real Route 66 is messier than the myth, but also better. It has humour, grief, beauty, commerce, kitsch and history all at once.

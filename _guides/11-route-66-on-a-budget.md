@@ -25,6 +25,8 @@ Mix classic motels with simpler stays. You do not need every night to be iconic.
 
 Diners, cafes and local restaurants are part of the Route 66 experience, but you do not need a full restaurant meal three times a day. Keep breakfast simple sometimes. Carry snacks. Share big portions. Have picnic lunches when the scenery is better than the dining options. Spend intentionally at the places that matter: the historic diner, the family cafe, the bakery everyone recommends.
 
+![The coffee station behind the counter at Peggy Sue’s diner, with glass pots on the warmer and stacks of filters](/images/guides/peggy-sues-coffee.jpg "Coffee on the go behind the counter at Peggy Sue’s")
+
 ## Choose paid stops wisely
 
 Many [Route 66 highlights](/guides/best-route-66-stops/) are free or low-cost: murals, signs, old streets, bridges, town squares, roadside giants, public art and scenic drives. Museums are worth supporting, but you do not need to enter every single one. Pick the museums that match your interests: cars, local history, neon, migration, railroads, Indigenous history, architecture or state-specific stories.

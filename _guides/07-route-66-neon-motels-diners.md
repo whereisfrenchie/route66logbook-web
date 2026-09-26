@@ -17,8 +17,6 @@ Route 66 is famous in daylight, but it becomes emotional after dark. Neon was ne
 
 Neon is Route 66’s visual language. It turns business names into landmarks. A motel sign is not only a sign; it is a promise of vacancy, rest, air-conditioning, a shower, a bed, perhaps a pool, perhaps a story. A diner sign promises coffee, pie, conversation and a pause from the road. Neon gave buildings personality, and in many towns it still gives them memory.
 
-![The neon Dell Rhea’s Chicken Basket and Cocktail Lounge sign in Willowbrook, Illinois](/images/guides/dell-rhea-chicken-basket.jpg "Dell Rhea’s Chicken Basket in Willowbrook, Illinois")
-
 ## Tucumcari
 
 [Tucumcari, New Mexico](/guides/route-66-by-state/) is one of the essential neon towns. The signs are part of the town’s identity, and the best way to experience them is to [stay overnight](/guides/route-66-itinerary/). Do not drive through at midday and say you have seen it. You have not. Walk or cruise when the sky has gone blue-black and the signs begin to hum visually against the desert evening. That is when the town makes sense.
@@ -33,8 +31,6 @@ A classic Route 66 motel is not just a place to sleep. It is a design experience
 
 Diners and cafes are where Route 66 becomes human. Museums tell you the story officially. Diners tell it casually. You hear where people are from, what weather is coming, which road is closed, who owns the building now, and whether the pie is worth ordering. The décor might be nostalgic, but the experience is current. You are not stepping back in time; you are participating in a living roadside economy.
 
-![The coffee station behind the counter at Peggy Sue’s diner, with glass pots on the warmer and stacks of filters](/images/guides/peggy-sues-coffee.jpg "Coffee on the go behind the counter at Peggy Sue’s")
-
 ## How to plan for neon
 
 If neon is a priority, schedule your overnights around it. Stay in towns with [signs you want to photograph](/guides/route-66-photography-guide/). Check whether signs are currently working. Some famous signs are restored, some are decorative, some only light at certain times, and some are waiting for preservation. Bring a tripod if you are serious about photography, but do not let the camera become the whole experience. Stand there for a minute without shooting.
@@ -47,7 +43,7 @@ There is also sadness in Route 66 neon. A dark sign can be as powerful as a lit 
 
 Neon is not decoration pasted onto the road after the fact. It was part of the business model. Before digital maps, online reviews and booking platforms, a motel or cafe had to announce itself to a tired driver in the dark. The sign was architecture, advertising and promise all at once. A good sign said: vacancies, coffee, air conditioning, clean rooms, safety, character, maybe even a little glamour.
 
-![The El Don Motel sign in Albuquerque, New Mexico, with a cowboy on a rearing horse swinging a lasso](/images/guides/el-don-motel.jpg "The El Don Motel sign in Albuquerque, New Mexico")
+![The neon Dell Rhea’s Chicken Basket and Cocktail Lounge sign in Willowbrook, Illinois](/images/guides/dell-rhea-chicken-basket.jpg "Dell Rhea’s Chicken Basket in Willowbrook, Illinois")
 
 The golden age of many Route 66 motels and diners overlapped with post-war car ownership, the growth of paid vacations and the family road trip. Motor courts evolved into motels. Cafes learned to serve quickly. Gas stations became visual landmarks. By the time interstates bypassed towns, those signs were often the first things travellers missed and the last things locals wanted to save.
 

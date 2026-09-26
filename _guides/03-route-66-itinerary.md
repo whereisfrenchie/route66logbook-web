@@ -43,6 +43,8 @@ For each day, create three lists: must-see, nice-to-see and maybe. Must-see stop
 
 Overplanning Route 66 is tempting because the road itself is fragmented. The first federal planners did not create one brand-new road from scratch; they stitched together existing roads and improved them. Later, state highway departments realigned sections, straightened awkward bends and bypassed slow town approaches. Then the interstate system bypassed the old highway on a much larger scale.
 
+![The El Don Motel sign in Albuquerque, New Mexico, with a cowboy on a rearing horse swinging a lasso](/images/guides/el-don-motel.jpg "The El Don Motel sign in Albuquerque, New Mexico")
+
 New Mexico gives one of the clearest examples. The [original 1926 to 1937 alignment](/history/) ran through Santa Fe. In 1937, a more direct cut-off redirected the highway and shortened the route between Santa Rosa, Albuquerque and the west. So when a traveller asks which Route 66 is the real one, the answer is often: more than one version is real, but not all versions tell the same story.
 
 ## Dates that help you plan smarter

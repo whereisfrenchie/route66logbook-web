@@ -23,8 +23,6 @@ Pay attention to lettering. Route 66 is full of scripts, block letters, arrows, 
 
 The road has several colour palettes. Illinois can feel brick, cream, red and green. Missouri adds stone, forest and diner chrome. Texas gives you faded reds, cattle browns and big-sky blue. New Mexico brings turquoise, adobe, coral, desert gold and neon. Arizona shifts into rust, sand, pine, asphalt and painted signage. California adds Mojave beige, sunburnt white, motel blue, old red and Pacific haze. Designers should record these palettes by state, not flatten the road into one retro cliché.
 
-![A rusted 1940s car sitting in dry grass under wind turbines and a deep blue sky](/images/guides/rusted-car-wind-farm.jpg "Rust, bleached grass and a hard blue sky")
-
 ## Composition
 
 Classic Route 66 compositions use depth: road leading lines, signs against sky, motels in perspective, gas pumps in the foreground, mountains or desert behind. But do not only shoot the obvious wide view. Shoot the menu typography, the door handles, the room numbers, the postcards, the asphalt texture, the faded window decals, the way a neon sign reflects on a parked car.

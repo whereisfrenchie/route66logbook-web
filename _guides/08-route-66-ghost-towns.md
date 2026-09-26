@@ -85,8 +85,6 @@ That is why abandoned service stations, motel shells and cracked forecourts shou
 
 Use the ruins category as a way to tell the road's second story: not just boom, but bypass. Look for old pumps, canopy shapes, room-number plates, cafe windows, domestic details and hand-painted signs. Stay outside fences. Do not remove objects. If a place is unsafe or private, photograph from public space and log what you can verify rather than inventing a dramatic backstory.
 
-![The abandoned shell of a Whiting Bros. gas station, its yellow canopy overgrown with trees](/images/guides/whiting-bros-station.jpg "An abandoned Whiting Bros. station, once a familiar name along the western half of the road")
-
 The most interesting ghost towns and abandoned stretches often sit where transport routes changed more than once: railroad, wagon road, National Old Trails Road, Route 66, then interstate. Route 66 did not create every town, and the interstate did not kill every town, but the road often amplified both life and decline.
 
 ## Take it with you in Route 66 Logbook

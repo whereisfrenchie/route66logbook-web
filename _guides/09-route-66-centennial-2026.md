@@ -58,6 +58,8 @@ Centennial travel will likely create two kinds of experiences: carefully organis
 
 The centennial is also a reminder to document the road as it is now, not only as it used to be. Photograph [electric signs](/guides/route-66-neon-motels-diners/), new murals, restored buildings, current owners and modern travellers. In another twenty-five years, today's version of Route 66 will also be history.
 
+![A colourful Greetings from Route 66 mural in Tulsa, Oklahoma](/images/guides/greetings-from-tulsa-mural.jpg "The “Greetings from Route 66” mural in Tulsa, Oklahoma")
+
 ## Build quiet days around busy events
 
 If crowds frustrate you, build quieter stretches around event days. The road is long enough to absorb both celebration and solitude. You can spend one day in the middle of a centennial crowd and the next on an old alignment with almost no traffic.

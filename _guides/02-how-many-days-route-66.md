@@ -25,6 +25,8 @@ Two weeks is the common compromise. It gives you enough time to follow many hist
 
 Three weeks is where Route 66 starts to breathe. This is the timeframe I would recommend to most travellers who are doing it once and want the story, not just the souvenir. With three weeks, you can take slower mornings, follow older alignments, visit museums without watching the clock, stop for photos when the light changes, and add [side trips like the Grand Canyon](/guides/route-66-side-trips/), Petrified Forest, Santa Fe, Meramec Caverns or the Mojave Preserve without destroying the rhythm.
 
+![A small roadside gas station across a wide, empty road under a big sky](/images/guides/roadside-station.jpg "Long, empty miles between stops")
+
 ## The month-long trip
 
 A month on Route 66 is a luxury, but it is also the most faithful way to travel it. You can revisit places at night for neon, stay two nights in a city that deserves it, and let weather, closures or local recommendations change your plans. The road is full of people who say, 'You should have been here yesterday' or 'Come back at sunset.' With a month, you actually can.
@@ -41,13 +43,13 @@ For a [first full Route 66 trip](/guides/route-66-first-timers-guide/), aim for 
 
 The familiar headline figure is about 2,400 miles, although the exact mileage depends on the alignment and era being counted. That number is useful, but it can also mislead travellers. Route 66 changed alignments over time, and modern travellers often choose between earlier and later versions of the road. A day that looks simple on a map can become much longer if you follow older pavement, visit museums, stop for photographs, or double back to catch a bypassed town.
 
-![A small roadside gas station across a wide, empty road under a big sky](/images/guides/roadside-station.jpg "Long, empty miles between stops")
-
 The interstate era is the reason pace became complicated. From the 1950s through the 1980s, interstates including I-55, I-44, I-40, I-15 and I-10 gradually replaced the long-distance function of Route 66. The last bypassed section was replaced by I-40 in 1984, and the highway was decommissioned in 1985. Today, the traveller chooses between speed and memory almost every day.
 
 ## A historical way to think about time
 
 [The Dust Bowl migrant](/guides/route-66-history/), the 1940s serviceman, the 1950s family in a new car, the trucker, the motorcyclist and the modern overseas visitor all experience different versions of the same corridor. A fast two-week drive can still be wonderful, but it mostly samples the visible icons. A three-week drive gives you enough time to see how one town was saved by preservation while another was hollowed out by a bypass.
+
+![A rusted 1940s car sitting in dry grass under wind turbines and a deep blue sky](/images/guides/rusted-car-wind-farm.jpg "A 1940s car left to the weather: every era travelled this road at its own pace")
 
 Here is the practical truth: miles are cheap, attention is expensive. If you want to understand why the road became famous, count your stops and conversations, not just your daily distance. A 120-mile day through towns, museums and old roadbed can teach you more than a 400-mile push across interstate.
 

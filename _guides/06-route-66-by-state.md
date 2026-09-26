@@ -27,8 +27,6 @@ Missouri adds hills, caves, rivers, old motor courts and towns with layers of [r
 
 Oklahoma is essential. It has more drivable Route 66 mileage than many travellers expect and a deep relationship with the road’s identity. It gives you museums, diners, tribal history, oil-boom towns, the Blue Whale, old bridges and long stretches that feel properly road-worn. Oklahoma is where many travellers realise Route 66 is not only a nostalgic brand. It is infrastructure, migration, commerce, displacement, resilience and memory.
 
-![A colourful Greetings from Route 66 mural in Tulsa, Oklahoma](/images/guides/greetings-from-tulsa-mural.jpg "The “Greetings from Route 66” mural in Tulsa, Oklahoma")
-
 ## Texas
 
 Texas is big sky, wind, cattle, humour and visual drama. The Panhandle section is not the longest, but it has some of the most recognisable stops: Shamrock’s art deco service station, the midpoint in Adrian, Amarillo and [Cadillac Ranch](/guides/best-route-66-stops/). The landscape opens up. The road feels less like a town-to-town heritage trail and more like a line across space.

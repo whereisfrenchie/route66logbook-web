@@ -7,6 +7,9 @@
  * Reads  index.template.html  +  strings.{en,fr,es}.json
  * Writes index.html, fr/index.html, es/index.html
  *
+ * Also builds the Route 66 guides (/guides/ and its articles) from _guides/ —
+ * see build-guide.js — and the sitemap and robots.txt for the whole site.
+ *
  * WHY THIS EXISTS
  * Three hand-maintained copies of a 300-line page would be 73% identical
  * markup, and every structural change would be a three-way edit with nothing
@@ -27,6 +30,7 @@
 'use strict';
 const fs   = require('fs');
 const path = require('path');
+const buildGuide = require('./build-guide');
 
 const ROOT     = __dirname;
 const TEMPLATE = path.join(ROOT, 'index.template.html');
@@ -227,6 +231,24 @@ for (const lang of LANGS) {
   wrote++;
 }
 
+// ── the Route 66 guides ──────────────────────────────────────────────────────
+//
+// /guides/ and one page per article, from _guides/. See build-guide.js.
+function writeFile(rel, body) {
+  const dest = path.join(ROOT, rel);
+  const tmp  = dest + '.tmp';
+  try {
+    fs.mkdirSync(path.dirname(dest), { recursive: true });
+    fs.writeFileSync(tmp, body, 'utf8');
+    fs.renameSync(tmp, dest);
+  } catch (e) {
+    try { fs.unlinkSync(tmp); } catch (_) {}
+    die(`cannot write ${rel} — ${e.message}`);
+  }
+}
+const guide = buildGuide({ ROOT, SITE, die, write: writeFile });
+console.log(`  guides/         ${guide.count} articles and the index`);
+
 // ── sitemap.xml ───────────────────────────────────────────────────────────────
 //
 // The three home pages are one page in three languages, not three competing
@@ -244,7 +266,7 @@ const alternates = [
 const homeEntries = ['/', '/fr/', '/es/'].map((path) =>
   `  <url>\n    <loc>${SITE}${path}</loc>\n${alternates}\n  </url>`
 );
-const otherEntries = OTHER_PAGES.map((path) => `  <url>\n    <loc>${SITE}${path}</loc>\n  </url>`);
+const otherEntries = OTHER_PAGES.concat(guide.pages).map((path) => `  <url>\n    <loc>${SITE}${path}</loc>\n  </url>`);
 
 const sitemap =
   '<?xml version="1.0" encoding="UTF-8"?>\n' +
@@ -273,4 +295,4 @@ for (const [name, body] of [['sitemap.xml', sitemap], ['robots.txt', robots]]) {
   console.log(`  ${name.padEnd(15)} ${body.length} bytes`);
 }
 
-console.log(`\nBuilt ${wrote} pages, a sitemap and robots.txt.\n`);
+console.log(`\nBuilt ${wrote} home pages, ${guide.pages.length} guide pages, a sitemap and robots.txt.\n`);

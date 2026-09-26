@@ -45,6 +45,7 @@
       <div class="footer-right">
         <div class="footer-links">
           <a href="/history">History</a>
+          <a href="/guides/">Guides</a>
           <a href="/prepare">Prepare</a>
           <a href="/press">Press</a>
           <a href="/privacy">Privacy</a>

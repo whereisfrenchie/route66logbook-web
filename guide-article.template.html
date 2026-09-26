@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <title>{{title}} · Route 66 Logbook</title>
+  <meta name="description" content="{{description}}">
+  <link rel="canonical" href="{{url}}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Route 66 Logbook">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="{{url}}">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{title}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{ogImage}}">
+{{schema}}  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/guide.css">
+</head>
+<body>
+
+  <!-- HEADER (matches site) -->
+  <header class="site-header">
+    <a class="header-logo" href="/">
+      <span class="header-logo-img"><img src="/images/Route66logbook-logo.png" alt="Route 66 Logbook"></span>
+      <span class="header-logo-word">Route 66 <span>Logbook</span></span>
+    </a>
+    <a class="header-back" href="/guides/">All guides</a>
+  </header>
+
+  <main>
+
+    <!-- INTRO -->
+    <section class="intro shell reveal">
+      <p class="eyebrow ec"><a href="/guides/">Route 66 guides</a> · {{groupName}}</p>
+      <h1 class="intro-title">{{title}}</h1>
+      <p class="intro-lede">{{standfirst}}</p>
+      <p class="byline"><span>By <a href="/about/">Carole Richard</a></span><span>{{readTime}} min read</span>{{updated}}</p>
+    </section>
+
+    <!-- HERO PHOTO -->
+    <div class="shell wide" style="max-width: 1000px;">
+      <div class="photo-band">
+{{heroPhoto}}
+      </div>
+    </div>
+
+    <!-- ARTICLE -->
+    <article class="article shell prose">
+{{body}}
+    </article>
+
+  </main>
+
+  <!-- KEEP READING -->
+  <section class="more">
+    <div class="shell wide">
+      <p class="eyebrow ec">Keep reading</p>
+      <h2 class="group-title">More <em>guides.</em></h2>
+      <div class="tiles">
+{{related}}
+      </div>
+    </div>
+  </section>
+
+{{download}}
+
+  <!-- FOOTER (matches site) -->
+  <site-footer></site-footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+  <script src="/footer.js" defer></script>
+</body>
+</html>

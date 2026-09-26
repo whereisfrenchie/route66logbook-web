@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <title>Route 66 Guides: Planning, Stops and Road Stories · Route 66 Logbook</title>
+  <meta name="description" content="Route 66 guides from a traveller who drove it end to end: how many days you need, how to plan an itinerary, the famous stops and hidden gems, ghost towns, neon, history and more.">
+  <link rel="canonical" href="{{url}}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Route 66 Logbook">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="{{url}}">
+  <meta property="og:title" content="Route 66 Guides · Route 66 Logbook">
+  <meta property="og:description" content="Fifteen long reads on planning and driving the Mother Road, from how many days you need to the hidden gems most travellers miss.">
+  <meta property="og:image" content="https://route66logbook.com/images/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Route 66 Guides · Route 66 Logbook">
+  <meta name="twitter:description" content="Fifteen long reads on planning and driving the Mother Road, from how many days you need to the hidden gems most travellers miss.">
+  <meta name="twitter:image" content="https://route66logbook.com/images/og-home.jpg">
+{{schema}}  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/guide.css">
+</head>
+<body class="guide-home">
+
+  <!-- HEADER (matches site) -->
+  <header class="site-header">
+    <a class="header-logo" href="/">
+      <span class="header-logo-img"><img src="/images/Route66logbook-logo.png" alt="Route 66 Logbook"></span>
+      <span class="header-logo-word">Route 66 <span>Logbook</span></span>
+    </a>
+    <a class="header-back" href="/">Back to home</a>
+  </header>
+
+  <main>
+
+    <!-- INTRO -->
+    <section class="intro shell wide reveal">
+      <p class="eyebrow ec">The guides</p>
+      <h1 class="intro-title">Route 66 <em>guides.</em></h1>
+      <p class="intro-lede">Fifteen long reads from the Mother Road: how to plan it, where to stop, and what makes it more than a highway. Written after driving it end to end in its centennial year.</p>
+    </section>
+
+{{groups}}
+
+    <!-- SOURCES -->
+    <section class="sources shell wide reveal">
+      <h2>Sources</h2>
+      <p>The history and facts in these guides are checked against:</p>
+      <ul>
+{{sources}}
+      </ul>
+    </section>
+
+  </main>
+
+{{download}}
+
+  <!-- FOOTER (matches site) -->
+  <site-footer></site-footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+  <script src="/footer.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+/**
+ * Build the Route 66 guides: /guides/ and one page per article.
+ *
+ * Called by build.js — run `node build.js`, not this file.
+ *
+ * Reads  _guides/NN-slug.md          one article each (front matter + body)
+ *        _guides/sources.md          the list at the bottom of /guides/
+ *        guide.template.html        the /guides/ page
+ *        guide-article.template.html
+ * Writes guide/index.html and guide/<slug>/index.html
+ *
+ * The folder is _guide, not guide, because GitHub Pages runs Jekyll, and
+ * Jekyll publishes nothing whose name starts with an underscore. The raw
+ * .md files never become pages of their own.
+ *
+ * ADDING AN ARTICLE
+ * Copy any _guides/*.md, change the front matter and the text, run
+ * `node build.js`. It appears on /guides/ in its group, gets its own page and
+ * joins the sitemap. Its photo goes in images/guides/<slug>.jpg (16:10, about
+ * 1600 × 1000); until that file exists the slot shows the name it expects.
+ *
+ * THE BODY FORMAT is a small, strict subset of Markdown — enough for these
+ * articles and nothing that can be half-understood:
+ *   ## Heading          section heading
+ *   ### Heading         sub-heading
+ *   - item              bullet list
+ *   {{cta}}             the "Explore Route 66 Logbook" button
+ *   **bold** *italic* [text](url)   inside any paragraph, heading or item
+ * Anything else is a paragraph. Raw HTML is escaped, never passed through.
+ *
+ * FRONT MATTER
+ *   title, slug, group (plan | places | road), order, standfirst, description
+ *   updated    optional, shown in the byline ("September 2026")
+ *   published  optional ISO date (2026-09-26); becomes datePublished
+ */
+'use strict';
+const fs   = require('fs');
+const path = require('path');
+
+const GROUPS = {
+  plan:   { name: 'Plan your trip', title: 'Plan your <em>trip.</em>' },
+  places: { name: 'Where to stop',  title: 'Where to <em>stop.</em>' },
+  road:   { name: 'Road culture',   title: 'Road <em>culture.</em>' },
+};
+const REQUIRED = ['title', 'slug', 'group', 'order', 'standfirst', 'description'];
+const WORDS_PER_MINUTE = 230;
+
+const DOWNLOAD = `  <!-- DOWNLOAD BAND (matches the home page) -->
+  <section class="download" id="download">
+    <div class="download-inner">
+      <h2 class="download-title reveal">Ready to<br>hit the <em>road?</em></h2>
+      <p class="download-sub reveal">The map is free to explore. One-time unlock to plan and log your trip. No subscription.</p>
+      <div class="download-badges reveal">
+        <a href="https://apps.apple.com/app/route-66-logbook/id6774524322" class="badge-btn" target="_blank" rel="noopener">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="APPLE_PATH"/></svg>
+          <div>
+            <span class="badge-btn-label">Download on the</span>
+            <span class="badge-btn-store">App Store</span>
+          </div>
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.route66logbook.app" class="badge-btn badge-btn-android" target="_blank" rel="noopener">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="ANDROID_PATH"/></svg>
+          <div>
+            <span class="badge-btn-label">Get it on</span>
+            <span class="badge-btn-store">Google Play</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>`;
+
+const esc = (s) => String(s)
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+function inline(s) {
+  return esc(s)
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, text, href) => {
+      const external = /^https?:/.test(href) && !href.startsWith('https://route66logbook.com');
+      return `<a href="${href}"${external ? ' target="_blank" rel="noopener"' : ''}>${text}</a>`;
+    });
+}
+
+/** The body format described at the top. Returns [html, wordCount]. */
+function renderBody(src, label, die) {
+  const out = [];
+  let list = null;
+  let words = 0;
+  const closeList = () => { if (list) { out.push('      <ul>\n' + list.join('\n') + '\n      </ul>'); list = null; } };
+
+  for (const raw of src.split('\n')) {
+    const line = raw.trim();
+    if (!line) { closeList(); continue; }
+    if (/<[a-z/!]/i.test(line)) die(`${label}: raw HTML is not allowed — "${line.slice(0, 60)}"`);
+    words += line.replace(/^(#+|-)\s/, '').split(/\s+/).length;
+
+    if (line.startsWith('- ')) {
+      (list = list || []).push(`        <li>${inline(line.slice(2))}</li>`);
+      continue;
+    }
+    closeList();
+    if (line === '{{cta}}') {
+      out.push('      <p class="cta-row"><a class="btn-coral" href="#download">Explore Route 66 Logbook <span aria-hidden="true">→</span></a></p>');
+    } else if (line.startsWith('### ')) {
+      out.push(`      <h3>${inline(line.slice(4))}</h3>`);
+    } else if (line.startsWith('## ')) {
+      out.push(`      <h2>${inline(line.slice(3))}</h2>`);
+    } else if (line.startsWith('#')) {
+      die(`${label}: only ## and ### headings are allowed — the title comes from the front matter`);
+    } else if (line.includes('{{')) {
+      die(`${label}: unknown placeholder in "${line.slice(0, 60)}"`);
+    } else {
+      out.push(`      <p>${inline(line)}</p>`);
+    }
+  }
+  closeList();
+  return [out.join('\n'), words];
+}
+
+function parseArticle(file, text, die) {
+  const m = text.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  if (!m) die(`${file}: must start with front matter between --- lines`);
+  const meta = {};
+  for (const line of m[1].split('\n')) {
+    const kv = line.match(/^([a-z]+):\s*(.*)$/);
+    if (!kv) die(`${file}: cannot read front matter line "${line}"`);
+    meta[kv[1]] = kv[2].trim();
+  }
+  for (const k of REQUIRED) if (!meta[k]) die(`${file}: front matter is missing "${k}"`);
+  if (!GROUPS[meta.group]) die(`${file}: group must be one of ${Object.keys(GROUPS).join(', ')}`);
+  if (!/^[a-z0-9-]+$/.test(meta.slug)) die(`${file}: slug may only use a-z, 0-9 and -`);
+  if (meta.published && !/^\d{4}-\d{2}-\d{2}$/.test(meta.published)) die(`${file}: published must be YYYY-MM-DD`);
+  meta.order = Number(meta.order);
+  if (!Number.isInteger(meta.order)) die(`${file}: order must be a whole number`);
+  const [body, words] = renderBody(m[2], file, die);
+  return Object.assign(meta, { file, body, readTime: Math.max(1, Math.ceil(words / WORDS_PER_MINUTE)) });
+}
+
+module.exports = function buildGuide({ ROOT, SITE, die, write }) {
+  const dir = path.join(ROOT, '_guides');
+  const read = (f) => {
+    try { return fs.readFileSync(path.join(ROOT, f), 'utf8'); }
+    catch (e) { die(`cannot read ${f} — ${e.message}`); }
+  };
+
+  // The store icons are copied from the home page's own template, so there is
+  // one source for each and they cannot drift.
+  const home = read('index.template.html');
+  const icon = (marker) => {
+    const hit = home.match(new RegExp(`<path d="(${marker}[^"]*)"`));
+    if (!hit) die(`guide: cannot find the store icon starting "${marker}" in index.template.html`);
+    return hit[1];
+  };
+  const download = DOWNLOAD.replace('APPLE_PATH', icon('M18\\.71')).replace('ANDROID_PATH', icon('M17\\.6'));
+
+  const articles = fs.readdirSync(dir)
+    .filter((f) => /^\d+-.+\.md$/.test(f))
+    .map((f) => parseArticle('_guides/' + f, read('_guides/' + f), die))
+    .sort((a, b) => a.order - b.order);
+  if (!articles.length) die('guides: _guides/ has no articles');
+
+  const seen = {};
+  for (const a of articles) {
+    if (seen[a.slug]) die(`guide: ${a.file} and ${seen[a.slug]} share the slug "${a.slug}"`);
+    seen[a.slug] = a.file;
+  }
+
+  const hasPhoto = (a) => fs.existsSync(path.join(ROOT, 'images', 'guides', a.slug + '.jpg'));
+  // The hero fades in on its own; a tile's photo moves with its tile.
+  const photo = (a, indent, alt, reveal) =>
+    `${indent}<div class="photo-cell${reveal ? ' reveal' : ''}">\n` +
+    `${indent}  <div class="photo-placeholder">images/guides/${a.slug}.jpg<br>16:10 · approx 1600 × 1000 px</div>\n` +
+    `${indent}  <img src="/images/guides/${a.slug}.jpg" alt="${esc(alt)}" loading="lazy" onerror="this.remove()">\n` +
+    `${indent}</div>`;
+  const tile = (a) =>
+    `        <a class="tile reveal" href="/guides/${a.slug}/">\n` +
+    photo(a, '          ', '', false) + '\n' +
+    `          <div class="tile-body">\n` +
+    `            <p class="tile-kicker">${GROUPS[a.group].name} · ${a.readTime} min</p>\n` +
+    `            <h3 class="tile-title">${esc(a.title)}</h3>\n` +
+    `            <p class="tile-text">${esc(a.standfirst)}</p>\n` +
+    `            <span class="tile-more">Read the guide →</span>\n` +
+    `          </div>\n` +
+    `        </a>`;
+  const jsonld = (obj) => '  <script type="application/ld+json">\n' +
+    JSON.stringify(obj, null, 2).split('\n').map((l) => '  ' + l).join('\n') + '\n  </script>\n';
+  const fill = (tpl, values, label) => {
+    const html = tpl.replace(/\{\{([a-zA-Z]+)\}\}/g, (m, k) => {
+      if (!(k in values)) die(`${label}: template needs {{${k}}}, which is not defined`);
+      return values[k];
+    });
+    const banner = `<!--\n  GENERATED FILE — DO NOT EDIT.\n  Built from ${label} by \`node build.js\`.\n  Any change made here is lost the next time the build runs.\n-->\n`;
+    return html.replace(/^<!DOCTYPE html>\n/, `<!DOCTYPE html>\n${banner}`);
+  };
+
+  // ── one page per article ──
+  const articleTpl = read('guide-article.template.html');
+  const pages = [];
+  for (const a of articles) {
+    const url = `${SITE}/guides/${a.slug}/`;
+    const ogImage = hasPhoto(a) ? `${SITE}/images/guides/${a.slug}.jpg` : `${SITE}/images/og-home.jpg`;
+
+    // Keep reading: the next articles in the same group, wrapping round, then
+    // the next ones overall if the group is too small to fill three.
+    const same = articles.filter((b) => b.group === a.group);
+    const i = same.indexOf(a);
+    const related = same.slice(i + 1).concat(same.slice(0, i));
+    for (const b of articles.slice(articles.indexOf(a) + 1).concat(articles)) {
+      if (related.length >= 3) break;
+      if (b !== a && !related.includes(b)) related.push(b);
+    }
+
+    const schema = {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: a.title,
+      description: a.description,
+      image: ogImage,
+      mainEntityOfPage: url,
+      author: { '@type': 'Person', name: 'Carole Richard', url: `${SITE}/about/` },
+      publisher: {
+        '@type': 'Organization', name: 'Route 66 Logbook',
+        logo: { '@type': 'ImageObject', url: `${SITE}/images/Route66logbook-logo.png` },
+      },
+    };
+    if (a.published) schema.datePublished = a.published;
+    const crumbs = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+        { '@type': 'ListItem', position: 2, name: 'Route 66 guides', item: `${SITE}/guides/` },
+        { '@type': 'ListItem', position: 3, name: a.title, item: url },
+      ],
+    };
+
+    const html = fill(articleTpl, {
+      title: esc(a.title),
+      description: esc(a.description),
+      standfirst: esc(a.standfirst),
+      url, ogImage,
+      schema: jsonld(schema) + jsonld(crumbs),
+      groupName: GROUPS[a.group].name,
+      readTime: String(a.readTime),
+      updated: a.updated ? `<span>Updated ${esc(a.updated)}</span>` : '',
+      heroPhoto: photo(a, '        ', a.title, true),
+      body: a.body,
+      related: related.slice(0, 3).map(tile).join('\n'),
+      download,
+    }, `guide-article.template.html + ${a.file}`);
+    write(path.join('guides', a.slug, 'index.html'), html);
+    pages.push(`/guides/${a.slug}/`);
+  }
+
+  // ── /guides/ ──
+  const groups = Object.keys(GROUPS).map((g) => {
+    const list = articles.filter((a) => a.group === g);
+    if (!list.length) return '';
+    return `    <!-- ${GROUPS[g].name.toUpperCase()} -->\n` +
+      `    <section class="group shell wide">\n` +
+      `      <div class="group-head reveal">\n` +
+      `        <h2 class="group-title">${GROUPS[g].title}</h2>\n` +
+      `        <span class="group-count">${list.length} guides</span>\n` +
+      `      </div>\n` +
+      `      <div class="tiles">\n${list.map(tile).join('\n')}\n      </div>\n` +
+      `    </section>\n`;
+  }).join('\n');
+
+  const sources = read('_guides/sources.md').split('\n')
+    .filter((l) => l.startsWith('- '))
+    .map((l) => {
+      const m = l.match(/^- \[([^\]]+)\]\((https?:\/\/[^)\s]+)\)$/);
+      if (!m) die(`_guides/sources.md: expected "- [Name](https://…)", got "${l}"`);
+      return `        <li><a href="${m[2]}" target="_blank" rel="noopener">${esc(m[1])}</a></li>`;
+    }).join('\n');
+
+  const list = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Route 66 guides',
+    itemListElement: articles.map((a, n) => ({
+      '@type': 'ListItem', position: n + 1, url: `${SITE}/guides/${a.slug}/`, name: a.title,
+    })),
+  };
+
+  write(path.join('guides', 'index.html'), fill(read('guide.template.html'), {
+    url: `${SITE}/guides/`,
+    schema: jsonld(list),
+    groups, sources, download,
+  }, 'guide.template.html + _guides/'));
+
+  return { pages: ['/guides/'].concat(pages), count: articles.length };
+};

@@ -25,6 +25,8 @@ Route 66 helped shape roadside commerce. Gas stations, diners, motels, garages, 
 
 The road’s cultural image was amplified by song, film, television, literature and [photography](/guides/route-66-photography-guide/). Once a road becomes a symbol, people travel it not only to go somewhere, but to feel something they have already imagined. That is why Route 66 is powerful. You arrive with inherited images in your head, then the real road corrects them.
 
+![A mid-century postcard map of the eight Route 66 states advertising Travel U.S. 66, the Will Rogers Highway, 1296 miles four-lane](/images/guides/travel-us-66-postcard.jpg "Selling the road: a mid-century postcard for U.S. 66, the “Will Rogers Highway” · Newberry Library")
+
 ## Communities
 
 The road crosses many communities, including Indigenous nations, immigrant business communities, farming towns, railroad towns, mining towns, oil towns and urban neighbourhoods. Some benefited from the road; others were disrupted by the forces that came with it. A fuller Route 66 story does not erase nostalgia, but it adds complexity.
@@ -50,6 +52,8 @@ The mistake is choosing only the cheerful myth. The highway did represent freedo
 ## Dates that shape the story
 
 The Negro Motorist Green Book, created by New York postal worker Victor H. Green, was first published in 1936 and continued into the mid-1960s. It helped Black travellers identify hotels, restaurants, service stations and other businesses where they could expect to be welcomed during the era of segregation. Its history is an important reminder that the freedom associated with the American road trip was not experienced equally by everyone travelling Route 66.
+
+![A vintage photo postcard of a bus on snowy Highway 66 between Williams and Flagstaff, Arizona, with the San Francisco Peaks behind](/images/guides/williams-flagstaff-postcard.jpg "On Highway 66 between Williams and Flagstaff, Arizona, on a vintage photo postcard · Newberry Library")
 
 A good Route 66 story should hold the romance and the reality at the same time. The road can be beautiful, playful and generous while also being a record of migration, exclusion, labour, marketing, land use, bypass and survival.
 

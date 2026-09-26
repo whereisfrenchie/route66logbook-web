@@ -29,8 +29,6 @@ Neon is Route 66’s visual language. It turns business names into landmarks. A 
 
 A classic Route 66 motel is not just a place to sleep. It is a design experience. Look at the sign, the office, the court layout, the car spaces, the colour palette, the old postcard view. Many were built for travellers who wanted convenience, visibility and a sense of modern comfort. The best restored motels understand that nostalgia alone is not enough; they preserve character while offering enough comfort to keep modern travellers happy.
 
-![Three concrete wigwam motel rooms lit up at night with vintage cars parked outside](/images/prepare-3.jpg "A Wigwam Motel at night")
-
 ## Diners
 
 Diners and cafes are where Route 66 becomes human. Museums tell you the story officially. Diners tell it casually. You hear where people are from, what weather is coming, which road is closed, who owns the building now, and whether the pie is worth ordering. The décor might be nostalgic, but the experience is current. You are not stepping back in time; you are participating in a living roadside economy.
@@ -48,6 +46,8 @@ There is also sadness in Route 66 neon. A dark sign can be as powerful as a lit 
 ## Why neon belongs to Route 66 history
 
 Neon is not decoration pasted onto the road after the fact. It was part of the business model. Before digital maps, online reviews and booking platforms, a motel or cafe had to announce itself to a tired driver in the dark. The sign was architecture, advertising and promise all at once. A good sign said: vacancies, coffee, air conditioning, clean rooms, safety, character, maybe even a little glamour.
+
+![The El Don Motel sign in Albuquerque, New Mexico, with a cowboy on a rearing horse swinging a lasso](/images/guides/el-don-motel.jpg "The El Don Motel sign in Albuquerque, New Mexico")
 
 The golden age of many Route 66 motels and diners overlapped with post-war car ownership, the growth of paid vacations and the family road trip. Motor courts evolved into motels. Cafes learned to serve quickly. Gas stations became visual landmarks. By the time interstates bypassed towns, those signs were often the first things travellers missed and the last things locals wanted to save.
 
@@ -72,6 +72,8 @@ Neon photography works best when you arrive before full dark. Blue hour gives si
 ## Atmosphere can be part of the stay
 
 A motel sign at night also changes how you choose accommodation. A plain room attached to a glowing, well-kept historic sign can feel more memorable than a more generic but technically better hotel. That does not mean sacrificing comfort; it means understanding that atmosphere has value.
+
+![Three concrete wigwam motel rooms lit up at night with vintage cars parked outside](/images/prepare-3.jpg "A Wigwam Motel at night")
 
 ## Listen to the road after dark
 

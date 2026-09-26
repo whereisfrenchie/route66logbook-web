@@ -49,6 +49,8 @@ California is the final contradiction. You cross the Mojave, pass through towns 
 
 Route 66 runs through Illinois, Missouri, Kansas, Oklahoma, Texas, New Mexico, Arizona and California. That list looks simple, but the road changes personality every few hours. Illinois gives you brick streets, Lincoln country, small museums and early-road interpretation. Missouri adds Ozark curves, caves, stone buildings and Springfield's claim as the Birthplace of Route 66. Kansas only has a short stretch, but that shortness makes every stop feel concentrated.
 
+![The KiMo Theatre in Albuquerque, New Mexico, with a vintage car parked outside](/images/guides/kimo-theatre.jpg "The KiMo Theatre on Central Avenue in Albuquerque, New Mexico")
+
 Oklahoma has one of the richest Route 66 identities because Cyrus Avery, often called the Father of Route 66, was an Oklahoma highway commissioner and booster of the route. Texas gives you long sky, the midpoint idea and big visual gestures like Amarillo's art and ranching culture. New Mexico brings adobe, Pueblo and Hispano histories, neon corridors and the important pre-1937 Santa Fe alignment. Arizona gives desert towns, the Painted Desert, Seligman, Kingman and Oatman. California turns the road toward the Mojave, the San Bernardino corridor and the Pacific finish.
 
 ## State-by-state fun fact

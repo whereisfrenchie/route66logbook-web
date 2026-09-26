@@ -53,8 +53,6 @@ These places are a good reminder that a Route 66 hidden gem does not need to be 
 
 Some of the best discoveries happen outside the town centres. Old alignments often run beside the interstate, across farmland, through scrub, past railroad tracks or along cracked pavement where the traffic has moved on. These sections are not always dramatic, but they are powerful. You feel the difference between a road built for movement and a highway built for speed.
 
-![The empty shells of the old Avon Motel cabins beside a quiet stretch of road](/images/guides/avon-motel-ruins.jpg "What is left of the Avon Motel, easy to pass without noticing")
-
 ## Talk to people
 
 The fastest way to find hidden gems is to ask locals. Ask a motel owner what travellers miss. Ask a museum volunteer where the old road went. Ask a diner server which sign still lights up, which building used to be something else, or which side street is worth seeing. Route 66 knowledge is not only in books. It lives in people who have watched the road change.
@@ -66,6 +64,8 @@ Route 66 has many small clues: brown historical markers, hand-painted arrows, ol
 ## Hidden does not mean untouched
 
 Be careful with the word hidden. Many places are [private property](/guides/route-66-travel-etiquette/), fragile ruins or businesses trying to survive. Do not trespass for a photo. Do not climb on old structures. Do not treat abandoned towns like film sets. The best travellers leave places as they found them and spend money where they can. Preservation is not an abstract idea on Route 66; it is often the difference between a place surviving and disappearing.
+
+![The empty shells of the old Avon Motel cabins beside a quiet stretch of road](/images/guides/avon-motel-ruins.jpg "What is left of the Avon Motel, easy to pass without noticing")
 
 ## A few types of hidden gems
 

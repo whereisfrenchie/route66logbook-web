@@ -21,8 +21,6 @@ One of the road’s deepest associations is migration. During the Dust Bowl year
 
 Route 66 helped shape roadside commerce. Gas stations, diners, motels, garages, souvenir shops, trading posts and tourist courts grew around the needs of motorists. The road changed how businesses looked. Buildings faced traffic. Signs got taller. Mascots got stranger. Menus, architecture and advertising all adapted to the moving customer. In that sense, Route 66 is a design and business history corridor.
 
-![A vintage postcard street scene of US Highway 66 in Kingman, Arizona, lined with drugstores, a café and a car dealer](/images/history-kingman.jpg "Kingman, Arizona, on a vintage postcard: drugstores, a café and a Chevrolet–Buick dealer lining US 66")
-
 ## Music and myth
 
 The road’s cultural image was amplified by song, film, television, literature and [photography](/guides/route-66-photography-guide/). Once a road becomes a symbol, people travel it not only to go somewhere, but to feel something they have already imagined. That is why Route 66 is powerful. You arrive with inherited images in your head, then the real road corrects them.
@@ -42,6 +40,8 @@ The myth survives because it contains something people still want: freedom, move
 ## The road has more than one myth
 
 Route 66 carries several myths at once. There is the Dust Bowl road, made famous by Steinbeck's The Grapes of Wrath in 1939. There is the musical road, brightened by Bobby Troup's 1946 song. There is the television road, widened into a national symbol by the Route 66 series from 1960 to 1964. There is the family-vacation road of diners, motels and attractions. There is also the bypassed road, where the interstate changed the economic map.
+
+![A vintage postcard street scene of US Highway 66 in Kingman, Arizona, lined with drugstores, a café and a car dealer](/images/history-kingman.jpg "Kingman, Arizona, on a vintage postcard: drugstores, a café and a Chevrolet–Buick dealer lining US 66")
 
 The mistake is choosing only the cheerful myth. The highway did represent freedom for many travellers, but that freedom was uneven. The National Park Service's work on Route 66 and the Green Book makes clear that Black travellers needed trusted information to find safe lodging, food and services during segregation. Native communities along the corridor also experienced tourism, commerce and representation in complicated ways.
 

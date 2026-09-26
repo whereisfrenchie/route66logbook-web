@@ -41,6 +41,8 @@ For a [first full Route 66 trip](/guides/route-66-first-timers-guide/), aim for 
 
 The familiar headline figure is about 2,400 miles, although the exact mileage depends on the alignment and era being counted. That number is useful, but it can also mislead travellers. Route 66 changed alignments over time, and modern travellers often choose between earlier and later versions of the road. A day that looks simple on a map can become much longer if you follow older pavement, visit museums, stop for photographs, or double back to catch a bypassed town.
 
+![A small roadside gas station across a wide, empty road under a big sky](/images/guides/roadside-station.jpg "Long, empty miles between stops")
+
 The interstate era is the reason pace became complicated. From the 1950s through the 1980s, interstates including I-55, I-44, I-40, I-15 and I-10 gradually replaced the long-distance function of Route 66. The last bypassed section was replaced by I-40 in 1984, and the highway was decommissioned in 1985. Today, the traveller chooses between speed and memory almost every day.
 
 ## A historical way to think about time

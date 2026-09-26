@@ -37,6 +37,8 @@ In California, desert side trips can be beautiful but demanding. Heat, distance 
 
 Ask three questions before taking a side trip. Does it connect to the story I am following? Do I have enough time to enjoy it properly? What will I sacrifice on the main route? If the answer is clear, go. If you are adding it because everyone else does, pause.
 
+![The rim and bowl of Meteor Crater in the Arizona desert, with a viewing platform on the far edge](/images/guides/meteor-crater.jpg "Meteor Crater, near Winslow, Arizona: a short detour off the road")
+
 ## Side trips that are really old alignments or older histories
 
 Some of the best 'side trips' are not side trips in the usual sense. The Santa Fe loop in New Mexico was part of the original 1926 to 1937 Route 66 alignment before the road was redirected along a shorter cut-off. Taking it is not a detour from the story; it is choosing an earlier chapter.
@@ -46,8 +48,6 @@ Petrified Forest National Park is another essential example because it contains 
 ## How to judge a side trip
 
 Ask three questions. Does it reveal an earlier layer of the corridor? Does it help you understand the landscape the road passed through? Does it add meaning without stealing too much time from the main route? The Grand Canyon, Santa Fe, nearby national parks, old mining towns and museum stops can be worth it if they fit your pace.
-
-![The rim and bowl of Meteor Crater in the Arizona desert, with a viewing platform on the far edge](/images/guides/meteor-crater.jpg "Meteor Crater, near Winslow, Arizona: a short detour off the road")
 
 The danger with side trips is not that they are wrong. It is that they can turn Route 66 into a blur between famous destinations. Use them deliberately. A side trip should deepen the road, not replace it.
 

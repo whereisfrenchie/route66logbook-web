@@ -13,8 +13,6 @@ photoalt: A vintage red Coca-Cola vending machine against a white and red wall, 
 
 Route 66 is a dream for visual people because it was built to be noticed. Signs had to compete with speed. Buildings had to announce themselves from the roadside. Motels used shape, colour and light to promise comfort. Diners used chrome, curves, lettering and mascots to become memorable. Even decay has a visual language here: [peeling paint, sun-bleached colour](/guides/route-66-ghost-towns/), ghost signs, rust, cracked asphalt and desert shadows.
 
-![Weathered storefronts with faded painted signs and boarded wooden fronts beside the road](/images/guides/weathered-storefronts.jpg "Faded paint and ghost signs: decay has its own visual language")
-
 ## Lettering and signage
 
 Pay attention to lettering. Route 66 is full of scripts, block letters, arrows, shields, stars, hand-painted panels, bulb signs, [neon tubes](/guides/route-66-neon-motels-diners/) and mid-century type. Some signs are beautifully restored; others are barely hanging on. Photograph the whole sign, then photograph the details: the mounting, the shadows, the repairs, the mismatched paint, the way the letters sit against the sky.
@@ -47,6 +45,8 @@ It is easy to make Route 66 look like a costume: oversaturated neon, fake nostal
 
 Route 66 is almost a design archive disguised as a road trip. It contains hand-lettering, neon typography, painted signs, mascots, vernacular architecture, diner interiors, motel colour palettes, gas station geometry, murals, souvenir graphics, postcards, maps and mid-century optimism. It also contains weathering, repairs, mismatched additions and beautiful failures.
 
+![Weathered storefronts with faded painted signs and boarded wooden fronts beside the road](/images/guides/weathered-storefronts.jpg "Faded paint and ghost signs: decay has its own visual language")
+
 The route's visual language came from function. Signs had to be legible from a moving car. Buildings had to announce food, fuel or sleep quickly. Novelty shapes helped small businesses compete before search engines and rating platforms. That is why an arrow, a cowboy, a giant whale, a tilted sign or a glowing vacancy board can feel more memorable than a polished brand identity.
 
 ## Dates and styles to watch for
@@ -64,6 +64,8 @@ For designers and photographers, the honest challenge is restraint. Route 66 is 
 ## Photograph the context, not just the sign
 
 For designers, Route 66 is a lesson in visibility. Many signs were not designed for a static viewer. They were designed to be read quickly from a moving car, often at an angle, in changing light. That requirement created bold silhouettes, high contrast and memorable forms.
+
+![A wall covered in vintage signs: Phillips 66, Coke, road signs and old licence plates](/images/guides/wall-of-signs.jpg "A whole wall of signs tells a bigger story than any single one")
 
 ## Return when the light changes
 

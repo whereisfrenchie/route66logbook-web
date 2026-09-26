@@ -41,6 +41,8 @@ Route 66 preservation depends on travellers spending money locally. Buy coffee f
 
 Route 66 has always had an economic story. In the Depression years, it carried migrants west. In wartime, it helped move people and equipment. After the war, it carried families, salesmen, truckers, students and dreamers. Every group spent money differently, and every town learned to catch what it could from passing traffic.
 
+![The Grandview Motel sign and office, with a Vacancy arrow and a weekly specials board](/images/guides/grandview-motel.jpg "Independent motels often offer the best value, and the best signs")
+
 Travelling on a budget should not mean stripping out the character. In fact, some of the most authentic Route 66 experiences are affordable: a counter meal, a small museum, a locally owned motel, a restored gas station, a short walk around an old downtown, a mural, a bridge, a conversation with someone behind a register.
 
 ## Where to spend and where to save

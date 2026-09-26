@@ -24,8 +24,6 @@ The best approach now is to treat centennial information as live. Check official
 
 The centennial is not simply a birthday party for an old highway. Throughout 2026, it has given communities a reason to preserve buildings, document local history, attract visitors and widen the stories associated with Route 66.
 
-![The giant red Mighty Pretty cowboy boot sculpture in Oklahoma City](/images/history-centennial.jpg "Oklahoma City’s “Mighty Pretty” boot")
-
 Those stories include Indigenous lands and communities, Black travel history, migration, immigrant businesses, roadside architecture, music, food, tourism, engineering and the enormous economic changes caused by the interstate system. The anniversary is most interesting when it reveals more of that history rather than reducing the road to neon signs and nostalgia.
 
 If you are travelling during the final months of the centennial year, enjoy the celebrations, but leave room for the ordinary Route 66 moments too. A temporary exhibition or major festival may only exist in 2026, but the small museum, family-run diner and old alignment beside the interstate are what connect the anniversary back to the road itself.
@@ -33,6 +31,8 @@ If you are travelling during the final months of the centennial year, enjoy the 
 ## The centennial is not just a birthday party
 
 In 2026, Route 66 celebrates its 100th anniversary. That date is tied to the highway's 1926 birth inside the U.S. numbered highway system. The official centennial programme includes caravans, preservation initiatives, public art, tourism campaigns and events across the corridor. For travellers, that means more energy, more visibility and likely more competition for the most characterful places to stay.
+
+![The giant red Mighty Pretty cowboy boot sculpture in Oklahoma City](/images/history-centennial.jpg "Oklahoma City’s “Mighty Pretty” boot")
 
 The centennial also arrives after decades of preservation work. The National Park Service Route 66 Corridor Preservation Program has supported preservation planning, education, research and cost-share grants for significant sites related to the highway's period of significance, 1926 to 1985. That range is useful because it reminds travellers that a 1970s roadside attraction can be part of the story, not just the 1920s pavement.
 

@@ -6,7 +6,7 @@ order: 10
 standfirst: The best packing list is practical, not glamorous.
 description: A practical Route 66 packing list covering navigation, car essentials, clothing, photography gear, comfort items and the things you can leave at home.
 published: 2026-09-26
-photoalt: Two Route 66 guidebooks stacked on a small wooden side table beside a potted plant
+photoalt: My two Route 66 guidebooks stacked on a small wooden side table beside a potted plant
 ---
 
 ## The packing philosophy
@@ -31,7 +31,7 @@ Pack layers. Route 66 can give you hot afternoons and cool mornings, especially 
 
 Bring the camera you will actually use. A heavy kit is useless if it stays in the boot. A phone can do a lot, but [photographers](/guides/route-66-photography-guide/) may want a wide lens for landscapes, a longer lens for signs and details, and [a tripod for neon](/guides/route-66-neon-motels-diners/). Bring extra storage and chargers. More importantly, bring a system for recording names and locations. After [three weeks](/guides/how-many-days-route-66/), every gas station photo starts to blur unless you log it.
 
-![A mirrorless camera with a zoom lens on a white table, a map of the United States on the wall behind](/images/guides/packing-camera.jpg "Bring the camera you will actually use")
+![My Fujifilm camera with a zoom lens on a white table, a map of the United States on the wall behind](/images/guides/packing-camera.jpg "My camera for the trip: bring the one you will actually use")
 
 ## Health and comfort
 

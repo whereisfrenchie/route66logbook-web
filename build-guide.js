@@ -322,7 +322,7 @@ module.exports = function buildGuide({ ROOT, SITE, die, write }) {
       author: { '@type': 'Person', name: 'Carole Richard', url: `${SITE}/about/` },
       publisher: {
         '@type': 'Organization', name: 'Route 66 Logbook',
-        logo: { '@type': 'ImageObject', url: `${SITE}/images/Route66logbook-logo.png` },
+        logo: { '@type': 'ImageObject', url: `${SITE}/images/route66logbook-logo-shield.png` },
       },
     };
     if (a.published) schema.datePublished = a.published;

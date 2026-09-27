@@ -33,6 +33,10 @@
  *                       closing ) for an app screenshot: phone-width, with a
  *                       shadow.
  *   > text              a pull quote
+ *   [[download Button label | /downloads/file.pdf | /images/preview.jpg | description]]
+ *                       a downloadable file: its preview image with a small
+ *                       shadow and a teal button. Both files must exist; the
+ *                       button shows the file's size.
  *   >> figure | text    a fact call-out: a big figure ("2,400 miles") and a
  *                       line explaining it
  *   **bold** *italic* [text](url)   inside any paragraph, heading or item
@@ -147,6 +151,26 @@ function renderBody(src, label, die, root) {
       out.push(`      <figure class="figure${cls} reveal">\n` +
         `        <img src="${src}" alt="${esc(alt)}" width="${size.w}" height="${size.h}" loading="lazy">\n` +
         (caption ? `        <figcaption>${inline(caption)}</figcaption>\n` : '') +
+        `      </figure>`);
+      continue;
+    }
+    if (line.startsWith('[[download ')) {
+      const m = line.match(/^\[\[download (.+?) \| (\/downloads\/[^|\s]+) \| (\/images\/[^|\s]+\.jpe?g) \| (.+)\]\]$/);
+      if (!m) die(`${label}: cannot read "${line.slice(0, 70)}" — expected [[download Label | /downloads/file.pdf | /images/preview.jpg | description]]`);
+      const [, text, file, preview, alt] = m;
+      for (const f of [file, preview]) if (!fs.existsSync(path.join(root, f))) die(`${label}: ${f} does not exist`);
+      const size = jpegSize(path.join(root, preview));
+      if (!size) die(`${label}: cannot read the size of ${preview}`);
+      const bytes = fs.statSync(path.join(root, file)).size;
+      const human = bytes >= 1e6 ? (bytes / 1e6).toFixed(1) + ' MB' : Math.round(bytes / 1e3) + ' KB';
+      const ext = path.extname(file).slice(1).toUpperCase();
+      closeList();
+      out.push(`      <figure class="download-card reveal">\n` +
+        `        <a href="${file}" download><img src="${preview}" alt="${esc(alt)}" width="${size.w}" height="${size.h}" loading="lazy"></a>\n` +
+        `        <a class="btn-teal" href="${file}" download>\n` +
+        `          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>\n` +
+        `          ${esc(text)} <span class="btn-meta">${ext} · ${human}</span>\n` +
+        `        </a>\n` +
         `      </figure>`);
       continue;
     }

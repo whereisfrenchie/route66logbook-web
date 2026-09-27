@@ -13,6 +13,8 @@ photoalt: My two Route 66 guidebooks stacked on a small wooden side table beside
 
 Route 66 packing is about comfort, safety and flexibility. You do not need to pack like you are crossing a wilderness for weeks, but you should not treat it like a city break either. You will move through cities, small towns, deserts, high elevations, windy plains, hot afternoons, cold mornings and long stretches where the next useful shop may not be close. Pack for the road you are actually driving, not the romantic road in your head.
 
+[[download Download the printable packing list | /downloads/route-66-packing-list.pdf | /images/guides/packing-list-preview.jpg | The printable Route 66 packing list: documents and navigation, car essentials, clothing, photography and memory, health and comfort, organisation and extras]]
+
 ## Documents and navigation
 
 Carry your licence, [rental paperwork](/prepare/), insurance details, roadside assistance information and a backup payment method. International travellers should check licence and insurance requirements before departure. For navigation, use your phone, but do not rely on it alone. Have offline maps, a dedicated Route 66 guide or app, and ideally a printed overview. Phones fail, signals drop, batteries die and old alignments do not always behave the way modern navigation expects.

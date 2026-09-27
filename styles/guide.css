@@ -173,6 +173,26 @@ img { max-width: 100%; }
 }
 .prose .signoff .signoff-name { color: var(--teal); }
 
+/* Downloadable file: preview with a small shadow, and a teal button */
+.prose .download-card { margin: 40px auto 44px; text-align: center; }
+.prose .download-card img {
+  display: block; width: 100%; max-width: 420px; height: auto; margin: 0 auto 24px;
+  border-radius: 8px; background: #fff;
+  box-shadow: 0 10px 28px -10px rgba(43,48,51,0.28), 0 3px 8px -3px rgba(43,48,51,0.12);
+  transition: transform 0.2s;
+}
+.prose .download-card a:hover img { transform: translateY(-3px); }
+.prose .btn-teal, .prose .btn-teal:hover { color: #fff; text-decoration: none; }
+.btn-teal {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--teal); color: #fff; text-decoration: none;
+  padding: 15px 30px; border-radius: 100px;
+  font-size: 15px; font-weight: 600; letter-spacing: 0.2px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn-teal:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(109,174,171,0.45); }
+.btn-teal .btn-meta { font-weight: 500; opacity: 0.75; font-size: 13px; }
+
 /* In-article app button (the Word file's "CTA:" lines) */
 .cta-row { margin: 4px 0 30px; }
 .btn-coral {

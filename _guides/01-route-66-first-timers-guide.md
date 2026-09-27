@@ -1,6 +1,7 @@
 ---
 title: Route 66 for First-Timers: How to Plan and Navigate the Mother Road
 slug: route-66-first-timers-guide
+accent: How to Plan and Navigate
 group: plan
 order: 1
 standfirst: The Mother Road is not one simple road anymore. That is exactly why it is worth learning how to travel it properly.

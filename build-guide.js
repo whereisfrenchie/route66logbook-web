@@ -42,6 +42,9 @@
  *   title, slug, group (plan | places | road), order, standfirst, description
  *   updated    optional, shown in the byline ("September 2026")
  *   published  optional ISO date (2026-09-26); becomes datePublished
+ *   accent     optional words of the title to show in coral in the page's
+ *              heading only ("How to Plan and Navigate"); they must appear
+ *              in the title exactly
  *   photoalt   optional description of the photo for screen readers and
  *              search; without it the photo is described by the title
  */
@@ -202,6 +205,7 @@ function parseArticle(file, text, die, root) {
   if (!GROUPS[meta.group]) die(`${file}: group must be one of ${Object.keys(GROUPS).join(', ')}`);
   if (!/^[a-z0-9-]+$/.test(meta.slug)) die(`${file}: slug may only use a-z, 0-9 and -`);
   if (meta.published && !/^\d{4}-\d{2}-\d{2}$/.test(meta.published)) die(`${file}: published must be YYYY-MM-DD`);
+  if (meta.accent && !meta.title.includes(meta.accent)) die(`${file}: accent "${meta.accent}" is not part of the title`);
   meta.order = Number(meta.order);
   if (!Number.isInteger(meta.order)) die(`${file}: order must be a whole number`);
   const [body, words] = renderBody(m[2], file, die, root);
@@ -310,6 +314,9 @@ module.exports = function buildGuide({ ROOT, SITE, die, write }) {
 
     const html = fill(articleTpl, {
       title: esc(a.title),
+      heading: a.accent
+        ? esc(a.title).replace(esc(a.accent), `<em>${esc(a.accent)}</em>`)
+        : esc(a.title),
       description: esc(a.description),
       standfirst: esc(a.standfirst),
       url, ogImage,

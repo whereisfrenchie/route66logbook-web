@@ -77,8 +77,6 @@ The interruption is not the enemy of the trip. It is the trip.
 
 Route 66 was not designed for the kind of high-speed crossing people now expect from interstate travel. Its older sections pass through town centres because the point was access, not bypass. When you slow down for courthouse squares, railway crossings, old business districts and main streets, you are experiencing the road much closer to the way it originally functioned.
 
-> Miles are cheap. Attention is expensive.
-
 > The interruption is not the enemy of the trip. It is the trip.
 
 ## Take it with you in Route 66 Logbook

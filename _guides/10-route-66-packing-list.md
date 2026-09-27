@@ -73,6 +73,6 @@ Pack for collecting, even if you are not a souvenir person. Route 66 produces sm
 
 Leave physical room for the road. You may buy books, shirts, enamel pins, vintage objects, local food or unexpected finds. An overstuffed car on day one becomes a problem by day ten. Space is a practical luxury.
 
-## Your printable packing list
+## Print it, pack it, tick it off
 
 [[download Download the packing list | /downloads/route-66-packing-list.pdf | /images/guides/packing-list-preview.jpg | The printable Route 66 packing list: documents and navigation, car essentials, clothing, photography and memory, health and comfort, organisation and extras]]

@@ -15,43 +15,67 @@ The easiest way to ruin Route 66 is to plan it like a spreadsheet. The second ea
 
 ## Start with the spine
 
-Build your itinerary around overnight towns rather than individual attractions. Route 66 is too long and too textured to plan every stop first. Choose a daily distance that feels realistic, then anchor each day with a place to sleep. Once you have the spine, fill in the stops between. This keeps the trip flexible. If you spend an extra hour in a museum or get delayed by weather, you still know where the day ends.
+Build your itinerary around overnight towns rather than individual attractions. Route 66 is too long and too textured to plan every stop first. Choose a daily distance that feels realistic, then anchor each day with a place to sleep. Think of the overnight town as the fixed point; everything between two nights can stay flexible. Once you have the spine, fill in the stops between. This keeps the trip adaptable. If you spend an extra hour in a museum or get delayed by weather, you still know where the day ends.
+
+> Plan the nights. Leave the days some room to move.
 
 ## Respect the sections
 
-Do not make every day the same mileage. Illinois and Missouri are full of small towns and frequent stops, so short driving days can still feel rich. Oklahoma has long stretches but also an enormous Route 66 footprint. The Texas Panhandle can move faster, unless you love photography and wide-open landscapes. New Mexico rewards slow travel, especially if you [detour into Santa Fe](/guides/route-66-side-trips/) or spend time around Tucumcari and Albuquerque. Arizona and California can be deceptively demanding because desert distances, heat and mountain passes change the mood.
+Do not make every day the same mileage. Illinois and Missouri are full of small towns and frequent stops, so a relatively short driving day can still take hours. Oklahoma has one of the largest Route 66 footprints and plenty of reasons to stop along the way. The Texas Panhandle can move faster, unless you love photography and wide-open landscapes. New Mexico rewards slow travel, especially if you [detour into Santa Fe](/guides/route-66-side-trips/) or spend time around Tucumcari and Albuquerque. Arizona and California can be deceptively demanding because desert distances, heat and mountain passes change the pace completely.
 
 ## Book the rare things
 
-Some things deserve advance booking: iconic motels, event weekends, [centennial festivals](/guides/route-66-centennial-2026/), peak summer accommodation near popular towns, motorcycle or RV rentals, and any guided experience that only runs on certain days. Leave ordinary lunches and small stops flexible. If you try to book everything, you will turn the road into admin.
+Some things deserve advance booking: iconic motels, busy weekends, peak-season accommodation in smaller towns, motorcycle or RV rentals, and any guided experience that only runs on certain days.
+
+Historic motels can have very limited capacity. Boots Court in Carthage, Missouri, for example, has just 13 rooms. If sleeping somewhere specific is part of the Route 66 experience you want, book that first and let the smaller stops fall around it.
+
+Leave ordinary lunches and small stops flexible. If you try to book everything, you will turn the road into admin.
+
+> Book the things you would be genuinely disappointed to miss. Leave the rest flexible.
 
 ## Build themed days
 
-One way to make the itinerary more memorable is to think in themes. Have a [neon day in Tucumcari](/guides/route-66-neon-motels-diners/). Have a diners and murals day in Missouri. Have a roadside giants day in Illinois and Oklahoma. Have a desert history day in Arizona. Have a [ghost town and ruins day](/guides/route-66-ghost-towns/) in the Mojave. Themed days help travellers remember the road as a sequence of moods instead of a list of names.
+One way to make the itinerary more memorable is to let certain days develop a loose theme. Spend an evening chasing [neon in Tucumcari](/guides/route-66-neon-motels-diners/). Notice roadside giants across Illinois and Oklahoma. Give yourself a desert-history day in Arizona or a stretch of [ghost towns and ruins](/guides/route-66-ghost-towns/) through the Mojave.
+
+You do not need to force every stop into a category, but themes help the road settle into memory as a sequence of moods rather than a list of names.
 
 ## Plan for night
 
-A common mistake is to plan only daylight stops. Route 66 changes after dark. Neon signs glow, motel courts come alive, diners feel warmer, and towns like Tucumcari, Tulsa, Albuquerque, Williams and Seligman show a different face. If neon matters to you, do not schedule those towns as quick lunchtime stops. Sleep there. Walk after dusk. Let the signs do what they were made to do.
+A common mistake is to plan only daylight stops. Route 66 changes after dark. Neon signs glow, motel courts come alive, diners feel warmer, and towns like Tucumcari, Tulsa, Albuquerque, Williams and Seligman show a different face.
+
+If neon matters to you, do not schedule those towns as quick lunchtime stops. Sleep there. Walk after dusk. Let the signs do what they were made to do.
+
+> If neon matters to you, do not schedule those towns as lunchtime stops. Sleep there.
 
 ![The 66 Drive-In Theatre screen and ticket booth in Carthage, Missouri](/images/guides/66-drive-in-carthage.jpg "The 66 Drive-In in Carthage, Missouri, one of the road’s surviving drive-in theatres")
 
 ## The flex list
 
-For each day, create three lists: must-see, nice-to-see and maybe. Must-see stops are the ones you would regret missing. Nice-to-see stops are worthwhile if time allows. Maybe stops are for curiosity. This structure makes decisions easy on the road. You are not abandoning the itinerary; you are editing it like a traveller who knows what matters.
+For each day, create three lists: must-see, nice-to-see and maybe.
+
+**Must-see** stops are the ones you would regret missing.
+
+**Nice-to-see** stops are worthwhile if the day is running well.
+
+**Maybe** stops are for curiosity, spare time or something unexpected nearby.
+
+This structure makes decisions easy on the road. You are not abandoning the itinerary; you are editing it as the day unfolds.
+
+> Must-see. Nice-to-see. Maybe. Three lists are enough.
 
 ## The route was planned, then re-planned, then bypassed
 
-Overplanning Route 66 is tempting because the road itself is fragmented. The first federal planners did not create one brand-new road from scratch; they stitched together existing roads and improved them. Later, state highway departments realigned sections, straightened awkward bends and bypassed slow town approaches. Then the interstate system bypassed the old highway on a much larger scale.
+Overplanning Route 66 is tempting because the road itself is fragmented. The original highway was created by joining existing roads, then sections were moved, straightened and bypassed over the following decades. Eventually, the Interstate Highway System bypassed Route 66 on a much larger scale. That is why there is often more than one historically correct way through an area.
+
+New Mexico gives one of the clearest examples. The original Route 66 made a large detour north through Santa Fe before returning south towards Albuquerque. In 1937, a new east-west alignment cut that detour out, reducing Route 66's mileage through New Mexico from 506 to 399 miles.
 
 ![The El Don Motel sign in Albuquerque, New Mexico, with a cowboy on a rearing horse swinging a lasso](/images/guides/el-don-motel.jpg "The El Don Motel sign in Albuquerque, New Mexico")
 
-New Mexico gives one of the clearest examples. The [original 1926 to 1937 alignment](/history/) ran through Santa Fe. In 1937, a more direct cut-off redirected the highway and shortened the route between Santa Rosa, Albuquerque and the west. So when a traveller asks which Route 66 is the real one, the answer is often: more than one version is real, but not all versions tell the same story.
+So when a traveller asks which Route 66 is the real one, the answer is often: more than one version is real, but not all versions tell the same story.
 
-## Dates that help you plan smarter
+A few dates help make sense of this: 1926 for the original designation, 1937 for the major New Mexico realignment, 1938 for the completion of paving across the route, and 1985 for decommissioning. You do not need to memorise them, but understanding that Route 66 changed over time explains why maps, guidebooks and local signs do not always agree.
 
-1926 is the origin date, 1937 is a useful alignment-change date in New Mexico, 1938 is the date often associated with the route being fully paved, and 1985 is the decommissioning date. These dates are not trivia. They explain why a map, a guidebook and local signage can disagree without anyone being wrong.
-
-The best planning method is to choose your level of commitment. Some travellers follow the drivable historic route as closely as possible. Others use the old road as a thread while allowing practical shortcuts. Neither is wrong, but pretending you will follow every inch without understanding alignments usually creates stress.
+> More than one version of Route 66 can be real, but they do not all tell the same story.
 
 ## Take it with you in Route 66 Logbook
 
@@ -61,12 +85,16 @@ The best planning method is to choose your level of commitment. Some travellers 
 
 ## Know when to change the plan
 
-Good planning also means knowing when to ignore the plan. If a storm is coming, if a museum owner recommends a detour, if a neon sign only lights at dusk, or if you are simply tired, adjust. A rigid itinerary may look impressive before departure, but the best Route 66 travellers edit in real time. A saved Route 66 Logbook list can act as a flexible shortlist rather than a timetable you feel obliged to obey.
+Good planning also means knowing when to ignore the plan. If a storm is coming, if a museum owner recommends a detour, if a neon sign only lights at dusk, or if you are simply tired, adjust. A rigid itinerary may look impressive before departure, but Route 66 rarely rewards treating a timetable as a contract.
+
+A saved Route 66 Logbook list can act as a flexible shortlist rather than a timetable you feel obliged to obey.
 
 ## Keep simple daily notes
 
-Keep your daily notes simple. Record where you slept, what you ate, the best stop, the road section you loved and anything that was closed. Those closure notes are surprisingly useful later, especially if you are building content, helping other travellers or returning to finish a missed section.
+Keep your daily notes simple. Record where you slept, what you ate, the best stop, the road section you loved and anything that was closed. Those closure notes are surprisingly useful later, especially if you return to finish a missed section or want to help another traveller avoid the same dead end.
 
 ## Leave room for discovery
 
-The best itinerary has a rhythm of anticipation and surprise. You should know enough to feel excited each morning, but not so much that every discovery has been pre-consumed online. Leave yourself a few blank spaces on purpose. The road will fill them.
+The best itinerary has a rhythm of anticipation and surprise. You should know enough to feel excited each morning, but not so much that every discovery has already been consumed online. Leave yourself a few blank spaces on purpose. The road will fill them.
+
+> Leave yourself a few blank spaces on purpose. The road will fill them.

@@ -70,6 +70,8 @@ Route 66 was born in the 1920s, when the United States was trying to turn a patc
 
 One detail worth knowing before you reach California is that the famous “End of the Trail” sign on Santa Monica Pier is a symbolic finish rather than the historic highway terminus itself. The recognised western endpoint is at the intersection of Lincoln and Olympic Boulevards. The Pier has since become the place most travellers choose to celebrate the end of the journey, which is why both locations belong to the modern Route 66 story.
 
+![A giant fibreglass service station attendant in a green uniform, saluting and holding a wrench](/images/guides/fibreglass-giant-attendant.jpg "Another of the road’s fibreglass giants")
+
 A useful date to keep in your head is 1938, when Route 66 became fully paved from end to end. Before that, early travellers dealt with mud, gravel, rough surfaces and uncertain conditions. When you see an old alignment today, it is worth remembering that every smooth mile was once a major engineering and political achievement, not a nostalgic photo prop.
 
 The other date is 1985. That was the year U.S. Highway 66 was officially decommissioned after the interstate system had taken over much of its long-distance function. The road did not disappear, but its legal identity changed. That is why you can drive it today only by following historic alignments, business loops, frontage roads, city streets and preserved fragments.

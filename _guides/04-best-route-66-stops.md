@@ -29,8 +29,6 @@ This guide follows some of the best stops from Chicago to California, state by s
 
 Route 66 begins in Chicago before crossing hundreds of miles of Illinois farmland, small towns and former highway communities. Several alignments survive across the state, which makes Illinois particularly good for understanding that Route 66 was never one fixed road.
 
-![The stone towers of the old Joliet prison behind razor wire and a No Trespassing sign](/images/guides/old-joliet-prison.jpg "The old Joliet prison, one of the landmarks beside Route 66 in Illinois")
-
 ### Chicago and the beginning of Route 66
 
 When Route 66 was established in 1926, its eastern terminus was in Chicago. The exact route through the city changed over the years, but Chicago remains the traditional starting point for travellers heading west.
@@ -253,6 +251,8 @@ That individual eccentricity appears again and again along Route 66. Some of its
 
 The Blue Whale began in much the same spirit.
 
+![The Blue Whale of Catoosa, a smiling concrete whale in a pond](/images/guides/best-route-66-stops.jpg "The Blue Whale of Catoosa, Oklahoma")
+
 Hugh Davis built the enormous concrete whale beside a pond in the early 1970s, initially creating a place where his family could swim and play. It eventually became part of a larger recreational attraction and, decades later, one of Route 66's most recognisable landmarks.
 
 Its appeal is difficult to separate from the fact that it was never supposed to become an international icon. It began as one man's slightly eccentric project for the people he loved and somehow ended up representing an entire era of American roadside culture.
@@ -464,8 +464,6 @@ That mixture is part of the appeal. Route 66 was never frozen in its 1950s heyda
 West of Albuquerque, Route 66 crosses the Pueblo of Laguna, which introduces another layer of history often simplified in traditional accounts of the road.
 
 Route 66 did not cross an empty Southwestern landscape. It travelled through lands that had been home to Indigenous communities for centuries. As tourism increased, Pueblo communities existed alongside trading posts, curio businesses and roadside attractions selling motorists an increasingly commercialised image of the Southwest.
-
-![The white Budville Trading Co. building beside the old road in New Mexico](/images/guides/budville-trading-co.jpg "Budville Trading Co., on the old road west of Albuquerque")
 
 That relationship created economic opportunities, including markets for Indigenous artists and craftspeople, but it also encouraged stereotypes that treated diverse Native cultures as interchangeable pieces of roadside scenery.
 
@@ -683,8 +681,6 @@ The great Route 66 icons work because they turn complicated history into somethi
 
 A giant fibreglass figure tells you about the competition for motorists' attention. A filling station shows how an entirely new economy developed around the automobile. A motor court explains how accommodation changed when travellers wanted to park directly beside their room, while neon reveals what happened when businesses needed to remain visible after dark.
 
-![A giant fibreglass service station attendant in a green uniform, saluting and holding a wrench](/images/guides/fibreglass-giant-attendant.jpg "Another of the road’s fibreglass giants")
-
 Even abandoned places tell a story. Glenrio and Amboy make the consequences of the Interstate system visible in a way that statistics never could, while an old bridge or strip of narrow pavement can reveal an alignment that has almost disappeared from the modern landscape.
 
 But there are other stories here too. The Threatt Filling Station reminds us that the freedom associated with the American road trip was not available equally to Black motorists during segregation. Laguna Pueblo and Peach Springs place Route 66 within Indigenous landscapes whose histories began long before 1926. Hotels like La Posada and El Garces connect the highway to the railroads that preceded it.
@@ -700,8 +696,6 @@ Go and see them. Being famous does not make them meaningless, and many became ic
 But do not let somebody else's photographs decide your entire journey.
 
 Some of the most interesting places on Route 66 are the tiny filling station in a town you had never heard of, the bridge built before Route 66 existed, the motel somebody saved from demolition or the old alignment that disappears into the landscape beside the road you are driving now. Sometimes the place you nearly pass without noticing carries more history than the attraction you drove there to see.
-
-![Hundreds of coloured glass bottles hung on metal trees at Elmer’s Bottle Tree Ranch](/images/guides/bottle-tree-ranch.jpg "Elmer’s Bottle Tree Ranch, Oro Grande, California: a roadside oddity that never needed to be famous")
 
 More than 250 Route 66 buildings, bridges, road segments and historic districts are listed on the National Register of Historic Places alone. Beyond those are countless diners, motels, signs, murals, former businesses, ghost towns, abandoned alignments and community landmarks that never became internationally famous.
 

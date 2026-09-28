@@ -35,6 +35,8 @@ Texas is big sky, wind, cattle, humour and visual drama. The Panhandle section i
 
 New Mexico changes the light. The colours shift: adobe, turquoise, neon, desert, mountain, sky. The route has old and newer alignments, and the Santa Fe loop adds historical depth if you choose it. Tucumcari is [one of the great neon towns](/guides/route-66-neon-motels-diners/). Albuquerque brings urban complexity. Gallup gives railroad and trading-post history. This is a state to slow down in.
 
+![The white Budville Trading Co. building beside the old road in New Mexico](/images/guides/budville-trading-co.jpg "Budville Trading Co., on the old road west of Albuquerque")
+
 ## Arizona
 
 Arizona gives Route 66 some of its grandest landscapes. Petrified Forest, Painted Desert, high plateau towns, Flagstaff, Williams, Seligman, Kingman and the road toward Oatman all bring different energies. This is also where many travellers add [the Grand Canyon](/guides/route-66-side-trips/), even though it is not directly on Route 66. Arizona feels like the road has entered myth: desert, railroads, canyons, vintage signs and long western horizons.

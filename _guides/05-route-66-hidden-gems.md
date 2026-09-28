@@ -55,6 +55,8 @@ These places are a good reminder that a Route 66 hidden gem does not need to be 
 
 Some of the best discoveries happen outside the town centres. Old alignments often run beside the interstate, across farmland, through scrub, past railroad tracks or along cracked pavement where the traffic has moved on. These sections are not always dramatic, but they are powerful. You feel the difference between a road built for movement and a highway built for speed.
 
+![The stone towers of the old Joliet prison behind razor wire and a No Trespassing sign](/images/guides/old-joliet-prison.jpg "The old Joliet prison, one of the landmarks beside Route 66 in Illinois")
+
 ## Talk to people
 
 The fastest way to find hidden gems is to ask locals. Ask a motel owner what travellers miss. Ask a museum volunteer where the old road went. Ask a diner server which sign still lights up, which building used to be something else, or which side street is worth seeing. Route 66 knowledge is not only in books. It lives in people who have watched the road change.
@@ -86,6 +88,8 @@ Look for bridges, old roadbed, motor court layouts, service station canopies, gh
 ## What makes a lesser-known stop worth logging
 
 A good hidden gem usually does at least one of three things: it shows how people lived with the road, it preserves a piece of infrastructure, or it reveals a story that the polished travel guides skip. The [Negro Motorist Green Book](/guides/route-66-history/), first published in 1936 and continuing into the mid-1960s, is one example of why the road's hidden histories matter. For Black travellers, the open road was not equally open, and safe places to sleep, eat and buy fuel could determine whether a trip was possible.
+
+![Hundreds of coloured glass bottles hung on metal trees at Elmer’s Bottle Tree Ranch](/images/guides/bottle-tree-ranch.jpg "Elmer’s Bottle Tree Ranch, Oro Grande, California")
 
 That is why a logbook should never only rank stops by spectacle. It should also let travellers mark why a place matters: preserved, threatened, family-run, Green Book history, old alignment, local art, neon, closed but visible, or community-restored. Those categories help the road become a living archive instead of a checklist.
 

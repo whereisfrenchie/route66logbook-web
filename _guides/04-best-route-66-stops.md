@@ -41,7 +41,7 @@ Starting here also gives the journey a sense of scale that is easy to lose when 
 
 The Gemini Giant is one of the most recognisable examples of the enormous fibreglass figures that appeared outside American roadside businesses from the 1960s onwards. These figures are generally known as Muffler Men, although they advertised everything from restaurants to tyre shops.
 
-![The American Giants Museum in Atlanta, Illinois, with red gas pumps and a classic car out front](/images/guides/american-giants-museum.jpg "The American Giants Museum in Atlanta, Illinois, home to a collection of fibreglass giants")
+![The Gemini Giant, a green fibreglass astronaut in a silver helmet holding a rocket](/images/guides/gemini-giant.jpg "The Gemini Giant, Wilmington, Illinois")
 
 Standing around 28 feet tall, the Gemini Giant turned that familiar advertising formula into a space-age mascot, complete with helmet and rocket. His enormous size made perfect sense in an increasingly car-oriented landscape, where a roadside business had only a few seconds to catch the attention of a passing driver.
 
@@ -135,6 +135,8 @@ That enormous advertising effort is almost as interesting as the attraction itse
 
 The Wagon Wheel opened in 1936 as the Wagon Wheel Cabins, when roadside accommodation was rapidly evolving from basic tourist camps into the motor courts that would eventually become the modern motel.
 
+![A sandstone motel office with a bay window and vintage gas pumps out front](/images/guides/wagon-wheel-cuba.jpg "The stone office at the Wagon Wheel Motel, Cuba, Missouri")
+
 Its buildings were constructed from local Ozark sandstone, with rooms grouped into substantial stone structures rather than simple individual cabins. A 1939 AAA directory advertised private baths, enclosed garages and rooms costing between $2.50 and $3 for two people.
 
 The motel still operates, which is what makes it particularly worthwhile. You are not simply looking at a preserved building or museum display. You can still spend the night in accommodation created for Route 66 travellers nearly ninety years ago.
@@ -203,6 +205,8 @@ It is a useful reminder that Route 66 was not constructed from scratch in 1926. 
 
 Baxter Springs' cottage-like filling station shows another way roadside architecture adapted to the automobile.
 
+![A cream brick cottage-style filling station with a steep red roof and two red Phillips 66 pumps](/images/guides/baxter-springs-station.jpg "The cottage-style filling station in Baxter Springs, Kansas")
+
 Early petrol stations could look dirty, mechanical and unfamiliar, so oil companies increasingly used architecture to make them appear respectable and welcoming. Some were designed almost like suburban houses, complete with pitched roofs and domestic proportions.
 
 The Baxter Springs station later became associated with Phillips 66 and now serves Route 66 visitors. What looks like a charming little building today was once part of a much larger effort to make motorists comfortable with a new roadside industry.
@@ -238,6 +242,8 @@ That individual eccentricity appears again and again along Route 66. Some of its
 ### Blue Whale of Catoosa
 
 The Blue Whale began in much the same spirit.
+
+![The Blue Whale of Catoosa, a smiling concrete whale in a pond](/images/guides/blue-whale-catoosa.jpg "The Blue Whale of Catoosa, Oklahoma")
 
 Hugh Davis built the enormous concrete whale beside a pond in the early 1970s, initially creating a place where his family could swim and play. It eventually became part of a larger recreational attraction and, decades later, one of Route 66's most recognisable landmarks.
 
@@ -311,7 +317,7 @@ Route 66 crosses roughly 180 miles of the Texas Panhandle, but the change in lan
 
 The Tower Station and U-Drop Inn in Shamrock is one of the finest surviving examples of Route 66 roadside architecture.
 
-![The U-Drop Inn and Conoco station in Shamrock, Texas, with its neon lit at dusk](/images/guides/route-66-neon-motels-diners.jpg "The U-Drop Inn, Shamrock, Texas, at dusk")
+![The Art Deco U-Drop Inn and Conoco tower in Shamrock, Texas, with green and red neon at dusk](/images/guides/u-drop-inn-shamrock.jpg "The U-Drop Inn, Shamrock, Texas")
 
 The complex combined a filling station, café and commercial space beneath a dramatic Art Deco tower, giving motorists several reasons to stop in one highly visible building. Even the name was designed to attract attention: "U-Drop Inn" was submitted by a local schoolboy in a naming contest.
 
@@ -330,6 +336,8 @@ That difference in traffic patterns explains much of what happened to Route 66 c
 Cadillac Ranch is one of the places almost everyone knows before reaching Route 66.
 
 Created in 1974 by the experimental art collective Ant Farm and commissioned by Amarillo patron Stanley Marsh 3, the installation consists of ten Cadillacs buried nose-first in a Texas field. The cars represent successive generations of Cadillac design, particularly the rise and eventual decline of the tailfin.
+
+![A row of graffiti-covered Cadillacs buried nose-first in a Texas field](/images/guides/cadillac-ranch.jpg "Cadillac Ranch, Amarillo, Texas")
 
 The installation has not always stood exactly where you see it today. As Amarillo expanded towards the original site, the cars were moved west in 1997 so that Cadillac Ranch could retain the open-field setting that had become such an important part of the work.
 
@@ -445,6 +453,8 @@ West of Albuquerque, Route 66 crosses the Pueblo of Laguna, which introduces ano
 
 Route 66 did not cross an empty Southwestern landscape. It travelled through lands that had been home to Indigenous communities for centuries. As tourism increased, Pueblo communities existed alongside trading posts, curio businesses and roadside attractions selling motorists an increasingly commercialised image of the Southwest.
 
+![The white Budville Trading Co. building beside the old road in New Mexico](/images/guides/budville-trading-co.jpg "Budville Trading Co., on the old road west of Albuquerque")
+
 That relationship created economic opportunities, including markets for Indigenous artists and craftspeople, but it also encouraged stereotypes that treated diverse Native cultures as interchangeable pieces of roadside scenery.
 
 The important thing when travelling through Pueblo lands today is to remember that these are living communities rather than historic attractions. Local rules around access and photography should always be respected.
@@ -452,6 +462,8 @@ The important thing when travelling through Pueblo lands today is to remember th
 ### El Rancho Hotel, Gallup
 
 Built in 1936, El Rancho became closely associated with Hollywood as film crews used Gallup and the surrounding landscapes for Westerns.
+
+![The El Rancho Hotel in Gallup, New Mexico, its red and blue neon lit at night](/images/guides/el-rancho-gallup.jpg "El Rancho Hotel, Gallup, New Mexico")
 
 Actors including John Wayne, Katharine Hepburn, Spencer Tracy, Kirk Douglas, Gregory Peck and Humphrey Bogart stayed at the hotel while working in the region, and that film history remains part of the building's identity today.
 
@@ -487,7 +499,7 @@ Today the Painted Desert Inn is a National Historic Landmark and visitor centre,
 
 Holbrook's Wigwam Village #6 is one of only three surviving Wigwam Villages in the United States and one of two on Route 66.
 
-![A concrete wigwam motel room with a vintage turquoise Chevrolet parked in front](/images/3.jpg "A Wigwam Motel room, with a classic Chevrolet parked outside")
+![The green neon Wigwam Motel sign lit at night, with vintage cars parked in front of the office](/images/guides/wigwam-motel-holbrook.jpg "The Wigwam Motel, Holbrook, Arizona, after dark")
 
 Despite the name, its concrete units are shaped like teepees rather than wigwams. That distinction matters because the motel belongs to a period when roadside businesses routinely borrowed Indigenous imagery with little concern for cultural accuracy.
 
@@ -513,6 +525,8 @@ Interstate 40 opened around the town in 1978, removing the steady stream of moto
 
 Local business owners eventually began campaigning to preserve and promote the old road, contributing to the movement that established Historic Route 66 in Arizona. After the final Interstate bypass at Williams in 1984, Arizona became an important centre of the grassroots effort to preserve the old highway.
 
+![The Snow Cap Drive-In in Seligman, Arizona, with its signs and old cars out front](/images/guides/snow-cap-seligman.jpg "The Snow Cap Drive-In, Seligman")
+
 The souvenir shops, signs and deliberate nostalgia that fill Seligman today can feel theatrical, but they are also part of the town's survival story. Tourism did not simply commercialise Seligman's Route 66 history. It helped keep the town on the map after the Interstate had taken the traffic away.
 
 ### Peach Springs
@@ -535,17 +549,21 @@ The farther west you travel, the easier it becomes to understand how important t
 
 Kingman is a useful base for exploring western Arizona, but the real experience begins when you leave town on the old alignment towards Oatman.
 
-![A vintage postcard street scene of US Highway 66 in Kingman, Arizona, lined with drugstores, a café and a car dealer](/images/history-kingman.jpg "Kingman, Arizona, on a vintage postcard")
+![Mr. D’z Route 66 Diner in Kingman, Arizona, pink and turquoise at dusk with a vintage pickup out front](/images/guides/mr-dz-kingman.jpg "Mr. D’z Route 66 Diner, Kingman, Arizona")
 
 The road climbs into the Black Mountains through Sitgreaves Pass, twisting through steep grades and sharp curves that would never be engineered into a modern Interstate. This is one of the stretches where you actually experience Route 66 as a road rather than moving from one attraction to another.
 
 Early motorists had to contend with overheating engines, less effective brakes and fuel systems that could struggle on steep grades. Stories survive of drivers reversing uphill because gravity-fed fuel systems worked better with the vehicle facing the opposite direction.
+
+![The old road winding through the Black Mountains towards Sitgreaves Pass](/images/guides/sitgreaves-pass.jpg "The old road climbing into the Black Mountains towards Sitgreaves Pass")
 
 Whether you are interested in cars or not, driving the pass makes the challenges of early cross-country travel immediately obvious.
 
 ### Oatman
 
 Oatman existed as a mining community before Route 66 turned it into a highway town, and the place has reinvented itself several times since.
+
+![A burro standing on a rocky desert hillside near Oatman, Arizona](/images/guides/oatman-burro.jpg "One of the burros that roam Oatman")
 
 Today the burros wandering through the streets, wooden storefronts and staged Old West atmosphere make it one of Arizona's most theatrical Route 66 stops. It is undeniably touristy, but dismissing it for that misses the more interesting story.
 
@@ -635,6 +653,8 @@ The End of the Trail sign on Santa Monica Pier has become the ceremonial finish 
 
 Historically, though, the pier was not the official terminus of U.S. 66. The later highway ended near Lincoln and Olympic boulevards in Santa Monica, while the pier sign is a modern symbolic endpoint created for travellers following the historic road.
 
+![The Santa Monica 66 End of the Trail sign on the pier at dusk, with crowds below](/images/guides/santa-monica-end-of-trail.jpg "The End of the Trail sign on Santa Monica Pier")
+
 That distinction does not make the ritual any less satisfying.
 
 By the time you reach the pier, you have crossed major cities, farmland, the Ozarks, the Great Plains, Pueblo lands, mountain passes and desert. You have followed roads that were part of Route 66 for its entire life and others that carried the name for only a few years.
@@ -647,7 +667,7 @@ The great Route 66 icons work because they turn complicated history into somethi
 
 A giant fibreglass figure tells you about the competition for motorists' attention. A filling station shows how an entirely new economy developed around the automobile. A motor court explains how accommodation changed when travellers wanted to park directly beside their room, while neon reveals what happened when businesses needed to remain visible after dark.
 
-![A roadside giant statue in a stars-and-stripes outfit holding a golf ball](/images/5.jpg "One of the roadside giants still standing along the route")
+![A giant fibreglass service station attendant in a green uniform, saluting and holding a wrench](/images/guides/fibreglass-giant-attendant.jpg "Another of the road’s fibreglass giants")
 
 Even abandoned places tell a story. Glenrio and Amboy make the consequences of the Interstate system visible in a way that statistics never could, while an old bridge or strip of narrow pavement can reveal an alignment that has almost disappeared from the modern landscape.
 
@@ -664,6 +684,8 @@ Go and see them. Being famous does not make them meaningless, and many became ic
 But do not let somebody else's photographs decide your entire journey.
 
 Some of the most interesting places on Route 66 are the tiny filling station in a town you had never heard of, the bridge built before Route 66 existed, the motel somebody saved from demolition or the old alignment that disappears into the landscape beside the road you are driving now. Sometimes the place you nearly pass without noticing carries more history than the attraction you drove there to see.
+
+![Hundreds of coloured glass bottles hung on metal trees at Elmer’s Bottle Tree Ranch](/images/guides/bottle-tree-ranch.jpg "Elmer’s Bottle Tree Ranch, Oro Grande, California: a roadside oddity that never needed to be famous")
 
 More than 250 Route 66 buildings, bridges, road segments and historic districts are listed on the National Register of Historic Places alone. Beyond those are countless diners, motels, signs, murals, former businesses, ghost towns, abandoned alignments and community landmarks that never became internationally famous.
 

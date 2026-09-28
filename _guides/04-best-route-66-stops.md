@@ -293,6 +293,8 @@ A few miles away, POPS proves that Route 66 culture did not stop being created w
 
 Opened in 2007, the modern filling station and restaurant deliberately borrow from the visual language of classic roadside architecture. The enormous 66-foot soda bottle outside performs essentially the same job as the Gemini Giant or an oversized milk bottle did decades earlier: make sure drivers notice you.
 
+![The giant soda bottle at POPS in Arcadia, Oklahoma, glowing pink under its steel canopy at dusk](/images/guides/pops-arcadia.jpg "POPS, Arcadia, Oklahoma, at dusk")
+
 The materials and architecture have changed, but the roadside instinct is exactly the same.
 
 ### Threatt Filling Station, Luther
@@ -312,6 +314,8 @@ The station is currently closed to the public and should be viewed from the road
 ### Milk Bottle Grocery, Oklahoma City
 
 The Milk Bottle Grocery in Oklahoma City occupies only about 350 square feet, but it is difficult to miss because of the enormous milk bottle sitting on its roof.
+
+![The small brick Milk Bottle Grocery in Oklahoma City with a giant milk bottle on its roof](/images/guides/milk-bottle-grocery.jpg "The Milk Bottle Grocery, Oklahoma City")
 
 The triangular building dates to 1930, while the oversized bottle was added later as advertising. It is a classic example of a simple roadside idea: if drivers only have a few seconds to notice your business, make the sign impossible to ignore.
 
@@ -635,7 +639,7 @@ The Wigwam Motel on the Rialto-San Bernardino border is the California counterpa
 
 Only three of the original seven Wigwam Villages survive in the United States, and two are on Route 66. Wigwam Village #7 is also recognised on the National Register as one of California's historic Route 66 properties.
 
-![White concrete wigwams among palm trees at the Wigwam Motel in California](/images/guides/wigwam-motel-rialto.jpg "The Wigwam Motel, Rialto, California")
+![Three concrete wigwams lit at dusk among palm trees at the Wigwam Motel in Rialto, California](/images/guides/wigwam-motel-rialto.jpg "The Wigwam Motel, Rialto, California")
 
 Seeing both during the same journey gives you an unusual opportunity to compare two surviving examples of the same roadside concept hundreds of miles apart.
 

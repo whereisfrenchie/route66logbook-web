@@ -6,7 +6,7 @@ order: 4
 standfirst: From giant roadside statues and neon motels to historic bridges, diners and forgotten stretches of pavement, these are some of the best stops on Route 66, state by state.
 description: The best Route 66 stops, state by state, from Chicago to Santa Monica: roadside giants, neon motels, historic bridges, diners and old pavement, with the history behind each one.
 published: 2026-09-26
-photoalt: The Midpoint painted across the road in Adrian, Texas, halfway between Chicago and Los Angeles
+photoalt: The Blue Whale of Catoosa, a smiling concrete whale in a pond in Oklahoma
 ---
 
 [[states]]
@@ -28,6 +28,8 @@ This guide follows some of the best stops from Chicago to California, state by s
 [[state Illinois | /images/guides/badges/illinois.png]]
 
 Route 66 begins in Chicago before crossing hundreds of miles of Illinois farmland, small towns and former highway communities. Several alignments survive across the state, which makes Illinois particularly good for understanding that Route 66 was never one fixed road.
+
+![The stone towers of the old Joliet prison behind razor wire and a No Trespassing sign](/images/guides/old-joliet-prison.jpg "The old Joliet prison, one of the landmarks beside Route 66 in Illinois")
 
 ### Chicago and the beginning of Route 66
 
@@ -59,6 +61,8 @@ The business evolved as traffic and competition increased, adding repair facilit
 
 Pontiac has become one of the major Route 66 hubs in Illinois, with museums, murals and preserved roadside history concentrated around its downtown. It is tempting to arrive, photograph the large Route 66 mural and leave, but the town works better if you give it some time.
 
+![A painted Visit Pontiac, Illinois, on Route 66 mural with a yellow 1957 Chevrolet](/images/guides/pontiac-mural.jpg "One of Pontiac’s Route 66 murals")
+
 What makes Pontiac particularly interesting is the way preservation has become part of the town itself. Route 66 disappeared from the federal highway system in 1985, but communities like Pontiac decided that the road was still worth interpreting and celebrating. Museums, public art, historic buildings and local organisations now work together to keep that history visible.
 
 That preservation movement is an important part of the modern Route 66 story. Without it, much more of the road would simply have disappeared.
@@ -75,6 +79,8 @@ The Ariston Café is one of the best places on the entire route for understandin
 
 Pete Adam first opened the Ariston in Carlinville in 1924, before Route 66 existed. When the new highway bypassed Carlinville, he followed the traffic and eventually opened the present restaurant in Litchfield in 1935.
 
+![The brick Ariston Café in Litchfield, Illinois, with motorcycles parked outside](/images/guides/ariston-cafe.jpg "The Ariston Café, Litchfield, Illinois")
+
 Then the highway changed again. When Route 66 was widened and shifted behind the restaurant in 1940, Adam adapted by adding signage to the back of the building so motorists on the new alignment could still see it.
 
 The Ariston survived because its owners kept responding to the road. That story would repeat itself thousands of times along Route 66 as alignments changed, bypasses appeared and businesses tried to remain visible to motorists.
@@ -84,6 +90,8 @@ The Ariston survived because its owners kept responding to the road. That story 
 The Soulsby Service Station tells a similar story from the petrol pump.
 
 Henry Soulsby had worked as a miner until an injury forced him to find another livelihood. Recognising the opportunities created by increasing automobile traffic, he built a filling station beside the road in the 1920s. When Route 66 was designated, that existing road became part of the new highway and the Soulsby family found themselves serving travellers from across the country.
+
+![Two vintage Shell pumps in front of Soulsby’s Service in Mount Olive, Illinois](/images/guides/soulsby-service.jpg "Soulsby’s Service, Mount Olive, Illinois")
 
 The family continued operating the station for decades, but Interstate 55 eventually diverted through traffic away from the old road. Petrol sales ended in 1991, although the Soulsbys continued welcoming Route 66 visitors for several more years.
 
@@ -221,6 +229,8 @@ The Coleman Theatre opened in 1929, only three years after Route 66 was designat
 
 Mining magnate George Coleman financed an elaborate theatre where local audiences and travellers could see films, vaudeville performances and live music. Its Mighty Wurlitzer organ remains one of the building's great features.
 
+![The ornate cream Coleman Theatre on the main street of Miami, Oklahoma](/images/guides/coleman-theatre.jpg "The Coleman Theatre, Miami, Oklahoma")
+
 The theatre is a useful reminder that Route 66 communities were never simply collections of service stations and cafés. People lived full lives in these towns, and the highway passed through existing centres of entertainment, work and community life.
 
 ### The nine-foot highway near Miami
@@ -242,8 +252,6 @@ That individual eccentricity appears again and again along Route 66. Some of its
 ### Blue Whale of Catoosa
 
 The Blue Whale began in much the same spirit.
-
-![The Blue Whale of Catoosa, a smiling concrete whale in a pond](/images/guides/blue-whale-catoosa.jpg "The Blue Whale of Catoosa, Oklahoma")
 
 Hugh Davis built the enormous concrete whale beside a pond in the early 1970s, initially creating a place where his family could swim and play. It eventually became part of a larger recreational attraction and, decades later, one of Route 66's most recognisable landmarks.
 
@@ -355,6 +363,8 @@ Cadillac Ranch gives you the iconic photograph. The old commercial strip helps e
 
 Adrian's famous midpoint sign marks 1,139 miles to Chicago and 1,139 miles to Los Angeles, turning an otherwise tiny Panhandle community into a ceremonial stop for Route 66 travellers.
 
+![The word Midpoint painted across Route 66 in Adrian, Texas, with the Midpoint sign beyond](/images/guides/midpoint-adrian.jpg "The Midpoint, Adrian, Texas: 1,139 miles to Chicago, 1,139 to Los Angeles")
+
 There is something satisfying about standing there and realising that the distance behind you is finally equal to the distance ahead.
 
 But the town is also a reminder of what highway traffic could mean to small communities. Adrian mattered to travellers because it sat directly on the road, and travellers mattered to Adrian because every passing car represented a potential customer.
@@ -400,6 +410,8 @@ The Blue Swallow still operates, allowing travellers to experience a surviving m
 ### Tee Pee Curios, Tucumcari
 
 Tee Pee Curios began in the 1940s as a Gulf filling station that also sold groceries and souvenirs, but the building motorists recognise today is the result of later adaptation.
+
+![The white Tee Pee Curios shop in Tucumcari, with its stucco teepee entrance and red signs](/images/guides/tee-pee-curios.jpg "Tee Pee Curios, Tucumcari, New Mexico")
 
 When Route 66 was widened, the petrol pumps were removed and the large stucco teepee entrance was added. Neon added another layer of roadside visibility.
 
@@ -480,6 +492,8 @@ Arizona contains some of the most famous landscapes and roadside towns on Route 
 Petrified Forest is not simply a national park near Route 66. Part of the historic highway actually crossed what is now the park, and traces of that alignment remain in the landscape. National Register documentation records a six-mile section of Route 66 within the expanded monument by the 1930s.
 
 A line of old telephone poles helps mark where motorists once crossed the landscape, but the road is only one very recent layer of history here. The park contains archaeological evidence of thousands of years of human occupation, as well as a geological record stretching back hundreds of millions of years.
+
+![Logs of red petrified wood scattered across the desert in Petrified Forest National Park](/images/guides/petrified-wood.jpg "Petrified wood in Petrified Forest National Park")
 
 Few places put Route 66 into perspective quite so effectively. The highway that feels so historic elsewhere suddenly becomes a very brief episode in a much older landscape.
 
@@ -622,6 +636,8 @@ Stand here and the evolution of long-distance travel becomes unusually easy to r
 The Wigwam Motel on the Rialto-San Bernardino border is the California counterpart to Holbrook's famous Wigwam Village.
 
 Only three of the original seven Wigwam Villages survive in the United States, and two are on Route 66. Wigwam Village #7 is also recognised on the National Register as one of California's historic Route 66 properties.
+
+![White concrete wigwams among palm trees at the Wigwam Motel in California](/images/guides/wigwam-motel-rialto.jpg "The Wigwam Motel, Rialto, California")
 
 Seeing both during the same journey gives you an unusual opportunity to compare two surviving examples of the same roadside concept hundreds of miles apart.
 

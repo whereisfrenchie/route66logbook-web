@@ -35,6 +35,8 @@ Rather than one attraction, Devil’s Elbow is a whole surviving Route 66 landsc
 
 West of Springfield, this recreation of a historic Sinclair station is packed with old pumps, signs, vehicles and Route 66 memorabilia. The original roadside business dates back to the early Route 66 era, while the station travellers see today owes much of its character to the late Gary Turner, whose hospitality helped turn it into a beloved stop for road-trippers from around the world.
 
+![Gary’s Gay Parita, a recreated Sinclair station with vintage pumps, signs, an old car and a green dinosaur](/images/guides/garys-gay-parita.jpg "Gary’s Gay Parita, Missouri")
+
 ### Marsh Arch Rainbow Bridge, Kansas
 
 Kansas only gets around thirteen miles of Route 66, which makes it easy to rush through. Do not. Near Riverton, the Marsh Arch Rainbow Bridge is the last surviving bridge of its type on the Kansas stretch and one of the small pieces of road infrastructure that makes the state worth exploring rather than simply crossing.

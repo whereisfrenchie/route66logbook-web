@@ -71,6 +71,8 @@ Gas stations are among the most powerful abandoned Route 66 sites because they r
 
 Take photos from public areas unless permission is clear. Avoid climbing, moving objects, entering unstable buildings or posting directions to fragile sites that cannot handle traffic. If a place is being restored, support it. If a nearby business is open, buy something. A road trip economy survives through small transactions, not only admiration. If you are planning a detour to a remote stop, check its latest known status before committing the time and distance.
 
+![The ruins of a roadside motel and café covered in graffiti, beneath an empty Motel Cafe sign frame](/images/guides/motel-cafe-ruins.jpg "An abandoned motel and café, its walls covered in graffiti")
+
 ## A different kind of beauty
 
 Ruins are beautiful because they are honest. They show that Route 66 is not only burgers, neon and cheerful nostalgia. It is also loss, reinvention and time. That makes the joyful places more meaningful. A restored motel sign glows brighter when you have seen how many signs went dark.

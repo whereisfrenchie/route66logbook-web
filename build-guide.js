@@ -33,6 +33,11 @@
  *                       closing ) for an app screenshot: phone-width, with a
  *                       shadow.
  *   > text              a pull quote
+ *   [[state Illinois | /images/guides/badges/illinois.png]]
+ *                       a state section heading with its badge; it gets an
+ *                       id (#illinois) and an "All states" link back up
+ *   [[states]]          the "Jump to a state" menu, built from every
+ *                       [[state]] line in the article
  *   [[download Button label | /downloads/file.pdf | /images/preview.jpg | description]]
  *                       a downloadable file: its preview image with a small
  *                       shadow and a teal button. Both files must exist; the
@@ -123,6 +128,16 @@ function jpegSize(file) {
   return null;
 }
 
+/** Width and height of a PNG, from its IHDR chunk. */
+function pngSize(file) {
+  const b = fs.readFileSync(file);
+  if (b.toString('ascii', 1, 4) !== 'PNG') return null;
+  return { w: b.readUInt32BE(16), h: b.readUInt32BE(20) };
+}
+const slugify = (t) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const STATE_LINE = /^\[\[state (.+?) \| (\/images\/[^\s|]+\.png)\]\]$/;
+
 const IMAGE_LINE = /^!\[([^\]]*)\]\((\/images\/[^)\s]+\.jpe?g)(?:\s+"([^"]*)")?\)(?:\s+\{(screen)\})?$/i;
 
 /** The body format described at the top. Returns [html, wordCount]. */
@@ -132,9 +147,46 @@ function renderBody(src, label, die, root) {
   let words = 0;
   const closeList = () => { if (list) { out.push('      <ul>\n' + list.join('\n') + '\n      </ul>'); list = null; } };
 
+  // States are collected first so that [[states]] can list them wherever it sits.
+  const states = [];
+  for (const raw of src.split('\n')) {
+    const line = raw.trim();
+    if (!line.startsWith('[[state ')) continue;
+    const m = line.match(STATE_LINE);
+    if (!m) die(`${label}: cannot read "${line.slice(0, 70)}" — expected [[state Name | /images/badge.png]]`);
+    const file = path.join(root, m[2]);
+    if (!fs.existsSync(file)) die(`${label}: the badge ${m[2]} does not exist`);
+    const size = pngSize(file);
+    if (!size) die(`${label}: ${m[2]} is not a PNG`);
+    states.push({ name: m[1], badge: m[2], id: slugify(m[1]), size });
+  }
+
   for (const raw of src.split('\n')) {
     const line = raw.trim();
     if (!line) { closeList(); continue; }
+    if (line === '[[states]]') {
+      if (!states.length) die(`${label}: [[states]] needs at least one [[state]] line`);
+      closeList();
+      out.push(`      <nav class="state-nav reveal" id="states" aria-label="Jump to a state">\n` +
+        `        <p class="state-nav-label">Jump to a state</p>\n` +
+        `        <ul>\n` +
+        states.map((st) => `          <li><a href="#${st.id}"><img src="${st.badge}" alt="" width="${st.size.w}" height="${st.size.h}">${esc(st.name)}</a></li>`).join('\n') +
+        `\n        </ul>\n      </nav>`);
+      continue;
+    }
+    if (line.startsWith('[[state ')) {
+      const st = states.find((x) => line.includes(`[[state ${x.name} |`));
+      closeList();
+      out.push(`      <div class="state-head reveal" id="${st.id}">\n` +
+        `        <img class="state-badge" src="${st.badge}" alt="${esc(st.name)} Route 66 Logbook badge" width="${st.size.w}" height="${st.size.h}" loading="lazy">\n` +
+        `        <div>\n` +
+        `          <h2>${esc(st.name)}</h2>\n` +
+        `          <a class="state-top" href="#states">All states ↑</a>\n` +
+        `        </div>\n` +
+        `      </div>`);
+      words += 1;
+      continue;
+    }
     if (/<[a-z/!]/i.test(line)) die(`${label}: raw HTML is not allowed — "${line.slice(0, 60)}"`);
 
     if (line.startsWith('![')) {

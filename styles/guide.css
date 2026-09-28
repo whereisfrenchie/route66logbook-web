@@ -193,6 +193,43 @@ img { max-width: 100%; }
 .btn-teal:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(109,174,171,0.45); }
 .btn-teal .btn-meta { font-weight: 500; opacity: 0.75; font-size: 13px; }
 
+/* State sections: "Jump to a state" menu and badge headings */
+.prose .state-nav {
+  background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
+  padding: 22px 24px 24px; margin: 0 0 48px;
+}
+.prose .state-nav-label {
+  font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--coral); margin: 0 0 14px;
+}
+.prose .state-nav ul { list-style: none; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.prose .state-nav li { margin: 0; }
+.prose .state-nav a {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 5px 14px 5px 6px; border-radius: 100px;
+  background: var(--sand); border: 1px solid rgba(43,48,51,0.08);
+  font-size: 14px; font-weight: 600; color: var(--charcoal); text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.prose .state-nav a:hover { border-color: var(--coral); transform: translateY(-1px); color: var(--charcoal); }
+.prose .state-nav img { height: 30px; width: auto; display: block; }
+.prose .state-head {
+  display: flex; align-items: center; gap: 22px;
+  margin: 72px 0 22px; padding-top: 44px; border-top: 1px solid rgba(43,48,51,0.1);
+  scroll-margin-top: 16px;
+}
+.prose .state-head .state-badge { width: 96px; height: auto; flex-shrink: 0; }
+.prose .state-head h2 { margin: 0 0 6px; font-size: clamp(34px, 5vw, 46px); letter-spacing: -1.4px; }
+.prose .state-head .state-top {
+  font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+  color: rgba(43,48,51,0.45); text-decoration: none;
+}
+.prose .state-head .state-top:hover { color: var(--coral); }
+.prose #states { scroll-margin-top: 16px; }
+@media (max-width: 600px) {
+  .prose .state-head .state-badge { width: 72px; }
+}
+
 /* In-article app button (the Word file's "CTA:" lines) */
 .cta-row { margin: 4px 0 30px; }
 .btn-coral {

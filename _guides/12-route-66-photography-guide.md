@@ -41,6 +41,8 @@ The road is not only objects. Photograph people respectfully. Ask before making 
 
 It is easy to make Route 66 look like a costume: oversaturated neon, fake nostalgia, the same shield repeated everywhere. The more interesting approach is to show contrast. New cars beside old signs. Solar panels near vintage motels. Closed businesses beside restored ones. Tourists taking selfies while locals go to work. Route 66 is visually rich because the past and present keep colliding.
 
+![A giant fibreglass figure standing on a rooftop above a small-town street](/images/guides/rooftop-giant.jpg "Look up: roadside giants were built to be seen from a moving car")
+
 ## Why visual people love Route 66
 
 Route 66 is almost a design archive disguised as a road trip. It contains hand-lettering, neon typography, painted signs, mascots, vernacular architecture, diner interiors, motel colour palettes, gas station geometry, murals, souvenir graphics, postcards, maps and mid-century optimism. It also contains weathering, repairs, mismatched additions and beautiful failures.

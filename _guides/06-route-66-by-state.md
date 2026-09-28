@@ -43,6 +43,8 @@ Arizona gives Route 66 some of its grandest landscapes. Petrified Forest, Painte
 
 California is the final contradiction. You cross the Mojave, pass through towns that can feel remote and fragile, climb toward mountain and basin landscapes, then enter the vastness of greater Los Angeles. The romantic ending at Santa Monica is real, but so is the sprawl before it. The last chapter is not always pretty. It is honest. Route 66 ends in the modern world, not in a preserved museum.
 
+![Roy’s Motel and Café in Amboy, California, with its star-shaped sign and white cabins in the Mojave](/images/guides/roys-amboy-mojave.jpg "Roy’s Motel and Café, Amboy, in the Mojave")
+
 ## The eight states are eight different moods
 
 Route 66 runs through Illinois, Missouri, Kansas, Oklahoma, Texas, New Mexico, Arizona and California. That list looks simple, but the road changes personality every few hours. Illinois gives you brick streets, Lincoln country, small museums and early-road interpretation. Missouri adds Ozark curves, caves, stone buildings and Springfield's claim as the Birthplace of Route 66. Kansas only has a short stretch, but that shortness makes every stop feel concentrated.

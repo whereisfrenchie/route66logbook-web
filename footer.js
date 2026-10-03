@@ -1,5 +1,7 @@
 /* Route 66 Logbook · shared site footer
-   Edit this file once and the footer updates on every page.
+   Edit this file once and the footer updates on every page. The main menu
+   (History, Prepare, the guides, the app) lives in header.js; the footer
+   keeps the secondary links.
    Usage on any page:
      <site-footer></site-footer>
      <script src="/footer.js" defer></script>
@@ -44,15 +46,11 @@
       </div>
       <div class="footer-right">
         <div class="footer-links">
-          <a href="/history">History</a>
-          <a href="/guides/">Guides</a>
-          <a href="/prepare">Prepare</a>
           <a href="/press">Press</a>
           <a href="/privacy">Privacy</a>
           <a href="/terms">Terms</a>
           <a href="/community-guidelines">Guidelines</a>
           <a href="/help">Help</a>
-          <a href="/">Home</a>
         </div>
         <div class="footer-socials">
           <a href="https://www.instagram.com/route66logbook/" target="_blank" rel="noopener" aria-label="Route 66 Logbook on Instagram">

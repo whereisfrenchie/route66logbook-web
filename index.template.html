@@ -35,20 +35,7 @@
 {{@schema}}</head>
 <body>
 
-  <nav id="nav">
-    <div class="nav-logo-wrap">
-      <div class="nav-logo-img">
-        <img src="/images/route66logbook-logo-shield.png" style="width:100%;height:100%;object-fit:contain" alt="Route 66 Logbook">
-      </div>
-    </div>
-    <ul class="nav-links">
-      <li><a href="#features">Features</a></li>
-      <li><a href="#community">Community</a></li>
-      <li><a href="/history">History</a></li>
-      <li><a href="/prepare">Prepare</a></li>
-      <li><a href="#download" class="nav-cta">Download</a></li>
-    </ul>
-  </nav>
+  <site-header variant="overlay"></site-header>
 
   <section class="hero">
     <div class="hero-bg"></div>
@@ -305,10 +292,6 @@
   <site-footer></site-footer>
 
   <script>
-    const nav = document.getElementById('nav');
-    window.addEventListener('scroll', () => {
-      nav.classList.toggle('scrolled', window.scrollY > 60);
-    });
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((e, i) => {
         if (e.isIntersecting) {
@@ -322,6 +305,7 @@
   </script>
 
   <script src="/switcher.js" defer></script>
+  <script src="/header.js" defer></script>
   <script src="/footer.js" defer></script>
 </body>
 </html>

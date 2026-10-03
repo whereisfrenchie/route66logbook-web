@@ -81,13 +81,7 @@
 <body>
 
   <!-- HEADER (matches site) -->
-  <header class="site-header">
-    <a class="header-logo" href="/">
-      <span class="header-logo-img"><img src="/images/route66logbook-logo-shield.png" alt="Route 66 Logbook"></span>
-      <span class="header-logo-word">Route 66 <span>Logbook</span></span>
-    </a>
-    <a class="header-back" href="/guides/">All guides</a>
-  </header>
+  <site-header></site-header>
 
   <main>
 
@@ -252,6 +246,7 @@
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
   </script>
 
+  <script src="/header.js" defer></script>
   <script src="/footer.js" defer></script>
 </body>
 </html>

@@ -44,6 +44,11 @@
  *                       button shows the file's size.
  *   >> figure | text    a fact call-out: a big figure ("2,400 miles") and a
  *                       line explaining it
+ *   ::# Label | value   a detour card, one line per field; consecutive ::
+ *   :: Label | value    lines make one card. ::# fields are the big figures
+ *                       across the top ("Drive | 20 min · 12 miles each way":
+ *                       the part before · is large, the rest a note under
+ *                       it); :: fields are the label/value rows below
  *   **bold** *italic* [text](url)   inside any paragraph, heading or item
  * Anything else is a paragraph. Raw HTML is escaped, never passed through.
  *
@@ -146,6 +151,26 @@ function renderBody(src, label, die, root) {
   let list = null;
   let words = 0;
   const closeList = () => { if (list) { out.push('      <ul>\n' + list.join('\n') + '\n      </ul>'); list = null; } };
+  let card = null;
+  const closeCard = () => {
+    if (!card) return;
+    const stats = card.filter((f) => f.stat);
+    const rows = card.filter((f) => !f.stat);
+    out.push(`      <aside class="detour reveal">\n` +
+      `        <p class="detour-label">Detour at a glance</p>\n` +
+      (stats.length ? `        <div class="detour-stats">\n` + stats.map((f) => {
+        const [big, ...note] = f.value.split(' · ');
+        return `          <div class="detour-stat">\n` +
+          `            <p class="detour-stat-label">${inline(f.label)}</p>\n` +
+          `            <p class="detour-stat-value">${inline(big)}</p>\n` +
+          (note.length ? `            <p class="detour-stat-note">${inline(note.join(' · '))}</p>\n` : '') +
+          `          </div>`;
+      }).join('\n') + `\n        </div>\n` : '') +
+      (rows.length ? `        <dl class="detour-rows">\n` + rows.map((f) =>
+        `          <div><dt>${inline(f.label)}</dt><dd>${inline(f.value)}</dd></div>`).join('\n') + `\n        </dl>\n` : '') +
+      `      </aside>`);
+    card = null;
+  };
 
   // States are collected first so that [[states]] can list them wherever it sits.
   const states = [];
@@ -163,6 +188,15 @@ function renderBody(src, label, die, root) {
 
   for (const raw of src.split('\n')) {
     const line = raw.trim();
+    if (line.startsWith('::')) {
+      const m = line.match(/^::(#?) (.+?) \| (.+)$/);
+      if (!m) die(`${label}: cannot read the detour line "${line.slice(0, 70)}" — expected ":: Label | value" or "::# Label | value"`);
+      closeList();
+      (card = card || []).push({ stat: m[1] === '#', label: m[2], value: m[3] });
+      words += line.split(/\s+/).length;
+      continue;
+    }
+    closeCard();
     if (!line) { closeList(); continue; }
     if (line === '[[states]]') {
       if (!states.length) die(`${label}: [[states]] needs at least one [[state]] line`);
@@ -265,6 +299,7 @@ function renderBody(src, label, die, root) {
     }
   }
   closeList();
+  closeCard();
   return [out.join('\n'), words];
 }
 

@@ -165,6 +165,48 @@ img { max-width: 100%; }
 }
 .prose .fact .fact-text { font-size: 15px; line-height: 1.6; color: rgba(43,48,51,0.65); margin: 0; }
 
+/* Detour card: big figures across the top, label/value rows below */
+.prose .detour {
+  background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
+  border-top: 4px solid var(--teal);
+  padding: 22px 26px 8px; margin: 28px 0 40px;
+}
+.prose .detour .detour-label {
+  font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--teal); margin: 0 0 16px;
+}
+.prose .detour-stats {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px;
+  margin-bottom: 18px;
+}
+.prose .detour-stat { background: var(--sand); border-radius: 14px; padding: 14px 16px; }
+.prose .detour-stat p { margin: 0; }
+.prose .detour .detour-stat-label {
+  font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+  color: rgba(43,48,51,0.5); margin-bottom: 6px;
+}
+.prose .detour .detour-stat-value {
+  font-weight: 800; font-size: 24px; line-height: 1.1; letter-spacing: -0.6px; color: var(--coral);
+}
+.prose .detour .detour-stat-note { font-size: 13px; line-height: 1.45; color: rgba(43,48,51,0.6); margin-top: 4px; }
+.prose .detour-rows { margin: 0; }
+.prose .detour-rows div {
+  display: grid; grid-template-columns: 150px 1fr; gap: 16px;
+  padding: 12px 0; border-top: 1px solid rgba(43,48,51,0.08);
+}
+.prose .detour-rows dt {
+  font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+  color: rgba(43,48,51,0.5); padding-top: 3px;
+}
+.prose .detour-rows dd { font-size: 15px; line-height: 1.55; color: rgba(43,48,51,0.82); margin: 0; }
+@media (max-width: 600px) {
+  .prose .detour { padding: 20px 18px 6px; }
+  .prose .detour-stats { grid-template-columns: 1fr; gap: 8px; }
+  .prose .detour-stat { padding: 12px 14px; }
+  .prose .detour .detour-stat-value { font-size: 22px; }
+  .prose .detour-rows div { grid-template-columns: 1fr; gap: 4px; }
+}
+
 /* Sign-off at the end of every guide */
 .prose .signoff {
   margin-top: 48px; display: flex; flex-direction: column; gap: 2px;

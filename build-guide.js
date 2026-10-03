@@ -52,7 +52,9 @@
  *   ::! Card title      optional, replaces "Detour at a glance"
  *   ::@ History, Nature optional category pills, coloured like the app's
  *                       map pins. Only the app's own categories are accepted
- *                       (CATEGORIES below, copied from src/lib/theme.ts)
+ *                       (CATEGORIES below, copied from src/lib/theme.ts).
+ *                       On its own, outside a card, it is just the pills —
+ *                       put it straight under a stop's ### heading
  *   ::* Why it matters  optional: marks the card "Carole's pick" (coral
  *                       badge and border) with this line in her voice
  *   **bold** *italic* [text](url)   inside any paragraph, heading or item
@@ -171,6 +173,14 @@ function renderBody(src, label, die, root) {
     const title = card.find((f) => f.kind === '!');
     const cats = card.find((f) => f.kind === '@');
     const pick = card.find((f) => f.kind === '*');
+    // A ::@ line on its own is just the pills, under a stop's heading.
+    if (cats && card.length === 1) {
+      out.push(`      <ul class="detour-cats cat-row" aria-label="Categories in the app">\n` +
+        cats.value.map((c) => `        <li class="cat cat-${slugify(c)}">${esc(c)}</li>`).join('\n') +
+        `\n      </ul>`);
+      card = null;
+      return;
+    }
     out.push(`      <aside class="detour${pick ? ' pick' : ''} reveal">\n` +
       (pick ? `        <p class="pick-badge"><span aria-hidden="true">★</span> Carole's pick</p>\n` : '') +
       `        <div class="detour-head">\n` +

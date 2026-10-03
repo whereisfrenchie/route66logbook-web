@@ -38,6 +38,7 @@ Lou Mitchell's is closely associated with that departure. The restaurant opened 
 Starting here also gives the journey a sense of scale that is easy to lose when Route 66 is presented as a collection of small towns and desert landscapes. You begin in one of America's largest cities and gradually watch the urban landscape give way to suburbs, farmland and the smaller communities that once depended heavily on highway traffic.
 
 ### Gemini Giant, Wilmington
+::@ Kitsch
 
 The Gemini Giant is one of the most recognisable examples of the enormous fibreglass figures that appeared outside American roadside businesses from the 1960s onwards. These figures are generally known as Muffler Men, although they advertised everything from restaurants to tyre shops.
 
@@ -48,6 +49,7 @@ Standing around 28 feet tall, the Gemini Giant turned that familiar advertising 
 For most of his life, the Gemini Giant stood outside the Launching Pad Drive-In, where he had welcomed motorists since 1965. After the restaurant closed, the statue was sold at auction in 2024 and acquired locally so that it could remain in Wilmington. He now stands in South Island Park, beginning a new chapter as a preserved piece of roadside history rather than an advertisement for a single business.
 
 ### Standard Oil Gasoline Station, Odell
+::@ Gas Station, History
 
 Odell's restored filling station is much quieter than the Gemini Giant, but it tells an equally interesting story about the early automobile era.
 
@@ -72,6 +74,7 @@ Illinois' state capital adds another layer to the journey because Route 66 runs 
 The old highway passes through a landscape of diners, motels and former roadside businesses, while Lincoln's home, tomb and presidential sites tell a story that predates the automobile entirely. It is a useful reminder that Route 66 did not create the places it crossed. It connected communities that already had histories of their own.
 
 ### Ariston Café, Litchfield
+::@ Food, Neon
 
 The Ariston Café is one of the best places on the entire route for understanding just how much businesses depended on the highway.
 
@@ -84,6 +87,7 @@ Then the highway changed again. When Route 66 was widened and shifted behind the
 The Ariston survived because its owners kept responding to the road. That story would repeat itself thousands of times along Route 66 as alignments changed, bypasses appeared and businesses tried to remain visible to motorists.
 
 ### Soulsby Service Station, Mount Olive
+::@ Gas Station, History
 
 The Soulsby Service Station tells a similar story from the petrol pump.
 
@@ -96,6 +100,7 @@ The family continued operating the station for decades, but Interstate 55 eventu
 Today the restored station survives as a small museum. Its story spans almost the entire Route 66 cycle, from the opportunities created by the highway to the decline caused by the Interstate and, eventually, the preservation movement that followed.
 
 ### Chain of Rocks Bridge
+::@ Original Route
 
 At the Mississippi River, Route 66 once crossed one of the most distinctive bridges on the entire highway.
 
@@ -120,6 +125,7 @@ That can initially seem confusing, but it is actually one of the most useful thi
 St Louis makes those layers particularly visible. Instead of looking for one definitive line, it is worth thinking of Route 66 as a network of roads that changed with the city around it.
 
 ### Route 66 State Park and Times Beach
+::@ History, Nature, Original Route
 
 Today's Route 66 State Park occupies land that once belonged to Times Beach, a small community that developed alongside the highway west of St Louis.
 
@@ -130,6 +136,7 @@ The park opened years later and preserves part of that story. Nearby, the old Me
 Times Beach is important precisely because its story does not fit neatly into Route 66 nostalgia. Communities along the road continued to change, struggle and sometimes disappear long after the highway's celebrated post-war years.
 
 ### Meramec Caverns
+::@ Kitsch, Nature, History, Off-route
 
 Meramec Caverns became one of America's most famous roadside attractions partly because it understood a fundamental challenge of highway tourism: first you had to convince motorists to stop.
 
@@ -138,6 +145,7 @@ The caves were promoted relentlessly through billboards, roadside signs, bumper 
 That enormous advertising effort is almost as interesting as the attraction itself. Route 66 created a new audience of motorists travelling long distances, and businesses learned to compete for their attention long before they arrived.
 
 ### Wagon Wheel Motel, Cuba
+::@ Motel, History, Neon
 
 The Wagon Wheel opened in 1936 as the Wagon Wheel Cabins, when roadside accommodation was rapidly evolving from basic tourist camps into the motor courts that would eventually become the modern motel.
 
@@ -148,6 +156,7 @@ Its buildings were constructed from local Ozark sandstone, with rooms grouped in
 The motel still operates, which is what makes it particularly worthwhile. You are not simply looking at a preserved building or museum display. You can still spend the night in accommodation created for Route 66 travellers nearly ninety years ago.
 
 ### Devil's Elbow
+::@ History, Original Route, Nature
 
 The older alignment around Devil's Elbow follows the Big Piney River through one of Missouri's most atmospheric stretches of Route 66.
 
@@ -156,6 +165,7 @@ The road bends through the Ozark landscape in a way that modern highways rarely 
 Driving stretches like this helps explain why Route 66 is remembered so differently from the highways that replaced it. The slower road forces you to experience the landscape rather than simply cross it.
 
 ### Boots Court, Carthage
+::@ Motel, Neon
 
 The Boots Court opened in 1939 and quickly became one of the most distinctive motor courts on Route 66. Its Streamline Moderne architecture reflected the optimism of the automobile age, while covered carports beside the rooms allowed guests to park directly next to their accommodation.
 
@@ -168,6 +178,7 @@ Decades later, the property came dangerously close to demolition before preserva
 Staying here is very different from staying in a modern hotel decorated with Route 66 memorabilia. You are sleeping in the real thing.
 
 ### 66 Drive-In, Carthage
+::@ History
 
 Carthage is also home to a surviving Route 66 drive-in theatre, another product of the automobile culture that transformed twentieth-century America.
 
@@ -182,6 +193,7 @@ The same cultural shift produced motels, drive-in restaurants and suburban shopp
 Kansas gets only 12.8 miles of Route 66, but there is an extraordinary amount packed into them. The road passes through Galena, Riverton and Baxter Springs, communities shaped by mining and regional transport long before the first Route 66 shield appeared.
 
 ### Galena and Cars on the Route
+::@ Gas Station, Kitsch, Shop
 
 Route 66 enters Kansas through the former Tri-State lead and zinc mining district, and Galena's history reaches well beyond its modern roadside attractions.
 
@@ -192,6 +204,7 @@ Places like this were essential infrastructure. Motorists needed fuel, oil, repa
 The tow truck might be what gets people to stop. The station explains why there was something here to stop for in the first place.
 
 ### Eisler Brothers Old Riverton Store
+::@ Shop, History, Food
 
 The store known today as the Eisler Brothers Old Riverton Store opened in 1925 as Williams' Store, built and operated by Leo Williams one year before Route 66 was designated. The Eisler family came much later, purchasing the business in 1973.
 
@@ -200,6 +213,7 @@ For local residents it was a grocery store and community business, while travell
 That is a recurring Route 66 story. Many places we now travel thousands of miles to visit were once completely ordinary businesses serving everyday needs.
 
 ### Rainbow Bridge
+::@ History, Original Route
 
 The Brush Creek Bridge, usually called the Rainbow Bridge, was built in 1923 and is another Kansas landmark that predates Route 66.
 
@@ -208,6 +222,7 @@ Its distinctive concrete design is a Marsh Rainbow Arch, a bridge type patented 
 It is a useful reminder that Route 66 was not constructed from scratch in 1926. The new federal highway stitched together existing roads, bridges and local routes into a cross-country system.
 
 ### Baxter Springs Independent Oil & Gas Service Station
+::@ Gas Station, History
 
 Baxter Springs' cottage-like filling station shows another way roadside architecture adapted to the automobile.
 
@@ -222,6 +237,7 @@ The Baxter Springs station later became associated with Phillips 66 and now serv
 Oklahoma's relationship with Route 66 runs particularly deep. Tulsa businessman Cyrus Avery played an important role in the development of the federal highway system and in securing the route that became U.S. 66, while the state preserves everything from primitive early pavement to classic diners, folk art and neon.
 
 ### Coleman Theatre, Miami
+::@ History, Neon, Original Route
 
 The Coleman Theatre opened in 1929, only three years after Route 66 was designated.
 
@@ -232,6 +248,7 @@ Mining magnate George Coleman financed an elaborate theatre where local audience
 The theatre is a useful reminder that Route 66 communities were never simply collections of service stations and cafés. People lived full lives in these towns, and the highway passed through existing centres of entertainment, work and community life.
 
 ### The nine-foot highway near Miami
+::@ Original Route
 
 Just outside Miami survives something much less glamorous but arguably even more revealing: a section of road only nine feet wide.
 
@@ -240,6 +257,7 @@ Built before Route 66 existed, the road became part of the federal highway after
 Seeing it completely changes the mental picture of early Route 66. The highway did not begin as the broad ribbon of asphalt we imagine from later photographs. In places it inherited roads built to much older standards, and travelling across the country could be slow, rough and surprisingly intimate.
 
 ### Ed Galloway's Totem Pole Park, Foyil
+::@ Kitsch
 
 Beginning in 1937, retired teacher Ed Galloway spent years transforming his property near Foyil into an extraordinary environment of hand-built concrete sculptures.
 
@@ -248,6 +266,7 @@ The largest structure towers above the site and is covered in colourful reliefs 
 That individual eccentricity appears again and again along Route 66. Some of its most memorable attractions exist simply because somebody decided to build something unusual beside the road.
 
 ### Blue Whale of Catoosa
+::@ Kitsch
 
 The Blue Whale began in much the same spirit.
 
@@ -270,6 +289,7 @@ The story becomes more tangible at the historic 11th Street Arkansas River Bridg
 Tulsa is therefore a good place to look beyond the mythology and think about the practical decisions that created Route 66 in the first place.
 
 ### Rock Café, Stroud
+::@ Food, Neon, History
 
 The Rock Café took several years to build before opening in 1939, and its history follows many of the larger changes that affected Route 66.
 
@@ -278,6 +298,7 @@ During World War II, Greyhound buses carrying military personnel helped bring cu
 The café survived the decline of the old highway and later a devastating fire, and it still serves travellers today. In one small building you can trace Depression-era construction, wartime movement, post-war prosperity, decline and modern preservation.
 
 ### Arcadia Round Barn
+::@ History
 
 The Round Barn was already nearly thirty years old when Route 66 arrived in Arcadia.
 
@@ -288,6 +309,7 @@ When Route 66 was designated through Arcadia in 1926, motorists suddenly began p
 It is another good example of Route 66 inheriting history rather than creating it.
 
 ### POPS, Arcadia
+::@ Kitsch, Food, Gas Station
 
 A few miles away, POPS proves that Route 66 culture did not stop being created when the highway was decommissioned.
 
@@ -298,6 +320,7 @@ Opened in 2007, the modern filling station and restaurant deliberately borrow fr
 The materials and architecture have changed, but the roadside instinct is exactly the same.
 
 ### Threatt Filling Station, Luther
+::@ Gas Station
 
 The Threatt Filling Station introduces a part of Route 66 history that is often missing from the nostalgic version of the road.
 
@@ -312,6 +335,7 @@ Route 66 is often remembered as a symbol of freedom and mobility, but that freed
 The station is currently closed to the public and should be viewed from the road.
 
 ### Milk Bottle Grocery, Oklahoma City
+::@ Kitsch
 
 The Milk Bottle Grocery in Oklahoma City occupies only about 350 square feet, but it is difficult to miss because of the enormous milk bottle sitting on its roof.
 
@@ -326,6 +350,7 @@ The building's tiny footprint makes the effect even better. One of the smallest 
 Route 66 crosses roughly 180 miles of the Texas Panhandle, but the change in landscape makes the section feel significant. Towns become smaller, the horizon opens up and the road begins to look unmistakably western.
 
 ### U-Drop Inn, Shamrock
+::@ Neon, Gas Station
 
 The Tower Station and U-Drop Inn in Shamrock is one of the finest surviving examples of Route 66 roadside architecture.
 
@@ -344,6 +369,7 @@ Its old filling stations, commercial buildings and signs retain the scale of a c
 That difference in traffic patterns explains much of what happened to Route 66 communities after the Interstate arrived.
 
 ### Cadillac Ranch, Amarillo
+::@ Kitsch
 
 Cadillac Ranch is one of the places almost everyone knows before reaching Route 66.
 
@@ -364,6 +390,7 @@ The city's old Route 66 commercial corridor tells another side of the story thro
 Cadillac Ranch gives you the iconic photograph. The old commercial strip helps explain the world that produced it.
 
 ### Midpoint, Adrian
+::@ History, Kitsch, Original Route
 
 Adrian's famous midpoint sign marks 1,139 miles to Chicago and 1,139 miles to Los Angeles, turning an otherwise tiny Panhandle community into a ceremonial stop for Route 66 travellers.
 
@@ -376,6 +403,7 @@ But the town is also a reminder of what highway traffic could mean to small comm
 The sign celebrates geography. The town around it tells the economic story.
 
 ### Glenrio
+::@ Ghost Town/Ruins, History, Original Route
 
 At the Texas-New Mexico border, Glenrio shows what happened when that relationship between highway and town was broken.
 
@@ -402,6 +430,7 @@ Motels, murals, old commercial buildings and neon signs line the former highway,
 Tucumcari is best understood as a streetscape rather than a collection of individual attractions. The concentration of surviving roadside architecture allows you to imagine what approaching a highway town after dark once looked like.
 
 ### Blue Swallow Motel, Tucumcari
+::@ Motel, Neon, History
 
 The Blue Swallow Motel was opened in 1942 by rancher Ted Jones after carpenter W.A. Huggins had begun construction before the United States entered World War II. Its L-shaped arrangement of rooms and garages was designed specifically around motorists, allowing guests to park their cars directly beside their accommodation.
 
@@ -412,6 +441,7 @@ Long-time owner Lillian Redman later became part of Route 66 folklore for the ho
 The Blue Swallow still operates, allowing travellers to experience a surviving motor court rather than simply photograph one.
 
 ### Tee Pee Curios, Tucumcari
+::@ Kitsch, Shop, Neon
 
 Tee Pee Curios began in the 1940s as a Gulf filling station that also sold groceries and souvenirs, but the building motorists recognise today is the result of later adaptation.
 
@@ -432,6 +462,7 @@ The original route travelled north from Santa Rosa towards Santa Fe before turni
 It is one of the best examples of why looking for a single definitive Route 66 line on a modern map can be misleading. The highway was continually evolving as engineers looked for faster, straighter and more efficient routes. The older Santa Fe alignment is not a detour from Route 66 history. It is evidence of how Route 66 itself changed.
 
 ### La Bajada
+::@ Original Route, Nature
 
 The old road at La Bajada makes the difficulty of early automobile travel immediately understandable.
 
@@ -442,6 +473,7 @@ Later improvements and realignments eventually left the switchback road behind, 
 This is not a section to treat as an ordinary scenic drive. Parts are extremely rough and portions cross Pueblo land where access requires permission. The point is not necessarily to drive it, but to understand what the old road reveals about travelling through New Mexico before modern highway engineering.
 
 ### KiMo Theatre, Albuquerque
+::@ History, Neon
 
 The KiMo Theatre opened in 1927, ten years before Route 66 was realigned along Central Avenue in front of it.
 
@@ -474,6 +506,7 @@ That relationship created economic opportunities, including markets for Indigeno
 The important thing when travelling through Pueblo lands today is to remember that these are living communities rather than historic attractions. Local rules around access and photography should always be respected.
 
 ### El Rancho Hotel, Gallup
+::@ Motel, Neon
 
 Built in 1936, El Rancho became closely associated with Hollywood as film crews used Gallup and the surrounding landscapes for Westerns.
 
@@ -490,6 +523,7 @@ That relationship between the real West and the West sold to travellers is anoth
 Arizona contains some of the most famous landscapes and roadside towns on Route 66, but it also played an important role in the road's final chapter. The last section of Route 66 in the country to be bypassed by the Interstate was at Williams in 1984, shortly before U.S. 66 disappeared from the federal highway system altogether.
 
 ### Petrified Forest National Park
+::@ Nature, Original Route
 
 Petrified Forest is not simply a national park near Route 66. Part of the historic highway actually crossed what is now the park, and traces of that alignment remain in the landscape. National Register documentation records a six-mile section of Route 66 within the expanded monument by the 1930s.
 
@@ -500,6 +534,7 @@ A line of old telephone poles helps mark where motorists once crossed the landsc
 Few places put Route 66 into perspective quite so effectively. The highway that feels so historic elsewhere suddenly becomes a very brief episode in a much older landscape.
 
 ### Painted Desert Inn
+::@ History
 
 The Painted Desert Inn adds another layer to that story.
 
@@ -512,6 +547,7 @@ The Fred Harvey Company later operated the property, connecting it to the hospit
 Today the Painted Desert Inn is a National Historic Landmark and visitor centre, preserving a place where national park tourism and automobile travel overlapped.
 
 ### Wigwam Motel, Holbrook
+::@ Motel
 
 Holbrook's Wigwam Village #6 is one of only three surviving Wigwam Villages in the United States and one of two on Route 66.
 
@@ -522,6 +558,7 @@ Despite the name, its concrete units are shaped like teepees rather than wigwams
 The architecture is undeniably part of Route 66 history, but so is the way the American Southwest was packaged and marketed to tourists. Recognising both does not make the motel less interesting. It makes the history more complete.
 
 ### La Posada, Winslow
+::@ History, Food
 
 La Posada opened in 1930 as one of the great Fred Harvey railroad hotels and became one of architect Mary Colter's most ambitious projects.
 
@@ -554,6 +591,7 @@ Located on Hualapai land, the community had connections to the railroad and regi
 When Interstate 40 bypassed the old road, the traffic disappeared. The bypass story is usually told through abandoned motels and ghost towns, but Peach Springs reminds us that the economic consequences also affected Native communities whose businesses had become tied to Route 66 traffic.
 
 ### Hackberry
+::@ Shop, Kitsch, History
 
 Hackberry's old general-store landscape delivers almost every visual ingredient people expect from western Route 66: weathered signs, petrol pumps, old cars and desert.
 
@@ -594,6 +632,7 @@ California gives Route 66 a final dramatic change of scenery. The road crosses t
 By the time you reach the Pacific, the empty desert highway can feel like another country.
 
 ### Needles and El Garces
+::@ History
 
 Crossing the Colorado River brings Route 66 into California at Needles, where El Garces immediately connects the highway to an older transportation network.
 
@@ -612,6 +651,7 @@ There is no giant statue or internationally recognisable neon sign here. Instead
 That relative emptiness is what makes it useful. Goffs gives you a sense of the distances motorists crossed between better-known highway towns and of the small communities that existed because railroads, mines and roads passed through otherwise isolated landscapes.
 
 ### Roy's Motel & Café, Amboy
+::@ Neon, Gas Station, Motel
 
 Few Route 66 scenes are as recognisable as the Roy's sign rising above the Mojave Desert, but Amboy is much more interesting once you understand why a business existed in such an isolated place in the first place.
 
@@ -624,6 +664,7 @@ The town's fortunes changed dramatically when Interstate 40 opened through the a
 That is what makes Roy's worth seeing beyond the photograph. Its famous sign belongs to the classic Route 66 landscape, but the near-empty town around it tells the other half of the story: what happened to roadside communities when the traffic they had been built around disappeared.
 
 ### Barstow Harvey House
+::@ History
 
 Barstow's Casa del Desierto is another place where the railroad and Route 66 histories meet.
 
@@ -634,6 +675,7 @@ Today the restored Harvey House is one of California's recognised Route 66 histo
 Stand here and the evolution of long-distance travel becomes unusually easy to read. The railroad came first, Route 66 followed, and the Interstate eventually changed the pattern again.
 
 ### Wigwam Motel, Rialto
+::@ Motel, Kitsch, Neon
 
 The Wigwam Motel on the Rialto-San Bernardino border is the California counterpart to Holbrook's famous Wigwam Village.
 

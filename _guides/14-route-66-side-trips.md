@@ -25,7 +25,7 @@ Each comes with a card showing where it is, where to leave the road, how long th
 
 Bunker Hill is the smallest side trip in this guide, and one of the most rewarding for the effort. The town sits about thirteen miles south-west of Gillespie, off the original 1926 to 1930 alignment that ran through Carlinville, Gillespie and Staunton before Route 66 shifted east.
 
-In the middle of its main crossroads stands a bronze Abraham Lincoln by the sculptor William Grandville Hastings. Former Union cavalry captain Charles Clinton gave the statue to the town in 1904 to honour the local men who had served with his company, and thousands of people came to the unveiling. Lincoln looks down and points towards a kneeling figure of Liberty, who is carving the words "With malice toward none" into the granite.
+In the middle of its main crossroads stands a bronze Abraham Lincoln by the sculptor William Granville Hastings. Former Union cavalry captain Charles Clinton gave the statue to the town in 1904 to honour the local men who had served with his company, and thousands of people came to the unveiling. Lincoln looks down and points towards a kneeling figure of Liberty, who is carving the words "With malice toward none" into the granite.
 
 Pair it with Carlinville's Million Dollar Courthouse and Sears kit-home neighbourhood on the same early alignment. Together they show a quieter side of Illinois Route 66 that many travellers rushing towards St. Louis never see.
 
@@ -52,7 +52,7 @@ Cahokia is a UNESCO World Heritage Site and one of the most important archaeolog
 ::# Adds | Half a day
 :: Where | Collinsville, Illinois, across the river from St. Louis
 :: Leave Route 66 at | Mitchell, near the Chain of Rocks Bridge
-:: Getting there | I-270 west, I-255 south, then Collinsville Road towards the site
+:: Getting there | I-270 east, I-255 south, then Collinsville Road towards the site
 :: Good to know | The outdoor grounds and Monks Mound can be visited separately from the indoor interpretive facilities, whose access and opening arrangements have changed during ongoing redevelopment. Check the official Cahokia Mounds site before visiting. Wear proper shoes for the climb.
 
 [[state Missouri | /images/guides/badges/missouri.png]]

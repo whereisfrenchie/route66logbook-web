@@ -53,6 +53,8 @@
  *   ::@ History, Nature optional category pills, coloured like the app's
  *                       map pins. Only the app's own categories are accepted
  *                       (CATEGORIES below, copied from src/lib/theme.ts)
+ *   ::* Why it matters  optional: marks the card "Carole's pick" (coral
+ *                       badge and border) with this line in her voice
  *   **bold** *italic* [text](url)   inside any paragraph, heading or item
  * Anything else is a paragraph. Raw HTML is escaped, never passed through.
  *
@@ -168,13 +170,16 @@ function renderBody(src, label, die, root) {
     const rows = card.filter((f) => f.kind === '');
     const title = card.find((f) => f.kind === '!');
     const cats = card.find((f) => f.kind === '@');
-    out.push(`      <aside class="detour reveal">\n` +
+    const pick = card.find((f) => f.kind === '*');
+    out.push(`      <aside class="detour${pick ? ' pick' : ''} reveal">\n` +
+      (pick ? `        <p class="pick-badge"><span aria-hidden="true">★</span> Carole's pick</p>\n` : '') +
       `        <div class="detour-head">\n` +
       `          <p class="detour-label">${inline(title ? title.value : 'Detour at a glance')}</p>\n` +
       (cats ? `          <ul class="detour-cats" aria-label="Categories in the app">\n` +
         cats.value.map((c) => `            <li class="cat cat-${slugify(c)}">${esc(c)}</li>`).join('\n') +
         `\n          </ul>\n` : '') +
       `        </div>\n` +
+      (pick ? `        <p class="pick-note">${inline(pick.value)}</p>\n` : '') +
       (stats.length ? `        <div class="detour-stats">\n` + stats.map((f) => {
         const [big, ...note] = f.value.split(' · ');
         return `          <div class="detour-stat">\n` +
@@ -208,7 +213,7 @@ function renderBody(src, label, die, root) {
     if (line.startsWith('::')) {
       closeList();
       card = card || [];
-      const special = line.match(/^::([!@]) (.+)$/);
+      const special = line.match(/^::([!@*]) (.+)$/);
       if (special) {
         const value = special[1] === '@' ? special[2].split(',').map((c) => c.trim()) : special[2];
         if (special[1] === '@') {

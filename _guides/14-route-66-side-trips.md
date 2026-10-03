@@ -4,22 +4,18 @@ slug: route-66-side-trips
 group: places
 order: 14
 standfirst: Side trips can deepen the journey, but they can also steal the road from itself.
-description: The best Route 66 side trips, state by state, with drive times and what each costs your trip: Cahokia, Palo Duro, Acoma, El Morro, Meteor Crater, Sedona, the Grand Canyon, Hoover Dam, Joshua Tree, and why the Santa Fe loop is Route 66 itself.
+description: The best Route 66 side trips, state by state, with drive times and what each costs your trip: Cahokia, Palo Duro, Las Vegas NM, Acoma, El Morro, Meteor Crater, Sedona, the Grand Canyon, Hoover Dam, Joshua Tree, and why Santa Fe and Petrified Forest are Route 66 itself.
 published: 2026-09-26
 photoalt: Layered red and gold canyon walls of the Grand Canyon, with the Colorado River far below
 ---
 
 ## The side-trip question
 
-Route 66 travellers face a constant temptation: should we leave the road?
+Route 66 travellers face a constant temptation: should we leave the road? Sometimes the answer is yes. The route passes near extraordinary places, and it would be a shame to ignore them simply because they are not technically on the alignment. But side trips also consume time, energy and money, so the trick is to choose the ones that deepen your journey rather than distract from it.
 
-The answer is sometimes yes. The route passes near extraordinary places, and it would be a shame to ignore them simply because they are not technically on the alignment. But side trips can also consume time, energy and money. The trick is to choose the ones that deepen your journey rather than distract from it.
+The detours below run from east to west, state by state. Not every Route 66 state gets one simply to fill a list: these are places that add something genuinely different, whether that is landscape, archaeology, engineering, Indigenous history or another layer of the American road story. One of them is marked as my pick: the place I would most hate for you to miss.
 
-The detours below run from east to west, state by state. Not every Route 66 state gets one simply to fill a list. These are places that add something genuinely different, whether that is landscape, archaeology, engineering, Indigenous history or another layer of the American road story.
-
-Each comes with a card showing where it is, where to leave the road, how long the drive takes and what it really costs your trip. Drive times are approximate, based on today's roads in normal traffic and measured from the Route 66 town or exit named on the card.
-
-Opening hours, access conditions and fees change. Check current information before you set off, particularly for national parks, tribal lands and remote desert areas.
+Each comes with a card showing where it is, where to leave the road, how long the drive takes and what it really costs your trip. Drive times are approximate, based on today's roads in normal traffic and measured from the Route 66 town or exit named on the card. Opening hours, access conditions and fees change, so check current information before you set off, particularly for national parks, tribal lands and remote desert areas.
 
 [[states]]
 
@@ -27,13 +23,9 @@ Opening hours, access conditions and fees change. Check current information befo
 
 ### Bunker Hill
 
-Bunker Hill is the smallest side trip in this guide, and one of the most rewarding for the effort.
+Bunker Hill is the smallest side trip in this guide, and one of the most rewarding for the effort. The town sits about thirteen miles south-west of Gillespie, off the original 1926 to 1930 alignment that ran through Carlinville, Gillespie and Staunton before Route 66 shifted east.
 
-The town sits about thirteen miles south-west of Gillespie, off the original 1926 to 1930 alignment that ran through Carlinville, Gillespie and Staunton before Route 66 shifted east.
-
-In the middle of its main crossroads stands a bronze Abraham Lincoln by sculptor William Grandville Hastings. Former Union cavalry captain Charles Clinton gave the statue to the town in 1904 to honour the local men who had served with his company. Thousands of people came to the unveiling.
-
-Lincoln looks down and points towards a kneeling figure of Liberty, who is carving the words "With malice toward none" into the granite.
+In the middle of its main crossroads stands a bronze Abraham Lincoln by the sculptor William Grandville Hastings. Former Union cavalry captain Charles Clinton gave the statue to the town in 1904 to honour the local men who had served with his company, and thousands of people came to the unveiling. Lincoln looks down and points towards a kneeling figure of Liberty, who is carving the words "With malice toward none" into the granite.
 
 Pair it with Carlinville's Million Dollar Courthouse and Sears kit-home neighbourhood on the same early alignment. Together they show a quieter side of Illinois Route 66 that many travellers rushing towards St. Louis never see.
 
@@ -48,15 +40,11 @@ Pair it with Carlinville's Million Dollar Courthouse and Sears kit-home neighbou
 
 ### Cahokia Mounds
 
-Just before Route 66 reaches St. Louis, it passes within a few miles of what was once the largest pre-Columbian urban centre north of Mexico.
+Just before Route 66 reaches St. Louis, it passes within a few miles of what was once the largest pre-Columbian urban centre north of Mexico. At its height around 1100, Cahokia supported a population estimated in the tens of thousands. What survives today is a landscape of enormous earthen mounds spread across the Mississippi floodplain.
 
-At its height around 1100, Cahokia supported a population estimated in the tens of thousands. What survives today is a landscape of enormous earthen mounds spread across the Mississippi floodplain.
+The largest, Monks Mound, rises about 100 feet above the surrounding land, and its footprint is larger than that of the Great Pyramid of Giza. A stairway climbs to the top, where the view takes in the wider mound complex and, on a clear day, the St. Louis skyline. Nearby is a reconstruction of Woodhenge, a circle of timber posts interpreted as a solar calendar.
 
-The largest, Monks Mound, rises about 100 feet above the surrounding land. Its footprint is larger than that of the Great Pyramid of Giza. A stairway climbs to the top, where the view takes in the wider mound complex and, on a clear day, the St. Louis skyline.
-
-Nearby is a reconstruction of Woodhenge, a circle of timber posts interpreted as a solar calendar.
-
-Cahokia is a UNESCO World Heritage Site and one of the most important archaeological places in North America. Most Route 66 travellers pass remarkably close without ever seeing it.
+Cahokia is a UNESCO World Heritage Site and one of the most important archaeological places in North America, yet most Route 66 travellers pass remarkably close without ever seeing it.
 
 ::@ History, Off-route
 ::# Drive | 20 min · About 12 miles each way
@@ -71,15 +59,9 @@ Cahokia is a UNESCO World Heritage Site and one of the most important archaeolog
 
 ### Meramec Caverns
 
-Meramec Caverns represents a different kind of side trip: classic roadside tourism.
+Meramec Caverns represents a different kind of side trip: classic roadside tourism. Lester Dill bought the cave in 1933, renamed it Meramec Caverns and quickly began developing and promoting it as a show cave. His advertising became almost as famous as the attraction itself, with signs and painted barns spreading the name across the Midwest. There was a Jesse James hideout story too, exactly the kind of legend that suited an era when attractions were fighting for the attention of passing motorists.
 
-Lester Dill bought the cave in 1933, renamed it Meramec Caverns and quickly began developing and promoting it as a show cave. His advertising became almost as famous as the attraction itself, with signs and painted barns spreading the name across the Midwest.
-
-There was also a Jesse James hideout story, exactly the kind of legend that suited roadside tourism in the era when attractions were fighting for the attention of passing motorists.
-
-The guided walking tour runs through huge illuminated chambers and unusual formations deep beneath the Missouri hills. The cave remains around 60°F year-round, making it a welcome break on a hot summer afternoon.
-
-Even if caves are not normally your thing, Meramec is worth considering for what it says about Route 66 itself. It is a surviving lesson in how businesses learned to turn the American road trip into an industry.
+The guided walking tour runs through huge illuminated chambers and unusual formations deep beneath the Missouri hills. The cave stays around 60°F year-round, which makes it a welcome break on a hot summer afternoon. Even if caves are not normally your thing, Meramec is worth considering for what it says about Route 66 itself: it is a surviving lesson in how businesses learned to turn the American road trip into an industry.
 
 ::@ Kitsch, Nature, History, Off-route
 ::# Drive | 10 min · About 3 miles each way
@@ -96,19 +78,11 @@ Even if caves are not normally your thing, Meramec is worth considering for what
 
 ### Palo Duro Canyon
 
-The Texas Panhandle spends miles convincing you that it is almost completely flat. Then, south of Amarillo, the ground opens.
+The Texas Panhandle spends miles convincing you that it is almost completely flat. Then, south of Amarillo, the ground opens. Palo Duro Canyon cuts through the high plains in layers of red, orange and ochre. Stretching for roughly 120 miles and reaching depths of around 800 feet, it is commonly described as the second-largest canyon system in the United States.
 
-Palo Duro Canyon cuts through the high plains in layers of red, orange and ochre. Stretching for roughly 120 miles and reaching depths of around 800 feet, it is commonly described as the second-largest canyon system in the United States.
+The state park road drops from the rim to the canyon floor, where trails lead between exposed rock layers and formations including the Lighthouse. On summer evenings, the outdoor musical *TEXAS* is performed in an amphitheatre built into the canyon landscape, continuing a tradition that began in 1966. Go early or late in summer: temperatures on the canyon floor can be much hotter than on the rim, shade is limited, and trails may close during extreme heat or poor conditions.
 
-The state park road drops from the rim to the canyon floor, where trails lead between exposed rock layers and formations including the Lighthouse.
-
-On summer evenings, the outdoor musical *TEXAS* is performed in an amphitheatre built into the canyon landscape, continuing a tradition that began in 1966.
-
-Go early or late in summer. Temperatures on the canyon floor can be much hotter than they are on the rim, shade is limited and trails may close during extreme heat or poor conditions.
-
-The nearby Panhandle-Plains Historical Museum has traditionally been another reason to stop in Canyon, but the museum building is currently closed while major building and safety work is addressed. Check its status rather than building it into your itinerary.
-
-Give Palo Duro half a day, or spend a night in the Amarillo area, and Texas stops being the state you cross in an afternoon.
+The nearby Panhandle-Plains Historical Museum has traditionally been another reason to stop in Canyon, but the building is currently closed while major building and safety work is addressed, so check its status rather than building it into your itinerary. Give Palo Duro half a day, or spend a night in the Amarillo area, and Texas stops being the state you cross in an afternoon.
 
 ::@ Nature, Off-route
 ::# Drive | About 35 min · Roughly 27 miles from Amarillo to the park
@@ -125,27 +99,17 @@ Give Palo Duro half a day, or spend a night in the Amarillo area, and Texas stop
 
 ### Santa Fe is not a detour
 
-Santa Fe belongs in this guide only because people keep calling it a detour.
+Santa Fe belongs in this guide only because people keep calling it a detour. It is not one.
 
-It is not one.
-
-When [Route 66 was established in 1926](/history/), the highway left Santa Rosa and swung north through the country around Romeroville and Pecos, crossed Glorieta Pass and entered Santa Fe. From there it headed south through Albuquerque and the Rio Grande valley before turning west again.
-
-In 1937, Route 66 was dramatically shortened and straightened. The new road ran west from Santa Rosa through Clines Corners and Moriarty towards Albuquerque, eliminating the large north-south loop through Santa Fe.
-
-Both roads are Route 66. Choosing Santa Fe means choosing the earlier alignment.
+When [Route 66 was established in 1926](/history/), the highway left Santa Rosa and swung north through the country around Romeroville and Pecos, crossed Glorieta Pass and entered Santa Fe. From there it headed south through Albuquerque and the Rio Grande valley before turning west again. In 1937, Route 66 was dramatically shortened and straightened: the new road ran west from Santa Rosa through Clines Corners and Moriarty towards Albuquerque, eliminating the large north-south loop through Santa Fe. Both roads are Route 66. Choosing Santa Fe simply means choosing the earlier alignment.
 
 ![A multi-storey Pueblo Revival building in Santa Fe, with stepped adobe walls and projecting wooden vigas against a deep blue sky](/images/guides/santa-fe-adobe.jpg "Pueblo Revival architecture in Santa Fe")
 
-The later road is quicker, but the old loop carries a remarkable amount of history. Pecos National Historical Park sits close to the route. The road follows country shaped by the Santa Fe Trail and much older Indigenous travel. In Santa Fe itself, the historic plaza, Palace of the Governors and La Fonda connect the road to a city whose history long predates the automobile.
+The later road is quicker, but the old loop carries a remarkable amount of history. Pecos National Historical Park sits close to the route, and the road follows country shaped by the Santa Fe Trail and much older Indigenous travel. In Santa Fe itself, the historic plaza, the Palace of the Governors and La Fonda connect the road to a city whose history long predates the automobile.
 
-Modern roads let you approximate much of the 1926 route, but they cannot reproduce every section of the historic alignment.
+Modern roads let you approximate much of the 1926 route, but they cannot reproduce every section of it. La Bajada is the obvious example. The notorious early switchback descent south of Santa Fe was bypassed in the 1930s, and access across Cochiti Pueblo land is restricted, so see the escarpment from a legal public viewpoint and do not attempt to drive the historic descent or cross closed tribal land.
 
-La Bajada is the obvious example. The notorious early switchback descent south of Santa Fe was bypassed in the 1930s, and access across Cochiti Pueblo land is restricted. See the escarpment from a legal public viewpoint. Do not attempt to drive the historic descent or cross closed tribal land.
-
-The 1937 realignment shortened Route 66 through New Mexico by roughly a hundred miles overall. So if you choose the old Santa Fe road, do not think of it as a quick loop. Build it into the journey.
-
-Allow at least a night.
+The 1937 realignment shortened Route 66 through New Mexico by roughly a hundred miles overall. So if you choose the old Santa Fe road, do not think of it as a quick loop. Build it into the journey, and allow at least a night.
 
 ::! The old alignment at a glance
 ::@ History, Original Route
@@ -159,21 +123,29 @@ Allow at least a night.
 
 ![A downtown street corner in Santa Fe, New Mexico, lined with adobe buildings and a Santa Fe Trail street sign](/images/guides/santa-fe-street.jpg "Santa Fe, New Mexico")
 
+### Las Vegas, New Mexico
+
+If you take the old Santa Fe loop, the first town to stop for is just off it. Five miles north of Romeroville, where the 1926 road turned west towards Pecos, Las Vegas is one of the most beautiful towns in New Mexico and one of the least visited. It grew up on the Santa Fe Trail, boomed when the railroad arrived in 1879, and for a while was one of the biggest towns in the territory. Then the money moved on, and Las Vegas was left with the buildings. More than 900 of them are now on the National Register of Historic Places.
+
+Start on the old plaza, where the Plaza Hotel has stood since 1882, then cross to the railroad side of town and the Castañeda, a Fred Harvey hotel from 1898 that spent decades empty before reopening in 2019. In between are blocks of Victorian storefronts, adobe, stone and neon, including the El Rialto sign glowing on the main street at dusk. Teddy Roosevelt's Rough Riders held their first reunion here, and film crews keep coming back because the town looks like nowhere else. Stay the night: Las Vegas is at its best in the evening, when the day-trippers have gone.
+
+::* I loved Las Vegas. It has all the feel of a country town, with super nice people and beautiful old buildings. Definitely stay the night.
+::@ History, Off-route
+::# Drive | 10 min · About 8 miles from Romeroville, on the 1926 loop
+::# Time there | Half a day
+::# Adds | 2–3 hours · Better still, a night
+:: Where | Las Vegas, New Mexico
+:: Leave Route 66 at | Romeroville, on the 1926 Santa Fe loop. From Santa Rosa on the later road, it is about 1 h 15 min north on US-84
+:: Getting there | I-25 north from Romeroville, then follow signs to the historic plaza
+:: Good to know | Both historic hotels, the Plaza and the Castañeda, take guests. The plaza and the railroad district are a short drive apart, and each is best explored on foot.
+
+![Evening on the main street of Las Vegas, New Mexico, with the El Rialto Restaurant sign lit](/images/guides/las-vegas-new-mexico.jpg "The El Rialto sign at dusk, Las Vegas, New Mexico")
+
 ### Acoma Sky City
 
-West of Albuquerque, the highway crosses open mesa country near Acoma Pueblo.
+West of Albuquerque, the highway crosses open mesa country near Acoma Pueblo, one of the oldest continuously inhabited communities in what is now the United States. Archaeological evidence at the mesa-top settlement reaches back roughly nine centuries, while Acoma history and oral tradition extend much further. Sky City sits on top of a sandstone mesa hundreds of feet above the surrounding landscape, and its adobe buildings, lanes and San Esteban del Rey Mission are part of a living Pueblo community, not an archaeological reconstruction.
 
-Acoma is one of the oldest continuously inhabited communities in what is now the United States. Archaeological evidence at the mesa-top settlement reaches back roughly nine centuries, while Acoma history and oral tradition extend much further.
-
-Sky City sits on top of a sandstone mesa hundreds of feet above the surrounding landscape. Its adobe buildings, lanes and San Esteban del Rey Mission are part of a living Pueblo community, not an archaeological reconstruction.
-
-That matters.
-
-You are not visiting ruins or wandering freely around a museum. Access is controlled by the Pueblo, and visiting the mesa is done through authorised guided tours.
-
-That is exactly why the place deserves more care than an ordinary roadside stop.
-
-Guided Pueblo tours are operating again. Religious observances, cultural events, weather and community decisions can affect access at short notice, so check the official Sky City Cultural Center schedule before driving out.
+That matters. You are not visiting ruins or wandering freely around a museum. Access is controlled by the Pueblo and visits to the mesa are made through authorised guided tours, which is exactly why the place deserves more care than an ordinary roadside stop. Guided Pueblo tours are operating again, but religious observances, cultural events, weather and community decisions can affect access at short notice, so check the official Sky City Cultural Center schedule before driving out.
 
 ::@ History, Nature, Off-route
 ::# Drive | About 30 min · From I-40, roughly 15 miles each way
@@ -186,13 +158,7 @@ Guided Pueblo tours are operating again. Religious observances, cultural events,
 
 ### El Malpais
 
-South of Grants, Route 66 country meets lava.
-
-El Malpais, Spanish for "the badlands", protects a landscape of black basalt flows, cinder cones, lava tubes and sandstone cliffs. The contrast feels almost abrupt after the high desert around Grants.
-
-On the eastern side of the monument, NM-117 runs towards Sandstone Bluffs Overlook, where you can look directly across the lava country, and continues towards La Ventana Natural Arch.
-
-It is a quiet drive, and even though you are not particularly far from I-40, the landscape makes the interstate feel much further away.
+South of Grants, Route 66 country meets lava. El Malpais, Spanish for "the badlands", protects a landscape of black basalt flows, cinder cones, lava tubes and sandstone cliffs, and the contrast feels almost abrupt after the high desert around Grants. On the eastern side of the monument, NM-117 runs to the Sandstone Bluffs Overlook, where you can look straight across the lava country, and continues to La Ventana Natural Arch. It is a quiet drive, and even though you are not far from I-40, the landscape makes the interstate feel much further away.
 
 There are also lava-tube caves within the monument, but this is not casual roadside exploring. The caves are undeveloped, permits are required for those open to visitors, and access can change to protect sensitive resources.
 
@@ -207,19 +173,9 @@ There are also lava-tube caves within the monument, but this is not casual roads
 
 ### El Morro
 
-Further west through the same country, NM-53 leads to El Morro, a sandstone headland with a permanent pool of water at its base.
+Further west through the same country, NM-53 leads to El Morro, a sandstone headland with a permanent pool of water at its base. For centuries, people travelling through this dry landscape stopped here and left their mark. Ancestral Puebloans carved petroglyphs. Spanish colonists cut names and messages into the sandstone, including a dated inscription by Juan de Oñate from 1605, and American soldiers, surveyors and settlers later added their own. More than 2,000 inscriptions and petroglyphs survive, and a trail climbs above them to Atsinna, the remains of an Ancestral Puebloan village on top of the mesa.
 
-For centuries, people travelling through this dry landscape stopped here.
-
-Ancestral Puebloans left petroglyphs. Spanish colonists carved names and messages into the sandstone, including a dated inscription by Juan de Oñate from 1605. American soldiers, surveyors and settlers later added their own names.
-
-More than 2,000 inscriptions and petroglyphs survive.
-
-A trail climbs above the inscriptions to Atsinna, the remains of an Ancestral Puebloan village on top of the mesa.
-
-It is the deep-time version of the marks travellers still leave along old highways. The difference is scale. El Morro records centuries of movement through the same narrow point in the landscape.
-
-It pairs naturally with El Malpais if you have a full day.
+It is the deep-time version of the marks travellers still leave along old highways. The difference is scale: El Morro records centuries of movement through the same narrow point in the landscape. It pairs naturally with El Malpais if you have a full day.
 
 ::@ History, Nature, Off-route
 ::# Drive | About 1 hour · From Grants, roughly 43 miles each way
@@ -232,42 +188,30 @@ It pairs naturally with El Malpais if you have a full day.
 
 [[state Arizona | /images/guides/badges/arizona.png]]
 
-### Petrified Forest and Painted Desert
+### Petrified Forest is not a detour
 
-[Petrified Forest National Park](/guides/route-66-hidden-gems/) and the Painted Desert are not really a conventional side trip at all.
+Like Santa Fe, [Petrified Forest National Park](/guides/route-66-hidden-gems/) is in this guide even though it is not really a detour. Route 66 used to run straight through it. The old highway crossed the northern part of the park near the Painted Desert Inn, and a line of weathered telephone poles and traces of the old roadbed still mark where it went. The National Park Service identifies Petrified Forest as the only national park containing a section of historic Route 66, so driving through it is not leaving the road. It is following it.
 
-The national park preserves a visible trace of historic Route 66, including remnants of the old roadbed and weathered telephone poles. The National Park Service identifies Petrified Forest as the only national park containing a section of Historic Route 66.
+It feels like a detour, though, because it takes time, and people often wonder whether it is worth doing. It is. After days of diners, motels and neon, the park is a welcome break from the typical Route 66 stops. The northern part opens onto the Painted Desert, with broad bands of red, lavender and grey stretching towards the horizon. Further south are archaeological sites, badlands and some of the world's best-known concentrations of petrified wood. The park road runs all the way through, so you never backtrack: leave I-40 in the north, drive through the park, and come out in the south on US-180, which takes you back to Route 66 at Holbrook. It is geology, Indigenous history and Route 66 history layered on top of one another.
 
-Then there is everything else.
-
-The northern part of the park opens onto the Painted Desert, with broad bands of red, lavender and grey stretching towards the horizon. Further south are archaeological sites, badlands and some of the world's best-known concentrations of petrified wood.
-
-The park road runs all the way through, so you do not need to backtrack. Enter from I-40 in the north, drive through the park and leave in the south via US-180 towards Holbrook.
-
-It is geology, Indigenous history and Route 66 history layered on top of one another.
-
+::! The park at a glance
 ::@ Nature, Original Route
 ::# Drive | About 1 h 20 min · Without long stops, roughly 47 miles from the northern entrance to Holbrook
 ::# Time there | 2–4 hours
 ::# Adds | Half a day
 :: Where | Between the Painted Desert and Holbrook, Arizona
-:: Leave Route 66 at | I-40 Exit 311
-:: Getting there | Follow the park road north to south, then US-180 west towards Holbrook
+:: Leave I-40 at | Exit 311, Painted Desert
+:: Rejoin Route 66 at | Holbrook
+:: Getting there | Follow the park road north to south, then US-180 west to Holbrook
 :: Good to know | The park charges an entrance fee and the road is gated outside opening hours. Check closing time before entering late in the day. Removing petrified wood or other natural or cultural objects from the park is illegal.
 
 ![The pueblo-style Painted Desert Inn on the rim above the colourful Painted Desert badlands](/images/guides/painted-desert-inn.jpg "The Painted Desert Inn, Petrified Forest National Park")
 
 ### Meteor Crater
 
-Between Winslow and Flagstaff, a short road runs south from I-40 to one of the best-known impact sites on Earth.
+Between Winslow and Flagstaff, a short road runs south from I-40 to one of the best-known impact sites on Earth. Around 50,000 years ago, a nickel-iron meteorite struck the plateau, leaving a crater roughly 3,900 feet across and more than 500 feet deep. Its remarkably preserved form made it important to scientists trying to understand impact craters, and astronauts from the Apollo programme trained in the surrounding terrain while preparing for the Moon.
 
-Around 50,000 years ago, a nickel-iron meteorite struck the plateau, leaving a crater roughly 3,900 feet across and more than 500 feet deep.
-
-Its remarkably preserved form made it important to scientists trying to understand impact craters, and astronauts from the Apollo programme trained in the surrounding terrain while preparing for the Moon.
-
-Meteor Crater is privately owned rather than part of the National Park Service. A visitor centre sits on the rim, with viewing platforms and guided experiences overlooking the crater.
-
-It also fits Route 66's taste for spectacle remarkably well: an enormous hole in the Arizona desert that the age of automobile tourism turned into a roadside destination.
+Meteor Crater is privately owned rather than part of the National Park Service, with a visitor centre on the rim, viewing platforms and guided experiences overlooking the crater. It also fits Route 66's taste for spectacle remarkably well: an enormous hole in the Arizona desert that the age of automobile tourism turned into a roadside destination.
 
 ::@ Nature, Off-route
 ::# Drive | About 10 min · Roughly 6 miles each way
@@ -282,15 +226,9 @@ It also fits Route 66's taste for spectacle remarkably well: an enormous hole in
 
 ### Walnut Canyon
 
-Just east of Flagstaff, Walnut Canyon hides cliff dwellings beneath limestone ledges in a forested canyon.
+Just east of Flagstaff, Walnut Canyon hides cliff dwellings beneath limestone ledges in a forested canyon. The people archaeologists call Sinagua built homes here more than 700 years ago. The Island Trail descends into the canyon and loops around a promontory, passing 25 cliff-dwelling rooms, while others remain visible across the canyon walls.
 
-The people archaeologists call Sinagua built homes here more than 700 years ago. The Island Trail descends into the canyon and loops around a promontory, passing 25 cliff-dwelling rooms while others remain visible across the canyon walls.
-
-It is one of the easiest archaeological sites to fit into a Route 66 day. You can spend an hour or two here and return to I-40 without reorganising the entire itinerary.
-
-The catch is the climb.
-
-The trail drops below the rim via a long series of stairs, then you have to climb them again at an elevation of around 7,000 feet.
+It is one of the easiest archaeological sites to fit into a Route 66 day: you can spend an hour or two here and return to I-40 without reorganising the entire itinerary. The catch is the climb. The trail drops below the rim via a long series of stairs, and then you have to climb them again at an elevation of around 7,000 feet.
 
 ::@ History, Ghost Town/Ruins, Off-route
 ::# Drive | About 10 min · 3 miles from I-40 Exit 204
@@ -305,15 +243,9 @@ The trail drops below the rim via a long series of stairs, then you have to clim
 
 ### Sunset Crater and Wupatki
 
-North of Flagstaff, one scenic road links two completely different landscapes.
+North of Flagstaff, one scenic road links two completely different landscapes. Sunset Crater Volcano erupted roughly 900 years ago, covering the surrounding country in lava and ash. Today its black lava flows sit beneath ponderosa pine forest, with the cinder cone rising above them.
 
-Sunset Crater Volcano erupted roughly 900 years ago, covering the surrounding country in lava and ash. Today black lava flows sit beneath ponderosa pine forest, and the cinder cone rises above the landscape.
-
-Continue north and the elevation drops. Forest gives way to red desert and open views across the Wupatki Basin.
-
-Here, Ancestral Puebloan communities built settlements from local red sandstone. Wupatki Pueblo, the largest in the monument, grew to around 100 rooms. The communities that lived throughout this landscape adapted to the ecological changes created by the eruption.
-
-The two monuments make much more sense together than separately. The eruption changed the land, and people responded to the land that followed.
+Continue north and the elevation drops, the forest giving way to red desert and open views across the Wupatki Basin. Here, Ancestral Puebloan communities built settlements from local red sandstone; Wupatki Pueblo, the largest in the monument, grew to around 100 rooms. The people who lived throughout this landscape adapted to the ecological changes the eruption created, which is why the two monuments make much more sense together than separately. The eruption changed the land, and people responded to the land that followed.
 
 ::@ Nature, Ghost Town/Ruins, Off-route
 ::# Drive | 34–35-mile loop · Allow roughly 1 hour of driving without stops
@@ -326,19 +258,9 @@ The two monuments make much more sense together than separately. The eruption ch
 
 ### Sedona and Oak Creek Canyon
 
-Sedona has little direct Route 66 history.
+Sedona has little direct Route 66 history. It is here for the landscape, and the approach is half the reason to go. AZ-89A leaves Flagstaff and drops through a series of switchbacks into Oak Creek Canyon, then follows the creek through forest before the canyon opens and Sedona's red sandstone towers begin to appear.
 
-It is here for the landscape.
-
-AZ-89A leaves Flagstaff and drops through a series of switchbacks into Oak Creek Canyon. The road follows the creek through forest before the canyon opens and Sedona's red sandstone towers begin to appear.
-
-The approach is half the reason to go.
-
-Once there, you can make the trip as short or as long as you want. Stop for lunch and a look around town, take a short walk, or give the red-rock country most of a day.
-
-If you do not want to retrace the canyon road, return north via I-17 and make a loop.
-
-But be realistic about crowds. Sedona is extremely popular, parking at major trailheads can fill early and AZ-89A can become slow on weekends and holidays.
+Once there, you can make the trip as short or as long as you want: stop for lunch and a look around town, take a short walk, or give the red-rock country most of a day. If you do not want to retrace the canyon road, return north via I-17 and make a loop. But be realistic about crowds. Sedona is extremely popular, parking at major trailheads can fill early, and AZ-89A can become slow on weekends and holidays.
 
 ::@ Nature, Off-route
 ::# Drive | About 1 hour · From Flagstaff via Oak Creek Canyon, roughly 30 miles one way on AZ-89A
@@ -353,19 +275,9 @@ But be realistic about crowds. Sedona is extremely popular, parking at major tra
 
 ### The Grand Canyon
 
-The Grand Canyon is the obvious one.
+The Grand Canyon is the obvious one. It is not Route 66, but it is close enough to the Arizona section that many travellers include it, and if you have never seen it and you have the time, go. Just do not pretend it is a quick photo stop.
 
-It is not Route 66, but it is close enough to the Arizona section that many travellers include it.
-
-If you have never seen it and you have the time, go.
-
-But do not pretend it is a quick photo stop.
-
-From Williams, it is roughly 60 miles to the South Rim. Once there, distances between viewpoints, shuttle rides, walking, crowds and simply standing still to look at the canyon take time.
-
-That is the point.
-
-The Grand Canyon deserves to [reshape the itinerary](/guides/route-66-itinerary/) a little. Build it in properly or save it for another trip.
+From Williams, it is roughly 60 miles to the South Rim. Once there, the distances between viewpoints, the shuttle rides, the walking, the crowds and simply standing still to look at the canyon all take time. That is the point. The Grand Canyon deserves to [reshape the itinerary](/guides/route-66-itinerary/) a little, so build it in properly or save it for another trip.
 
 ::@ Nature, Off-route
 ::# Drive | About 1 h 20 min · Roughly 60 miles each way
@@ -378,13 +290,9 @@ The Grand Canyon deserves to [reshape the itinerary](/guides/route-66-itinerary/
 
 ### Or take the train
 
-You can also leave the car in Williams and take the Grand Canyon Railway.
+You can also leave the car in Williams and take the Grand Canyon Railway. Passenger trains first ran between Williams and the canyon in 1901. Regular service ended in 1968 as automobile travel took over, then returned in 1989 after the historic line was restored. Today the train leaves Williams in the morning, spends several hours at the South Rim and comes back in the afternoon.
 
-Passenger trains first travelled between Williams and the canyon in 1901. Regular passenger service ended in 1968 as automobile travel took over, then returned in 1989 after the historic line was restored.
-
-Today the train leaves Williams in the morning, spends several hours at the South Rim and returns in the afternoon.
-
-It is slower than driving and gives you less flexibility once you arrive, but that is not necessarily the point. The train becomes part of the day rather than simply the transport.
+It is slower than driving and gives you less flexibility once you arrive, but that is not really the point. The train becomes part of the day rather than simply the transport.
 
 ::! Train at a glance
 ::@ History
@@ -397,15 +305,9 @@ It is slower than driving and gives you less flexibility once you arrive, but th
 
 ### Hoover Dam
 
-From Kingman, US-93 runs north through the desert towards the Colorado River and Hoover Dam.
+From Kingman, US-93 runs north through the desert towards the Colorado River and Hoover Dam. Construction began in 1931, during the Great Depression, at the same time Route 66 was carrying migrants and travellers west across Arizona. The enormous concrete arch-gravity dam transformed the Colorado River and became one of the defining American engineering projects of the period.
 
-Construction began in 1931 during the Great Depression, at the same time Route 66 was carrying migrants and travellers west across Arizona. The enormous concrete arch-gravity dam transformed the Colorado River and became one of the defining American engineering projects of the period.
-
-You can walk across the dam, look down from the Mike O'Callaghan–Pat Tillman Memorial Bridge and, depending on availability, take a visitor-centre, power-plant or guided dam tour.
-
-Strictly speaking, this detour takes you into Nevada, a state Route 66 never touched.
-
-That only makes the geography more interesting.
+You can walk across the dam, look down from the Mike O'Callaghan–Pat Tillman Memorial Bridge and, depending on availability, take a visitor-centre, power-plant or guided dam tour. Strictly speaking, this detour takes you into Nevada, a state Route 66 never touched, which only makes the geography more interesting.
 
 ::@ History, Off-route
 ::# Drive | About 1 h 15 min · Roughly 75 miles each way from Kingman
@@ -420,19 +322,11 @@ That only makes the geography more interesting.
 
 ### Kelso Depot and Mojave National Preserve
 
-North of the old Route 66 corridor between Ludlow and Essex, Kelbaker Road climbs into Mojave National Preserve.
+North of the old Route 66 corridor between Ludlow and Essex, Kelbaker Road climbs into Mojave National Preserve. At its centre stands Kelso Depot, a Spanish Mission-style Union Pacific building that opened in 1924 as a railway station, restaurant and lodging for railroad employees in one of the emptiest parts of the Mojave. The restored building normally serves as the preserve's main visitor centre. The interior is currently closed for renovation work, but the outdoor depot area, parking, restrooms and water remain accessible.
 
-At its centre stands Kelso Depot, a Spanish Mission-style Union Pacific building that opened in 1924. It served as a railway station, restaurant and accommodation for railroad employees in one of the emptiest parts of the Mojave.
+A little further south, the Kelso Dunes rise hundreds of feet above the desert floor, among the tallest dune systems in North America. Under the right dry conditions, sand sliding down the steep face produces a deep vibrating or booming sound.
 
-The restored building normally serves as the preserve's main visitor centre, although the interior is currently closed for renovation work. The outdoor depot area, parking, restrooms and water remain accessible.
-
-A little further south, the Kelso Dunes rise hundreds of feet above the desert floor. They are among the tallest dune systems in North America.
-
-Under the right dry conditions, sand sliding down the steep face can produce a deep vibrating or booming sound.
-
-This is desert travel at its most beautiful and its least forgiving.
-
-There are few services, mobile coverage can disappear, summer temperatures are severe and distances are deceptive. Prepare before leaving Route 66.
+This is desert travel at its most beautiful and its least forgiving. There are few services, mobile coverage can disappear, summer temperatures are severe and distances are deceptive, so prepare before leaving Route 66.
 
 ::@ Nature, History, Off-route
 ::# Drive | About 25 min · Roughly 22 miles from I-40 to Kelso Depot
@@ -445,21 +339,9 @@ There are few services, mobile coverage can disappear, summer temperatures are s
 
 ### Joshua Tree National Park
 
-At Amboy, beside Roy's Motel and Café, Amboy Road heads south across a huge stretch of open desert towards Twentynine Palms and Joshua Tree National Park.
+At Amboy, beside Roy's Motel and Café, Amboy Road heads south across a huge stretch of open desert towards Twentynine Palms and Joshua Tree National Park, and the drive alone feels like a change of world. Joshua Tree sits where the higher Mojave Desert meets the lower Colorado Desert. Its northern half is the landscape most people picture: twisted Joshua trees, bare mountains and enormous piles of rounded granite around places such as Jumbo Rocks and Hidden Valley. It is very different from the Route 66 desert, even though the two sit surprisingly close together.
 
-The drive alone feels like a change of world.
-
-Joshua Tree sits where the higher Mojave Desert meets the lower Colorado Desert. The northern part of the park is the landscape most people picture: twisted Joshua trees, bare mountains and enormous piles of rounded granite around places such as Jumbo Rocks and Hidden Valley.
-
-It is very different from the Route 66 desert, even though the two landscapes sit surprisingly close together.
-
-You can also turn it into a through route. Enter near Twentynine Palms, continue across the park, then head west towards I-10 and eventually reconnect with the Los Angeles-bound journey.
-
-But understand the trade-off.
-
-Doing that means skipping Route 66 through Barstow, Victorville and Cajon Pass.
-
-Sometimes the real question is not whether a place is worth visiting. It is which worthwhile place you are willing to miss.
+You can also turn it into a through route: enter near Twentynine Palms, cross the park, then head west towards I-10 and reconnect with the Los Angeles-bound journey. But understand the trade-off. Doing that means skipping Route 66 through Barstow, Victorville and the Cajon Pass. Sometimes the real question is not whether a place is worth visiting, but which worthwhile place you are willing to miss.
 
 ::@ Nature, Off-route
 ::# Drive | About 1 hour · From Amboy to Twentynine Palms, roughly 50 miles
@@ -474,19 +356,9 @@ Sometimes the real question is not whether a place is worth visiting. It is whic
 
 ### Calico Ghost Town
 
-Just outside Barstow, Calico was a silver-mining town that boomed after discoveries in the early 1880s and declined when silver prices collapsed later in the century.
+Just outside Barstow, Calico was a silver-mining town that boomed after discoveries in the early 1880s and declined when silver prices collapsed later in the century. By the twentieth century, much of it had disappeared. In the 1950s, Walter Knott, the founder of Knott's Berry Farm, bought Calico, restored or reconstructed much of it as a visitor attraction, and later transferred it to San Bernardino County.
 
-By the twentieth century, much of the town had disappeared.
-
-In the 1950s, Walter Knott, founder of Knott's Berry Farm, bought Calico and restored or reconstructed much of it as a visitor attraction. He later transferred it to San Bernardino County.
-
-That leaves Calico in an interesting place.
-
-It is part surviving mining town, part reconstruction and part tourist attraction. Instead of pretending those things are not connected, they are the reason it belongs in a Route 66 guide.
-
-The Mother Road is full of places where history was preserved, polished, exaggerated, rebuilt and sold back to passing motorists.
-
-Calico is simply more obvious about it.
+That leaves Calico in an interesting place: part surviving mining town, part reconstruction and part tourist attraction. Rather than being a problem, that mix is the reason it belongs in a Route 66 guide. The Mother Road is full of places where history was preserved, polished, exaggerated, rebuilt and sold back to passing motorists. Calico is simply more obvious about it.
 
 ::@ History, Ghost Town/Ruins, Off-route
 ::# Drive | About 20 min · Roughly 13 miles each way from Barstow
@@ -499,19 +371,9 @@ Calico is simply more obvious about it.
 
 ### Griffith Observatory
 
-One of Route 66's later routes through Los Angeles follows Santa Monica Boulevard, and a few miles north, high above Hollywood, stands Griffith Observatory.
+One of Route 66's later routes through Los Angeles follows Santa Monica Boulevard, and a few miles north, high above Hollywood, stands Griffith Observatory. The white Art Deco building opened in 1935, while Route 66 was still young, and later became one of the city's most recognisable landmarks, as well as the setting for some of the most famous scenes in *Rebel Without a Cause*.
 
-The white Art Deco building opened in 1935, while Route 66 was still young.
-
-It later became one of Los Angeles's most recognisable landmarks and a filming location for *Rebel Without a Cause*, where some of the film's most famous scenes play out around the observatory.
-
-The terraces look across the Los Angeles Basin towards downtown and the Pacific, with the Hollywood Sign sitting across the hills.
-
-By this stage of the trip, after thousands of miles of diners, desert, neon, bypassed towns and old pavement, the scale of Los Angeles can feel almost unreal.
-
-Go near sunset if you can.
-
-It is a good place to look back across the city and realise just how far you have travelled.
+The terraces look across the Los Angeles Basin towards downtown and the Pacific, with the Hollywood Sign across the hills. By this stage of the trip, after thousands of miles of diners, desert, neon, bypassed towns and old pavement, the scale of Los Angeles can feel almost unreal. Go near sunset if you can. It is a good place to look back across the city and realise just how far you have travelled.
 
 ::@ History, Off-route
 ::# Drive | Around 15 min · In light traffic, about 3½ miles from Santa Monica Boulevard at Vermont Avenue
@@ -526,70 +388,26 @@ It is a good place to look back across the city and realise just how far you hav
 
 ## How to decide
 
-Before adding a side trip, ask three questions.
+Before adding a side trip, ask three questions. Does it connect to the story I am following? Do I have enough time to enjoy it properly? And what am I giving up on the main route to make room for it?
 
-Does it connect to the story I am following?
-
-Do I have enough time to enjoy it properly?
-
-What am I giving up on the main route to make room for it?
-
-That last question matters most.
-
-The danger with side trips is not that they are somehow less authentic than Route 66. It is that enough of them can turn a Route 66 journey into a series of famous destinations connected by hurried bits of old highway.
-
-The Grand Canyon may absolutely deserve two days.
-
-But two days at the Grand Canyon are still two days you are not spending in Seligman, Oatman, Kingman, the Mojave or somewhere you have never heard of yet.
-
-Choose deliberately.
+That last question matters most. The danger with side trips is not that they are somehow less authentic than Route 66. It is that enough of them can turn a Route 66 journey into a series of famous destinations connected by hurried bits of old highway. The Grand Canyon may absolutely deserve two days, but two days at the Grand Canyon are still two days you are not spending in Seligman, Oatman, Kingman, the Mojave, or somewhere you have never heard of yet. Choose deliberately.
 
 ## Side trips that are really old alignments or older histories
 
-Some of the best "side trips" are not side trips in the usual sense.
+Some of the best "side trips" are not side trips in the usual sense. Santa Fe is the clearest case: driving the northern loop is not leaving Route 66, it is choosing an earlier Route 66. Las Vegas sits just off that same early road, and Bunker Hill works the same way on a much smaller scale, pulling you back towards Illinois's first alignment.
 
-Santa Fe is the clearest case. Driving the northern loop is not leaving Route 66. It is choosing an earlier Route 66.
+Petrified Forest is the other clear case, because Route 66 ran right through the park. Old roadbed and telephone poles still mark where Route 66 crossed the landscape, which makes it more than scenery: in one place, geological time, Indigenous history, twentieth-century highway history and modern travel overlap.
 
-Bunker Hill works the same way on a much smaller scale, pulling you back towards Illinois's first alignment.
-
-![Evening on the main street of Las Vegas, New Mexico, with the El Rialto Restaurant sign lit](/images/guides/las-vegas-new-mexico.jpg "Las Vegas, New Mexico, near the original 1926 alignment towards Santa Fe")
-
-Petrified Forest is another useful example because the park contains traces of the historic highway itself. Old roadbed and telephone poles still mark where Route 66 crossed the landscape.
-
-That makes it more than scenery.
-
-In one place, geological time, Indigenous history, twentieth-century highway history and modern travel overlap.
-
-Other side trips broaden the context around the road.
-
-Cahokia shows that the corridor was important long before automobiles. Acoma and El Morro connect the journey to Indigenous and colonial histories that reach much further back than 1926. Palo Duro, Meteor Crater and the Mojave help explain the enormous landscapes through which the highway was built. Calico shows what happened when Western history became part of the tourism economy.
-
-Route 66 did not create those stories.
-
-It drove through the middle of them.
+Other side trips broaden the context around the road. Cahokia shows that the corridor mattered long before automobiles. Acoma and El Morro connect the journey to Indigenous and colonial histories that reach much further back than 1926. Palo Duro, Meteor Crater and the Mojave help explain the enormous landscapes through which the highway was built, and Calico shows what happened when Western history became part of the tourism economy. Route 66 did not create those stories. It drove through the middle of them.
 
 ## Take it with you in Route 66 Logbook
 
-Use [Route 66 Logbook](#download) to keep the main route visible while you weigh up detours.
-
-Save your must-see Route 66 stops first, then look at the space between them.
-
-If a side trip adds enough scenery, history or meaning to justify the hours it takes away from the Mother Road, make room for it.
-
-If it is there only because every itinerary tells you to go, leave it.
+Use [Route 66 Logbook](#download) to keep the main route visible while you weigh up detours. Save your must-see Route 66 stops first, then look at the space between them. If a side trip adds enough scenery, history or meaning to justify the hours it takes away from the Mother Road, make room for it. If it is there only because every itinerary tells you to go, leave it.
 
 {{cta}}
 
 ## A detour should earn its place
 
-A good side trip gives you something the main road cannot.
+A good side trip gives you something the main road cannot. It might be the scale of the Grand Canyon, the archaeology of Cahokia, the silence of El Malpais, the red walls of Palo Duro, the old storefronts of Las Vegas or the strange collision of mining history and tourism at Calico. It might also simply break the rhythm of a long drive. After days of motels, diners, signs and pavement, a canyon, cave, pueblo, volcano or desert walk can reset your senses.
 
-It might be the scale of the Grand Canyon, the archaeology of Cahokia, the silence of El Malpais, the red walls of Palo Duro or the strange collision of mining history and tourism at Calico.
-
-It might also simply break the rhythm of a long drive.
-
-After days of motels, diners, signs and pavement, a canyon, cave, pueblo, volcano or desert walk can reset your senses.
-
-Then you return to Route 66 and notice the road again.
-
-That is what the detour is for.
+Then you return to Route 66 and notice the road again. That is what the detour is for.

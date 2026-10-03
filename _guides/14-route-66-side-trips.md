@@ -173,7 +173,7 @@ You are not visiting ruins or wandering freely around a museum. Access is contro
 
 That is exactly why the place deserves more care than an ordinary roadside stop.
 
-Guided Pueblo tours are operating again. Check the schedule before driving out: because religious observances, cultural events, weather and community decisions can affect access at short notice, check the official Sky City Cultural Center information before driving out.
+Guided Pueblo tours are operating again. Religious observances, cultural events, weather and community decisions can affect access at short notice, so check the official Sky City Cultural Center schedule before driving out.
 
 ::@ History, Nature, Off-route
 ::# Drive | About 30 min · From I-40, roughly 15 miles each way

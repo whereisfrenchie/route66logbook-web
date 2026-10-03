@@ -171,10 +171,37 @@ img { max-width: 100%; }
   border-top: 4px solid var(--teal);
   padding: 22px 26px 8px; margin: 28px 0 40px;
 }
+.prose .detour-head {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 10px 16px; margin: 0 0 16px;
+}
 .prose .detour .detour-label {
   font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
-  color: var(--teal); margin: 0 0 16px;
+  color: var(--teal); margin: 0;
 }
+/* Category pills: the app's map-pin colours (src/lib/theme.ts, CAT_COLORS) */
+.prose .detour-cats { list-style: none; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.prose .detour-cats .cat {
+  display: inline-flex; align-items: center; gap: 7px; margin: 0;
+  padding: 4px 11px 4px 9px; border-radius: 100px;
+  background: var(--sand); border: 1px solid rgba(43,48,51,0.08);
+  font-size: 12px; font-weight: 600; line-height: 1.4; color: var(--charcoal);
+}
+.prose .detour-cats .cat::before {
+  content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--cat, #2b3033);
+}
+.cat-kitsch           { --cat: #ba8c9a; }
+.cat-food             { --cat: #b1ced1; }
+.cat-history          { --cat: #ccc378; }
+.cat-neon             { --cat: #ddae4e; }
+.cat-nature           { --cat: #748866; }
+.cat-motel            { --cat: #6daeab; }
+.cat-gas-station      { --cat: #ea5b56; }
+.cat-ghost-town-ruins { --cat: #7f5750; }
+.cat-mural            { --cat: #7b6674; }
+.cat-shop             { --cat: #e7af8f; }
+.cat-original-route   { --cat: #9a8079; }
+.cat-off-route        { --cat: #c9a06a; }
 .prose .detour-stats {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px;
   margin-bottom: 18px;

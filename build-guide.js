@@ -49,6 +49,10 @@
  *                       across the top ("Drive | 20 min · 12 miles each way":
  *                       the part before · is large, the rest a note under
  *                       it); :: fields are the label/value rows below
+ *   ::! Card title      optional, replaces "Detour at a glance"
+ *   ::@ History, Nature optional category pills, coloured like the app's
+ *                       map pins. Only the app's own categories are accepted
+ *                       (CATEGORIES below, copied from src/lib/theme.ts)
  *   **bold** *italic* [text](url)   inside any paragraph, heading or item
  * Anything else is a paragraph. Raw HTML is escaped, never passed through.
  *
@@ -141,7 +145,13 @@ function pngSize(file) {
 }
 const slugify = (t) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
   .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const STATE_LINE = /^\[\[state (.+?) \| (\/images\/[^\s|]+\.png)\]\]$/;
+// The app's stop categories, in its own order (src/lib/theme.ts, CAT_COLORS in
+// the app repo). Their colours are in styles/guide.css as .cat-<slug>.
+const CATEGORIES = [
+  'Kitsch', 'Food', 'History', 'Neon', 'Nature', 'Motel',
+  'Gas Station', 'Ghost Town/Ruins', 'Mural', 'Original Route', 'Shop', 'Off-route',
+];
+const STATE_LINE =/^\[\[state (.+?) \| (\/images\/[^\s|]+\.png)\]\]$/;
 
 const IMAGE_LINE = /^!\[([^\]]*)\]\((\/images\/[^)\s]+\.jpe?g)(?:\s+"([^"]*)")?\)(?:\s+\{(screen)\})?$/i;
 
@@ -154,10 +164,17 @@ function renderBody(src, label, die, root) {
   let card = null;
   const closeCard = () => {
     if (!card) return;
-    const stats = card.filter((f) => f.stat);
-    const rows = card.filter((f) => !f.stat);
+    const stats = card.filter((f) => f.kind === '#');
+    const rows = card.filter((f) => f.kind === '');
+    const title = card.find((f) => f.kind === '!');
+    const cats = card.find((f) => f.kind === '@');
     out.push(`      <aside class="detour reveal">\n` +
-      `        <p class="detour-label">Detour at a glance</p>\n` +
+      `        <div class="detour-head">\n` +
+      `          <p class="detour-label">${inline(title ? title.value : 'Detour at a glance')}</p>\n` +
+      (cats ? `          <ul class="detour-cats" aria-label="Categories in the app">\n` +
+        cats.value.map((c) => `            <li class="cat cat-${slugify(c)}">${esc(c)}</li>`).join('\n') +
+        `\n          </ul>\n` : '') +
+      `        </div>\n` +
       (stats.length ? `        <div class="detour-stats">\n` + stats.map((f) => {
         const [big, ...note] = f.value.split(' · ');
         return `          <div class="detour-stat">\n` +
@@ -189,10 +206,20 @@ function renderBody(src, label, die, root) {
   for (const raw of src.split('\n')) {
     const line = raw.trim();
     if (line.startsWith('::')) {
-      const m = line.match(/^::(#?) (.+?) \| (.+)$/);
-      if (!m) die(`${label}: cannot read the detour line "${line.slice(0, 70)}" — expected ":: Label | value" or "::# Label | value"`);
       closeList();
-      (card = card || []).push({ stat: m[1] === '#', label: m[2], value: m[3] });
+      card = card || [];
+      const special = line.match(/^::([!@]) (.+)$/);
+      if (special) {
+        const value = special[1] === '@' ? special[2].split(',').map((c) => c.trim()) : special[2];
+        if (special[1] === '@') {
+          for (const c of value) if (!CATEGORIES.includes(c)) die(`${label}: "${c}" is not an app category — use one of ${CATEGORIES.join(', ')}`);
+        }
+        card.push({ kind: special[1], value });
+        continue;
+      }
+      const m = line.match(/^::(#?) (.+?) \| (.+)$/);
+      if (!m) die(`${label}: cannot read the detour line "${line.slice(0, 70)}" — expected ":: Label | value", "::# Label | value", "::! Title" or "::@ Category, Category"`);
+      card.push({ kind: m[1], label: m[2], value: m[3] });
       words += line.split(/\s+/).length;
       continue;
     }

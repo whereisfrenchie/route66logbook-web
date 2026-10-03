@@ -1,10 +1,10 @@
 ---
-title: Best Route 66 Side Trips: 14 Detours State by State, With Drive Times
+title: Best Route 66 Side Trips: 18 Detours State by State, With Drive Times
 slug: route-66-side-trips
 group: places
 order: 14
 standfirst: Side trips can deepen the journey, but they can also steal the road from itself.
-description: The best Route 66 side trips, state by state, with drive times and what each costs your trip: Cahokia, Palo Duro, Acoma, El Morro, Meteor Crater, Sedona, the Grand Canyon, Hoover Dam, and why the Santa Fe loop is Route 66 itself.
+description: The best Route 66 side trips, state by state, with drive times and what each costs your trip: Cahokia, Palo Duro, Acoma, El Morro, Meteor Crater, Sedona, the Grand Canyon, Hoover Dam, Joshua Tree, and why the Santa Fe loop is Route 66 itself.
 published: 2026-09-26
 photoalt: Layered red and gold canyon walls of the Grand Canyon, with the Colorado River far below
 ---
@@ -226,9 +226,53 @@ From Kingman, US-93 runs north through desert to the Colorado River and Hoover D
 
 [[state California | /images/guides/badges/california.png]]
 
-### Mojave and desert detours
+### Kelso Depot and the Mojave National Preserve
 
-In California, desert side trips can be beautiful but demanding. Heat, distance and fuel matter. Do not wander casually into remote areas without preparation. The desert is seductive in photographs and unforgiving in real life. If you are prepared, it can be one of the most memorable parts of the trip.
+North of the old road between Ludlow and Essex, Kelbaker Road climbs into the Mojave National Preserve. It drops down to Kelso Depot, a Spanish Mission-style Union Pacific station that opened in 1924 as a station, restaurant and staff housing in the middle of nowhere. Restored, it is now the preserve's visitor centre. A few miles south, the Kelso Dunes rise nearly 700 feet over the desert floor, among the tallest in North America. On a dry day, sand sliding down their slopes produces a low booming sound. This is desert travel at its most beautiful and most demanding. Heat, distance and fuel matter, and the preserve has almost no services. Do not wander casually into remote areas without preparation: the desert is seductive in photographs and unforgiving in real life.
+
+::# Drive | 25 min · 22 miles to Kelso Depot
+::# Time there | 2–4 hours
+::# Adds | Half a day
+:: Where | Mojave National Preserve, California
+:: Leave Route 66 at | I-40 Exit 78, Kelbaker Road, between Ludlow and Essex
+:: Getting there | Kelbaker Road north to Kelso Depot. For the dunes, go back 8 miles south and take the graded dirt road 3 miles west to the parking area
+:: Good to know | No fuel or food in the preserve: fill up first and carry water. The roads are open around the clock, but check the visitor centre's opening days before you go. Climb the dunes early or late, never in midday summer heat.
+
+### Joshua Tree National Park
+
+At Amboy, beside Roy's Motel and Café, Amboy Road heads south across fifty empty miles of desert to Twentynine Palms and Joshua Tree National Park. This is where the Mojave meets the lower Colorado Desert. The park is famous for its spiky, twisted Joshua trees and for the great piles of granite boulders around Jumbo Rocks and Hidden Valley. It is another world from the Route 66 desert, though only an hour away. You can make it a through route: continue west on CA-62 and down to I-10, and rejoin Route 66 at San Bernardino. But that skips Barstow, Victorville and the Cajon Pass, so decide which you would rather have.
+
+::# Drive | 1 hour · 50 miles to Twentynine Palms
+::# Time there | Half a day to a full day
+::# Adds | A full day
+:: Where | Twentynine Palms, California
+:: Leave Route 66 at | Amboy
+:: Getting there | Amboy Road south to Twentynine Palms, then a few miles south to the park's north entrance
+:: Good to know | No fuel or services on Amboy Road. National park entrance fee per vehicle. Summer heat is extreme, so plan walks for early morning.
+
+### Calico Ghost Town
+
+Just outside Barstow, Calico was a silver-mining town that boomed after a strike in 1881 and emptied when silver prices collapsed in the 1890s. In 1951 Walter Knott, the founder of Knott's Berry Farm, bought it and rebuilt it as a tourist attraction, and it later became a San Bernardino County park. It is part genuine survivor and part reconstruction, with a main street, mine tours and a small railway. That makes it a very Route 66 kind of place: history polished up for passing motorists, which is a story in itself.
+
+::# Drive | 20 min · 13 miles each way
+::# Time there | 1½–2 hours
+::# Adds | About 3 hours
+:: Where | North-east of Barstow, California
+:: Leave Route 66 at | Barstow
+:: Getting there | I-15 north, then Ghost Town Road north to the park
+:: Good to know | Paid admission. Open 9 am to 5 pm every day except Christmas Day.
+
+### Griffith Observatory
+
+Route 66 crosses Los Angeles on Santa Monica Boulevard, and just to the north, up in the Hollywood Hills, stands Griffith Observatory. The white Art Deco building opened in 1935, when the road was still young, and it was where James Dean faced off in *Rebel Without a Cause*. Entry is free. The terraces look out over the whole Los Angeles basin, from downtown to the ocean where Route 66 ends, with the Hollywood Sign on the hillside beside you. Go at sunset, after more than 2,000 miles of road, and look at where you have arrived.
+
+::# Drive | 15 min · 3½ miles each way
+::# Time there | 1½–2 hours
+::# Adds | 2–3 hours
+:: Where | Griffith Park, Los Angeles
+:: Leave Route 66 at | Santa Monica Boulevard at Vermont Avenue
+:: Getting there | Vermont Avenue north into Griffith Park, then up to the observatory
+:: Good to know | Free entry; planetarium shows are ticketed. Closed Mondays. Open noon to 10 pm Tuesday to Friday, 10 am to 10 pm at weekends. The paid car park fills fast, so arrive early or take the DASH bus from Vermont/Sunset station.
 
 ## How to decide
 

@@ -69,11 +69,26 @@
 }
 .guides-more-all:hover { opacity: 1; }
 
+/* Compact tiles in the "Keep reading" row: photo on the left, title on the
+   right, no standfirst. /guides/ and the end of each guide keep the full tile. */
+.guides-more { padding: 80px 52px 76px; }
+.guides-more-head { margin-bottom: 24px; }
+.guides-more .tiles { gap: 14px; }
+.guides-more .tile { flex-direction: row; border-radius: 16px; }
+.guides-more .tile:hover { transform: translateY(-2px); box-shadow: 0 12px 30px -16px rgba(43,48,51,0.3); }
+.guides-more .tile-photo { flex: 0 0 96px; aspect-ratio: auto; min-height: 96px; }
+.guides-more .tile-photo-label { display: none; }
+.guides-more .tile-body { padding: 14px 16px; justify-content: center; }
+.guides-more .tile-kicker { font-size: 9.5px; letter-spacing: 1.6px; margin-bottom: 6px; }
+.guides-more .tile-title { font-size: 15px; line-height: 1.25; letter-spacing: -0.2px; margin-bottom: 0; }
+.guides-more .tile-text, .guides-more .tile-more { display: none; }
+
 @media (max-width: 960px) {
   .tiles { grid-template-columns: repeat(2, 1fr); }
+  .guides-more .tiles { grid-template-columns: 1fr; max-width: 560px; }
 }
 @media (max-width: 820px) {
-  .guides-more { padding: 80px 24px; }
+  .guides-more { padding: 64px 24px; }
 }
 @media (max-width: 600px) {
   .tiles { grid-template-columns: 1fr; }

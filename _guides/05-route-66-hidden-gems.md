@@ -31,6 +31,8 @@ One of the easiest ways to understand Route 66 is to stop looking for attraction
 
 South of Springfield, a 1.4-mile loop on Snell and Curran Roads near Auburn follows the 1926–1930 alignment of Route 66. Shortly after the highway moved east, the road was widened and surfaced in hand-laid brick, and that surface survives today. It is narrow, quiet and nothing like the interstate running nearby. There is no big attraction waiting at the end. The appeal is simply driving it and realising what travelling through Illinois once felt like.
 
+![A long straight stretch of red brick road with a yellow centre line running between flat fields under a stormy sky](/images/guides/auburn-brick-road.jpg "The brick road near Auburn, Illinois")
+
 ### Doc's Just Off 66, Girard
 ::@ Food, History
 
@@ -39,6 +41,8 @@ Doc's is the kind of place where the Route 66 story began long before Route 66 i
 Deck's Drug Store opened here in 1884 and stayed in the Deck family for 117 years. The marble-top soda fountain, installed in 1929, survived, along with hardwood floors, pharmacy equipment, medicines and advertising collected over generations. New owners reopened the building as Doc's Just Off 66, keeping the pharmacy collection on display and bringing the soda fountain back to life.
 
 It would be easy to treat it simply as somewhere to get a soda or ice cream, but take a look around while you are there. Much of what surrounds you belonged to the businesses and families who were serving this town while the automobile was still transforming American travel.
+
+![A red brick storefront with a striped awning, a Docs sign and a Route 66 shield on a quiet main street](/images/guides/docs-girard.jpg "Doc's Just Off 66 on the square in Girard, Illinois")
 
 ### Turkey Tracks, near Nilwood
 ::@ Original Route, Kitsch
@@ -58,6 +62,15 @@ Built in 1933, this restored filling station served motorists for decades before
 
 [[state Missouri | /images/guides/badges/missouri.png]]
 
+### Bourbon Lodge, Bourbon
+::@ History, Motel, Gas Station
+
+Bourbon is said to be the only town in America named after the whiskey. On its western edge stands a much quieter survivor.
+
+Alex and Edith Mortenson built the Bourbon Lodge around 1932 as a small highway stop in its own right: a stone café, a tiny Phillips 66 station and three tourist cabins. When the traffic moved to Interstate 44 the business closed, but the white clapboard lodge survived with its old sign still above the door.
+
+It is a private home today, so enjoy it from the road and do not walk onto the property.
+
 ### Spencer, near Miller
 ::@ Gas Station, History, Original Route
 
@@ -66,6 +79,8 @@ Spencer is easy to miss, which is part of why it belongs here.
 In 1925 Sidney Casey bought land here beside the old stagecoach road, betting that the coming federal highway would follow it. He was right. In 1926 he built a new store, and by 1928 he had added a row of buildings that served at various times as a café, feed store and barbershop, with a service station and garage at the end. When Route 66 was realigned in 1961, the traffic simply stopped coming.
 
 The buildings have since been restored, but perhaps the most interesting part is outside: an old, unpaved section of Route 66 remains alongside the site. Instead of simply looking at an old business, you can see how the business and the road once fitted together.
+
+![A stone café and garage with red vintage gas pumps and a Phillips 66 sign beside the old road](/images/guides/spencer-missouri.jpg "Spencer, Missouri")
 
 ### Gary's Gay Parita, Paris Springs
 ::@ Gas Station, Kitsch, History
@@ -82,6 +97,8 @@ Red Oak II is not an original Route 66 town, and that is what makes its story in
 Artist Lowell Davis grew up in the original Red Oak, Missouri, about 20 miles north of Carthage. When he returned years later and found his childhood community fading away, he began in 1987 to buy old buildings and move them to family land near Carthage. The result is a strange, affectionate recreation of an early twentieth-century town, with a general store, schoolhouse, church and 1920s Phillips 66 station.
 
 It feels like a ghost town until you realise people actually live there. Visitors are welcome, but it is a private community, so stay on the gravel road and treat it as somebody's neighbourhood rather than a theme park.
+
+![A shingled cottage with a green roof and blue trim reached by a narrow wooden footbridge](/images/guides/red-oak-ii.jpg "Red Oak II, near Carthage, Missouri")
 
 [[state Kansas | /images/guides/badges/kansas.png]]
 
@@ -100,6 +117,8 @@ Galena was founded in 1876 and named after the lead ore found in the surrounding
 ::@ Gas Station, History
 
 Built in 1921, five years before Route 66 was designated, Seaba Station began as a rural filling station and later became an engine rebuilding shop. Today the restored building houses a motorcycle museum, but the real attraction is the building itself: one of the businesses that was already waiting beside the road when Route 66 arrived.
+
+![The red brick Seaba Station with its open service bay, an American flag and a motorcycle museum sign](/images/guides/seaba-station.jpg "Seaba Station, Warwick, Oklahoma")
 
 ### Tank Farm Loop, west of Kellyville
 ::@ Original Route
@@ -127,6 +146,8 @@ You find a weathered road marker standing almost alone in the landscape and sudd
 Colonel J.T. Owen built this small station in 1924 on the Ozark Trail, two years before the road became Route 66. Attendants sold fuel downstairs and lived upstairs, and over the years the building carried Magnolia, Phillips 66 and Conoco signs before ending its working life as a barbershop in 1965.
 
 After I-40 bypassed Vega it sat empty for decades. A National Park Service Route 66 preservation grant helped the city restore it, and it reopened in 2004 as an interpretive stop. It takes ten minutes, and it tells the whole arc of a small Texas station in one building.
+
+![Inside the restored station: a wooden desk and chair, shelves of vintage oil cans and green-framed windows](/images/guides/magnolia-station-vega.jpg "Inside the Magnolia Station, Vega, Texas")
 
 ### Lile Art Gallery, Amarillo
 ::@ Shop, Kitsch
@@ -177,6 +198,8 @@ Lebanese immigrant Abdoo Fidel built it as a general store in 1916. From 1937 un
 
 The building is listed on the National Register of Historic Places, and its use has changed over the years, so check whether it is open before you plan to go inside. Its story adds something important to Route 66 history because it asks us to look beyond roadside architecture and think about what was being sold, who made it and how travellers encountered Native art along the road.
 
+![A white false-front adobe shop with blue doors and window frames and a sun symbol on its facade](/images/guides/acoma-curio-shop.jpg "The Acoma Curio Shop, San Fidel, New Mexico")
+
 [[state Arizona | /images/guides/badges/arizona.png]]
 
 ### Querino Canyon Bridge, near Houck
@@ -187,6 +210,8 @@ About four miles southwest of Houck, Old Highway 66 crosses Querino Canyon on a 
 Built in 1929 as part of a major improvement and relocation of the highway across northern Arizona, the bridge still carries local traffic on Navajo Nation land. Below it, the canyon cuts through a rugged landscape that makes the engineering feel all the more improbable.
 
 There is no gift shop or oversized sign announcing that you have arrived somewhere important. It is simply a piece of road infrastructure still doing its job almost a century later.
+
+![A steel deck-truss bridge carrying the old road high across a rocky desert canyon](/images/guides/querino-canyon-bridge.jpg "Querino Canyon Bridge, near Houck, Arizona")
 
 ### Painted Desert Trading Post
 ::@ Ghost Town/Ruins, Original Route, Off-route
@@ -226,6 +251,8 @@ The real town of Bagdad, out in the Mojave, was bypassed and eventually erased. 
 
 In 1987 the German director Percy Adlon filmed *Bagdad Café* at what was then the Sidewinder Café in Newberry Springs, a small 1950s roadside café on Route 66. The film found a devoted audience in Europe, and the owners eventually renamed the café after it. Today it is a slightly surreal stop: a modest desert café whose walls are covered in notes and flags left by visitors from around the world.
 
+![The Bagdad Cafe sign in front of a shingle-roofed building covered in stickers, with white tables outside](/images/guides/bagdad-cafe.jpg "Bagdad Café, Newberry Springs, California")
+
 ### Elmer's Bottle Tree Ranch, Oro Grande
 ::@ Kitsch
 
@@ -243,6 +270,8 @@ Some places survive because somebody restores them to look old. Emma Jean's bare
 The little roadside café has been feeding highway travellers and truckers since 1947, and its no-frills cinderblock building still feels like the kind of place you might have discovered by accident decades ago.
 
 Go hungry. The Brian Burger is the signature order: a thick beef patty with melted white cheese and an Ortega green chile, between slices of Parmesan-crusted Texas toast grilled golden. But the real reason Emma Jean's belongs here is that it remains a working roadside café rather than a display about one.
+
+![The empty counter and chrome stools of a small diner, the Open sign in the window](/images/guides/emma-jeans-holland-burger.jpg "Emma Jean's Holland Burger Cafe, Victorville, California")
 
 ## Sometimes the hidden gem is off the road
 

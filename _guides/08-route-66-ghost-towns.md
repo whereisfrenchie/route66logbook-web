@@ -10,6 +10,8 @@ updated: October 2026
 photoalt: The abandoned Amboy School in Amboy, California, behind a chain-link fence, with desert mountains beyond
 ---
 
+[[states]]
+
 There is an easy version of Route 66 to fall in love with. It is the restored neon, the diners still pouring coffee, the filling stations brought back from the brink and the old motels where you can park outside your room and imagine what the road felt like seventy years ago. Those places matter because they show what survived, but they are only half the story.
 
 Keep driving and another Route 66 begins to appear beside it. An empty forecourt where the pumps have gone. A motel sign standing over an empty lot. A strip of cracked pavement disappearing into grass. Trading posts slowly being reclaimed by the desert and towns that once depended on thousands of cars passing their front doors, only to find themselves suddenly sitting beside a road that no longer went anywhere important.
@@ -18,7 +20,9 @@ There is a romance to these places, but there is also a responsibility. They are
 
 That is why the term “ghost town” gets used rather loosely on Route 66. Some of the places commonly given that label still have residents or operating businesses. Others are genuinely little more than foundations. A former trading post may be carefully stabilised but never reopen, while a town that looked finished twenty years ago may now be undergoing preservation. What matters is less whether somewhere fits a perfect definition of abandonment and more what its remains can tell us about the road.
 
-## Missouri: when the highway kept moving
+[[state Missouri | /images/guides/badges/missouri.png]]
+
+### When the highway kept moving
 
 One of the strangest vanished communities on Route 66 is **Times Beach**, because its disappearance had almost nothing to do with being bypassed. The town began as a riverside resort development in the 1920s and eventually grew into a permanent community through which Route 66 passed. In the early 1970s, waste oil was sprayed on its unpaved streets to control dust. Years later, investigators discovered that the oil was contaminated with dangerous concentrations of dioxin. Then, while the contamination was being investigated in December 1982, the Meramec River flooded the town and residents were evacuated. The federal government eventually bought out the community, its buildings were demolished and the contaminated material was treated as part of a major environmental cleanup. Much of the former town reopened in 1999 as Route 66 State Park, where roads and open land now occupy a landscape that once held homes, businesses and an entire community.
 
@@ -32,11 +36,15 @@ Nearby **John’s Modern Cabins** tells the same story on a smaller scale. The t
 
 Route widening took part of the property, later realignments made access progressively less convenient, and the business closed in the 1960s. The cabins deteriorated for decades beneath the trees while the sign remained a landmark for travellers deliberately seeking out the old alignment. The property has since changed hands again and there are plans to preserve what survives, which makes it a useful reminder that abandonment is not always the final chapter. Some Route 66 ruins remain ruins because nobody has found a viable future for them yet; others are caught somewhere between decay and rescue.
 
-## Oklahoma and Texas: when the road itself was difficult
+[[state Oklahoma | /images/guides/badges/oklahoma.png]]
 
 At **Texola**, on the western edge of Oklahoma, Route 66 already begins to feel different. The landscape opens out and the old road becomes easier to read, particularly around surviving structures such as the former Magnolia Service Station, built around 1930 as paving reached this section of the highway. Early filling stations did much more than sell petrol. Travellers needed tyres, repairs, chains and sometimes somebody to pull them free when the road became impassable, and in western Oklahoma and the Texas Panhandle the condition of Route 66 itself could create an entire roadside economy.
 
-That becomes much clearer once you reach **Alanreed, Texas**. Established long before Route 66 as a railroad shipping point, Alanreed turned towards highway traffic when the Mother Road arrived. The Bradley Kiser 66 Super Service Station was built in 1930 at the corner where the original alignment entered town and turned west. It had four pumps and two service bays, making it a substantial operation for the time, and it was the last dependable stop before one of the most notorious early sections of the entire road. The station finally closed in 1982 and has since been preserved rather than left to collapse, with newly restored pumps installed in 2026. Alanreed itself, however, is far quieter than the busy highway town that once surrounded it.
+[[state Texas | /images/guides/badges/texas.png]]
+
+### When the road itself was difficult
+
+That becomes much clearer once you reach **Alanreed**. Established long before Route 66 as a railroad shipping point, Alanreed turned towards highway traffic when the Mother Road arrived. The Bradley Kiser 66 Super Service Station was built in 1930 at the corner where the original alignment entered town and turned west. It had four pumps and two service bays, making it a substantial operation for the time, and it was the last dependable stop before one of the most notorious early sections of the entire road. The station finally closed in 1982 and has since been preserved rather than left to collapse, with newly restored pumps installed in 2026. Alanreed itself, however, is far quieter than the busy highway town that once surrounded it.
 
 West of town lay the **Jericho Gap**, roughly 18 miles of early Route 66 that developed a fearsome reputation before paving reached the Texas Panhandle. The black soil could turn into thick mud after rain, trapping cars in deep ruts and bringing journeys to a halt. Local farmers with horses, mules and later tractors could make money pulling motorists free, and stories even developed that some encouraged the mud because stranded travellers were good for business. Whether every tale is true hardly matters to the larger point: the early road was not simply a scenic version of the highway we know today. Travelling it could be genuinely difficult.
 
@@ -46,7 +54,9 @@ At the far western edge of Texas, **Glenrio** gives perhaps the clearest lesson 
 
 Then Interstate 40 bypassed Glenrio in 1975. The historic district now includes the old Route 66 roadbed and 17 abandoned buildings, among them former service stations, the Little Juarez Diner and motel structures. It is one of those places where the geography tells most of the story for you. Stand on the old road and look at the businesses arranged along it, then turn towards I-40 carrying traffic past the town. The customers did not slowly disappear because people lost interest in travelling. They simply moved a few hundred metres away.
 
-## New Mexico: watching the road peel away
+[[state New Mexico | /images/guides/badges/new-mexico.png]]
+
+### Watching the road peel away
 
 Immediately west of Glenrio, **Endee** shows that the damage did not always wait for the interstate. The settlement existed before Route 66 as a ranching community, and the original 1926 highway passed directly through it. When the route was straightened and moved in the early 1950s, however, Endee found itself left beside the older road. Businesses followed the traffic towards the newer alignment, and the interstate would later shift the flow once again.
 
@@ -68,7 +78,9 @@ Farther west, **Budville** represents another version of the roadside settlement
 
 Budville also acquired a darker history when Rice and employee Blanche Brown were killed during a robbery in 1967. His wife Flossie continued the business afterwards, and the trading-post building survived long after the commercial world around it had changed. The story is memorable, but what makes Budville particularly relevant to Route 66 is less the crime than what happened to the trade around it. The business kept its highway access and still could not recreate the old relationship between business and road. An interstate exit was not the same thing as every traveller passing your petrol pumps.
 
-## Arizona: selling the West from the roadside
+[[state Arizona | /images/guides/badges/arizona.png]]
+
+### Selling the West from the roadside
 
 Arizona has some of Route 66’s most evocative ruins because roadside businesses here were competing not only for customers but for their attention. Trading posts, animal attractions, giant signs and deliberately theatrical architecture became part of the experience of heading west. When those businesses closed, they left behind unusually graphic traces of the world they were selling.
 
@@ -98,7 +110,9 @@ Continue west and the road enters **Goldroad**, where the relationship between s
 
 Goldroad itself declined with the mining industry, and much of the old settlement was eventually dismantled. What survives is embedded in the landscape rather than arranged like a conventional ghost town: stone foundations, terraces, retaining walls, mining traces and the road winding through the canyon where a much busier settlement once stood. Route 66 did not create Goldroad, but for a time the two histories overlapped, and the remaining mountain road preserves both.
 
-## California: the desert keeps the outline
+[[state California | /images/guides/badges/california.png]]
+
+### The desert keeps the outline
 
 Once Route 66 drops into California’s Mojave Desert, the distances between settlements become part of the story. Water, fuel and mechanical help were not optional extras here. A radiator problem or empty fuel tank could become serious very quickly, so tiny businesses appeared in places that would make little commercial sense today. Their survival depended almost entirely on the fact that everyone travelling east or west had to pass directly in front of them.
 

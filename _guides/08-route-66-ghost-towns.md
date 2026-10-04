@@ -56,11 +56,15 @@ What survives is scattered rather than dramatic, which is part of its appeal. Ol
 
 Route 66 did not create Montoya, and Interstate 40 did not kill it overnight, but each new transport system changed the reason people stopped there. By the time the interstate was built nearby, traffic was moving differently and the town’s commercial role had already diminished. The Richardson Store remains one of the most distinctive survivors, its sandstone walls and faded painted signs standing over a settlement that feels far larger in old photographs than it does when you pass through today.
 
+![The abandoned shell of a Whiting Bros. gas station, its yellow canopy overgrown with trees](/images/guides/whiting-bros-station.jpg "An abandoned Whiting Bros. station: once a familiar name along the western half of the road, left behind when the interstate passed it by")
+
 From Montoya towards **Cuervo**, three generations of travel begin to run almost side by side. The railroad, old Route 66 and Interstate 40 each negotiate the landscape slightly differently, so you can often see all three at once. The state-maintained Montoya-to-Cuervo section follows an older corridor that predates Route 66, and the sequence makes it unusually easy to understand how highway engineering evolved. Instead of reading about realignments on a map, you can watch them separate across the hills.
 
 West of Cuervo, the road itself becomes the ruin. An older alignment heads away through open rangeland, with surviving culverts, road cuts and traces of pavement marking where Route 66 once ran. At a former roadside service stop, foundations and a concrete pump island may be all that remain, but once you know what you are looking at the absence becomes part of the experience. The National Park Service warns that parts of the old road are extremely rough and subject to washouts, so this is not a section to approach simply because a navigation app suggests that the line continues.
 
 Farther west, **Budville** represents another version of the roadside settlement. Howard Neal “Bud” Rice opened a garage here in 1928, and the business grew into the Budville Trading Company, with fuel, a wrecker service, a general store, the post office and bus-ticket sales. The business outlived the arrival of Interstate 40, and Budville still has an exit of its own, but getting cars off a high-speed freeway proved very different from having Route 66 run directly past the door.
+
+![The white Budville Trading Co. building beside the old road in New Mexico](/images/guides/budville-trading-co.jpg "Budville Trading Co., on the old road west of Albuquerque")
 
 Budville also acquired a darker history when Rice and employee Blanche Brown were killed during a robbery in 1967. His wife Flossie continued the business afterwards, and the trading-post building survived long after the commercial world around it had changed. The story is memorable, but what makes Budville particularly relevant to Route 66 is less the crime than what happened to the trade around it. The business kept its highway access and still could not recreate the old relationship between business and road. An interstate exit was not the same thing as every traveller passing your petrol pumps.
 
@@ -80,11 +84,17 @@ The history became genuinely violent in 1926 when a dispute between Miller and l
 
 A few exits farther west, **Twin Arrows** did the same thing with far less storytelling. Originally known as Canyon Padre Trading Post, the business adopted the Twin Arrows name in the 1950s and planted two enormous arrows into the ground beside the highway. The branding worked because it could be understood in seconds from a moving car. The complex offered fuel, food and curios and survived into the interstate era before finally closing in the 1990s. The arrows remained long after the business around them deteriorated, and volunteers restored them in 2009. One fell in 2022, leaving the surviving arrow standing over an increasingly empty roadside site. It is difficult to imagine a more appropriate ruin for a road built around signs: a business once designed to communicate instantly to passing motorists has been reduced to a fragment of its own name.
 
+![The abandoned buildings of Twin Arrows, Arizona, covered in graffiti, under a deep blue sky](/images/guides/twin-arrows-graffiti.jpg "Twin Arrows, Arizona: empty, but still somebody’s property, and covered in graffiti")
+
 The route becomes wilder as it climbs into the Black Mountains, and **Ed’s Camp** belongs to an older and rougher version of automobile travel. Ed Edgerton, a miner who had come to the area in 1917, built the stop as Route 66 traffic began to grow, with an open-air trading post, a gas station, cabins and the Kactus Kafe serving miners and motorists crossing the mountains. The road through Sitgreaves Pass was steep, narrow and hard on early cars, so small outposts in this landscape mattered in a way that can be difficult to appreciate from a modern vehicle.
 
 Ed’s Camp still sits beside the old highway, its rustic structures surrounded by the volcanic Black Mountain landscape. It is [private property](/guides/route-66-travel-etiquette/), which is worth remembering because abandoned-looking places on Route 66 often create the illusion that nobody owns them. You can understand much of the site from the road without wandering through a building that happens to have stopped functioning as a business.
 
+![The abandoned Paradise Cafe, its windows broken and walls marked with graffiti, in dry grass under a cloudy sky](/images/guides/paradise-cafe.jpg "As tempting as it may be, never enter an abandoned building: respect private property, history and your own safety.")
+
 Continue west and the road enters **Goldroad**, where the relationship between settlement and highway reverses again. Gold mining brought people into this canyon around the turn of the twentieth century, years before Route 66 existed. When the highway was later routed through the Black Mountains, it passed directly through a landscape already shaped by mining, threading between steep slopes and working its way towards Sitgreaves Pass. The road was notorious for its hairpins and grades, and some early travellers were sufficiently intimidated to hire local drivers to take their cars over the pass.
+
+![The old road winding through the Black Mountains towards Sitgreaves Pass](/images/guides/sitgreaves-pass.jpg "The old road climbing into the Black Mountains towards Sitgreaves Pass")
 
 Goldroad itself declined with the mining industry, and much of the old settlement was eventually dismantled. What survives is embedded in the landscape rather than arranged like a conventional ghost town: stone foundations, terraces, retaining walls, mining traces and the road winding through the canyon where a much busier settlement once stood. Route 66 did not create Goldroad, but for a time the two histories overlapped, and the remaining mountain road preserves both.
 
@@ -116,6 +126,8 @@ After you have seen enough places like these, the ruins start becoming easier to
 
 The road itself leaves clues too. A cut through a hillside, an old culvert, fragments of centre line or a strip of asphalt running beside the interstate can reveal an earlier alignment. Around Cuervo, the abandoned roadbed tells as much of the story as any motel ruin. At Stony Dell, a surviving piece of stonework makes more sense when you know thousands of people once came there to swim. In Glenrio, the arrangement of the buildings explains the town before you even know their names.
 
+![An abandoned stretch of old Route 66 alignment, overgrown, with a Road Closed sign](/images/2.jpg "An old alignment, closed to traffic and going back to grass")
+
 That is where these places become more interesting than a collection of photogenic decay. They show that Route 66 was always changing. Jericho’s economy grew partly because the road was terrible, then disappeared when the road improved. Montoya survived the shift from railroad to highway but struggled when motorists stopped needing to pass through town. Budville kept an interstate exit and still lost the old stream of customers. Goldroad existed before Route 66 and outlasted it in a completely different form, while Amboy has begun building a new identity around the very history of its decline.
 
 The ruins also make the restored places more meaningful. Once you have stood beside a service station where the pumps are long gone, a station somebody has painstakingly restored no longer looks like simple nostalgia. Once you have seen what happens when a neon motel sign loses the motel beneath it, the fact that another sign still lights up each night feels far less inevitable.
@@ -136,6 +148,8 @@ Most first trips along Route 66 are understandably planned around the things tha
 
 But leave room for the gaps between them too. Slow down when an older piece of pavement wanders away from the interstate. Notice the foundation where a building used to stand or a sign advertising something that disappeared decades ago. Look at an empty motel court and then across at the freeway carrying cars past it without stopping. The Mother Road makes more sense once you see both versions at the same time.
 
+![A closed roadside restaurant with a rusting Restaurant sign and a row of yellow diamond letter panels, several missing, against a cloudy sky](/images/guides/abandoned-restaurant.jpg "Sign against sky, building in perspective, and a story in the missing letters")
+
 Route 66 did not simply have a golden age and then become [historic](/history/). It grew, shifted, prospered, declined and adapted over decades. Some places were rescued. Some found a new purpose. Some disappeared completely, and others are still sitting somewhere between those outcomes.
 
 The ruins matter because they show you where the road moved, what it left behind and how much effort it takes to keep even a small part of that history from disappearing with it.
@@ -143,6 +157,8 @@ The ruins matter because they show you where the road moved, what it left behind
 ## Take it with you in Route 66 Logbook
 
 Route 66 Logbook helps you find the famous landmarks, but also the abandoned alignments, roadside remnants and easy-to-miss places between them. Check the latest known status before making a detour, stay on public ground and record what you actually find when you arrive. A ruin is more useful when we know what it was, why it mattered and what is still there for the next traveller to see.
+
+![The Route 66 Logbook filter panel, with status chips for Active, Closed and Gone stops and an Abandoned & Ruins category](/images/guides/app-filter-status-screenshot.jpg "Filter the map by status, or show only Abandoned & Ruins") {screen}
 
 The map is free to explore, with more than 1,000 stops along the Mother Road.
 

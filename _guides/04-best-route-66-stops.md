@@ -206,7 +206,7 @@ The tow truck might be what gets people to stop. The station explains why there 
 ### Eisler Brothers Old Riverton Store
 ::@ Shop, History, Food
 
-The store known today as the Eisler Brothers Old Riverton Store opened in 1925 as Williams' Store, built and operated by Leo Williams one year before Route 66 was designated. The Eisler family came much later, purchasing the business in 1973.
+The store known today as the Eisler Brothers Old Riverton Store opened in 1925 as Williams' Store, built and operated by Leo Williams one year before Route 66 was designated. The Eisler family came much later, purchasing the business in 1973. Longtime manager Scott Nelson bought it in 2011, so you may also see it signed and listed as Nelson's Old Riverton Store.
 
 For local residents it was a grocery store and community business, while travellers used it for food, drinks, supplies and directions. When Route 66 arrived, the store did not suddenly become a tourist attraction. It simply found itself beside one of the country's most important highways.
 
@@ -253,6 +253,8 @@ The theatre is a useful reminder that Route 66 communities were never simply col
 Just outside Miami survives something much less glamorous but arguably even more revealing: a section of road only nine feet wide.
 
 Built before Route 66 existed, the road became part of the federal highway after 1926. Its width seems almost absurd today. Two vehicles could not comfortably pass each other while both remained on the pavement, which is why drivers sometimes had to move onto the shoulder.
+
+The surface is now rough, patched and gravelly in places, so take it slowly, and leave it out if you are driving an RV or a low car.
 
 Seeing it completely changes the mental picture of early Route 66. The highway did not begin as the broad ribbon of asphalt we imagine from later photographs. In places it inherited roads built to much older standards, and travelling across the country could be slow, rough and surprisingly intimate.
 

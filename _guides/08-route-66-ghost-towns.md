@@ -172,7 +172,7 @@ Goldroad itself declined with the mining industry, and much of the old settlemen
 
 Once Route 66 drops into California’s Mojave Desert, the distances between settlements become part of the story. Water, fuel and mechanical help were not optional extras here. A radiator problem or empty fuel tank could become serious very quickly, so tiny businesses appeared in places that would make little commercial sense today. Their survival depended almost entirely on the fact that everyone travelling east or west had to pass directly in front of them.
 
-![A battered, rusting chevron-shaped Cafe Motel sign on two poles, standing in Mojave scrub with mountains behind](/images/guides/newberry-springs-cafe-motel-sign.jpg "A faded Cafe Motel sign near the Bagdad Cafe, Newberry Springs")
+![The battered, sun-bleached Cafe Motel arrow sign of Poe’s Cafe on two poles, standing in Mojave scrub with mountains behind](/images/guides/poes-cafe-sign.jpg "Poe’s Cafe sign, east of Newberry Springs: the buildings are gone, and the arrow points at open desert")
 
 **Cadiz Summit**, east of Amboy, was one of those places. George and Minnie Tienken moved their roadside operation to the summit after Route 66 was realigned in the early 1930s, building a business around travellers climbing across the desert. Fuel, food, garage services and simple accommodation made sense on a grade where cars could overheat and the next services were many miles away. Once I-40 shifted traffic away from the old road, there was very little reason for the business to exist. Fire, vandalism and time reduced the complex to walls, slabs, steps and foundations scattered across the ridge.
 

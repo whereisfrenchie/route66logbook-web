@@ -26,6 +26,10 @@ That is why the term “ghost town” gets used rather loosely on Route 66. Some
 
 One of the strangest vanished communities on Route 66 is **Times Beach**, because its disappearance had almost nothing to do with being bypassed. The town began as a riverside resort development in the 1920s and eventually grew into a permanent community through which Route 66 passed. In the early 1970s, waste oil was sprayed on its unpaved streets to control dust. Years later, investigators discovered that the oil was contaminated with dangerous concentrations of dioxin. Then, while the contamination was being investigated in December 1982, the Meramec River flooded the town and residents were evacuated. The federal government eventually bought out the community, its buildings were demolished and the contaminated material was treated as part of a major environmental cleanup. Much of the former town reopened in 1999 as Route 66 State Park, where roads and open land now occupy a landscape that once held homes, businesses and an entire community.
 
+The 1932 Meramec River Bridge that carried Route 66 into town still stands beside the park. It was closed in 2009 and stripped of its deck the following year to save it from collapse, and plans to reopen it as a walking and cycling crossing are moving slowly forward.
+
+![The bare steel frame of the Meramec River Bridge at Times Beach, its road deck removed, running out over the river](/images/guides/meramec-river-bridge.jpg "The Meramec River Bridge at Times Beach, closed since 2009")
+
 Times Beach is important precisely because it complicates the story. Not every Route 66 community disappeared because the interstate arrived. Towns died for all sorts of reasons, and the road merely happened to pass through them. Farther west, around **Arlington and Stony Dell**, however, the changing highway itself becomes much more visible.
 
 Arlington had begun as a railroad and riverside community before Route 66, while nearby Stony Dell was a product of the automobile age. The resort opened in 1932 with an enormous spring-fed swimming pool, stone bathhouse, restaurant, rustic cabins, souvenir shop, filling station and picnic grounds. For travellers crossing Missouri before air-conditioned cars, a cool swimming pool in the Ozarks was a fairly persuasive reason to stop, and Stony Dell became popular enough that highway patrolmen were reportedly needed to manage traffic on busy summer weekends. For a short time it even added a small roadside menagerie, part of the constant competition among Route 66 businesses to give motorists one more reason to pull over.
@@ -34,9 +38,19 @@ The road around it kept changing. In the mid-1960s, Interstate 44 was driven thr
 
 Nearby **John’s Modern Cabins** tells the same story on a smaller scale. The tourist court opened in 1931 as Bill and Bess’s Place, when independent cabin camps were becoming a common answer to the growing number of Americans travelling by car. John and Lillian Dausch bought the property in 1951, renamed it John’s Modern Cabins and added the neon sign that eventually became more famous than the cabins themselves. The name now feels almost ironic when seen above weathered timber buildings, but these cabins were once the modern option: individual roadside accommodation where motorists could pull off Route 66, sleep for the night and continue through the Ozarks the next morning.
 
+![A weathered log cabin with a moss-covered roof beneath bare trees, beside the rusting John’s Modern Cabins sign](/images/guides/johns-modern-cabins.jpg "John’s Modern Cabins, near Newburg, Missouri")
+
 Route widening took part of the property, later realignments made access progressively less convenient, and the business closed in the 1960s. The cabins deteriorated for decades beneath the trees while the sign remained a landmark for travellers deliberately seeking out the old alignment. The property has since changed hands again and there are plans to preserve what survives, which makes it a useful reminder that abandonment is not always the final chapter. Some Route 66 ruins remain ruins because nobody has found a viable future for them yet; others are caught somewhere between decay and rescue.
 
 [[state Oklahoma | /images/guides/badges/oklahoma.png]]
+
+Just north of Route 66, between Commerce and Quapaw, **Picher** is Oklahoma’s answer to Times Beach. Founded in 1913 at the heart of the Tri-State lead and zinc mining district, it grew into a busy mining town ringed by mountains of grey mine waste, known locally as chat. When the mines closed, the damage stayed behind: contaminated water, toxic dust and ground undermined by old workings. Picher became part of the Tar Creek Superfund site in 1983, residents were offered federal buyouts, and an EF4 tornado in May 2008 destroyed much of what was left. The town was disincorporated the following year. Like Times Beach, its abandonment had nothing to do with traffic, and the chat piles still rising beside its empty streets are not something to climb.
+
+![Abandoned single-storey brick houses in long grass, with a grey hill of mine waste behind them](/images/guides/picher-ruins.jpg "Abandoned houses at Picher, Oklahoma, with a chat pile behind")
+
+Farther south-west, **Depew** has a claim no other town on the road can make: it was the first place on Route 66 to be bypassed. The original 1926 alignment looped through its main street, and in 1928, only two years after the highway was designated, the state straightened the road and sent traffic past the town to the south. The brick storefronts are still there, along with the stone-walled Gimmel service station, and the old loop is still paved with early concrete. Depew is not a ghost town, but it shows how early the pattern began.
+
+![A row of red-brick storefronts on Depew’s main street, with a Route 66 shield mural on the corner building](/images/guides/depew-main-street.jpg "Main Street, Depew, on the loop Route 66 abandoned in 1928")
 
 At **Texola**, on the western edge of Oklahoma, Route 66 already begins to feel different. The landscape opens out and the old road becomes easier to read, particularly around surviving structures such as the former Magnolia Service Station, built around 1930 as paving reached this section of the highway. Early filling stations did much more than sell petrol. Travellers needed tyres, repairs, chains and sometimes somebody to pull them free when the road became impassable, and in western Oklahoma and the Texas Panhandle the condition of Route 66 itself could create an entire roadside economy.
 
@@ -50,6 +64,8 @@ West of town lay the **Jericho Gap**, roughly 18 miles of early Route 66 that de
 
 When a newer, straighter alignment bypassed the old gap, that peculiar little economy disappeared with it. The settlement of **Jericho**, once supported by the railroad and highway, declined as traffic shifted elsewhere. Traces of the old alignment and roadside development remain on the plains, and preservation work has begun around parts of the former motor court. It is a fascinating reversal. A place once known because motorists desperately wanted to get through it is now attracting travellers precisely because they want to stop and understand the road that caused so much trouble.
 
+![The roofless remains of a long motor court and a rusting water tank on open prairie, with wind turbines on the horizon](/images/guides/jericho-motor-court.jpg "What remains of the motor court at Jericho, beneath a modern wind farm")
+
 At the far western edge of Texas, **Glenrio** gives perhaps the clearest lesson on Route 66 about what happened when the interstate finally arrived. The town straddled the Texas-New Mexico state line and had already turned away from its railroad origins towards the highway by the 1920s. During the busiest Route 66 years, travellers found diners, filling stations, bars and motels here, with neon lighting an otherwise very dark stretch of high plains. Glenrio even made use of the state line itself. Businesses could exploit differences in tax and liquor laws between Texas and New Mexico, while signs at the State Line Motel greeted travellers as they crossed from one state to the other.
 
 Then Interstate 40 bypassed Glenrio in 1975. The historic district now includes the old Route 66 roadbed and 17 abandoned buildings, among them former service stations, the Little Juarez Diner and motel structures. It is one of those places where the geography tells most of the story for you. Stand on the old road and look at the businesses arranged along it, then turn towards I-40 carrying traffic past the town. The customers did not slowly disappear because people lost interest in travelling. They simply moved a few hundred metres away.
@@ -62,6 +78,12 @@ Immediately west of Glenrio, **Endee** shows that the damage did not always wait
 
 What survives is scattered rather than dramatic, which is part of its appeal. Old building remains, a cemetery and the former highway lie across a landscape where several generations of transport routes overlap. The old alignment includes small timber bridges and stretches that feel much closer to the Route 66 of the 1920s than the broad frontage roads that travellers often follow today. It helps explain something that becomes increasingly obvious across New Mexico: many places did not experience a single catastrophic bypass. They were weakened by one realignment, adjusted, and then were bypassed again.
 
+A few miles farther west, **San Jon** held on longer. Its main street carried Route 66 traffic until Interstate 40 bypassed the village in 1981, and its garages, motor courts and cafés emptied in turn. The old San Jon Auto building, its roof now collapsed, still carries its hand-painted name, although travellers often misread it as Route 66 Auto Parts. Tucumcari was bypassed the same year and kept enough of its motels alive to become one of the great neon towns of the road, but walk a block away from the restored signs and the empty showrooms and dark café signs tell the other half of the story.
+
+![A whitewashed garage with faded Auto Parts Co. lettering, half hidden by bare trees beside an empty highway](/images/guides/san-jon-auto.jpg "San Jon Auto, San Jon, New Mexico")
+
+![The empty Dickinson Motors showroom on Tucumcari’s Route 66, beneath a faded yellow Café sign](/images/guides/tucumcari-dickinson-motors.jpg "Dickinson Motors and a long-dark café sign, Tucumcari")
+
 **Montoya** grew from a different kind of transport history. It began as a stop on the Rock Island Railroad around the start of the twentieth century, and G. W. Richardson opened a store there in 1908. As motor traffic became more important, the store was moved closer to the highway and evolved into a place serving ranchers, railway workers and Route 66 travellers alike. The large sandstone Richardson Store stocked everyday goods, automobile supplies and equipment needed by the surrounding ranching community, while its deep portico offered welcome shade in the New Mexico heat.
 
 Route 66 did not create Montoya, and Interstate 40 did not kill it overnight, but each new transport system changed the reason people stopped there. By the time the interstate was built nearby, traffic was moving differently and the town’s commercial role had already diminished. The Richardson Store remains one of the most distinctive survivors, its sandstone walls and faded painted signs standing over a settlement that feels far larger in old photographs than it does when you pass through today.
@@ -72,11 +94,19 @@ From Montoya towards **Cuervo**, three generations of travel begin to run almost
 
 West of Cuervo, the road itself becomes the ruin. An older alignment heads away through open rangeland, with surviving culverts, road cuts and traces of pavement marking where Route 66 once ran. At a former roadside service stop, foundations and a concrete pump island may be all that remain, but once you know what you are looking at the absence becomes part of the experience. The National Park Service warns that parts of the old road are extremely rough and subject to washouts, so this is not a section to approach simply because a navigation app suggests that the line continues.
 
+In **Santa Rosa**, the bypass came in 1972. The town sits close enough to Interstate 40 to keep its exits busy, but the motels and cafés along the old road found themselves competing with everything clustered around the interchanges. The Tower Motel, a postwar motor court on the old main street, has stood closed for years, its tall sign still promising NO VACANCY to traffic that no longer needs a room.
+
+![The closed Tower Motel in Santa Rosa, its tall sign with stacked TOWER letters and a No Vacancy panel beside the old road](/images/guides/santa-rosa-tower-motel.jpg "The Tower Motel, Santa Rosa, New Mexico")
+
 Farther west, **Budville** represents another version of the roadside settlement. Howard Neal “Bud” Rice opened a garage here in 1928, and the business grew into the Budville Trading Company, with fuel, a wrecker service, a general store, the post office and bus-ticket sales. The business outlived the arrival of Interstate 40, and Budville still has an exit of its own, but getting cars off a high-speed freeway proved very different from having Route 66 run directly past the door.
 
 ![The white Budville Trading Co. building beside the old road in New Mexico](/images/guides/budville-trading-co.jpg "Budville Trading Co., on the old road west of Albuquerque")
 
 Budville also acquired a darker history when Rice and employee Blanche Brown were killed during a robbery in 1967. His wife Flossie continued the business afterwards, and the trading-post building survived long after the commercial world around it had changed. The story is memorable, but what makes Budville particularly relevant to Route 66 is less the crime than what happened to the trade around it. The business kept its highway access and still could not recreate the old relationship between business and road. An interstate exit was not the same thing as every traveller passing your petrol pumps.
+
+Farther west, at **Bluewater**, Allen’s Garage tells a smaller version of the same story. Allen John Payne opened it in January 1955 on the stretch of Route 66 between Milan and Prewitt, now NM 122. The boarded-up building still carries its painted name, and an old truck rusts quietly beside it.
+
+![Allen’s Garage, a pale stucco building with a faded red painted sign and weathered wooden doors, beside a rusting old truck](/images/guides/allens-garage-bluewater.jpg "Allen’s Garage, Bluewater, New Mexico")
 
 [[state Arizona | /images/guides/badges/arizona.png]]
 
@@ -94,9 +124,19 @@ Farther west, **Two Guns** has accumulated so much legend that separating histor
 
 The history became genuinely violent in 1926 when a dispute between Miller and landowner Earle Cundiff ended with Miller shooting and killing Cundiff; a jury later acquitted him on grounds of self-defence. Miller eventually left, but Two Guns continued under other owners, with later businesses including service stations, accommodation and tourist facilities. A fire destroyed the last operating service station in 1971 and the complex gradually slipped into abandonment. What survives today, including stone structures, roadside ruins and the old Canyon Diablo crossing nearby, is interesting partly because it shows how aggressively Route 66 businesses packaged local history and mythology for tourists. Two Guns was never simply an authentic frontier settlement discovered by motorists. It was a roadside attraction built to make them stop.
 
+![A crumbling stone archway painted MOUNTAIN LIONS, with graffiti, at the entrance to the old animal enclosures at Two Guns](/images/guides/two-guns-mountain-lions.jpg "The old mountain lion enclosures at Two Guns")
+
 A few exits farther west, **Twin Arrows** did the same thing with far less storytelling. Originally known as Canyon Padre Trading Post, the business adopted the Twin Arrows name in the 1950s and planted two enormous arrows into the ground beside the highway. The branding worked because it could be understood in seconds from a moving car. The complex offered fuel, food and curios and survived into the interstate era before finally closing in the 1990s. The arrows remained long after the business around them deteriorated, and volunteers restored them in 2009. One fell in 2022, leaving the surviving arrow standing over an increasingly empty roadside site. It is difficult to imagine a more appropriate ruin for a road built around signs: a business once designed to communicate instantly to passing motorists has been reduced to a fragment of its own name.
 
 ![The abandoned buildings of Twin Arrows, Arizona, covered in graffiti, under a deep blue sky](/images/guides/twin-arrows-graffiti.jpg "Twin Arrows, Arizona: empty, but still somebody’s property, and covered in graffiti")
+
+West of Seligman, the old road swings north in a long arc through Peach Springs, **Truxton** and **Valentine**, and in 1978 Interstate 40 cut straight across instead. Truxton had only been founded in 1951, built around a small cluster of cafés, motels and service stations for traffic crossing the long empty stretch towards Kingman. It had less than thirty years before the cars went elsewhere. The Truxton Café still stands, closed, beside the road it was built for.
+
+![The closed Truxton Café, a white building with red trim and painted lettering, beside an empty sign frame on dry grassland](/images/guides/truxton-cafe.jpg "Truxton Café, Truxton, Arizona")
+
+A few miles on at Valentine, the story becomes even smaller and more human. In the 1970s, Elbert “Bert” Denton opened Bert’s Country Dancing, a tiny bar and dance hall that came alive on Saturday nights with live country music. Bert died in 1994 and the dancing stopped, but the little building and its sign are still there beneath the boulder-covered hills. Not every ruin on Route 66 is a monument to a big roadside business. Some are simply the place where a community used to go on Saturday night.
+
+![A small faded pink building with a Country Dancing sign, beneath a pine tree and a hill of granite boulders](/images/guides/berts-country-dancing.jpg "Bert’s Country Dancing, Valentine, Arizona")
 
 The route becomes wilder as it climbs into the Black Mountains, and **Ed’s Camp** belongs to an older and rougher version of automobile travel. Ed Edgerton, a miner who had come to the area in 1917, built the stop as Route 66 traffic began to grow, with an open-air trading post, a gas station, cabins and the Kactus Kafe serving miners and motorists crossing the mountains. The road through Sitgreaves Pass was steep, narrow and hard on early cars, so small outposts in this landscape mattered in a way that can be difficult to appreciate from a modern vehicle.
 
@@ -116,6 +156,8 @@ Goldroad itself declined with the mining industry, and much of the old settlemen
 
 Once Route 66 drops into California’s Mojave Desert, the distances between settlements become part of the story. Water, fuel and mechanical help were not optional extras here. A radiator problem or empty fuel tank could become serious very quickly, so tiny businesses appeared in places that would make little commercial sense today. Their survival depended almost entirely on the fact that everyone travelling east or west had to pass directly in front of them.
 
+![A battered, rusting roadside sign with nothing left on it, standing in Mojave scrub with mountains behind](/images/guides/mojave-empty-sign.jpg "A sign with nothing left to say, in the Mojave")
+
 **Cadiz Summit**, east of Amboy, was one of those places. George and Minnie Tienken moved their roadside operation to the summit after Route 66 was realigned in the early 1930s, building a business around travellers climbing across the desert. Fuel, food, garage services and simple accommodation made sense on a grade where cars could overheat and the next services were many miles away. Once I-40 shifted traffic away from the old road, there was very little reason for the business to exist. Fire, vandalism and time reduced the complex to walls, slabs, steps and foundations scattered across the ridge.
 
 The emptiness becomes even more famous at **Amboy**, although calling it a ghost town now misses half the story. The settlement began with the railroad, then became an important Route 66 service stop where travellers could refuel, eat and sleep before continuing through the Mojave. Roy Crowl developed the business that became **Roy’s Motel and Café** from the late 1930s, and by the postwar years its service station, café, motel cabins and enormous Googie sign had become one of the defining images of California Route 66.
@@ -132,6 +174,12 @@ West of Amboy, **Ludlow** reveals the same pattern over a much longer period bec
 
 Then the centre moved again. When I-40 opened, services clustered around the new interchange while much of the old Route 66 strip declined. Ludlow is not abandoned today, and that is what makes it so useful. Modern travellers can still find fuel and services near the freeway while, only a short distance away, abandoned service stations and traces of the older roadside town remain beside Route 66. The landscape allows you to watch Ludlow change economies almost physically: first the railroad, then the Mother Road, then the interstate.
 
+Closer to Barstow, the strangest ruin in the Mojave has nothing to do with the 1930s at all. **Lake Dolores**, near Newberry Springs, began in the early 1960s as a waterpark built around a spring-fed lake, a desert oasis for families driving between Los Angeles and Las Vegas. It closed, reopened in 1998 as the Rock-A-Hoola Waterpark with a fifties theme, failed again and shut for good in 2004. Its slides, stairways and palm trees still stand beside Interstate 15, covered in graffiti. A park built partly on nostalgia for the Route 66 era has itself become a ruin, which is exactly the kind of irony the Mojave seems to specialise in. It is fenced, private and unsafe, so it is a place to look at from the road.
+
+![The abandoned Lake Dolores waterpark: graffiti-covered towers, stairways and pillars on a desert hill behind a fence and ragged palm trees](/images/guides/lake-dolores-waterpark.jpg "Lake Dolores, later Rock-A-Hoola, near Newberry Springs")
+
+![A boarded-up Food Mart building alone in a cracked, empty forecourt, with desert hills behind](/images/guides/food-mart-near-calico.jpg "An abandoned Food Mart near Calico, California")
+
 ## Learning to read what is left
 
 After you have seen enough places like these, the ruins start becoming easier to read. You stop looking only for intact buildings and begin noticing the smaller clues: a concrete pump island in an empty lot, the U-shaped footprint of a motel court, room numbers still attached to a wall, a sign positioned towards a road that no longer carries traffic or a row of trees planted decades ago to shade cabins that have disappeared.
@@ -142,9 +190,11 @@ The road itself leaves clues too. A cut through a hillside, an old culvert, frag
 
 ![An abandoned stretch of old Route 66 alignment, overgrown, with a Road Closed sign](/images/2.jpg "An old alignment, closed to traffic and going back to grass")
 
-That is where these places become more interesting than a collection of photogenic decay. They show that Route 66 was always changing. Jericho’s economy grew partly because the road was terrible, then disappeared when the road improved. Montoya survived the shift from railroad to highway but struggled when motorists stopped needing to pass through town. Budville kept an interstate exit and still lost the old stream of customers. Goldroad existed before Route 66 and outlasted it in a completely different form, while Amboy has begun building a new identity around the very history of its decline.
+That is where these places become more interesting than a collection of photogenic decay. They show that Route 66 was always changing. Depew was bypassed only two years after the highway was born. Jericho’s economy grew partly because the road was terrible, then disappeared when the road improved. Montoya survived the shift from railroad to highway but struggled when motorists stopped needing to pass through town. Budville kept an interstate exit and still lost the old stream of customers. Goldroad existed before Route 66 and outlasted it in a completely different form, while Amboy has begun building a new identity around the very history of its decline.
 
 The ruins also make the restored places more meaningful. Once you have stood beside a service station where the pumps are long gone, a station somebody has painstakingly restored no longer looks like simple nostalgia. Once you have seen what happens when a neon motel sign loses the motel beneath it, the fact that another sign still lights up each night feels far less inevitable.
+
+![The Desert Skies Motel sign in Gallup, its top panel half empty, above the motel office and a car on the road](/images/guides/desert-skies-gallup.jpg "Desert Skies Motel, Gallup, New Mexico: still open beneath a sign that has lost half its name")
 
 ## Visit for the history, not just the photograph
 

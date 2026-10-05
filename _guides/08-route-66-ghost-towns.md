@@ -52,6 +52,10 @@ Farther south-west, **Depew** has a claim no other town on the road can make: it
 
 ![A row of red-brick storefronts on Depew’s main street, with a Route 66 shield mural on the corner building](/images/guides/depew-main-street.jpg "Main Street, Depew, on the loop Route 66 abandoned in 1928")
 
+Closer to Oklahoma City, between Luther and Arcadia, a small stone ruin stands beside the road. It is what remains of an early-1920s Conoco station, sometimes called the Rock of Ages, and it is older than Route 66 itself. A handmade sign tells the story of a secret back room where counterfeit money was printed in the 1930s. Researchers have found no evidence that it ever happened, which makes the station a useful reminder that ruins attract legends as easily as they attract graffiti.
+
+![The roofless stone walls and pillars of an early filling station beside the road, with a small flag and a handmade sign](/images/guides/rock-of-ages-arcadia.jpg "The Rock of Ages station ruins, between Arcadia and Luther, Oklahoma")
+
 At **Texola**, on the western edge of Oklahoma, Route 66 already begins to feel different. The landscape opens out and the old road becomes easier to read, particularly around surviving structures such as the former Magnolia Service Station, built around 1930 as paving reached this section of the highway. Early filling stations did much more than sell petrol. Travellers needed tyres, repairs, chains and sometimes somebody to pull them free when the road became impassable, and in western Oklahoma and the Texas Panhandle the condition of Route 66 itself could create an entire roadside economy.
 
 [[state Texas | /images/guides/badges/texas.png]]
@@ -65,6 +69,10 @@ West of town lay the **Jericho Gap**, roughly 18 miles of early Route 66 that de
 When a newer, straighter alignment bypassed the old gap, that peculiar little economy disappeared with it. The settlement of **Jericho**, once supported by the railroad and highway, declined as traffic shifted elsewhere. Traces of the old alignment and roadside development remain on the plains, and preservation work has begun around parts of the former motor court. It is a fascinating reversal. A place once known because motorists desperately wanted to get through it is now attracting travellers precisely because they want to stop and understand the road that caused so much trouble.
 
 ![The roofless remains of a long motor court and a rusting water tank on open prairie, with wind turbines on the horizon](/images/guides/jericho-motor-court.jpg "What remains of the motor court at Jericho, beneath a modern wind farm")
+
+Before Glenrio comes **Adrian**, which markets itself as the midpoint of Route 66. Its Bent Door is a good example of how roadside builders made do: Bob Harris built it in 1947 around the slanted windows of a surplus wartime air-traffic control tower and shaped the door to match the leaning walls. A Phillips 66 station stood out front, and its old pumps still line the forecourt of the long-closed café.
+
+![A row of rusting vintage gas pumps in front of a white flat-roofed building with a red chevron, partly roofless, under bare trees](/images/guides/adrian-bent-door-pumps.jpg "Old pumps on the forecourt by the Bent Door, Adrian, Texas")
 
 At the far western edge of Texas, **Glenrio** gives perhaps the clearest lesson on Route 66 about what happened when the interstate finally arrived. The town straddled the Texas-New Mexico state line and had already turned away from its railroad origins towards the highway by the 1920s. During the busiest Route 66 years, travellers found diners, filling stations, bars and motels here, with neon lighting an otherwise very dark stretch of high plains. Glenrio even made use of the state line itself. Businesses could exploit differences in tax and liquor laws between Texas and New Mexico, while signs at the State Line Motel greeted travellers as they crossed from one state to the other.
 
@@ -119,6 +127,14 @@ Arizona has some of Route 66’s most evocative ruins because roadside businesse
 Few are as isolated as the **Painted Desert Trading Post**, east of Holbrook. Dotch Windsor and his wife Alberta opened the small roadside business around 1940 on an alignment that was already remote even by Route 66 standards. There was no electricity or telephone, and gravity-fed pumps dispensed the fuel. When the highway was realigned in 1958, the trading post was stranded several miles from through traffic and never operated again.
 
 For decades the little building deteriorated alone beside the abandoned road until the Route 66 Co-op, a non-profit group of preservationists, bought the property in 2018. Rather than turning it into a polished recreation, volunteers stabilised the foundation, raised sagging walls, replaced structural elements and repaired the roof while retaining the building’s weathered appearance. It is one of the best examples on the route of preservation being used to hold a ruin in place rather than make it new again. Access is managed because the approach crosses private ranch land, so it is a place to check arrangements before setting out rather than assuming an old road on a map is automatically public.
+
+Holbrook itself was the headquarters of the Whiting Brothers, whose yellow signs once marked more than a hundred stations between Texas and California, and closed service stations still punctuate the old road through town.
+
+![An abandoned flat-roofed service station with peeling paint and a canopy, beside a tall pole carrying a Tire Repair sign](/images/guides/holbrook-old-station.jpg "A long-closed service station in Holbrook, Arizona")
+
+About ten miles farther west at **Joseph City**, Howdy Hank’s shows how a roadside business can keep changing costume after the traffic leaves. It began around 1950 as the Hopi Village, a trading post, café and small motel, and under Howdy Hank gained a painted cowboy and a wooden teepee topped with a horse. Later owners ran it as Sitting Bull’s Indian Store. After Interstate 40 bypassed the town the trading post became a feed and welding shop, and the faded sign now advertises Old Historic Route 66 Hay Sales and Feed. It is private property, best seen from Main Street.
+
+![A peeling white building with a Hay Sale and Feed sign and a weathered wooden teepee topped with a white horse figure](/images/guides/howdy-hanks-joseph-city.jpg "Howdy Hank’s, Joseph City, Arizona: trading post, then feed store")
 
 Farther west, **Two Guns** has accumulated so much legend that separating history from roadside storytelling has become part of the attraction. The site grew around Canyon Diablo, where travellers on the National Old Trails Highway and later Route 66 stopped beside the dramatic canyon landscape. In the 1920s, entrepreneur Harry Miller leased land here and created an attraction with a trading post, zoo and tours of what he promoted as the Apache Death Cave. Miller was an enthusiastic self-mythologiser, embellishing stories of the site and of himself to sell an experience of the West to passing motorists.
 

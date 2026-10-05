@@ -212,7 +212,7 @@ That is where these places become more interesting than a collection of photogen
 
 The ruins also make the restored places more meaningful. Once you have stood beside a service station where the pumps are long gone, a station somebody has painstakingly restored no longer looks like simple nostalgia. Once you have seen what happens when a neon motel sign loses the motel beneath it, the fact that another sign still lights up each night feels far less inevitable.
 
-![The Desert Skies Motel sign in Gallup, its top panel half empty, above the motel office and a car on the road](/images/guides/desert-skies-gallup.jpg "Desert Skies Motel, Gallup, New Mexico: still open beneath a sign that has lost half its name")
+![The Desert Skies Motel sign in Gallup, its top panel half empty, above the closed motel office](/images/guides/desert-skies-gallup.jpg "Desert Skies Motel, Gallup, New Mexico: closed for good, beneath a sign that has lost half its name")
 
 ## Visit for the history, not just the photograph
 

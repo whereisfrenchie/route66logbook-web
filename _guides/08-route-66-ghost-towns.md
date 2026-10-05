@@ -178,7 +178,9 @@ Closer to Barstow, the strangest ruin in the Mojave has nothing to do with the 1
 
 ![The abandoned Lake Dolores waterpark: graffiti-covered towers, stairways and pillars on a desert hill behind a fence and ragged palm trees](/images/guides/lake-dolores-waterpark.jpg "Lake Dolores, later Rock-A-Hoola, near Newberry Springs")
 
-![A boarded-up Food Mart building alone in a cracked, empty forecourt, with desert hills behind](/images/guides/food-mart-near-calico.jpg "An abandoned Food Mart near Calico, California")
+A few miles farther west, **Daggett** is older than any of it. In the 1880s it was the railhead where the famous twenty-mule teams delivered borax from the surrounding mountains, and later miners from the Calico hills came here to trade. Route 66 ran through on the way to Barstow, and the town still has its Desert Market, the old Stone Hotel and a garage that began life as a borax railroad roundhouse. But very little here is open for business. Daggett still has residents, so it is not a ghost town in the strict sense, yet driving through it today feels very close to one.
+
+![A boarded-up Food Mart building alone in a cracked, empty forecourt, with desert hills behind](/images/guides/daggett-food-mart.jpg "An abandoned Food Mart in Daggett, California")
 
 ## Learning to read what is left
 

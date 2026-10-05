@@ -100,13 +100,19 @@ Route 66 did not create Montoya, and Interstate 40 did not kill it overnight, bu
 
 ![The abandoned shell of a Whiting Bros. gas station, its yellow canopy overgrown with trees](/images/guides/whiting-bros-station.jpg "An abandoned Whiting Bros. station: once a familiar name along the western half of the road, left behind when the interstate passed it by")
 
+Between Montoya and Cuervo, **Newkirk** began as a railroad siding in 1901 and grew into a small strip of service stations, cafés and trading posts once Route 66 traffic arrived. When the interstate drew that traffic away, most of it closed. Wilkerson’s Country Store and Gulf station held on longer than most, selling ice, groceries and gasoline to ranchers and travellers until the family finally closed it in 1989. Its adobe walls have been returning to the earth ever since.
+
+![The collapsing adobe shell of Wilkerson’s Country Store and Gulf station in dry grass](/images/guides/newkirk-wilkersons.jpg "Wilkerson’s Country Store and Gulf station, Newkirk, New Mexico")
+
 From Montoya towards **Cuervo**, three generations of travel begin to run almost side by side. The railroad, old Route 66 and Interstate 40 each negotiate the landscape slightly differently, so you can often see all three at once. The state-maintained Montoya-to-Cuervo section follows an older corridor that predates Route 66, and the sequence makes it unusually easy to understand how highway engineering evolved. Instead of reading about realignments on a map, you can watch them separate across the hills.
 
 West of Cuervo, the road itself becomes the ruin. An older alignment heads away through open rangeland, with surviving culverts, road cuts and traces of pavement marking where Route 66 once ran. At a former roadside service stop, foundations and a concrete pump island may be all that remain, but once you know what you are looking at the absence becomes part of the experience. The National Park Service warns that parts of the old road are extremely rough and subject to washouts, so this is not a section to approach simply because a navigation app suggests that the line continues.
 
-In **Santa Rosa**, the bypass came in 1972. The town sits close enough to Interstate 40 to keep its exits busy, but the motels and cafés along the old road found themselves competing with everything clustered around the interchanges. The Tower Motel, a postwar motor court on the old main street, has stood closed for years, its tall sign still promising NO VACANCY to traffic that no longer needs a room.
+In **Santa Rosa**, the bypass came in 1972. The town sits close enough to Interstate 40 to keep its exits busy, but the motels and cafés along the old road found themselves competing with everything clustered around the interchanges. The Tower Motel, a postwar motor court on the old main street, has stood closed for years, its tall sign still promising NO VACANCY to traffic that no longer needs a room. Up the hill, the Route 66 Restaurant ran for decades under several names before closing for good in 2019. Its big sign still spells out RESTAURANT one yellow diamond at a time, although several of the letters have gone.
 
 ![The closed Tower Motel in Santa Rosa, its tall sign with stacked TOWER letters and a No Vacancy panel beside the old road](/images/guides/santa-rosa-tower-motel.jpg "The Tower Motel, Santa Rosa, New Mexico")
+
+![The closed Route 66 Restaurant in Santa Rosa, its rusting Restaurant sign spelled out in yellow diamond panels, several missing, against a cloudy sky](/images/guides/santa-rosa-route-66-restaurant.jpg "The Route 66 Restaurant, Santa Rosa, New Mexico")
 
 Farther west, **Budville** represents another version of the roadside settlement. Howard Neal “Bud” Rice opened a garage here in 1928, and the business grew into the Budville Trading Company, with fuel, a wrecker service, a general store, the post office and bus-ticket sales. The business outlived the arrival of Interstate 40, and Budville still has an exit of its own, but getting cars off a high-speed freeway proved very different from having Route 66 run directly past the door.
 
@@ -204,8 +210,6 @@ A few miles farther west, **Daggett** is older than any of it. In the 1880s it w
 
 After you have seen enough places like these, the ruins start becoming easier to read. You stop looking only for intact buildings and begin noticing the smaller clues: a concrete pump island in an empty lot, the U-shaped footprint of a motel court, room numbers still attached to a wall, a sign positioned towards a road that no longer carries traffic or a row of trees planted decades ago to shade cabins that have disappeared.
 
-![The collapsing shell of Wilkerson’s, an abandoned roadside business, in dry grass](/images/guides/wilkersons-ruin.jpg "Wilkerson’s, slowly giving way to the weather")
-
 The road itself leaves clues too. A cut through a hillside, an old culvert, fragments of centre line or a strip of asphalt running beside the interstate can reveal an earlier alignment. Around Cuervo, the abandoned roadbed tells as much of the story as any motel ruin. At Stony Dell, a surviving piece of stonework makes more sense when you know thousands of people once came there to swim. In Glenrio, the arrangement of the buildings explains the town before you even know their names.
 
 ![An abandoned stretch of old Route 66 alignment, overgrown, with a Road Closed sign](/images/2.jpg "An old alignment, closed to traffic and going back to grass")
@@ -229,8 +233,6 @@ It is worth checking the latest status even if you have visited before. A Route 
 Most first trips along Route 66 are understandably planned around the things that survived. You want the neon motel you have seen in photographs, the classic diner, the beautifully restored service station and the giant roadside landmark that announces you have finally reached a place you have been reading about for years. Those stops deserve their place on the itinerary.
 
 But leave room for the gaps between them too. Slow down when an older piece of pavement wanders away from the interstate. Notice the foundation where a building used to stand or a sign advertising something that disappeared decades ago. Look at an empty motel court and then across at the freeway carrying cars past it without stopping. The Mother Road makes more sense once you see both versions at the same time.
-
-![A closed roadside restaurant with a rusting Restaurant sign and a row of yellow diamond letter panels, several missing, against a cloudy sky](/images/guides/abandoned-restaurant.jpg "Sign against sky, building in perspective, and a story in the missing letters")
 
 Route 66 did not simply have a golden age and then become [historic](/history/). It grew, shifted, prospered, declined and adapted over decades. Some places were rescued. Some found a new purpose. Some disappeared completely, and others are still sitting somewhere between those outcomes.
 

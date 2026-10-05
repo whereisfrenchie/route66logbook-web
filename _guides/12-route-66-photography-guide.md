@@ -27,7 +27,7 @@ The road has several colour palettes. Illinois can feel brick, cream, red and gr
 
 Classic Route 66 compositions use depth: road leading lines, signs against sky, motels in perspective, gas pumps in the foreground, mountains or desert behind. But do not only shoot the obvious wide view. Shoot the menu typography, the door handles, the room numbers, the postcards, the asphalt texture, the faded window decals, the way a neon sign reflects on a parked car.
 
-![A closed roadside restaurant with a rusting Restaurant sign and a row of yellow diamond letter panels, several missing, against a cloudy sky](/images/guides/abandoned-restaurant.jpg "Sign against sky, building in perspective, and a story in the missing letters")
+![The closed Route 66 Restaurant in Santa Rosa, with a rusting Restaurant sign and a row of yellow diamond letter panels, several missing, against a cloudy sky](/images/guides/santa-rosa-route-66-restaurant.jpg "The Route 66 Restaurant, Santa Rosa: sign against sky, building in perspective, and a story in the missing letters")
 
 ## Morning and evening
 

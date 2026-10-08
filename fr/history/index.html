@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <title>Histoire de la Route 66 · Route 66 Logbook</title>
+  <meta name="description" content="Toute l’histoire de la Route 66, de sa naissance en 1926 au centenaire de 2026, en passant par le Dust Bowl, l’âge d’or, le déclin et la renaissance. Avec la chronologie complète de la Mother Road.">
+  <link rel="canonical" href="https://route66logbook.com/fr/history/">
+  <link rel="alternate" hreflang="en" href="https://route66logbook.com/history/">
+  <link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/history/">
+  <link rel="alternate" hreflang="es" href="https://route66logbook.com/es/history/">
+  <link rel="alternate" hreflang="x-default" href="https://route66logbook.com/history/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --coral: #ea5b56;
+      --teal: #6daeab;
+      --sand: #f7f4f0;
+      --charcoal: #2b3033;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--sand);
+      color: var(--charcoal);
+      font-family: 'Public Sans', sans-serif;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+
+
+    /* SHELL */
+    .shell { max-width: 760px; margin: 0 auto; padding: 0 52px; }
+    .wide { max-width: 1000px; }
+
+    .eyebrow {
+      font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .ec { color: var(--coral); }
+    .et { color: var(--teal); }
+
+    /* INTRO */
+    .intro { padding: 64px 0 28px; }
+    .intro-title {
+      font-weight: 800; font-size: clamp(42px, 7vw, 78px);
+      line-height: 0.92; letter-spacing: -2.5px; margin-bottom: 26px;
+    }
+    .intro-title em { color: var(--coral); font-style: normal; }
+    .intro-title .serif { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .intro-lede {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: clamp(19px, 2.4vw, 24px); color: rgba(43,48,51,0.6);
+      line-height: 1.6; max-width: 620px;
+    }
+
+    /* STATS */
+    .stats-band { padding: 48px 0 16px; }
+    .stats-row { display: flex; flex-wrap: wrap; gap: 12px; }
+    .stat {
+      flex: 1; min-width: 150px; background: #fff; border: 1px solid rgba(43,48,51,0.06);
+      border-radius: 20px; padding: 28px 24px; text-align: center;
+    }
+    .stat-num {
+      font-weight: 800; font-size: 40px; line-height: 1;
+      letter-spacing: -1.5px; margin-bottom: 8px; color: var(--coral);
+    }
+    .stat:nth-child(even) .stat-num { color: var(--teal); }
+    .stat-label {
+      font-size: 10.5px; font-weight: 600; color: rgba(43,48,51,0.5);
+      letter-spacing: 1.5px; text-transform: uppercase; line-height: 1.5;
+    }
+
+    /* SECTIONS */
+    .section { padding: 72px 0 8px; }
+    .section-title {
+      font-weight: 800; font-size: clamp(30px, 4.4vw, 48px);
+      line-height: 0.96; letter-spacing: -1.4px; margin-bottom: 20px;
+    }
+    .section-title em { color: var(--coral); font-style: normal; }
+    .section-title .serif { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .chapter p {
+      font-size: 15.5px; line-height: 1.8; color: rgba(43,48,51,0.72);
+      margin-bottom: 18px;
+    }
+    .chapter p strong { color: var(--charcoal); }
+
+    .quote {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: clamp(21px, 3vw, 27px); color: var(--charcoal); line-height: 1.5;
+      padding: 28px 32px; background: #fff; border-radius: 20px;
+      border-left: 4px solid var(--coral); margin: 30px 0;
+    }
+    .quote .who {
+      display: block; margin-top: 12px; font-family: 'Public Sans', sans-serif;
+      font-style: normal; font-size: 11px; font-weight: 600;
+      letter-spacing: 2px; text-transform: uppercase; color: var(--teal);
+    }
+
+    .aside-dark {
+      background: var(--charcoal); border-radius: 20px; padding: 34px 34px; margin: 34px 0;
+      color: rgba(255,255,255,0.62);
+    }
+    .aside-dark .aside-kicker {
+      font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--coral); margin-bottom: 14px;
+    }
+    .aside-dark h3 { color: #fff; font-weight: 800; font-size: 24px; letter-spacing: -0.6px; margin-bottom: 14px; }
+    .aside-dark p { font-size: 14.5px; line-height: 1.75; color: rgba(255,255,255,0.62); margin-bottom: 12px; }
+    .aside-dark p:last-child { margin-bottom: 0; }
+    .aside-dark strong, .chapter .aside-dark p strong { color: #fff; }
+
+    /* PHOTOS */
+    .photo-band { padding: 40px 0 0; }
+    .photo-cell {
+      position: relative; border-radius: 20px; overflow: hidden; background: #cbbfae;
+    }
+    .photo-cell.r1610 { aspect-ratio: 16 / 10; }
+    .photo-cell.r32 { aspect-ratio: 16 / 10; }
+    .photo-placeholder {
+      position: absolute; inset: 0; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 8px;
+      color: rgba(255,255,255,0.55); font-size: 10px; letter-spacing: 2px;
+      text-transform: uppercase; text-align: center; padding: 20px; line-height: 1.8;
+    }
+    .photo-cell img {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; display: block;
+    }
+    .photo-cell::after {
+      content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 90px;
+      background: linear-gradient(to top, rgba(0,0,0,0.45), transparent); pointer-events: none;
+    }
+    .photo-caption {
+      position: absolute; bottom: 14px; left: 16px; right: 16px; z-index: 2;
+      font-size: 11px; font-weight: 500; color: rgba(255,255,255,0.8); letter-spacing: 0.3px;
+    }
+
+    /* TIMELINE (full-bleed charcoal) */
+    .timeline-band { background: var(--charcoal); padding: 120px 52px; margin-top: 80px; color: rgba(255,255,255,0.85); }
+    .timeline-inner { max-width: 860px; margin: 0 auto; }
+    .timeline-header { text-align: center; margin-bottom: 72px; }
+    .timeline-title {
+      font-weight: 800; font-size: clamp(40px, 5.5vw, 72px);
+      color: #fff; line-height: 0.93; letter-spacing: -2px; margin-bottom: 16px;
+    }
+    .timeline-title em { color: var(--coral); font-style: normal; font-family: 'Instrument Serif', serif; font-weight: 400; font-style: italic; }
+    .timeline-sub {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 18px; color: rgba(255,255,255,0.38);
+    }
+    .timeline { position: relative; }
+    .timeline::before {
+      content: ""; position: absolute; top: 0; bottom: 0; left: 50%; width: 2px;
+      transform: translateX(-50%);
+      background: repeating-linear-gradient(180deg, rgba(255,255,255,0.22) 0 26px, transparent 26px 46px);
+    }
+    .t-era { position: relative; text-align: center; margin: 64px 0 44px; z-index: 2; }
+    .t-era:first-child { margin-top: 0; }
+    .t-era span {
+      display: inline-block; background: var(--coral); color: #fff;
+      font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+      padding: 10px 26px; border-radius: 100px;
+    }
+    .t-item {
+      position: relative; width: 50%; padding: 0 40px 44px 0;
+      opacity: 0; transform: translateY(30px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .t-item.visible { opacity: 1; transform: none; }
+    .t-item:nth-of-type(even) { left: 50%; padding: 0 0 44px 40px; }
+    .t-item::after {
+      content: ""; position: absolute; top: 20px; right: -6px;
+      width: 12px; height: 12px; border-radius: 50%;
+      background: var(--teal); box-shadow: 0 0 0 5px rgba(109,174,171,0.18); z-index: 2;
+    }
+    .t-item:nth-of-type(even)::after { right: auto; left: -6px; }
+    .t-item.major::after { background: var(--coral); box-shadow: 0 0 0 5px rgba(234,91,86,0.2); }
+    .t-card {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px; padding: 26px 28px; transition: background 0.3s;
+    }
+    .t-card:hover { background: rgba(255,255,255,0.09); }
+    .t-card .yr {
+      font-weight: 800; font-size: 32px; letter-spacing: -1px; line-height: 1;
+      color: var(--teal); display: block; margin-bottom: 8px;
+    }
+    .t-item.major .t-card .yr { color: var(--coral); font-size: 40px; }
+    .t-card h4 { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 7px; letter-spacing: -0.2px; }
+    .t-card p { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.7; }
+
+    /* CENTENNIAL GRID */
+    .cent { padding: 110px 0 40px; }
+    .cent-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 44px; }
+    .cent-card {
+      background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
+      padding: 30px 28px; transition: transform 0.3s;
+    }
+    .cent-card:hover { transform: translateY(-4px); }
+    .cent-card .state {
+      font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 10px;
+    }
+    .cent-card h4 { font-weight: 800; font-size: 19px; letter-spacing: -0.4px; margin-bottom: 10px; }
+    .cent-card p { font-size: 13px; color: rgba(43,48,51,0.55); line-height: 1.7; }
+    .cent-note {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 17px; color: rgba(43,48,51,0.45); text-align: center; margin-top: 36px;
+    }
+
+    /* CTA (teal band) */
+    .cta-band { background: var(--teal); padding: 110px 52px; text-align: center; margin-top: 70px; color: #fff; }
+    .cta-inner { max-width: 640px; margin: 0 auto; }
+    .cta-band .eyebrow { color: rgba(255,255,255,0.55); }
+    .cta-title {
+      font-weight: 800; font-size: clamp(36px, 5.5vw, 64px);
+      color: #fff; line-height: 0.95; letter-spacing: -2px; margin-bottom: 24px;
+    }
+    .cta-title em { color: var(--charcoal); font-style: normal; }
+    .cta-body {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 20px; color: rgba(255,255,255,0.72); line-height: 1.7; margin-bottom: 40px;
+    }
+    .btn-dark {
+      display: inline-flex; align-items: center; gap: 11px;
+      background: var(--charcoal); color: #fff; text-decoration: none;
+      padding: 16px 34px; border-radius: 100px;
+      font-size: 15px; font-weight: 600; letter-spacing: 0.2px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-dark:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(43,48,51,0.35); }
+
+    /* FOOTER */
+    footer {
+      background: var(--charcoal); padding: 44px 52px;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 18px;
+    }
+    .footer-left { display: flex; flex-direction: column; gap: 6px; }
+    .footer-logo { font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -0.3px; }
+    .footer-logo span { color: var(--coral); }
+    .footer-tagline { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 14px; color: rgba(255,255,255,0.3); }
+    .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+    .footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
+    .footer-links a {
+      font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+      color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--coral); }
+    .footer-copy { font-size: 12px; color: rgba(255,255,255,0.22); width: 100%; text-align: center; margin-top: 8px; }
+
+    /* ANIMATIONS */
+    .reveal { opacity: 0; transform: translateY(36px); transition: opacity 0.75s ease, transform 0.75s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* RESPONSIVE */
+    @media (max-width: 960px) {
+      .shell { padding: 0 24px; }
+      .timeline-band { padding: 80px 24px; }
+      .timeline::before { left: 8px; }
+      .t-item, .t-item:nth-of-type(even) { width: 100%; left: 0; padding: 0 0 36px 36px; }
+      .t-item::after, .t-item:nth-of-type(even)::after { left: 2px; right: auto; }
+      .cent-grid { grid-template-columns: 1fr; }
+      .cta-band { padding: 80px 24px; }
+      footer { flex-direction: column; align-items: center; text-align: center; padding: 36px 24px; }
+      .footer-left, .footer-right { align-items: center; }
+    }
+  </style>
+  <link rel="stylesheet" href="/styles/guide-tiles.css">
+</head>
+<body>
+
+  <site-header></site-header>
+
+  <main>
+
+    <!-- INTRO -->
+    <section class="intro reveal">
+      <div class="shell">
+        <p class="eyebrow ec">L’histoire de la Mother Road</p>
+        <h1 class="intro-title"><span class="serif">Une route.</span><br>Cent <em>ans.</em></h1>
+        <p class="intro-lede">La Route 66 a eu mille vies. D’abord la route des opportunités, puis celle de l’aventure, et enfin un voyage nostalgique dans le passé de l’Amérique, un phénomène culturel sans équivalent parmi les routes du monde.</p>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-band reveal">
+      <div class="shell wide">
+        <div class="stats-row">
+          <div class="stat"><div class="stat-num">2 448</div><div class="stat-label">Miles (3 940 km) de Chicago à Santa Monica</div></div>
+          <div class="stat"><div class="stat-num">8</div><div class="stat-label">États traversés</div></div>
+          <div class="stat"><div class="stat-num">3</div><div class="stat-label">Fuseaux horaires</div></div>
+          <div class="stat"><div class="stat-num">~85%</div><div class="stat-label">Encore roulable aujourd’hui</div></div>
+          <div class="stat"><div class="stat-num">100</div><div class="stat-label">Ans en 2026</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO · vintage postcard -->
+    <section class="photo-band reveal">
+      <div class="shell wide">
+        <div class="photo-cell r1610">
+          <div class="photo-placeholder">images/history-postcard.jpg<br>16:10 · env. 1600 × 1000 px</div>
+          <img src="/images/history-postcard.jpg" alt="Carte postale ancienne de la Route 66 portant la mention « Here we are on Route 66 »" onerror="this.remove()">
+          <div class="photo-caption">« Here we are on Route 66 » · carte postale ancienne</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 1 -->
+    <section class="section reveal">
+      <div class="shell chapter">
+        <p class="eyebrow et">Chapitre un · 1921–1932</p>
+        <h2 class="section-title">Naissance d’une <em>route.</em></h2>
+        <p>La Route 66 apparaît sur la carte en 1926, l’une des premières routes du tout nouveau système américain de routes numérotées. Les bases avaient été posées cinq ans plus tôt, quand le Congrès avait voté le Federal-Aid Highway Act de 1921 pour relier en un réseau national la mosaïque de pistes en terre et de routes locales du pays.</p>
+        <p>L’homme au plan s’appelait <strong>Cyrus Avery</strong>, pétrolier et entrepreneur de l’Oklahoma. Avery savait que les villes rurales du Midwest et des Plaines n’étaient reliées à aucun axe majeur, ce qui les empêchait d’écouler leurs marchandises et de prospérer. Le « père de la Route 66 » a donc fait pression sans relâche pour un tracé de Chicago à Los Angeles, bricolé à partir de routes d’État et de routes locales existantes, qui plongerait vers le sud-ouest et relierait ces communautés oubliées à la côte.</p>
+        <p>Le <strong>11 novembre 1926</strong>, la US Highway 66 est officiellement née. Avery et ses collègues se sont mis à promouvoir la route en grande pompe, la vantant comme la <em>« Main Street of America »</em>, un habile coup de marketing qui résonne encore un siècle plus tard. En 1928, la nouvelle route a accueilli une course à pied d’une côte à l’autre, la fameuse « Bunion Derby », remportée par Andy Payne, de la minuscule ville de Foyil, dans l’Oklahoma, l’une des petites villes tout juste reliées par la route, en 573 heures de course réparties sur 84 jours.</p>
+        <p>En quelques années, la route est devenue la préférée des camionneurs : les prairies plates qu’elle traversait et son climat plus doux, plus méridional, la rendaient plus facile à rouler toute l’année que les routes transcontinentales du nord.</p>
+
+        <div class="aside-dark">
+          <p class="aside-kicker">En marge</p>
+          <h3>Le jeu des numéros</h3>
+          <p>La Route 66 a failli ne pas s’appeler 66. Elle fut d’abord désignée <strong>US 60</strong>, un multiple de 10 réservé aux grands axes est-ouest, jusqu’à ce que des États de l’Est protestent : le « 60 » appartenait à une route partant de Virginie. La route Chicago–Los Angeles fut alors rebaptisée US 62, jusqu’à ce que Cyrus Avery plaide pour le 66, estimant que le chiffre doublé était plus accrocheur. Il avait raison.</p>
+          <p>Ses autres noms sont restés eux aussi : la <strong>Main Street of America</strong> (le marketing d’Avery), la <strong>Mother Road</strong> (trouvaille de John Steinbeck) et la <strong>Will Rogers Highway</strong>, en hommage à l’humoriste bien-aimé de l’Oklahoma. Même sa longueur a changé : 2 448 miles (3 940 km) est le chiffre que tout le monde cite, même si les modifications de tracé ont redressé et raccourci certains tronçons au fil des décennies.</p>
+        </div>
+
+        <!-- PHOTO · US 66 at the Kansas state line -->
+        <div class="photo-band reveal">
+          <div class="photo-cell r32">
+            <div class="photo-placeholder">images/history-kansas-line.jpg<br>16:10 · env. 1600 × 1000 px</div>
+            <img src="/images/history-kansas-line.jpg" alt="La US 66 à la frontière du Kansas, comté d’Ottawa, Oklahoma, 1949" onerror="this.remove()">
+            <div class="photo-caption">La US 66 à la frontière du Kansas, comté d’Ottawa · 7 août 1949 · © Oklahoma Department of Transportation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 2 -->
+    <section class="section reveal">
+      <div class="shell chapter">
+        <p class="eyebrow et">Chapitre deux · 1933–1945</p>
+        <h2 class="section-title">La route des <em>opportunités.</em></h2>
+        <p>Dans les années 1930, des tempêtes de poussière nées d’une sécheresse interminable ont chassé des familles de leurs fermes dans tous les États des Plaines, surtout au Texas et en Oklahoma. Environ un quart de million de personnes ont entassé ce qu’elles pouvaient dans des voitures et des camions et ont pris la direction de l’ouest, vers la Californie, pour trouver du travail dans les champs. <strong>La Route 66 était la route qu’elles ont prise.</strong></p>
+
+        <div class="quote">« La 66 est la route mère, la route de la fuite. »<span class="who">John Steinbeck · The Grapes of Wrath, 1939</span></div>
+
+        <p>Le roman de Steinbeck a donné à la route son surnom le plus indélébile, faisant de la Route 66 un refuge pour les migrants qui fuyaient le Dust Bowl. Tandis que le pays peinait à sortir de la Grande Dépression, la route a figuré dans les programmes fédéraux pour l’emploi : des ouvriers ont été embauchés pour goudronner cette route de plus en plus fréquentée et, en 1938, quand le dernier tronçon a été posé dans le comté d’Oldham, au Texas, elle est devenue <strong>la première route transcontinentale entièrement goudronnée des États-Unis</strong>.</p>
+
+        <!-- PHOTO · oil stabilized asphalt -->
+        <div class="photo-band reveal" style="padding-bottom:18px;">
+          <div class="photo-cell r32">
+            <div class="photo-placeholder">images/history-asphalt.jpg<br>16:10 · env. 1600 × 1000 px</div>
+            <img src="/images/history-asphalt.jpg" alt="Des équipes posant de l’asphalte stabilisé à l’huile sur la Route 66" onerror="this.remove()">
+            <div class="photo-caption">Asphalte stabilisé à l’huile · © Oklahoma Department of Transportation</div>
+          </div>
+        </div>
+        <p>Trois ans plus tard, le pays est entré dans la Seconde Guerre mondiale, et la Route 66 est devenue un axe majeur pour acheminer soldats et matériel militaire à travers le pays. La migration massive vers les nouvelles usines de Californie s’est poursuivie ; la Mother Road était, une fois de plus, la route des opportunités.</p>
+      </div>
+    </section>
+
+    <!-- CHAPTER 3 -->
+    <section class="section reveal">
+      <div class="shell chapter">
+        <p class="eyebrow et">Chapitre trois · 1946–1964</p>
+        <h2 class="section-title">L’âge <em>d’or.</em></h2>
+        <p>Avec le boom économique de l’après-guerre, plus d’Américains ont acheté des voitures et occupé des emplois qui leur laissaient du temps libre. Les road trips ont explosé, et l’attrait de la Route 66 n’a cessé de grandir. Bobby Troup a écrit <em>« (Get Your Kicks on) Route 66 »</em> et Nat King Cole l’a portée en tête des classements en 1946. Cette époque a aussi donné à la route des lieux qui la définissent encore : Red’s Giant Hamburg à Springfield, dans le Missouri, considéré comme le premier restaurant drive-through du monde (1947), et le Cozy Dog Drive In à Springfield, dans l’Illinois, berceau du corn dog sur bâtonnet (1949).</p>
+        <p>Motels, stations-service et diners ont fleuri pour servir ces nouveaux voyageurs. Les drive-ins se sont multipliés. Des attractions au bord de la route, comme l’immense Blue Whale de Catoosa, se disputaient l’attention des automobilistes : plus c’était grand et étrange, mieux c’était. Les commerces installaient de vives enseignes néon qui invitaient les conducteurs à s’arrêter, à acheter des souvenirs, à manger et à dormir.</p>
+        <p>Tout cela a fait de la Route 66 une référence culturelle du voyage à l’américaine au milieu du XXe siècle. De 1960 à 1964, la série télévisée <em>Route 66</em> a suivi deux hommes parcourant le pays dans une Corvette décapotable, faisant entrer la route dans les salons américains. En 1962, le premier « Muffler Man », un bûcheron tenant une hache, a été dressé devant le Paul Bunyan Cafe à Flagstaff, en Arizona.</p>
+
+        <!-- PHOTO · Kingman, Desert Drug Store -->
+        <div class="photo-band reveal" style="padding-bottom:18px;">
+          <div class="photo-cell r32">
+            <div class="photo-placeholder">images/history-kingman.jpg<br>16:10 · env. 1600 × 1000 px</div>
+            <img src="/images/history-kingman.jpg" alt="Vue ancienne de Kingman, en Arizona, avec le Desert Drug Store au premier plan" onerror="this.remove()">
+            <div class="photo-caption">Kingman, Arizona · le Desert Drug Store au premier plan</div>
+          </div>
+        </div>
+
+        <div class="aside-dark">
+          <p class="aside-kicker">Le tableau complet</p>
+          <h3>Un regard honnête</h3>
+          <p>La liberté de la route ouverte n’était pas la même pour tous. Les voyageurs noirs n’étaient pas les bienvenus dans de nombreuses villes le long de la route et devaient s’en remettre au <em>Green Book</em> et à d’autres guides pour trouver des endroits sûrs où manger et dormir. Et le tracé passe près et à travers les terres de plus de 25 nations tribales, dont les cultures et le patrimoine imprègnent le Sud-Ouest, alors que certaines attractions de l’âge d’or de la Route 66 entretenaient des stéréotypes grossièrement faux sur les peuples autochtones. La route d’aujourd’hui raconte ces histoires avec plus d’honnêteté.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 4 -->
+    <section class="section reveal">
+      <div class="shell chapter">
+        <p class="eyebrow et">Chapitre quatre · 1956–1985</p>
+        <h2 class="section-title">Déclin et <em>réinvention.</em></h2>
+        <p>La Route 66 a été malmenée par le trafic de camions de la Seconde Guerre mondiale : le fret entre Chicago et Saint-Louis avait quintuplé par rapport à dix ans plus tôt, et les voitures sont devenues toujours plus nombreuses après la guerre. Malgré des aménagements pour l’élargir, la lisser et la redresser, cette route à deux voies n’a pas pu suivre. En 1956, le président Eisenhower a signé le <strong>Federal-Aid Highway Act</strong>, créant le réseau des autoroutes inter-États et sonnant le glas de la Route 66.</p>
+        <p>Cinq autoroutes flambant neuves (I-55, I-44, I-40, I-15 et I-10) ont peu à peu contourné la vieille route. Le trafic s’est réduit à un filet, et beaucoup de petites villes du tracé d’origine ont été abandonnées. La Route 66 est devenue une route fantôme, ne reprenant vie que par bribes. En 1984, Williams, en Arizona, est devenue la dernière ville rayée de la carte par l’autoroute, et en <strong>1985, la Route 66 a été officiellement déclassée</strong>, retirée des cartes.</p>
+        <p>Mais les fans de la vieille route sont restés. Des défenseurs du patrimoine, dont le célèbre barbier de Seligman Angel Delgadillo, qui a contribué à lancer le mouvement en 1987, ont fondé des associations d’État et la National Historic Route 66 Federation (1995). En 1999, le Congrès a adopté le Route 66 Corridor Preservation Program, qui finance la protection des lieux emblématiques de la route. La « Historic Route 66 » est revenue sur les cartes, évocatrice et chargée d’histoire, une porte ouverte sur une époque révolue où l’on voyageait plus lentement, un symbole d’espoir, d’aventure et de résilience américains.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- TIMELINE -->
+  <section class="timeline-band">
+    <div class="timeline-inner">
+      <div class="timeline-header reveal">
+        <p class="eyebrow ec">La chronologie</p>
+        <h2 class="timeline-title">100 ans de <em>Route 66.</em></h2>
+        <p class="timeline-sub">Chaque jalon de la Mother Road, d’une loi du Congrès à la célébration du centenaire.</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="t-era"><span>Les débuts · 1921–1932</span></div>
+
+        <div class="t-item"><div class="t-card"><span class="yr">1921</span><h4>Un réseau routier national</h4><p>Le Congrès vote le Federal-Aid Highway Act, qui lance le réseau routier fédéral et entraîne des miles de nouvelles routes et une sécurité accrue.</p></div></div>
+        <div class="t-item major"><div class="t-card"><span class="yr">1926</span><h4>La Route 66 est née</h4><p>Le système fédéral de numérotation crée la US Highway 66, officiellement désignée le 11 novembre, de Chicago à Los Angeles.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1927</span><h4>Main Street of America</h4><p>La US 66 Highway Association se forme et commence à promouvoir la nouvelle route comme la « Main Street of America ».</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1928</span><h4>La Bunion Derby</h4><p>Une course à pied d’une côte à l’autre le long de la route fait énormément de publicité. Andy Payne, de Foyil, dans l’Oklahoma, gagne en 573 heures de course réparties sur 84 jours.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1929</span><h4>Chain of Rocks Bridge</h4><p>Le célèbre pont est construit au-dessus du Mississippi près de Saint-Louis ; sept ans plus tard, la Route 66 est déviée pour l’emprunter.</p></div></div>
+
+        <div class="t-era"><span>Poussière, crise et guerre · 1931–1945</span></div>
+
+        <div class="t-item"><div class="t-card"><span class="yr">1931–40</span><h4>La migration du Dust Bowl</h4><p>Des centaines de milliers de personnes fuyant le Dust Bowl migrent vers la Californie par la Route 66, ancrant la route dans la conscience nationale.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1937</span><h4>Le raccourci de Santa Fe</h4><p>Le tronçon du Nouveau-Mexique est dévié pour contourner Santa Fe et filer droit sur Albuquerque, un itinéraire plus court et plus direct.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1938</span><h4>Entièrement goudronnée, d’une côte à l’autre</h4><p>Le dernier tronçon est goudronné dans le comté d’Oldham, au Texas, faisant de la Route 66 la première route transcontinentale entièrement goudronnée des États-Unis.</p></div></div>
+        <div class="t-item major"><div class="t-card"><span class="yr">1939</span><h4>« La Mother Road »</h4><p>John Steinbeck proclame la Route 66 « la route mère, la route de la fuite » dans The Grapes of Wrath, donnant à la route son surnom le plus indélébile.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1941–45</span><h4>Les années de guerre</h4><p>La Route 66 sert d’axe principal pour les troupes et le matériel militaire pendant la Seconde Guerre mondiale. Le trafic de camions entre Chicago et Saint-Louis quintuple ; les ouvriers affluent vers l’ouest, vers les usines de Californie.</p></div></div>
+
+        <div class="t-era"><span>L’âge d’or · 1946–1964</span></div>
+
+        <div class="t-item major"><div class="t-card"><span class="yr">1946</span><h4>Get your kicks</h4><p>Bobby Troup compose « (Get Your Kicks on) Route 66 » ; le King Cole Trio, mené par Nat King Cole, en sort une version devenue iconique et la chanson passe à la radio.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1947</span><h4>Le premier drive-through</h4><p>Red’s Giant Hamburg ouvre à Springfield, dans le Missouri, considéré comme le premier restaurant drive-through du monde, au service de la foule de voyageurs de l’après-guerre.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1949</span><h4>L’arrivée du corn dog</h4><p>Trois ans après avoir inventé le corn dog, Ed Waldmire ouvre le Cozy Dog Drive In sur la Route 66, à Springfield, dans l’Illinois.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1956</span><h4>Le glas</h4><p>Le président Eisenhower signe le Federal-Aid Highway Act de 1956, qui crée le réseau des autoroutes inter-États, le début de la fin pour la Route 66.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1960–64</span><h4>La Route 66 à la télé</h4><p>La série télévisée Route 66 suit deux hommes qui traversent le pays en Corvette décapotable, et romantise la route dans les salons américains.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1962</span><h4>Le premier Muffler Man</h4><p>Un bûcheron géant tenant une hache est dressé devant le Paul Bunyan Cafe, sur la Route 66 à Flagstaff, en Arizona, le premier des géants en fibre de verre si chers à la route.</p></div></div>
+
+        <div class="t-era"><span>Le déclin · années 1970–1985</span></div>
+
+        <div class="t-item"><div class="t-card"><span class="yr">Années 1970</span><h4>Contournée</h4><p>Les autoroutes à quatre voies finissent par dominer. La Route 66 est déclassée petit à petit et tombe en désuétude ; les villes du tracé d’origine sont abandonnées.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1984</span><h4>Le dernier tronçon</h4><p>Williams, en Arizona, dernier bout de Route 66 épargné par l’autoroute, finit par céder quand l’I-40 la contourne. La ville tient bon.</p></div></div>
+        <div class="t-item major"><div class="t-card"><span class="yr">1985</span><h4>Officiellement déclassée</h4><p>La Route 66 est retirée du réseau routier américain. Les automobilistes qui vont de Chicago à Santa Monica sont désormais servis par l’I-55, l’I-44, l’I-40, l’I-15 et l’I-10.</p></div></div>
+
+        <div class="t-era"><span>La renaissance · 1987–aujourd’hui</span></div>
+
+        <div class="t-item"><div class="t-card"><span class="yr">1987</span><h4>Le renouveau commence</h4><p>Angel Delgadillo, barbier à Seligman, en Arizona, contribue à fonder la première Historic Route 66 Association, déclenchant un mouvement populaire de préservation dans les huit États.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1995</span><h4>La Fédération</h4><p>Des défenseurs du patrimoine fondent la National Historic Route 66 Federation pour défendre la route et ses lieux emblématiques dans tout le pays.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">1999</span><h4>Le Congrès s’en mêle</h4><p>Le National Park Service crée le Route 66 Corridor Preservation Program, qui finance ceux qui veulent préserver les sites historiques de la route.</p></div></div>
+        <div class="t-item"><div class="t-card"><span class="yr">2008</span><h4>World Monuments Watch</h4><p>Le World Monuments Fund place la Route 66 sur sa Watch List, attirant l’attention du monde entier sur les lieux menacés de la Mother Road.</p></div></div>
+        <div class="t-item major"><div class="t-card"><span class="yr">2026</span><h4>Le centenaire</h4><p>La Route 66 fête ses 100 ans, la même année où les États-Unis marquent le 250e anniversaire de la Déclaration d’indépendance. De nouvelles fresques, des néons et des monuments illuminent les huit États.</p></div></div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CENTENNIAL -->
+  <section class="cent reveal">
+    <div class="shell wide">
+      <!-- PHOTO · centennial -->
+      <div class="photo-band reveal" style="padding: 0 0 48px;">
+        <div class="photo-cell r1610">
+          <div class="photo-placeholder">images/history-centennial.jpg<br>16:10 · env. 1600 × 1000 px</div>
+          <img src="/images/history-centennial.jpg" alt="La sculpture géante de botte de cow-boy Mighty Pretty, sur la Route 66 à Oklahoma City" onerror="this.remove()">
+          <div class="photo-caption">La botte « Mighty Pretty » d’Oklahoma City · 100 ans de Mother Road, 1926–2026</div>
+        </div>
+      </div>
+      <p class="eyebrow ec">Chapitre cinq · 2026</p>
+      <h2 class="section-title">Le centenaire : <span class="serif">une route qui renaît.</span></h2>
+      <p class="intro-lede" style="font-size:19px;">Pour ses 100 ans, les communautés tout au long de la route dévoilent de nouvelles œuvres, restaurent des néons et érigent des monuments. La Mother Road n’a jamais été aussi vivante.</p>
+      <div class="cent-grid">
+        <div class="cent-card"><p class="state">Illinois</p><h4>Des fresques partout</h4><p>De nouvelles fresques Art déco à Normal, quatre fresques à Bloomington, et le Route 66 Postcard Mural Trail, 14 fresques sur le thème de l’Americana dans le sud-ouest de l’Illinois.</p></div>
+        <div class="cent-card"><p class="state">Missouri</p><h4>Springfield 66</h4><p>Seize sculptures plus grandes que nature dans toute la ville, chacune avec un QR code et une carte interactive, ainsi qu’un monument Route 66 Gateway en projet.</p></div>
+        <div class="cent-card"><p class="state">Oklahoma</p><h4>Repères et néons</h4><p>Une sculpture de repère de carte « You Are Here » de 23 pieds marque le milieu du tracé de la Route 66 dans l’État, à Wellston, tandis que le nouveau « Neon Quarter » de Tulsa rallume ses 28 miles de la route.</p></div>
+        <div class="cent-card"><p class="state">New Mexico</p><h4>Remixée</h4><p>La sculpture monumentale en acier « RUN » de Gallup, le programme de fresques et de réalité augmentée « Route 66 Remixed » d’Albuquerque, et des restaurations de néons le long du corridor de 487 miles.</p></div>
+        <div class="cent-card"><p class="state">Arizona</p><h4>Écussons et bronzes</h4><p>La fresque Route 66 Shield de Flagstaff rénovée, et de nouveaux bronzes à Kingman, dont un de l’historien de la Route 66 Jim Hinckley devant la gare historique (Train Depot).</p></div>
+        <div class="cent-card"><p class="state">California</p><h4>La route ouverte</h4><p>Les installations du centenaire de West Hollywood, « Open Road », « Past Tense / Future Perfect » et « Path Discovery », à voir jusqu’en novembre 2026.</p></div>
+      </div>
+      <p class="cent-note">…et le Route 66 MuralFest en ajoute encore, toute l’année.</p>
+    </div>
+  </section>
+
+  <!-- FROM THE GUIDES (tiles written by `node build.js`) -->
+  <section class="guides-more">
+    <div class="guides-more-inner">
+      <div class="guides-more-head reveal">
+        <div>
+          <p class="guides-more-kicker">Pour continuer</p>
+          <h2 class="guides-more-title">Dans les <em>guides.</em></h2>
+        </div>
+        <a class="guides-more-all" href="/fr/guides/">Tous les guides →</a>
+      </div>
+      <div class="tiles">
+        <!-- GUIDES:START: generated by build.js, edits here are overwritten -->
+        <a class="tile reveal" href="/fr/guides/route-66-history/">
+          <div class="tile-photo">
+            <div class="tile-photo-label">images/guides/route-66-history.jpg</div>
+            <img src="/images/guides/route-66-history.jpg" alt="" loading="lazy" onerror="this.remove()">
+          </div>
+          <div class="tile-body">
+            <p class="tile-kicker">Culture de la route · 6 min</p>
+            <h3 class="tile-title">Histoire de la Route 66 : migration, musique, commerce et mythe</h3>
+            <p class="tile-text">La route est bien plus grande que la nostalgie. Elle porte un siècle de mouvement américain.</p>
+            <span class="tile-more">Lire le guide →</span>
+          </div>
+        </a>
+        <a class="tile reveal" href="/fr/guides/route-66-centennial-2026/">
+          <div class="tile-photo">
+            <div class="tile-photo-label">images/guides/route-66-centennial-2026.jpg</div>
+            <img src="/images/guides/route-66-centennial-2026.jpg" alt="" loading="lazy" onerror="this.remove()">
+          </div>
+          <div class="tile-body">
+            <p class="tile-kicker">Préparer ton voyage · 5 min</p>
+            <h3 class="tile-title">La Route 66 en 2026 : événements du centenaire, préparatifs et à quoi s’attendre</h3>
+            <p class="tile-text">Cent ans après sa mise en service, la route n’est pas figée dans le passé. Elle déborde de mémoire et d’une énergie nouvelle.</p>
+            <span class="tile-more">Lire le guide →</span>
+          </div>
+        </a>
+        <a class="tile reveal" href="/fr/guides/route-66-ghost-towns/">
+          <div class="tile-photo">
+            <div class="tile-photo-label">images/guides/route-66-ghost-towns.jpg</div>
+            <img src="/images/guides/route-66-ghost-towns.jpg" alt="" loading="lazy" onerror="this.remove()">
+          </div>
+          <div class="tile-body">
+            <p class="tile-kicker">Où s’arrêter · 32 min</p>
+            <h3 class="tile-title">Villes fantômes, ruines et lieux abandonnés de la Route 66</h3>
+            <p class="tile-text">Les lieux vides ne sont pas qu’un décor. Ce sont des preuves.</p>
+            <span class="tile-more">Lire le guide →</span>
+          </div>
+        </a>
+        <!-- GUIDES:END -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band reveal">
+    <div class="cta-inner">
+      <p class="eyebrow">À ton tour</p>
+      <h2 class="cta-title">Prêt à la rouler <em>toi-même ?</em></h2>
+      <p class="cta-body">Combien de temps prévoir, quel véhicule choisir, quand partir et combien ça coûte : tout ce qu’il faut pour préparer ton propre voyage sur la Mother Road.</p>
+      <a class="btn-dark" href="/fr/prepare">Prépare ton voyage sur la Route 66
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <site-footer></site-footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal, .t-item').forEach(el => observer.observe(el));
+  </script>
+
+  <script src="/header.js" defer></script>
+  <script src="/footer.js" defer></script>
+</body>
+</html>

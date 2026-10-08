@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <title>Prepara tu viaje por la Route 66 · Route 66 Logbook</title>
+  <meta name="description" content="Planea tu viaje por la Route 66: cuántos días necesitas, en qué dirección manejar, qué vehículo elegir, cuándo ir, cuánto cuesta, dónde dormir y todo lo que debe saber quien va por primera vez.">
+  <link rel="canonical" href="https://route66logbook.com/es/prepare/">
+  <link rel="alternate" hreflang="en" href="https://route66logbook.com/prepare/">
+  <link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/prepare/">
+  <link rel="alternate" hreflang="es" href="https://route66logbook.com/es/prepare/">
+  <link rel="alternate" hreflang="x-default" href="https://route66logbook.com/prepare/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --coral: #ea5b56;
+      --teal: #6daeab;
+      --sand: #f7f4f0;
+      --charcoal: #2b3033;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--sand);
+      color: var(--charcoal);
+      font-family: 'Public Sans', sans-serif;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+
+
+    /* SHELL */
+    .shell { max-width: 760px; margin: 0 auto; padding: 0 52px; }
+    .wide { max-width: 1000px; }
+
+    .eyebrow {
+      font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .ec { color: var(--coral); }
+    .et { color: var(--teal); }
+
+    /* INTRO */
+    .intro { padding: 64px 0 40px; }
+    .intro-title {
+      font-weight: 800; font-size: clamp(42px, 7vw, 78px);
+      line-height: 0.92; letter-spacing: -2.5px; margin-bottom: 26px;
+    }
+    .intro-title em { color: var(--coral); font-style: normal; }
+    .intro-title .serif { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .intro-lede {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: clamp(19px, 2.4vw, 24px); color: rgba(43,48,51,0.6);
+      line-height: 1.6; max-width: 620px;
+    }
+
+    /* JUMP PILLS */
+    .jump { padding: 8px 0 12px; }
+    .jump-row { display: flex; flex-wrap: wrap; gap: 10px; }
+    .jump-row a {
+      font-size: 11px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase;
+      color: rgba(43,48,51,0.6); text-decoration: none;
+      border: 1px solid rgba(43,48,51,0.15); padding: 10px 20px; border-radius: 100px;
+      transition: all 0.2s; background: transparent;
+    }
+    .jump-row a:hover { border-color: var(--coral); color: var(--coral); }
+
+    /* PHOTOS */
+    .photo-band { padding: 48px 0 0; }
+    .photo-cell {
+      position: relative; border-radius: 20px; overflow: hidden; background: #cbbfae;
+    }
+    .photo-cell.r219 { aspect-ratio: 16 / 10; }
+    .photo-cell.r169 { aspect-ratio: 16 / 10; }
+    .photo-placeholder {
+      position: absolute; inset: 0; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 8px;
+      color: rgba(255,255,255,0.55); font-size: 10px; letter-spacing: 2px;
+      text-transform: uppercase; text-align: center; padding: 20px; line-height: 1.8;
+    }
+    .photo-cell img {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; display: block;
+    }
+    .photo-caption {
+      position: absolute; bottom: 14px; left: 16px; right: 16px; z-index: 2;
+      font-size: 11px; font-weight: 500; color: rgba(255,255,255,0.75); letter-spacing: 0.3px;
+      text-shadow: 0 1px 8px rgba(0,0,0,0.4);
+    }
+
+    /* STATS */
+    .stats-band { padding: 40px 0 0; }
+    .stats-row { display: flex; flex-wrap: wrap; gap: 12px; }
+    .stat {
+      flex: 1; min-width: 150px; background: #fff; border: 1px solid rgba(43,48,51,0.06);
+      border-radius: 20px; padding: 28px 24px; text-align: center;
+    }
+    .stat-num {
+      font-weight: 800; font-size: 38px; line-height: 1;
+      letter-spacing: -1.5px; margin-bottom: 8px; color: var(--coral);
+    }
+    .stat:nth-child(even) .stat-num { color: var(--teal); }
+    .stat-label {
+      font-size: 10.5px; font-weight: 600; color: rgba(43,48,51,0.5);
+      letter-spacing: 1.5px; text-transform: uppercase; line-height: 1.5;
+    }
+
+    /* SECTION SCAFFOLD */
+    .section { padding: 90px 0 0; }
+    .section-title {
+      font-weight: 800; font-size: clamp(30px, 4.4vw, 48px);
+      line-height: 0.96; letter-spacing: -1.4px; margin-bottom: 16px;
+    }
+    .section-title em { color: var(--coral); font-style: normal; }
+    .section-title .serif { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .section-intro {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 19px; color: rgba(43,48,51,0.55); line-height: 1.65;
+      max-width: 620px; margin-bottom: 44px;
+    }
+
+    /* WAYS (itineraries) */
+    .ways { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .way {
+      background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
+      padding: 32px 30px; position: relative; transition: transform 0.3s;
+      display: flex; flex-direction: column;
+    }
+    .way:hover { transform: translateY(-4px); }
+    .way-days {
+      display: inline-block; align-self: flex-start;
+      background: rgba(234,91,86,0.1); color: var(--coral);
+      font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+      padding: 7px 16px; border-radius: 100px; margin-bottom: 18px;
+    }
+    .way h3 { font-weight: 800; font-size: 21px; letter-spacing: -0.5px; margin-bottom: 6px; }
+    .way-best {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 14.5px; color: rgba(43,48,51,0.45); margin-bottom: 14px;
+    }
+    .way p.body { font-size: 13px; color: rgba(43,48,51,0.55); line-height: 1.7; flex: 1; }
+    .way .note {
+      margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(43,48,51,0.07);
+      font-size: 12px; color: rgba(43,48,51,0.4); line-height: 1.6;
+    }
+    .way.dark { background: var(--charcoal); border-color: transparent; }
+    .way.dark h3 { color: #fff; }
+    .way.dark .way-days { background: rgba(234,91,86,0.2); }
+    .way.dark .way-best { color: rgba(255,255,255,0.45); }
+    .way.dark p.body { color: rgba(255,255,255,0.55); }
+    .way.dark .note { color: rgba(255,255,255,0.35); border-color: rgba(255,255,255,0.1); }
+
+    /* RIDES / GENERIC CARD PAIRS */
+    .rides { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .ride {
+      background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
+      padding: 32px 30px; transition: transform 0.3s;
+    }
+    .ride:hover { transform: translateY(-4px); }
+    .ride-kicker {
+      font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 12px;
+    }
+    .ride h3 { font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 10px; }
+    .ride p { font-size: 13.5px; color: rgba(43,48,51,0.58); line-height: 1.7; margin-bottom: 12px; }
+    .ride p:last-child { margin-bottom: 0; }
+    .ride ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    .ride li {
+      position: relative; padding-left: 22px;
+      font-size: 13px; line-height: 1.6; color: rgba(43,48,51,0.62);
+    }
+    .ride li::before {
+      content: ""; position: absolute; left: 0; top: 8px;
+      width: 7px; height: 7px; border-radius: 50%; background: var(--teal);
+    }
+    .ride.dark { background: var(--charcoal); border-color: transparent; }
+    .ride.dark h3 { color: #fff; }
+    .ride.dark .ride-kicker { color: var(--coral); }
+    .ride.dark p { color: rgba(255,255,255,0.55); }
+    .ride.dark li { color: rgba(255,255,255,0.6); }
+    .ride.dark li::before { background: var(--coral); }
+
+    .tip-quote {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 17px; color: rgba(43,48,51,0.62); line-height: 1.7;
+      padding: 24px 28px; background: #fff; border-radius: 16px;
+      border-left: 3px solid var(--teal); margin-top: 14px;
+    }
+    .tip-quote strong { font-family: 'Public Sans', sans-serif; font-style: normal; color: var(--charcoal); }
+
+    /* SEASONS */
+    .seasons { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .season { border-radius: 20px; padding: 32px 28px; }
+    .season.s1 { background: var(--teal); }
+    .season.s2 { background: var(--coral); }
+    .season.s3 { background: #fff; border: 1px solid rgba(43,48,51,0.08); }
+    .season.s4 { background: var(--charcoal); }
+    .season h3 { font-weight: 800; font-size: 22px; letter-spacing: -0.5px; color: #fff; margin-bottom: 4px; }
+    .season.s3 h3 { color: var(--charcoal); }
+    .season .tag {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 15px; display: block; margin-bottom: 14px; color: rgba(255,255,255,0.7);
+    }
+    .season.s3 .tag { color: var(--coral); }
+    .season p { font-size: 13px; line-height: 1.7; color: rgba(255,255,255,0.85); }
+    .season.s3 p { color: rgba(43,48,51,0.58); }
+    .season.s4 p { color: rgba(255,255,255,0.55); }
+
+    /* BUDGET */
+    .budget-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: start; }
+    .receipt {
+      background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
+      padding: 36px 34px;
+    }
+    .receipt h3 { font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 4px; }
+    .receipt .sub {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 15px; color: rgba(43,48,51,0.45); margin-bottom: 24px;
+    }
+    .receipt table { width: 100%; border-collapse: collapse; }
+    .receipt td {
+      padding: 11px 0; border-bottom: 1px solid rgba(43,48,51,0.07);
+      font-size: 14px; color: rgba(43,48,51,0.65);
+    }
+    .receipt td:last-child { text-align: right; font-weight: 700; color: var(--charcoal); }
+    .receipt tr.total td {
+      border-bottom: none; padding-top: 18px;
+      font-weight: 800; font-size: 20px; letter-spacing: -0.5px; color: var(--coral);
+    }
+    .tips-card { background: var(--charcoal); border-radius: 20px; padding: 36px 34px; }
+    .tips-card h3 { color: #fff; font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 4px; }
+    .tips-card .sub {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 15px; color: rgba(255,255,255,0.4); margin-bottom: 24px;
+    }
+    .tipline { display: flex; gap: 14px; margin-bottom: 14px; font-size: 13px; line-height: 1.6; color: rgba(255,255,255,0.55); }
+    .tipline b { color: var(--coral); white-space: nowrap; font-weight: 700; }
+    .dodont { margin-top: 26px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1); }
+    .dodont h4 {
+      font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 16px;
+    }
+    .dodont ul { list-style: none; }
+    .dodont li {
+      padding-left: 26px; position: relative; font-size: 13px;
+      margin-bottom: 10px; color: rgba(255,255,255,0.55); line-height: 1.6;
+    }
+    .dodont li.do::before { content: "✓"; position: absolute; left: 0; color: var(--teal); font-weight: 700; }
+    .dodont li.dont::before { content: "✗"; position: absolute; left: 0; color: var(--coral); font-weight: 700; }
+
+    /* SAVE CARD */
+    .save-card {
+      background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
+      padding: 36px 34px; margin-top: 14px;
+    }
+    .save-card .ride-kicker { color: var(--coral); }
+    .save-card h3 { font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 18px; }
+    .save-card ul { list-style: none; columns: 2; column-gap: 40px; }
+    .save-card li {
+      position: relative; padding-left: 22px; break-inside: avoid;
+      font-size: 13.5px; line-height: 1.65; color: rgba(43,48,51,0.62); margin-bottom: 12px;
+    }
+    .save-card li::before {
+      content: ""; position: absolute; left: 0; top: 8px;
+      width: 7px; height: 7px; border-radius: 50%; background: var(--teal);
+    }
+    .save-card li strong { color: var(--charcoal); }
+
+    /* STAYS */
+    .stays { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .stay {
+      background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
+      padding: 32px 30px; transition: transform 0.3s;
+    }
+    .stay:hover { transform: translateY(-4px); }
+    .stay .price {
+      font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 12px;
+    }
+    .stay h3 { font-weight: 800; font-size: 20px; letter-spacing: -0.5px; margin-bottom: 12px; }
+    .stay p { font-size: 13px; color: rgba(43,48,51,0.58); line-height: 1.72; }
+    .stay-note {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 17px; color: rgba(43,48,51,0.45); text-align: center; margin-top: 32px;
+    }
+
+    /* TOOLKIT */
+    .toolkit { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .tool {
+      background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
+      padding: 30px 30px;
+    }
+    .tool h3 { font-weight: 800; font-size: 18px; letter-spacing: -0.4px; margin-bottom: 12px; }
+    .tool h3 span { color: var(--coral); }
+    .tool p { font-size: 13.5px; color: rgba(43,48,51,0.6); line-height: 1.72; margin-bottom: 10px; }
+    .tool p:last-child { margin-bottom: 0; }
+    .tool ul { list-style: none; display: flex; flex-direction: column; gap: 9px; margin-top: 4px; }
+    .tool li {
+      position: relative; padding-left: 22px;
+      font-size: 13px; line-height: 1.62; color: rgba(43,48,51,0.62);
+    }
+    .tool li::before {
+      content: ""; position: absolute; left: 0; top: 8px;
+      width: 7px; height: 7px; border-radius: 50%; background: var(--coral);
+    }
+    .tool li strong { color: var(--charcoal); }
+    .tool.dark { background: var(--charcoal); border-color: transparent; }
+    .tool.dark h3 { color: #fff; }
+    .tool.dark p { color: rgba(255,255,255,0.58); }
+    .tool.dark p strong { color: #fff; }
+
+
+    /* COLOR VARIANTS */
+    .way.red { background: var(--coral); }
+    .way.teal { background: var(--teal); }
+    .way.red, .way.teal { border-color: transparent; }
+    .way.red h3, .way.teal h3 { color: #fff; }
+    .way.red .way-days, .way.teal .way-days { background: rgba(255,255,255,0.18); color: #fff; }
+    .way.red .way-best, .way.teal .way-best { color: rgba(255,255,255,0.75); }
+    .way.red p.body, .way.teal p.body { color: rgba(255,255,255,0.88); }
+    .way.red .note, .way.teal .note { color: rgba(255,255,255,0.65); border-color: rgba(255,255,255,0.25); }
+
+    .ride.teal { background: var(--teal); }
+    .ride.red { background: var(--coral); }
+    .ride.teal, .ride.red { border-color: transparent; }
+    .ride.teal h3, .ride.red h3 { color: #fff; }
+    .ride.teal .ride-kicker, .ride.red .ride-kicker { color: rgba(255,255,255,0.75); }
+    .ride.teal p, .ride.red p { color: rgba(255,255,255,0.88); }
+    .ride.teal li, .ride.red li { color: rgba(255,255,255,0.88); }
+    .ride.teal li::before, .ride.red li::before { background: #fff; }
+
+    .stay.red { background: var(--coral); }
+    .stay.dark { background: var(--charcoal); }
+    .stay.red, .stay.dark { border-color: transparent; }
+    .stay.red h3, .stay.dark h3 { color: #fff; }
+    .stay.red .price { color: rgba(255,255,255,0.75); }
+    .stay.dark .price { color: var(--teal); }
+    .stay.red p { color: rgba(255,255,255,0.88); }
+    .stay.dark p { color: rgba(255,255,255,0.6); }
+
+    .tool.teal { background: var(--teal); border-color: transparent; }
+    .tool.teal h3 { color: #fff; }
+    .tool.teal p { color: rgba(255,255,255,0.88); }
+    .tool.teal p strong { color: #fff; }
+
+    /* PACKING */
+    .packing-band { background: var(--charcoal); padding: 110px 52px; margin-top: 100px; }
+    .packing-inner { max-width: 1000px; margin: 0 auto; }
+    .packing-title {
+      font-weight: 800; font-size: clamp(36px, 5vw, 60px);
+      color: #fff; line-height: 0.94; letter-spacing: -1.8px; margin-bottom: 14px;
+    }
+    .packing-title em { color: var(--coral); font-family: 'Instrument Serif', serif; font-weight: 400; font-style: italic; }
+    .packing-sub {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 18px; color: rgba(255,255,255,0.38); margin-bottom: 52px;
+    }
+    .check-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .check {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px; padding: 28px 26px;
+    }
+    .check h3 {
+      font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 18px;
+    }
+    .check label {
+      display: flex; gap: 12px; align-items: flex-start; cursor: pointer;
+      font-size: 13px; line-height: 1.55; margin-bottom: 12px; color: rgba(255,255,255,0.6);
+      transition: opacity 0.2s;
+    }
+    .check input { accent-color: var(--coral); margin-top: 3px; width: 15px; height: 15px; flex: none; }
+    .check label.done { text-decoration: line-through; opacity: 0.4; }
+
+    /* CTA (teal band) */
+    .cta-band { background: var(--teal); padding: 110px 52px; text-align: center; }
+    .cta-inner { max-width: 640px; margin: 0 auto; }
+    .cta-band .eyebrow { color: rgba(255,255,255,0.55); }
+    .cta-title {
+      font-weight: 800; font-size: clamp(36px, 5.5vw, 64px);
+      color: #fff; line-height: 0.95; letter-spacing: -2px; margin-bottom: 24px;
+    }
+    .cta-title em { color: var(--charcoal); font-style: normal; }
+    .cta-body {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 20px; color: rgba(255,255,255,0.72); line-height: 1.7; margin-bottom: 40px;
+    }
+    .btn-dark {
+      display: inline-flex; align-items: center; gap: 11px;
+      background: var(--charcoal); color: #fff; text-decoration: none;
+      padding: 16px 34px; border-radius: 100px;
+      font-size: 15px; font-weight: 600; letter-spacing: 0.2px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-dark:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(43,48,51,0.35); }
+
+    /* FOOTER */
+    footer {
+      background: var(--charcoal); padding: 44px 52px;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 18px;
+    }
+    .footer-left { display: flex; flex-direction: column; gap: 6px; }
+    .footer-logo { font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -0.3px; }
+    .footer-logo span { color: var(--coral); }
+    .footer-tagline { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 14px; color: rgba(255,255,255,0.3); }
+    .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+    .footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
+    .footer-links a {
+      font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+      color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--coral); }
+    .footer-copy { font-size: 12px; color: rgba(255,255,255,0.22); width: 100%; text-align: center; margin-top: 8px; }
+
+    /* ANIMATIONS */
+    .reveal { opacity: 0; transform: translateY(36px); transition: opacity 0.75s ease, transform 0.75s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* RESPONSIVE */
+    @media (max-width: 960px) {
+      .shell { padding: 0 24px; }
+      .ways, .stays { grid-template-columns: 1fr; }
+      .rides, .toolkit, .budget-grid { grid-template-columns: 1fr; }
+      .save-card ul { columns: 1; }
+      .seasons { grid-template-columns: 1fr 1fr; }
+      .check-grid { grid-template-columns: 1fr 1fr; }
+      .packing-band { padding: 80px 24px; }
+      .cta-band { padding: 80px 24px; }
+      footer { flex-direction: column; align-items: center; text-align: center; padding: 36px 24px; }
+      .footer-left, .footer-right { align-items: center; }
+    }
+    @media (max-width: 560px) {
+      .seasons, .check-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <link rel="stylesheet" href="/styles/guide-tiles.css">
+</head>
+<body>
+
+  <site-header></site-header>
+
+  <main>
+
+    <!-- INTRO -->
+    <section class="intro reveal">
+      <div class="shell">
+        <p class="eyebrow et">El viaje de tu vida, bien planeado</p>
+        <h1 class="intro-title"><span class="serif">Prepara tu</span><br>viaje por la Route 66<em>.</em></h1>
+        <p class="intro-lede">Hay mucho que decir a favor de subirse al auto y salir a la carretera sin más. Pero un poco de planeación te asegura sacarle el máximo provecho a la Mother Road. Aquí tienes todo lo que necesitas saber antes de salir.</p>
+      </div>
+    </section>
+
+    <!-- JUMP -->
+    <section class="jump reveal">
+      <div class="shell wide">
+        <div class="jump-row">
+          <a href="#howlong">Cuánto tiempo</a>
+          <a href="#direction">Qué dirección</a>
+          <a href="#ride">Qué vehículo</a>
+          <a href="#when">Cuándo ir</a>
+          <a href="#budget">Presupuesto</a>
+          <a href="#stay">Dónde dormir</a>
+          <a href="#road">En el camino</a>
+          <a href="#firsttime">Primera vez</a>
+          <a href="#packing">Qué empacar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO 1 · 21:9 -->
+    <section class="photo-band reveal">
+      <div class="shell wide">
+        <div class="photo-cell r219">
+          <div class="photo-placeholder">images/prepare-1.jpg<br>16:10 · aprox. 1600 × 1000 px</div>
+          <img src="/images/prepare-1.jpg" alt="El camino abierto en la Route 66" onerror="this.remove()">
+          <div class="photo-caption">Roy’s Motel &amp; Cafe, Amboy, California. Tienes 2448 millas de esto por delante.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW LONG -->
+    <section class="section" id="howlong">
+      <div class="shell wide">
+        <div class="reveal">
+          <p class="eyebrow ec">Pregunta uno</p>
+          <h2 class="section-title">¿Cuánto tiempo <em>necesitas?</em></h2>
+          <p class="section-intro">La ruta mide 2448 millas (3940 km) y cruza ocho estados. Técnicamente podrías recorrerla en unas 35 horas. Pero para disfrutar todo lo que ofrece el camino, lo ideal son dos o tres semanas. Aquí tienes seis maneras probadas de hacerlo.</p>
+        </div>
+        <div class="stats-band reveal" style="padding-top:0; margin-bottom:44px;">
+          <div class="stats-row">
+            <div class="stat"><div class="stat-num">2448</div><div class="stat-label">Millas (3940 km) de Chicago a Santa Monica</div></div>
+            <div class="stat"><div class="stat-num">35 h</div><div class="stat-label">Manejando de corrido</div></div>
+            <div class="stat"><div class="stat-num">2–3 sem.</div><div class="stat-label">Recomendado para la ruta completa</div></div>
+            <div class="stat"><div class="stat-num">170 mi</div><div class="stat-label">Una jornada de manejo tranquila (275 km)</div></div>
+          </div>
+        </div>
+        <div class="ways">
+          <div class="way dark reveal">
+            <span class="way-days">21 días</span>
+            <h3>Exploradores y fotógrafos</h3>
+            <p class="way-best">Para quienes quieren ver hasta el último ladrillo</p>
+            <p class="body">Si eres minucioso, te encanta cada letrero de neón y cada trazado antiguo, y te detienes a tomar fotos, tres semanas es tu número. Arrancar y parar toma tiempo: una parada de fotos «corta» rara vez dura menos de veinte minutos, y la hora dorada no espera. Con este ritmo recorres unas 120 millas (190 km) al día, con margen para desvíos, museos y ese pueblo fantasma que no tenías planeado.</p>
+            <p class="note">El ritmo que realmente necesitan quienes documentan en serio.</p>
+          </div>
+          <div class="way reveal">
+            <span class="way-days">14 días</span>
+            <h3>Largo y sin prisa</h3>
+            <p class="way-best">Para quienes lo quieren todo</p>
+            <p class="body">El sueño de todo aventurero de la Mother Road: con dos semanas puedes sentarte en un diner emblemático a pedir otra rebanada de pay, deleitarte con el paisaje y quedarte una noche más en cualquier lugar que te llegue al alma.</p>
+            <p class="note">Solo ~170 millas (275 km) al día, ni siquiera cuatro horas al volante.</p>
+          </div>
+          <div class="way red reveal">
+            <span class="way-days">10 días</span>
+            <h3>Toda la ruta, a buen paso</h3>
+            <p class="way-best">Para quienes hacen la ruta completa con horario</p>
+            <p class="body">Sí, haces la ruta completa. Diez días significan unas 245 millas (395 km) al día: en el camino a las nueve, estacionado a las cinco, con tiempo para tres o cuatro paradas de verdad entre medio. Elige tus imperdibles cada mañana, reserva los moteles con anticipación y guarda el tiempo para quedarte en los íconos que más te importan.</p>
+            <p class="note">La experiencia completa, menos la segunda rebanada de pay.</p>
+          </div>
+          <div class="way reveal">
+            <span class="way-days">7 días</span>
+            <h3>De tramo en tramo</h3>
+            <p class="way-best">Para disfrutar de forma selectiva</p>
+            <p class="body">Casi siempre hay una interestatal cerca de la Route 66. Úsala para unir los grandes tramos de camino original y dale a cada uno toda tu atención: de Chicago a Springfield, de Springfield (Misuri) a Joplin, el oeste de Oklahoma, de Tucumcari a Gallup, de Seligman a Topock.</p>
+            <p class="note">Máximo de íconos, cero paradas apuradas.</p>
+          </div>
+          <div class="way teal reveal">
+            <span class="way-days">5–6 días</span>
+            <h3>Un gran tramo</h3>
+            <p class="way-best">Para hacer menos, pero mejor</p>
+            <p class="body">Con menos de una semana, lo mejor es concentrarse en un solo tramo y hacerle justicia en lugar de correr toda la ruta. Opciones clásicas: de California a Arizona para el desierto y el neón, de St. Louis a Chicago para los diners y la Americana, o de St. Louis a Flagstaff para el corazón de la ruta, en sentido literal y figurado.</p>
+            <p class="note">Guarda el resto del camino para la próxima vez. Esperará.</p>
+          </div>
+          <div class="way reveal">
+            <span class="way-days">2½ días</span>
+            <h3>Escapadas de fin de semana</h3>
+            <p class="way-best">Para escapadas cortas con tema Route 66</p>
+            <p class="body">Sal temprano del trabajo el viernes y recorre un tramo como se debe: de Chicago a Springfield, Illinois; de Oklahoma City a Tulsa; de Albuquerque a Winslow; o de Los Ángeles a Kingman.</p>
+            <p class="note">Haz toda la ruta, un fin de semana a la vez.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHICH DIRECTION -->
+    <section class="section" id="direction">
+      <div class="shell wide">
+        <div class="reveal">
+          <p class="eyebrow ec">Pregunta dos</p>
+          <h2 class="section-title">¿Qué <em>dirección?</em></h2>
+          <p class="section-intro">No hay una dirección equivocada para recorrer la Mother Road, pero cada sentido se siente como un viaje distinto.</p>
+        </div>
+        <div class="rides">
+          <div class="ride dark reveal">
+            <p class="ride-kicker">Hacia el oeste · el clásico</p>
+            <h3>Chicago → Santa Monica</h3>
+            <p>Es el sentido de los migrantes del Dust Bowl, el de la canción y el de casi todas las guías que se han escrito. Las atracciones aparecen en el orden en que las describen los libros, la señalización histórica lo da por hecho y todo el viaje avanza hacia la recompensa: la luz del desierto, el Pacífico y el letrero «End of the Trail» en el muelle de Santa Monica. Difícil superarlo como final.</p>
+            <ul>
+              <li>¿Primera vez en la ruta? Ve hacia el oeste.</li>
+              <li>Una peculiaridad: el sol de la tarde de frente en los tramos largos hacia el oeste. Lleva buenos lentes de sol.</li>
+            </ul>
+          </div>
+          <div class="ride reveal">
+            <p class="ride-kicker">Hacia el este · a contracorriente</p>
+            <h3>Santa Monica → Chicago</h3>
+            <p>Sigue el ejemplo de los camioneros de antaño que llevaban su carga hacia el este desde el Puerto de Los Ángeles, con las luces de Chicago como meta. Llegarás a las paradas famosas antes que las multitudes que vienen en sentido contrario, y por las mañanas tendrás el sol a tus espaldas.</p>
+            <ul>
+              <li>Fuera del verano, abrígate más a medida que avances.</li>
+              <li>Los vuelos multidestino (llegas por un extremo y sales por el otro) cuestan apenas más que un viaje redondo, así que cualquiera de los dos sentidos funciona.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHICH RIDE -->
+    <section class="section" id="ride">
+      <div class="shell wide">
+        <div class="reveal">
+          <p class="eyebrow ec">Pregunta tres</p>
+          <h2 class="section-title">¿Qué <em>vehículo?</em></h2>
+          <p class="section-intro">Tu propio auto, uno de alquiler, un RV, una Harley o un vehículo eléctrico: cada uno es un viaje distinto. Elijas lo que elijas, asegúrate de que tenga millaje ilimitado.</p>
+        </div>
+        <div class="rides">
+          <div class="ride teal reveal">
+            <p class="ride-kicker">Desde $25–75/día · $125–500/semana</p>
+            <h3>Auto de alquiler</h3>
+            <p>La opción clásica. Necesitarás una tarjeta de crédito de una marca importante (no de débito), una licencia vigente y tener al menos 25 años; algunas empresas alquilan desde los 21 con un cargo diario adicional. Enterprise, Budget, Hertz y Avis tienen oficinas en aeropuertos, ciudades y poblaciones medianas a lo largo de la ruta.</p>
+            <ul>
+              <li>El «millaje ilimitado» es lo habitual, pero confírmalo. Un viaje por la Route 66 sale caro sin él.</li>
+              <li>Pide el costo total con todos los impuestos y cargos incluidos; varían según el estado.</li>
+              <li>Rechaza la opción de compra de combustible, a menos que vayas a devolver el auto con el tanque vacío.</li>
+              <li>Hay descuentos a través de clubes de automovilistas, tarjetas de crédito y aerolíneas, así que compara antes de reservar.</li>
+            </ul>
+          </div>
+          <div class="ride reveal">
+            <p class="ride-kicker">De campers tipo van a motorhomes completos</p>
+            <h3>RV / campervan</h3>
+            <p>Desde campers en van hasta enormes casas rodantes a medida con TV satelital y cocina completa. Ojo: el millaje suele cobrarse aparte, el seguro es caro y los cargos por dejarlo en otra ciudad pueden ser extremos. Lee la letra chica y compara.</p>
+            <ul>
+              <li>Las reglas para acampar y estacionar varían mucho a lo largo de la ruta. Consulta siempre en el lugar antes de instalarte.</li>
+              <li>Es fácil encontrar campamentos que reciben RV, desde unos $15 por noche.</li>
+            </ul>
+          </div>
+          <div class="ride dark reveal">
+            <p class="ride-kicker">$200+/día por una Harley de turismo</p>
+            <h3>Motocicleta</h3>
+            <p>La forma más romántica de sentir el camino y la más cara: dos ruedas cuestan más que cuatro, a menudo mucho más. Hay empresas especializadas que organizan alquileres de ida, por ejemplo de Chicago a LA.</p>
+            <ul>
+              <li>Necesitarás una licencia de motocicleta de tu país o estado de origen.</li>
+              <li>La mayoría de las consideraciones del alquiler de autos (edad, tarjeta de crédito, seguro) también aplican aquí.</li>
+            </ul>
+          </div>
+          <div class="ride reveal">
+            <p class="ride-kicker">Suele costar lo mismo que los alquileres más baratos</p>
+            <h3>Vehículo eléctrico</h3>
+            <p>Todas las grandes empresas de alquiler ofrecen vehículos eléctricos, una alternativa innegablemente verde. Hay muchas opciones de carga a lo largo de la Route 66, normalmente en hoteles de cadena y en los cruces de las interestatales, aunque las estaciones siguen siendo mucho menos comunes que las gasolineras.</p>
+            <ul>
+              <li>Usa las apps PlugShare, ChargePoint y Electrify America para encontrar puntos de carga.</li>
+              <li>Familiarízate con el auto de antemano. Las empresas de alquiler rara vez dan instrucciones.</li>
+            </ul>
+          </div>
+          <div class="ride reveal">
+            <p class="ride-kicker">La opción más barata de todas</p>
+            <h3>Tu propio auto</h3>
+            <p>Si tienes tu propio vehículo, casi nada te impide salir directo. Lleva en el vehículo los documentos de registro y del seguro, haz una revisión antes de salir y carga gasolina cada vez que puedas. No es raro manejar una hora sin pasar por una gasolinera.</p>
+          </div>
+          <div class="ride reveal">
+            <p class="ride-kicker">Solo para los más comprometidos</p>
+            <h3>Bicicleta <span style="font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;">(la opción valiente)</span></h3>
+            <p>Recorrer toda la ruta en bicicleta es solo para los verdaderamente dedicados: varios tramos son angostos, con subidas y poco aptos para ciclistas, algunos tienen mucho tráfico y en ciertos lugares la única alternativa es una interestatal que no permite bicicletas. Lo que funciona bien: tramos cortos y caminos pintorescos de campo.</p>
+          </div>
+        </div>
+
+        <div class="tip-quote reveal">
+          <strong>¿Vas solo de ida?</strong> Los vuelos multidestino (llegas a Chicago, sales de LA) cuestan apenas más que un viaje redondo, así que alquilar un vehículo de ida es el puente ideal. Ojo: los cargos por devolverlo en otra ciudad pueden ser altos. Compara y revisa los descuentos de clubes de automovilistas, tarjetas de crédito y membresías como Costco.
+        </div>
+
+        <div class="rides" style="margin-top:14px;">
+          <div class="ride red reveal">
+            <p class="ride-kicker">No te saltes este punto</p>
+            <h3>Seguro</h3>
+            <p>Esa gran oferta de alquiler ya no se verá tan bien si además gastas $30 al día en seguro. Al personal de las agencias lo incentivan a vender una sopa de letras de extras; el Collision Damage Waiver (CDW) y el Loss Damage Waiver (LDW) son los más comunes. Es posible que tus tarjetas de crédito o tu propia póliza ya te cubran, pero revísalo bien antes de llegar al mostrador. En caso de accidente, marca el 911.</p>
+          </div>
+          <div class="ride reveal">
+            <p class="ride-kicker">Para conductores internacionales</p>
+            <h3>Licencia y permiso internacional</h3>
+            <p>Los visitantes extranjeros pueden manejar legalmente en Estados Unidos hasta 12 meses con la licencia de su país. Un Permiso Internacional de Conducir (IDP) da más credibilidad ante la policía de tránsito estadounidense, sobre todo si tu licencia no tiene foto o no está en inglés. Lleva siempre ambos.</p>
+          </div>
+        </div>
+
+        <!-- PHOTO 2 · 16:9 -->
+        <div class="photo-band reveal">
+          <div class="photo-cell r169">
+            <div class="photo-placeholder">images/prepare-2.jpg<br>16:10 · aprox. 1600 × 1000 px</div>
+            <img src="/images/prepare-2.jpg" alt="Un auto clásico estacionado en la Route 66" onerror="this.remove()">
+            <div class="photo-caption">Manejes lo que manejes, consigue millaje ilimitado</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHEN TO GO -->
+    <section class="section" id="when">
+      <div class="shell wide">
+        <div class="reveal">
+          <p class="eyebrow ec">Pregunta cuatro</p>
+          <h2 class="section-title">¿Cuándo <em>ir?</em></h2>
+          <p class="section-intro">La Route 66 se puede recorrer todo el año, pero las estaciones cambian el viaje. Abril–mayo y septiembre–octubre combinan el mejor clima con precios más bajos.</p>
+        </div>
+        <div class="seasons">
+          <div class="season s1 reveal">
+            <h3>Mar – may</h3>
+            <span class="tag">el punto ideal</span>
+            <p>La primavera es una época preciosa para ir. A partir de abril casi todo está abierto, las temperaturas son suaves y florecen las flores silvestres. Una advertencia: la temporada de tornados alcanza su punto máximo en mayo–junio en Misuri, Texas, Oklahoma y Kansas. Mantente atento al pronóstico.</p>
+          </div>
+          <div class="season s2 reveal">
+            <h3>Jun – ago</h3>
+            <span class="tag">temporada alta</span>
+            <p>Reserva con anticipación los moteles más codiciados y prepárate para las multitudes. Las noches templadas invitan a sentarse afuera bajo las estrellas, pero las temperaturas del desierto durante el día son peligrosas. El calor extremo puede ser mortal en el suroeste y en el Mojave (hasta 130°F / 54°C).</p>
+          </div>
+          <div class="season s3 reveal">
+            <h3>Sep – nov</h3>
+            <span class="tag">dorado y tranquilo</span>
+            <p>Los colores del otoño iluminan el Medio Oeste y las colinas más al oeste resplandecen bajo el sol. Mucho sigue abierto hasta octubre y, fuera de los fines de semana de verano, no hace falta preocuparse demasiado por reservar con anticipación.</p>
+          </div>
+          <div class="season s4 reveal">
+            <h3>Dic – feb</h3>
+            <span class="tag">tranquilo, con salvedades</span>
+            <p>Los días de invierno son cortos y puede nevar casi en cualquier lugar menos en California. Las tormentas pueden cerrar caminos desde Illinois hasta Arizona, y algunas atracciones rurales cierran por la temporada. No supongas que el invierno saldrá más barato, pero tendrás el camino para ti solo.</p>
+          </div>
+        </div>
+
+        <div class="tip-quote reveal">
+          <strong>Revisa el calendario de eventos antes de fijar tus fechas.</strong> Los grandes eventos a lo largo de la ruta son espectáculos imperdibles y, a la vez, devoradores de habitaciones. El Albuquerque International Balloon Fiesta (a principios de octubre) llena todas las camas en millas a la redonda, el desfile de autos clásicos Fun Run de Seligman llena el norte de Arizona a principios de mayo, y el centenario de 2026 trae festivales, inauguraciones de murales de MuralFest y exhibiciones de autos durante todo el año en los ocho estados. O planeas unirte y reservas con meses de anticipación, o calculas tus noches para esquivar la aglomeración.
+        </div>
+      </div>
+    </section>
+
+    <!-- BUDGET -->
+    <section class="section" id="budget">
+      <div class="shell wide">
+        <div class="reveal">
+          <p class="eyebrow ec">Pregunta cinco</p>
+          <h2 class="section-title">¿Cuánto <em>cuesta?</em></h2>
+          <p class="section-intro">Un presupuesto de $350–400 al día para dos personas no te hará sentir que te estás privando. Calcula un poco más para Chicago y LA; ahorrando, dos personas pueden hacer la ruta por bastante menos de $300 al día.</p>
+        </div>
+        <div class="budget-grid">
+          <div class="receipt reveal">
+            <h3>Un día en la Route 66</h3>
+            <p class="sub">costos típicos · dos adultos</p>
+            <table>
+              <tr><td>Café y botanas</td><td>$20</td></tr>
+              <tr><td>Entrada a un museo</td><td>$12</td></tr>
+              <tr><td>Recuerdo</td><td>$20</td></tr>
+              <tr><td>Almuerzo en un diner de carretera</td><td>$30</td></tr>
+              <tr><td>Habitación en un motel vintage</td><td>$120</td></tr>
+              <tr><td>Cena en un restaurante local</td><td>$50</td></tr>
+              <tr><td>Gasolina por día</td><td>$60</td></tr>
+              <tr><td>Alquiler de auto por día</td><td>$60</td></tr>
+              <tr class="total"><td>Total por día</td><td>$372</td></tr>
+            </table>
+          </div>
+          <div class="tips-card reveal">
+            <h3>La propina no es opcional</h3>
+            <p class="sub">así se ganan la vida las personas del servicio en Estados Unidos</p>
+            <div class="tipline"><b>Meseros · 20%</b><span>del total, a menos que la propina ya esté incluida en la cuenta (deja efectivo para que el mesero esté seguro de recibirla)</span></div>
+            <div class="tipline"><b>Bármanes · 15–20%</b><span>por ronda, mínimo $1 por bebida</span></div>
+            <div class="tipline"><b>Limpieza de habitaciones · $2–5</b><span>por noche, déjalos junto a la TV o con la tarjeta que te dan</span></div>
+            <div class="tipline"><b>Taxis · 10–15%</b><span>redondeado al siguiente dólar</span></div>
+            <div class="dodont">
+              <h4>Dinero: qué hacer y qué evitar</h4>
+              <ul>
+                <li class="do">Avísale a tu banco que vas a viajar.</li>
+                <li class="do">Paga sin contacto. Las tarjetas funcionan en más del 90% de los establecimientos; guarda efectivo para las propinas y las tiendas peculiares.</li>
+                <li class="dont">No dejes que conviertan el monto a tu moneda en cajeros automáticos o en la caja. Pagarás comisiones dos veces.</li>
+                <li class="dont">No olvides el impuesto sobre las ventas. Se suma en la caja y varía según el estado y la región.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="save-card reveal">
+          <p class="ride-kicker">Haz rendir el presupuesto</p>
+          <h3>Cómo ahorrar</h3>
+          <ul>
+            <li><strong>Viaja en temporada media.</strong> Abril, mayo, septiembre y octubre significan tarifas de habitación más bajas y el mejor clima.</li>
+            <li><strong>Reserva directo en los moteles independientes.</strong> Su propio sitio web o una llamada suele salir mejor que los grandes sitios de reservas.</li>
+            <li><strong>Haz picnic a la hora del almuerzo.</strong> Abastécete en supermercados y guarda el presupuesto de restaurante para una buena cena en un diner.</li>
+            <li><strong>Acampa una noche o dos.</strong> $15 bajo las estrellas en lugar de $120 en una habitación se nota rápido.</li>
+            <li><strong>Alquila con cabeza.</strong> Reserva temprano, vuelve a revisar los precios antes de volar y evita el recargo del aeropuerto recogiendo el auto en el centro.</li>
+            <li><strong>Comparte el viaje.</strong> La gasolina, la habitación y el alquiler divididos entre dos o cuatro cambian por completo las cuentas.</li>
+            <li><strong>Recuerda que lo mejor de la Route 66 es gratis.</strong> El neón al atardecer, los murales, los Muffler Men, los pueblos fantasma y el paisaje no cuestan nada.</li>
+            <li><strong>Pregunta por el desayuno y el refrigerador.</strong> Una habitación con ambos te ahorra discretamente $20–30 al día.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHERE TO STAY -->
+    <section class="section" id="stay">
+      <div class="shell wide">
+        <div class="reveal">
+          <p class="eyebrow ec">Pregunta seis</p>
+          <h2 class="section-title">¿Dónde <em>dormir?</em></h2>
+          <p class="section-intro">Los moteles y la Route 66 tienen una relación simbiótica que se remonta a décadas. Antes había cientos a lo largo de la ruta; hoy sobreviven unos pocos y hermosos.</p>
+        </div>
+        <div class="stays">
+          <div class="stay red reveal">
+            <p class="price">Moteles vintage · desde $60/noche</p>
+            <h3>Lo auténtico</h3>
+            <p>Íconos de la Mother Road como el Munger Moss Motel (Lebanon, MO), el Blue Swallow (Tucumcari, NM) y el Wigwam Motel (Holbrook, AZ) son clásicos bellamente restaurados y hay que reservarlos con anticipación. Otros apenas se sostienen, así que busca reseñas recientes y pide ver una habitación antes de comprometerte. Una ventaja: estacionarte justo frente a tu habitación.</p>
+          </div>
+          <div class="stay reveal">
+            <p class="price">Hoteles de cadena y de ciudad · desde $120/noche</p>
+            <h3>La opción confiable</h3>
+            <p>Los hoteles de cadena se agrupan alrededor de los cruces de las interestatales: confiables, pero parecidos de una marca a otra. En Chicago, St. Louis, Tulsa, Oklahoma City, Albuquerque y LA te esperan alojamientos más lujosos. El wi-fi es prácticamente universal; las albercas se agradecen después de un día de verano en la carretera.</p>
+          </div>
+          <div class="stay dark reveal">
+            <p class="price">Campamentos · desde $15/noche</p>
+            <h3>Bajo las estrellas</h3>
+            <p>Hay campamentos dentro y cerca de parques estatales y bosques nacionales a lo largo de toda la ruta, y la mayoría recibe RV. Las normas varían mucho entre las regiones que cruza la Route 66, así que consulta en el lugar antes de instalarte para pasar la noche.</p>
+          </div>
+        </div>
+        <p class="stay-note">¿Viajas con niños? La mayoría de los moteles tiene habitaciones con dos camas, camas plegables o cunas, y algunos ofrecen «kids stay free» (los niños se hospedan gratis) hasta los 12 años o incluso los 18.</p>
+
+        <!-- PHOTO 3 · 16:9 -->
+        <div class="photo-band reveal">
+          <div class="photo-cell r169">
+            <div class="photo-placeholder">images/prepare-3.jpg<br>16:10 · aprox. 1600 × 1000 px</div>
+            <img src="/images/prepare-3.jpg" alt="Neón de un motel vintage al atardecer" onerror="this.remove()">
+            <div class="photo-caption">Wigwam Motel, Holbrook, Arizona: la recompensa por reservar vintage</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ON THE ROAD -->
+    <section class="section" id="road">
+      <div class="shell wide">
+        <div class="reveal">
+          <p class="eyebrow ec">Pregunta siete</p>
+          <h2 class="section-title">En el <em>camino.</em></h2>
+          <p class="section-intro">Alrededor del 85% de la carretera original todavía se puede recorrer, pero el GPS a menudo no reconoce la Route 66 como un trayecto continuo. Un poco de conocimiento ayuda mucho.</p>
+        </div>
+        <div class="toolkit">
+          <div class="tool dark reveal">
+            <h3 style="color:#fff;">Trazar tu viaje en el mapa</h3>
+            <p>El viejo camino cambió de trazado muchas veces en sus 100 años, y por eso las apps de mapas genéricas se pierden. <strong>Route 66 Logbook traza en el mapa todos los trazados de la Route 66 que han existido, la única app que lo hace</strong>, para que siempre sepas si estás en el camino de tierra de 1926, en la autopista de cuatro carriles de la posguerra o en algo intermedio.</p>
+            <p>Uses lo que uses para navegar, descarga mapas sin conexión cuando tengas wi-fi. Ahorras datos y los mapas siguen funcionando cuando no hay señal, algo común en el desierto.</p>
+          </div>
+          <div class="tool reveal">
+            <h3>Reglas de tránsito</h3>
+            <ul>
+              <li>Se maneja por la derecha. El cinturón de seguridad es obligatorio.</li>
+              <li>Los límites de velocidad en zonas rurales van de 55 a 75 mph (90–120 km/h); en pueblos y ciudades, de 25 a 35 mph (40–55 km/h). Los límites se hacen cumplir con frecuencia.</li>
+              <li>Se permite girar a la derecha con luz roja, salvo que haya un letrero que lo prohíba.</li>
+              <li>Nunca rebases un autobús escolar con las luces intermitentes; oríllate para dejar pasar a los vehículos de emergencia.</li>
+              <li>Sostener el teléfono mientras manejas es ilegal en Arizona, California, Illinois y Misuri.</li>
+              <li>Límite de alcohol en la sangre: 0.08%. Nunca manejes si has bebido.</li>
+              <li>¿Se descompuso el auto? Sal del camino, enciende las intermitentes y llama a la asistencia vial. Emergencias: 911.</li>
+            </ul>
+          </div>
+          <div class="tool reveal">
+            <h3>Revisa las condiciones</h3>
+            <p>Los departamentos de transporte de cada estado informan sobre las condiciones de los caminos mediante el sistema nacional 511 (busca el nombre de tu estado y «511»). Las tormentas invernales, las inundaciones repentinas, los baches y el clima de montaña, sobre todo en Arizona y Nuevo México, pueden dificultar el viaje, así que revisa antes de salir.</p>
+          </div>
+          <div class="tool reveal">
+            <h3>Apps que vale la pena tener</h3>
+            <ul>
+              <li><strong>Route 66 Logbook</strong>: más de 800 paradas vivas, actualizadas por la comunidad, todos los trazados históricos y una bitácora que se escribe sola.</li>
+              <li><strong>GasBuddy</strong>: gasolineras cercanas y las mejores ofertas de gasolina.</li>
+              <li><strong>what3words</strong>: ayuda a los equipos del 911 a encontrarte en emergencias, sobre todo en zonas rurales.</li>
+              <li><strong>PlugShare / ChargePoint / Electrify America</strong>: puntos de carga para vehículos eléctricos.</li>
+            </ul>
+          </div>
+          <div class="tool reveal">
+            <h3>Seguridad y clima</h3>
+            <p>Para quien viaja por la Route 66, la mayor preocupación son los robos menores: guarda los objetos de valor en el maletero antes de salir cada día. La temporada de tornados (mayo–junio, MO/TX/OK/KS) se puede seguir desde el teléfono. En verano, el calor extremo del desierto puede ser mortal tanto para las personas como para los autos, y ojo con las tormentas repentinas que inundan los caminos. Quienes viajan solos no enfrentan peligros fuera de lo común; vigila la señal del teléfono en los desvíos remotos.</p>
+          </div>
+          <div class="tool teal reveal">
+            <h3>Viaja con responsabilidad</h3>
+            <p><strong>Compra local, come local, hospédate local.</strong> Lo esencial de la Route 66 son los negocios auténticos y singulares que le dan su carácter a la ruta. Tu apoyo los mantiene vivos. Firma los libros de visitas (alimentan las solicitudes de subvenciones), lleva un envase de agua rellenable y recorre con respeto las tierras de las más de 25 naciones indígenas que hay a lo largo de la ruta.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FIRST TIMERS -->
+    <section class="section" id="firsttime" style="padding-bottom:20px;">
+      <div class="shell wide">
+        <div class="reveal">
+          <p class="eyebrow ec">Especialmente para visitantes internacionales</p>
+          <h2 class="section-title">¿Primera vez en <em>Estados Unidos?</em></h2>
+        </div>
+        <div class="toolkit" style="margin-top:40px;">
+          <div class="tool reveal">
+            <h3>Visas y ESTA</h3>
+            <p>Los visitantes de 42 países, entre ellos Reino Unido, Australia, Nueva Zelanda, Japón y muchos países de la UE, no necesitan visa para estancias de menos de 90 días, pero deben obtener la aprobación ESTA con anticipación. Los canadienses no necesitan ni visa ni ESTA para estancias de menos de 90 días. Más información: travel.state.gov.</p>
+          </div>
+          <div class="tool reveal">
+            <h3>Seguro médico</h3>
+            <p>Los costos de la atención médica en Estados Unidos son extremadamente altos. Todos los viajeros deberían llevar un seguro médico válido para su viaje a EE. UU. Sin él, te cobran el costo total de cualquier atención, que fácilmente puede llegar a miles, sobre todo en visitas a urgencias.</p>
+          </div>
+          <div class="tool reveal">
+            <h3>Teléfono e internet</h3>
+            <p>La mayoría de los teléfonos de fuera de EE. UU. funciona bien aquí, pero el roaming puede salir caro. Revisa qué permite tu plan; usarás mucho las apps de mapas. Considera una eSIM barata con al menos 5 GB de datos. Hay wi-fi gratis en moteles, hoteles, cafeterías y muchos lugares públicos.</p>
+          </div>
+          <div class="tool reveal">
+            <h3>Husos horarios y electricidad</h3>
+            <p>La Route 66 cruza tres husos horarios: Central, Mountain y Pacific. El horario de verano va del segundo domingo de marzo al primer domingo de noviembre, pero no se usa en todas partes (te miramos a ti, casi todo Arizona), así que usa tu teléfono para saber la hora local. Electricidad: 120 V/60 Hz, enchufes tipo A/B.</p>
+          </div>
+          <div class="tool reveal">
+            <h3>Identificación, alcohol y tabaco</h3>
+            <p>Lleva una identificación con foto; pueden pedírtela al comprar alcohol aunque claramente tengas más de 21 años. La mayoría de los estados, incluidos California e Illinois, prohíben fumar en restaurantes y bares; algunas zonas de Oklahoma y Texas son la excepción. La legalidad de la mariguana varía mucho: es legal en pequeñas cantidades en California e Illinois, e ilegal en Oklahoma, Texas y otros lugares.</p>
+          </div>
+          <div class="tool reveal">
+            <h3>Qué ponerte</h3>
+            <p>En Estados Unidos casi todo se vale, sobre todo a lo largo de la Route 66. A menos que planees salir por la noche a lugares elegantes en Chicago o LA, vístete con toda la comodidad que quieras.</p>
+          </div>
+        </div>
+
+        <!-- PHOTO 4 · 21:9 -->
+        <div class="photo-band reveal">
+          <div class="photo-cell r219">
+            <div class="photo-placeholder">images/prepare-4.jpg<br>16:10 · aprox. 1600 × 1000 px</div>
+            <img src="/images/prepare-4.jpg" alt="Horizonte del desierto en la Route 66" onerror="this.remove()">
+            <div class="photo-caption">Buck’s on 66, Tulsa, Oklahoma. Ya casi estás listo, solo falta una lista.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PACKING -->
+  <section class="packing-band" id="packing">
+    <div class="packing-inner">
+      <div class="reveal">
+        <p class="eyebrow ec">Casi listo</p>
+        <h2 class="packing-title">Qué <em>empacar.</em></h2>
+        <p class="packing-sub">Ve marcando a medida que avances.</p>
+      </div>
+      <div class="check-grid">
+        <div class="check reveal">
+          <h3>Documentos</h3>
+          <label><input type="checkbox">Pasaporte (+ aprobación ESTA)</label>
+          <label><input type="checkbox">Licencia de conducir + Permiso Internacional de Conducir</label>
+          <label><input type="checkbox">Tarjeta de crédito de marca importante (obligatoria para alquilar)</label>
+          <label><input type="checkbox">Datos del seguro médico y de viaje</label>
+          <label><input type="checkbox">Documentos de alquiler / registro en el vehículo</label>
+        </div>
+        <div class="check reveal">
+          <h3>Tecnología</h3>
+          <label><input type="checkbox">Teléfono + soporte para el auto y cargador</label>
+          <label><input type="checkbox">eSIM con 5 GB+ de datos</label>
+          <label><input type="checkbox">Mapas sin conexión descargados</label>
+          <label><input type="checkbox">Route 66 Logbook instalado</label>
+          <label><input type="checkbox">Cámara. El neón lo exige</label>
+        </div>
+        <div class="check reveal">
+          <h3>Comodidad y seguridad</h3>
+          <label><input type="checkbox">Envase de agua rellenable (regla n.º 1 del desierto)</label>
+          <label><input type="checkbox">Protector solar, sombrero y lentes de sol</label>
+          <label><input type="checkbox">Ropa por capas. Tres husos horarios, todos los climas</label>
+          <label><input type="checkbox">Un poco de efectivo para propinas y tiendas peculiares</label>
+          <label><input type="checkbox">Botiquín de primeros auxilios</label>
+        </div>
+        <div class="check reveal">
+          <h3>El espíritu del camino</h3>
+          <label><input type="checkbox">Una playlist de la Route 66 (empieza con Nat King Cole)</label>
+          <label><input type="checkbox">Mapa de papel, por romanticismo y por las zonas sin señal</label>
+          <label><input type="checkbox">Espacio en la maleta para los recuerdos</label>
+          <label><input type="checkbox">Tiempo. No apures la Mother Road.</label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FROM THE GUIDES (tiles written by `node build.js`) -->
+  <section class="guides-more">
+    <div class="guides-more-inner">
+      <div class="guides-more-head reveal">
+        <div>
+          <p class="guides-more-kicker">Sigue leyendo</p>
+          <h2 class="guides-more-title">De las <em>guías.</em></h2>
+        </div>
+        <a class="guides-more-all" href="/es/guides/">Todas las guías →</a>
+      </div>
+      <div class="tiles">
+        <!-- GUIDES:START: generated by build.js, edits here are overwritten -->
+        <a class="tile reveal" href="/es/guides/how-many-days-route-66/">
+          <div class="tile-photo">
+            <div class="tile-photo-label">images/guides/how-many-days-route-66.jpg</div>
+            <img src="/images/guides/how-many-days-route-66.jpg" alt="" loading="lazy" onerror="this.remove()">
+          </div>
+          <div class="tile-body">
+            <p class="tile-kicker">Planifica tu viaje · 7 min</p>
+            <h3 class="tile-title">¿Cuántos días necesitas para recorrer la Route 66?</h3>
+            <p class="tile-text">Puedes cruzar el país rápido, pero no se entiende la Route 66 con prisa.</p>
+            <span class="tile-more">Leer la guía →</span>
+          </div>
+        </a>
+        <a class="tile reveal" href="/es/guides/route-66-on-a-budget/">
+          <div class="tile-photo">
+            <div class="tile-photo-label">images/guides/route-66-on-a-budget.jpg</div>
+            <img src="/images/guides/route-66-on-a-budget.jpg" alt="" loading="lazy" onerror="this.remove()">
+          </div>
+          <div class="tile-body">
+            <p class="tile-kicker">Planifica tu viaje · 5 min</p>
+            <h3 class="tile-title">La Route 66 con presupuesto ajustado: dónde ahorrar y dónde gastar</h3>
+            <p class="tile-text">La carretera se construyó para los viajeros comunes. No necesitas lujo para vivirla bien.</p>
+            <span class="tile-more">Leer la guía →</span>
+          </div>
+        </a>
+        <a class="tile reveal" href="/es/guides/route-66-packing-list/">
+          <div class="tile-photo">
+            <div class="tile-photo-label">images/guides/route-66-packing-list.jpg</div>
+            <img src="/images/guides/route-66-packing-list.jpg" alt="" loading="lazy" onerror="this.remove()">
+          </div>
+          <div class="tile-body">
+            <p class="tile-kicker">Planifica tu viaje · 6 min</p>
+            <h3 class="tile-title">Lista de equipaje para la Route 66: qué llevar en la Mother Road</h3>
+            <p class="tile-text">La mejor lista de equipaje es práctica, no glamorosa.</p>
+            <span class="tile-more">Leer la guía →</span>
+          </div>
+        </a>
+        <!-- GUIDES:END -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band reveal">
+    <div class="cta-inner">
+      <p class="eyebrow">Antes de salir</p>
+      <h2 class="cta-title">Conoce dónde empezó <em>todo.</em></h2>
+      <p class="cta-body">Un siglo de historias te espera a lo largo del camino. Lee la historia completa de la Mother Road, desde 1926 hasta el centenario.</p>
+      <a class="btn-dark" href="/es/history/">Explorar la historia de la Route 66
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <site-footer></site-footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    document.querySelectorAll('.check label').forEach(l => {
+      l.querySelector('input').addEventListener('change', e => {
+        l.classList.toggle('done', e.target.checked);
+      });
+    });
+  </script>
+
+  <script src="/header.js" defer></script>
+  <script src="/footer.js" defer></script>
+</body>
+</html>

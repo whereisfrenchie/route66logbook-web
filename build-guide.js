@@ -4,10 +4,24 @@
  * Called by build.js — run `node build.js`, not this file.
  *
  * Reads  _guides/NN-slug.md          one article each (front matter + body)
+ *        _guides/fr/NN-slug.md      its French translation (optional, per article)
+ *        _guides/es/NN-slug.md      its Spanish translation (optional, per article)
  *        _guides/sources.md          the list at the bottom of /guides/
+ *        guides-ui.{en,fr,es}.json  every interface string the pages add around
+ *                                   the articles (same rules as strings.*.json:
+ *                                   identical keys, none unused)
  *        guide.template.html        the /guides/ page
  *        guide-article.template.html
- * Writes guide/index.html and guide/<slug>/index.html
+ * Writes guides/index.html and guides/<slug>/index.html, and the same under
+ * fr/ and es/ for each language that has translated articles.
+ *
+ * TRANSLATIONS
+ * A translated article is a file of the same name in _guides/fr/ or _guides/es/
+ * with the same slug, group and order as the English one (the build stops if
+ * they differ) and a `lang: fr` / `lang: es` line. The English article list is
+ * the master: an article without a translation is reported loudly and simply
+ * absent from that language's /guides/ and from its hreflang alternates. Slugs
+ * stay English in every language.
  *
  * The folder is _guide, not guide, because GitHub Pages runs Jekyll, and
  * Jekyll publishes nothing whose name starts with an underscore. The raw
@@ -67,6 +81,8 @@
  *   accent     optional words of the title to show in coral in the page's
  *              heading only ("How to Plan and Navigate"); they must appear
  *              in the title exactly
+ *   lang       fr or es in a translation (required there, must match the
+ *              folder); optional in English
  *   photoalt   optional description of the photo for screen readers and
  *              search; without it the photo is described by the title
  */
@@ -74,11 +90,10 @@
 const fs   = require('fs');
 const path = require('path');
 
-const GROUPS = {
-  plan:   { name: 'Plan your trip', title: 'Plan your <em>trip.</em>' },
-  places: { name: 'Where to stop',  title: 'Where to <em>stop.</em>' },
-  road:   { name: 'Road culture',   title: 'Road <em>culture.</em>' },
-};
+// Group ids; their names and headings are in guides-ui.*.json (group.<id>.name/title).
+const GROUPS = { plan: true, places: true, road: true };
+const LANGS = ['en', 'fr', 'es'];
+const PREFIX = { en: '', fr: '/fr', es: '/es' };
 // The three guides tiled at the end of /history/ and /prepare/. Prepare gets
 // the planning guides that have the fewest links from other articles.
 const KEEP_READING = {
@@ -91,20 +106,20 @@ const WORDS_PER_MINUTE = 230;
 const DOWNLOAD = `  <!-- DOWNLOAD BAND (matches the home page) -->
   <section class="download" id="download">
     <div class="download-inner">
-      <h2 class="download-title reveal">Ready to<br>hit the <em>road?</em></h2>
-      <p class="download-sub reveal">The map is free to explore. One-time unlock to plan and log your trip. No subscription.</p>
+      <h2 class="download-title reveal">{{ui.dl.title}}</h2>
+      <p class="download-sub reveal">{{ui.dl.sub}}</p>
       <div class="download-badges reveal">
         <a href="https://apps.apple.com/app/route-66-logbook/id6774524322" class="badge-btn" target="_blank" rel="noopener">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="APPLE_PATH"/></svg>
           <div>
-            <span class="badge-btn-label">Download on the</span>
+            <span class="badge-btn-label">{{ui.dl.ios1}}</span>
             <span class="badge-btn-store">App Store</span>
           </div>
         </a>
         <a href="https://play.google.com/store/apps/details?id=com.route66logbook.app" class="badge-btn badge-btn-android" target="_blank" rel="noopener">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="ANDROID_PATH"/></svg>
           <div>
-            <span class="badge-btn-label">Get it on</span>
+            <span class="badge-btn-label">{{ui.dl.and1}}</span>
             <span class="badge-btn-store">Google Play</span>
           </div>
         </a>
@@ -160,7 +175,7 @@ const STATE_LINE =/^\[\[state (.+?) \| (\/images\/[^\s|]+\.png)\]\]$/;
 const IMAGE_LINE = /^!\[([^\]]*)\]\((\/images\/[^)\s]+\.jpe?g)(?:\s+"([^"]*)")?\)(?:\s+\{(screen)\})?$/i;
 
 /** The body format described at the top. Returns [html, wordCount]. */
-function renderBody(src, label, die, root) {
+function renderBody(src, label, die, root, T) {
   const out = [];
   let list = null;
   let words = 0;
@@ -175,17 +190,17 @@ function renderBody(src, label, die, root) {
     const pick = card.find((f) => f.kind === '*');
     // A ::@ line on its own is just the pills, under a stop's heading.
     if (cats && card.length === 1) {
-      out.push(`      <ul class="detour-cats cat-row" aria-label="Categories in the app">\n` +
+      out.push(`      <ul class="detour-cats cat-row" aria-label="${T('cats.aria')}">\n` +
         cats.value.map((c) => `        <li class="cat cat-${slugify(c)}">${esc(c)}</li>`).join('\n') +
         `\n      </ul>`);
       card = null;
       return;
     }
     out.push(`      <aside class="detour${pick ? ' pick' : ''} reveal">\n` +
-      (pick ? `        <p class="pick-badge"><span aria-hidden="true">★</span> Carole's pick</p>\n` : '') +
+      (pick ? `        <p class="pick-badge"><span aria-hidden="true">★</span> ${T('pick.badge')}</p>\n` : '') +
       `        <div class="detour-head">\n` +
-      `          <p class="detour-label">${inline(title ? title.value : 'Detour at a glance')}</p>\n` +
-      (cats ? `          <ul class="detour-cats" aria-label="Categories in the app">\n` +
+      `          <p class="detour-label">${inline(title ? title.value : T('detour.title'))}</p>\n` +
+      (cats ? `          <ul class="detour-cats" aria-label="${T('cats.aria')}">\n` +
         cats.value.map((c) => `            <li class="cat cat-${slugify(c)}">${esc(c)}</li>`).join('\n') +
         `\n          </ul>\n` : '') +
       `        </div>\n` +
@@ -243,8 +258,8 @@ function renderBody(src, label, die, root) {
     if (line === '[[states]]') {
       if (!states.length) die(`${label}: [[states]] needs at least one [[state]] line`);
       closeList();
-      out.push(`      <nav class="state-nav reveal" id="states" aria-label="Jump to a state">\n` +
-        `        <p class="state-nav-label">Jump to a state</p>\n` +
+      out.push(`      <nav class="state-nav reveal" id="states" aria-label="${T('states.label')}">\n` +
+        `        <p class="state-nav-label">${T('states.label')}</p>\n` +
         `        <ul>\n` +
         states.map((st) => `          <li><a href="#${st.id}"><img src="${st.badge}" alt="" width="${st.size.w}" height="${st.size.h}">${esc(st.name)}</a></li>`).join('\n') +
         `\n        </ul>\n      </nav>`);
@@ -254,10 +269,10 @@ function renderBody(src, label, die, root) {
       const st = states.find((x) => line.includes(`[[state ${x.name} |`));
       closeList();
       out.push(`      <div class="state-head reveal" id="${st.id}">\n` +
-        `        <img class="state-badge" src="${st.badge}" alt="${esc(st.name)} Route 66 Logbook badge" width="${st.size.w}" height="${st.size.h}" loading="lazy">\n` +
+        `        <img class="state-badge" src="${st.badge}" alt="${esc(T('state.badgeAlt', { name: st.name }))}" width="${st.size.w}" height="${st.size.h}" loading="lazy">\n` +
         `        <div>\n` +
         `          <h2>${esc(st.name)}</h2>\n` +
-        `          <a class="state-top" href="#states">All states ↑</a>\n` +
+        `          <a class="state-top" href="#states">${T('states.top')}</a>\n` +
         `        </div>\n` +
         `      </div>`);
       words += 1;
@@ -327,7 +342,7 @@ function renderBody(src, label, die, root) {
     }
     closeList();
     if (line === '{{cta}}') {
-      out.push('      <p class="cta-row"><a class="btn-coral" href="#download">Explore Route 66 Logbook <span aria-hidden="true">→</span></a></p>');
+      out.push(`      <p class="cta-row"><a class="btn-coral" href="#download">${T('cta.explore')} <span aria-hidden="true">→</span></a></p>`);
     } else if (line.startsWith('### ')) {
       out.push(`      <h3>${inline(line.slice(4))}</h3>`);
     } else if (line.startsWith('## ')) {
@@ -345,7 +360,7 @@ function renderBody(src, label, die, root) {
   return [out.join('\n'), words];
 }
 
-function parseArticle(file, text, die, root) {
+function parseArticle(file, text, die, root, T, lang) {
   const m = text.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
   if (!m) die(`${file}: must start with front matter between --- lines`);
   const meta = {};
@@ -355,22 +370,55 @@ function parseArticle(file, text, die, root) {
     meta[kv[1]] = kv[2].trim();
   }
   for (const k of REQUIRED) if (!meta[k]) die(`${file}: front matter is missing "${k}"`);
+  if (lang !== 'en' && meta.lang !== lang) die(`${file}: front matter needs "lang: ${lang}" (found ${meta.lang ? `"lang: ${meta.lang}"` : 'none'})`);
+  if (lang === 'en' && meta.lang && meta.lang !== 'en') die(`${file}: this is the English folder but the front matter says "lang: ${meta.lang}"`);
   if (!GROUPS[meta.group]) die(`${file}: group must be one of ${Object.keys(GROUPS).join(', ')}`);
   if (!/^[a-z0-9-]+$/.test(meta.slug)) die(`${file}: slug may only use a-z, 0-9 and -`);
   if (meta.published && !/^\d{4}-\d{2}-\d{2}$/.test(meta.published)) die(`${file}: published must be YYYY-MM-DD`);
   if (meta.accent && !meta.title.includes(meta.accent)) die(`${file}: accent "${meta.accent}" is not part of the title`);
   meta.order = Number(meta.order);
   if (!Number.isInteger(meta.order)) die(`${file}: order must be a whole number`);
-  const [body, words] = renderBody(m[2], file, die, root);
-  return Object.assign(meta, { file, body, readTime: Math.max(1, Math.ceil(words / WORDS_PER_MINUTE)) });
+  const [body, words] = renderBody(m[2], file, die, root, T);
+  const blocks = m[2].split('\n').filter((l) => l.trim()).length;
+  return Object.assign(meta, { file, body, blocks, md: m[2], readTime: Math.max(1, Math.ceil(words / WORDS_PER_MINUTE)) });
 }
 
-module.exports = function buildGuide({ ROOT, SITE, die, write }) {
-  const dir = path.join(ROOT, '_guides');
+module.exports = function buildGuide({ ROOT, SITE, die, write, warn }) {
   const read = (f) => {
     try { return fs.readFileSync(path.join(ROOT, f), 'utf8'); }
     catch (e) { die(`cannot read ${f} — ${e.message}`); }
   };
+  const fmt = (str, vars, label) => str.replace(/\{([a-z]+)\}/g, (m, k) => {
+    if (!vars || !(k in vars)) die(`${label}: {${k}} is not given a value`);
+    return vars[k];
+  });
+
+  // ── interface strings: identical keys in every language, none unused ──
+  const uiRaw = {};
+  for (const lang of LANGS) {
+    const f = `guides-ui.${lang}.json`;
+    try { uiRaw[lang] = JSON.parse(read(f)); } catch (e) { die(`${f} is not valid JSON — ${e.message}`); }
+  }
+  const uiKeys = Object.keys(uiRaw.en).sort();
+  for (const lang of LANGS) {
+    const got = Object.keys(uiRaw[lang]).sort();
+    const missing = uiKeys.filter((k) => !got.includes(k));
+    const extra = got.filter((k) => !uiKeys.includes(k));
+    if (missing.length) die(`guides-ui.${lang}.json is missing: ${missing.join(', ')}`);
+    if (extra.length) die(`guides-ui.${lang}.json has keys no other language has: ${extra.join(', ')}`);
+    for (const [k, v] of Object.entries(uiRaw[lang])) {
+      if (typeof v !== 'string' || !v) die(`guides-ui.${lang}.json: "${k}" must be a non-empty string`);
+    }
+  }
+  const uiUsed = new Set();
+  const makeT = (lang) => (key, vars) => {
+    const v = uiRaw[lang][key];
+    if (v === undefined) die(`guides-ui.${lang}.json: the build needs "${key}", which is not defined`);
+    uiUsed.add(key);
+    return fmt(v, vars, `guides-ui.${lang}.json "${key}"`);
+  };
+  // "{n} guides" / "{n} guide": both keys are always read, one is chosen.
+  const plural = (T, base, n) => { const one = T(base + '.one', { n }); const many = T(base, { n }); return n === 1 ? one : many; };
 
   // The store icons are copied from the home page's own template, so there is
   // one source for each and they cannot drift.
@@ -380,19 +428,49 @@ module.exports = function buildGuide({ ROOT, SITE, die, write }) {
     if (!hit) die(`guide: cannot find the store icon starting "${marker}" in index.template.html`);
     return hit[1];
   };
-  const download = DOWNLOAD.replace('APPLE_PATH', icon('M18\\.71')).replace('ANDROID_PATH', icon('M17\\.6'));
+  const applePath = icon('M18\\.71');
+  const androidPath = icon('M17\\.6');
 
-  const articles = fs.readdirSync(dir)
-    .filter((f) => /^\d+-.+\.md$/.test(f))
-    .map((f) => parseArticle('_guides/' + f, read('_guides/' + f), die, ROOT))
-    .sort((a, b) => a.order - b.order);
-  if (!articles.length) die('guides: _guides/ has no articles');
-
-  const seen = {};
-  for (const a of articles) {
-    if (seen[a.slug]) die(`guide: ${a.file} and ${seen[a.slug]} share the slug "${a.slug}"`);
-    seen[a.slug] = a.file;
+  // ── read every article in every language ──
+  const loadDir = (lang) => {
+    const rel = lang === 'en' ? '_guides' : '_guides/' + lang;
+    const abs = path.join(ROOT, rel);
+    if (!fs.existsSync(abs)) return [];
+    return fs.readdirSync(abs)
+      .filter((f) => /^\d+-.+\.md$/.test(f))
+      .map((f) => parseArticle(`${rel}/${f}`, read(`${rel}/${f}`), die, ROOT, makeT(lang), lang))
+      .sort((a, b) => a.order - b.order);
+  };
+  const byLang = {};
+  for (const lang of LANGS) {
+    byLang[lang] = loadDir(lang);
+    const seen = {};
+    for (const a of byLang[lang]) {
+      if (seen[a.slug]) die(`guide: ${a.file} and ${seen[a.slug]} share the slug "${a.slug}"`);
+      seen[a.slug] = a.file;
+    }
   }
+  if (!byLang.en.length) die('guides: _guides/ has no articles');
+
+  // A translation must be the same article: same file name, slug, group, order.
+  const missingBy = { fr: [], es: [] };
+  for (const lang of ['fr', 'es']) {
+    for (const t of byLang[lang]) {
+      const en = byLang.en.find((e) => path.basename(e.file) === path.basename(t.file));
+      if (!en) die(`${t.file}: there is no English _guides/${path.basename(t.file)} to translate`);
+      for (const k of ['slug', 'group', 'order']) {
+        if (en[k] !== t[k]) die(`${t.file}: ${k} is "${t[k]}" but the English ${en.file} has "${en[k]}" — they must match`);
+      }
+      if (en.blocks !== t.blocks) warn(`${t.file}: ${t.blocks} lines of text against ${en.blocks} in ${en.file} — is something missing or merged?`);
+      const bad = (t.md.match(/\]\(\/(?!fr\/|es\/|images\/|downloads\/)[^)\s]*\)/g) || []);
+      if (bad.length) warn(`${t.file}: internal links without the /${lang}/ prefix: ${bad.join(' ')}`);
+    }
+    missingBy[lang] = byLang.en.filter((e) => !byLang[lang].some((t) => path.basename(t.file) === path.basename(e.file)));
+    if (missingBy[lang].length) {
+      warn(`${lang}: ${missingBy[lang].length} of ${byLang.en.length} guides have no translation yet: ${missingBy[lang].map((e) => e.slug).join(', ')}`);
+    }
+  }
+  const has = (lang, slug) => byLang[lang].some((a) => a.slug === slug);
 
   const hasPhoto = (a) => fs.existsSync(path.join(ROOT, 'images', 'guides', a.slug + '.jpg'));
   const photo = (a, indent, alt) =>
@@ -400,144 +478,206 @@ module.exports = function buildGuide({ ROOT, SITE, die, write }) {
     `${indent}  <div class="photo-placeholder">images/guides/${a.slug}.jpg<br>16:10 · approx 1600 × 1000 px</div>\n` +
     `${indent}  <img src="/images/guides/${a.slug}.jpg" alt="${esc(alt)}" loading="lazy" onerror="this.remove()">\n` +
     `${indent}</div>`;
-  const tile = (a) =>
-    `        <a class="tile reveal" href="/guides/${a.slug}/">\n` +
-    `          <div class="tile-photo">\n` +
-    `            <div class="tile-photo-label">images/guides/${a.slug}.jpg</div>\n` +
-    `            <img src="/images/guides/${a.slug}.jpg" alt="" loading="lazy" onerror="this.remove()">\n` +
-    `          </div>\n` +
-    `          <div class="tile-body">\n` +
-    `            <p class="tile-kicker">${GROUPS[a.group].name} · ${a.readTime} min</p>\n` +
-    `            <h3 class="tile-title">${esc(a.title)}</h3>\n` +
-    `            <p class="tile-text">${esc(a.standfirst)}</p>\n` +
-    `            <span class="tile-more">Read the guide →</span>\n` +
-    `          </div>\n` +
-    `        </a>`;
   const jsonld = (obj) => '  <script type="application/ld+json">\n' +
     JSON.stringify(obj, null, 2).split('\n').map((l) => '  ' + l).join('\n') + '\n  </script>\n';
-  const fill = (tpl, values, label) => {
-    const html = tpl.replace(/\{\{([a-zA-Z]+)\}\}/g, (m, k) => {
-      if (!(k in values)) die(`${label}: template needs {{${k}}}, which is not defined`);
-      return values[k];
-    });
-    const banner = `<!--\n  GENERATED FILE — DO NOT EDIT.\n  Built from ${label} by \`node build.js\`.\n  Any change made here is lost the next time the build runs.\n-->\n`;
-    return html.replace(/^<!DOCTYPE html>\n/, `<!DOCTYPE html>\n${banner}`);
+
+  // hreflang alternates, the same four-line shape the standalone pages carry:
+  // the footer's language switcher reads these. Only languages that have the
+  // page are listed; x-default is the English page.
+  const alternatesFor = (suffix, exists) => {
+    const present = LANGS.filter((l) => exists(l));
+    if (present.length < 2) return '';
+    return present.map((l) => `  <link rel="alternate" hreflang="${l}" href="${SITE}${PREFIX[l]}${suffix}">\n`).join('') +
+      `  <link rel="alternate" hreflang="x-default" href="${SITE}${suffix}">\n`;
   };
 
-  // ── one page per article ──
-  const articleTpl = read('guide-article.template.html');
-  const pages = [];
-  for (const a of articles) {
-    const url = `${SITE}/guides/${a.slug}/`;
-    const ogImage = hasPhoto(a) ? `${SITE}/images/guides/${a.slug}.jpg` : `${SITE}/images/og-home.jpg`;
+  const pagesOut = [];
+  const tileCtx = {};
+  const counts = {};
 
-    // Keep reading: the next articles in the same group, wrapping round, then
-    // the next ones overall if the group is too small to fill three.
-    const same = articles.filter((b) => b.group === a.group);
-    const i = same.indexOf(a);
-    const related = same.slice(i + 1).concat(same.slice(0, i));
-    for (const b of articles.slice(articles.indexOf(a) + 1).concat(articles)) {
-      if (related.length >= 3) break;
-      if (b !== a && !related.includes(b)) related.push(b);
+  for (const lang of LANGS) {
+    const articles = byLang[lang];
+    if (!articles.length) {
+      if (lang !== 'en') warn(`${lang}: no translated guides at all, so ${PREFIX[lang]}/guides/ is not built`);
+      continue;
+    }
+    const T = makeT(lang);
+    const prefix = PREFIX[lang];
+    const outDir = lang === 'en' ? 'guides' : path.join(lang, 'guides');
+    const groupName = (g) => T(`group.${g}.name`);
+
+    const fill = (tpl, values, label) => {
+      const html = tpl.replace(/\{\{([a-zA-Z0-9.]+)\}\}/g, (m, k) => {
+        if (k.startsWith('ui.')) return T(k.slice(3));
+        if (!(k in values)) die(`${label}: template needs {{${k}}}, which is not defined`);
+        return values[k];
+      });
+      const left = html.match(/\{\{[^}]*\}\}/);
+      if (left) die(`${label}: unresolved placeholder ${left[0]}`);
+      const banner = `<!--\n  GENERATED FILE — DO NOT EDIT.\n  Built from ${label} by \`node build.js\`.\n  Any change made here is lost the next time the build runs.\n-->\n`;
+      return html.replace(/^<!DOCTYPE html>\n/, `<!DOCTYPE html>\n${banner}`);
+    };
+    const download = fill(DOWNLOAD, {}, 'DOWNLOAD').replace('APPLE_PATH', applePath).replace('ANDROID_PATH', androidPath);
+    const tile = (a) =>
+      `        <a class="tile reveal" href="${prefix}/guides/${a.slug}/">\n` +
+      `          <div class="tile-photo">\n` +
+      `            <div class="tile-photo-label">images/guides/${a.slug}.jpg</div>\n` +
+      `            <img src="/images/guides/${a.slug}.jpg" alt="" loading="lazy" onerror="this.remove()">\n` +
+      `          </div>\n` +
+      `          <div class="tile-body">\n` +
+      `            <p class="tile-kicker">${T('tile.kicker', { group: groupName(a.group), n: a.readTime })}</p>\n` +
+      `            <h3 class="tile-title">${esc(a.title)}</h3>\n` +
+      `            <p class="tile-text">${esc(a.standfirst)}</p>\n` +
+      `            <span class="tile-more">${T('tile.read')}</span>\n` +
+      `          </div>\n` +
+      `        </a>`;
+    tileCtx[lang] = { tile, byLang: articles };
+    const firstPage = pagesOut.length;
+
+    // ── one page per article ──
+    const articleTpl = read('guide-article.template.html');
+    for (const a of articles) {
+      const url = `${SITE}${prefix}/guides/${a.slug}/`;
+      const ogImage = hasPhoto(a) ? `${SITE}/images/guides/${a.slug}.jpg` : `${SITE}/images/og-home.jpg`;
+
+      // Keep reading: the next articles in the same group, wrapping round, then
+      // the next ones overall if the group is too small to fill three.
+      const same = articles.filter((b) => b.group === a.group);
+      const i = same.indexOf(a);
+      const related = same.slice(i + 1).concat(same.slice(0, i));
+      for (const b of articles.slice(articles.indexOf(a) + 1).concat(articles)) {
+        if (related.length >= 3) break;
+        if (b !== a && !related.includes(b)) related.push(b);
+      }
+
+      const schema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: a.title,
+        description: a.description,
+        image: ogImage,
+        mainEntityOfPage: url,
+        author: { '@type': 'Person', name: 'Carole Richard', url: `${SITE}${prefix}/about/` },
+        publisher: {
+          '@type': 'Organization', name: 'Route 66 Logbook',
+          logo: { '@type': 'ImageObject', url: `${SITE}/images/route66logbook-logo-shield.png` },
+        },
+      };
+      if (lang !== 'en') schema.inLanguage = lang;
+      if (a.published) schema.datePublished = a.published;
+      const crumbs = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: T('crumb.home'), item: `${SITE}${prefix}/` },
+          { '@type': 'ListItem', position: 2, name: T('guides.name'), item: `${SITE}${prefix}/guides/` },
+          { '@type': 'ListItem', position: 3, name: a.title, item: url },
+        ],
+      };
+
+      const html = fill(articleTpl, {
+        lang,
+        prefix,
+        title: esc(a.title),
+        heading: a.accent
+          ? esc(a.title).replace(esc(a.accent), `<em>${esc(a.accent)}</em>`)
+          : esc(a.title),
+        description: esc(a.description),
+        standfirst: esc(a.standfirst),
+        url, ogImage,
+        alternates: alternatesFor(`/guides/${a.slug}/`, (l) => has(l, a.slug)),
+        schema: jsonld(schema) + jsonld(crumbs),
+        groupName: groupName(a.group),
+        by: T('byline.by', { author: `<a href="${prefix}/about/">Carole Richard</a>` }),
+        readTimeText: T('byline.read', { n: a.readTime }),
+        updated: a.updated ? `<span>${T('byline.updated', { date: esc(a.updated) })}</span>` : '',
+        heroPhoto: photo(a, '        ', a.photoalt || a.title),
+        body: a.body,
+        related: related.slice(0, 3).map(tile).join('\n'),
+        download,
+      }, `guide-article.template.html + ${a.file}`);
+      write(path.join(outDir, a.slug, 'index.html'), html);
+      pagesOut.push(`${prefix}/guides/${a.slug}/`);
     }
 
-    const schema = {
-      '@context': 'https://schema.org',
-      '@type': 'Article',
-      headline: a.title,
-      description: a.description,
-      image: ogImage,
-      mainEntityOfPage: url,
-      author: { '@type': 'Person', name: 'Carole Richard', url: `${SITE}/about/` },
-      publisher: {
-        '@type': 'Organization', name: 'Route 66 Logbook',
-        logo: { '@type': 'ImageObject', url: `${SITE}/images/route66logbook-logo-shield.png` },
-      },
-    };
-    if (a.published) schema.datePublished = a.published;
-    const crumbs = {
-      '@context': 'https://schema.org',
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
-        { '@type': 'ListItem', position: 2, name: 'Route 66 guides', item: `${SITE}/guides/` },
-        { '@type': 'ListItem', position: 3, name: a.title, item: url },
-      ],
-    };
-
-    const html = fill(articleTpl, {
-      title: esc(a.title),
-      heading: a.accent
-        ? esc(a.title).replace(esc(a.accent), `<em>${esc(a.accent)}</em>`)
-        : esc(a.title),
-      description: esc(a.description),
-      standfirst: esc(a.standfirst),
-      url, ogImage,
-      schema: jsonld(schema) + jsonld(crumbs),
-      groupName: GROUPS[a.group].name,
-      readTime: String(a.readTime),
-      updated: a.updated ? `<span>Updated ${esc(a.updated)}</span>` : '',
-      heroPhoto: photo(a, '        ', a.photoalt || a.title),
-      body: a.body,
-      related: related.slice(0, 3).map(tile).join('\n'),
-      download,
-    }, `guide-article.template.html + ${a.file}`);
-    write(path.join('guides', a.slug, 'index.html'), html);
-    pages.push(`/guides/${a.slug}/`);
-  }
-
-  // ── /guides/ ──
-  const groups = Object.keys(GROUPS).map((g) => {
-    const list = articles.filter((a) => a.group === g);
-    if (!list.length) return '';
-    return `    <!-- ${GROUPS[g].name.toUpperCase()} -->\n` +
-      `    <section class="group shell wide">\n` +
-      `      <div class="group-head reveal">\n` +
-      `        <h2 class="group-title">${GROUPS[g].title}</h2>\n` +
-      `        <span class="group-count">${list.length} guides</span>\n` +
-      `      </div>\n` +
-      `      <div class="tiles">\n${list.map(tile).join('\n')}\n      </div>\n` +
-      `    </section>\n`;
-  }).join('\n');
-
-  const sources = read('_guides/sources.md').split('\n')
-    .filter((l) => l.startsWith('- '))
-    .map((l) => {
-      const m = l.match(/^- \[([^\]]+)\]\((https?:\/\/[^)\s]+)\)$/);
-      if (!m) die(`_guides/sources.md: expected "- [Name](https://…)", got "${l}"`);
-      return `        <li><a href="${m[2]}" target="_blank" rel="noopener">${esc(m[1])}</a></li>`;
+    // ── /guides/ ──
+    const groups = Object.keys(GROUPS).map((g) => {
+      const list = articles.filter((a) => a.group === g);
+      if (!list.length) return '';
+      return `    <!-- ${groupName(g).toUpperCase()} -->\n` +
+        `    <section class="group shell wide">\n` +
+        `      <div class="group-head reveal">\n` +
+        `        <h2 class="group-title">${T(`group.${g}.title`)}</h2>\n` +
+        `        <span class="group-count">${plural(T, 'group.count', list.length)}</span>\n` +
+        `      </div>\n` +
+        `      <div class="tiles">\n${list.map(tile).join('\n')}\n      </div>\n` +
+        `    </section>\n`;
     }).join('\n');
 
-  const list = {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    name: 'Route 66 guides',
-    itemListElement: articles.map((a, n) => ({
-      '@type': 'ListItem', position: n + 1, url: `${SITE}/guides/${a.slug}/`, name: a.title,
-    })),
-  };
+    const sources = read('_guides/sources.md').split('\n')
+      .filter((l) => l.startsWith('- '))
+      .map((l) => {
+        const m = l.match(/^- \[([^\]]+)\]\((https?:\/\/[^)\s]+)\)$/);
+        if (!m) die(`_guides/sources.md: expected "- [Name](https://…)", got "${l}"`);
+        return `        <li><a href="${m[2]}" target="_blank" rel="noopener">${esc(m[1])}</a></li>`;
+      }).join('\n');
 
-  write(path.join('guides', 'index.html'), fill(read('guide.template.html'), {
-    url: `${SITE}/guides/`,
-    schema: jsonld(list),
-    groups, sources, download,
-  }, 'guide.template.html + _guides/'));
+    const list = {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: T('guides.name'),
+      itemListElement: articles.map((a, n) => ({
+        '@type': 'ListItem', position: n + 1, url: `${SITE}${prefix}/guides/${a.slug}/`, name: a.title,
+      })),
+    };
+    if (lang !== 'en') list.inLanguage = lang;
+
+    // The index exists in a language as soon as that language has any article;
+    // its alternates point only at indexes that exist.
+    write(path.join(outDir, 'index.html'), fill(read('guide.template.html'), {
+      lang,
+      url: `${SITE}${prefix}/guides/`,
+      alternates: alternatesFor('/guides/', (l) => byLang[l].length > 0),
+      schema: jsonld(list),
+      groups, sources, download,
+    }, 'guide.template.html + _guides/'));
+    pagesOut.splice(firstPage, 0, `${prefix}/guides/`);
+    counts[lang] = articles.length;
+  }
+
+  // Every key must be used. English always builds, and the key sets are
+  // identical, so a key English never reads is dead in all three languages.
+  const unused = uiKeys.filter((k) => !uiUsed.has(k));
+  if (unused.length) die(`guides-ui.*.json: these keys are never used: ${unused.join(', ')}`);
 
   // ── "Keep reading" on hand-written pages ──
   // These pages are edited by hand, so only the part between the markers is
   // rewritten. A page that has lost its markers stops the build rather than
-  // silently going without.
-  for (const [file, slugs] of Object.entries(KEEP_READING)) {
-    const html = read(file);
-    const m = html.match(/(<!-- GUIDES:START[^>]*-->)[\s\S]*?(<!-- GUIDES:END -->)/);
-    if (!m) die(`${file}: cannot find the GUIDES:START / GUIDES:END markers`);
-    const tiles = slugs.map((s) => {
-      const a = articles.find((x) => x.slug === s);
-      if (!a) die(`build-guide.js: KEEP_READING for ${file} names "${s}", which is not an article`);
-      return tile(a);
-    }).join('\n');
-    write(file, html.replace(m[0], m[1] + '\n' + tiles + '\n        ' + m[2]));
+  // silently going without. A fr/es page that does not exist yet is skipped
+  // with a loud warning, never silently.
+  for (const lang of LANGS) {
+    const ctx = tileCtx[lang];
+    for (const [file, slugs] of Object.entries(KEEP_READING)) {
+      const rel = lang === 'en' ? file : path.join(lang, file);
+      if (!fs.existsSync(path.join(ROOT, rel))) {
+        if (lang === 'en') die(`${rel}: cannot read it`);
+        warn(`${rel} does not exist yet, so its "Keep reading" tiles were not written`);
+        continue;
+      }
+      if (!ctx) { warn(`${rel}: ${lang} has no translated guides, so its "Keep reading" tiles were NOT regenerated and may be stale`); continue; }
+      const html = read(rel);
+      const m = html.match(/(<!-- GUIDES:START[^>]*-->)[\s\S]*?(<!-- GUIDES:END -->)/);
+      if (!m) die(`${rel}: cannot find the GUIDES:START / GUIDES:END markers`);
+      const lacking = slugs.filter((s) => !has(lang, s));
+      if (lacking.length) {
+        for (const s of slugs) if (!byLang.en.some((x) => x.slug === s)) die(`build-guide.js: KEEP_READING for ${file} names "${s}", which is not an article`);
+        warn(`${rel}: not regenerated — ${lang} has no translation of ${lacking.join(', ')}`);
+        continue;
+      }
+      const tiles = slugs.map((s) => ctx.tile(ctx.byLang.find((x) => x.slug === s))).join('\n');
+      write(rel, html.replace(m[0], m[1] + '\n' + tiles + '\n        ' + m[2]));
+    }
   }
 
-  return { pages: ['/guides/'].concat(pages), count: articles.length };
+  return { pages: pagesOut.slice(), count: byLang.en.length, counts };
 };

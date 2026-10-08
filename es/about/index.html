@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acerca de · Route 66 Logbook</title>
+  <meta name="description" content="La persona detrás de Route 66 Logbook. Una viajera francesa apasionada por la Route 66 que recorrió la Mother Road y creó un mapa vivo para que nadie llegue demasiado tarde.">
+  <link rel="canonical" href="https://route66logbook.com/es/about/">
+  <link rel="alternate" hreflang="en" href="https://route66logbook.com/about/">
+  <link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/about/">
+  <link rel="alternate" hreflang="es" href="https://route66logbook.com/es/about/">
+  <link rel="alternate" hreflang="x-default" href="https://route66logbook.com/about/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --coral: #ea5b56;
+      --teal: #6daeab;
+      --sand: #f7f4f0;
+      --charcoal: #2b3033;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--sand);
+      color: var(--charcoal);
+      font-family: 'Public Sans', sans-serif;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+    img { max-width: 100%; }
+
+
+    /* SHELL */
+    .shell { max-width: 760px; margin: 0 auto; padding: 0 52px; }
+    .wide { max-width: 1000px; }
+
+    .eyebrow {
+      font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .ec { color: var(--coral); }
+    .et { color: var(--teal); }
+
+    /* INTRO */
+    .intro { padding: 64px 0 28px; }
+    .intro-title {
+      font-weight: 800; font-size: clamp(42px, 7vw, 78px);
+      line-height: 0.92; letter-spacing: -2.5px; margin-bottom: 26px;
+    }
+    .intro-title em { color: var(--coral); font-style: normal; }
+    .intro-lede {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: clamp(19px, 2.4vw, 24px); color: rgba(43,48,51,0.6);
+      line-height: 1.6; max-width: 600px;
+    }
+
+    /* SECTION SCAFFOLD */
+    .section { padding: 64px 0; }
+
+    /* ARTICLE PROSE */
+    .prose p {
+      font-size: 17px; line-height: 1.78; color: rgba(43,48,51,0.82);
+      margin-bottom: 22px;
+    }
+    .prose p:last-child { margin-bottom: 0; }
+
+    /* FIGURES + PHOTO PLACEHOLDERS */
+    figure.figure { margin: 40px 0; }
+    figure.figure figcaption {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 15px; color: rgba(43,48,51,0.5); text-align: center; margin-top: 12px;
+    }
+    .photo {
+      border-radius: 20px; border: 1px solid rgba(43,48,51,0.08);
+      background: #fff; overflow: hidden;
+    }
+    .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .photo.ph {
+      display: grid; place-content: center; text-align: center; padding: 28px;
+      border: 1.5px dashed rgba(43,48,51,0.22);
+      background:
+        repeating-linear-gradient(45deg, rgba(109,174,171,0.10) 0 16px, rgba(247,244,240,0) 16px 32px),
+        var(--sand);
+    }
+    .ph-label {
+      font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+      font-size: 12px; color: var(--charcoal);
+    }
+    .ph-hint {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 15px; color: rgba(43,48,51,0.55);
+      max-width: 26rem; margin: 8px auto 0; line-height: 1.5;
+    }
+    .portrait { max-width: 460px; margin-inline: auto; aspect-ratio: 4 / 5; }
+    .photo-wide { aspect-ratio: 16 / 9; }
+
+    /* PORTRAIT + TEXT SPLIT */
+    .split { max-width: 1040px; margin: 0 auto; padding: 20px 52px 8px; }
+    .split-grid {
+      display: grid; grid-template-columns: 0.82fr 1.18fr;
+      gap: 56px; align-items: center;
+    }
+    .split-portrait img {
+      width: 100%; display: block; border-radius: 20px;
+      border: 1px solid rgba(43,48,51,0.08);
+    }
+    .split-text p:first-child { margin-top: 0; }
+    @media (max-width: 820px) {
+      .split { padding: 12px 24px 4px; }
+      .split-grid { grid-template-columns: 1fr; gap: 28px; }
+      .split-portrait { max-width: 360px; margin: 0 auto; }
+    }
+
+    /* PULL QUOTE */
+    .pull { text-align: center; margin: 44px 0; }
+    .pull .pull-mark {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 70px; line-height: 0; color: var(--coral);
+      display: block; height: 34px;
+    }
+    .pull blockquote {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: clamp(26px, 4.2vw, 44px); line-height: 1.3; letter-spacing: -0.5px;
+      color: var(--charcoal); max-width: 640px; margin: 0 auto;
+    }
+    .pull blockquote .hl { color: var(--coral); }
+
+    /* SIGN OFF */
+    .signoff { text-align: center; margin-top: 52px; padding-bottom: 56px; }
+    .signoff .road {
+      font-weight: 800; font-size: clamp(24px, 3.6vw, 38px);
+      letter-spacing: -1px; margin-bottom: 10px;
+    }
+    .signoff .sig {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      color: var(--teal); font-size: clamp(34px, 5vw, 52px); line-height: 1.1;
+    }
+
+    /* CONTACT / CTA BAND */
+    .contact { background: var(--teal); padding: 96px 0; text-align: center; }
+    .contact .shell { max-width: 640px; }
+    .contact .eyebrow { color: rgba(255,255,255,0.55); }
+    .contact-title {
+      font-weight: 800; font-size: clamp(36px, 5.5vw, 64px);
+      color: #fff; line-height: 0.95; letter-spacing: -2px; margin-bottom: 24px;
+    }
+    .contact-title em { color: var(--charcoal); font-style: normal; }
+    .contact-body {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 20px; color: rgba(255,255,255,0.72); line-height: 1.7; margin-bottom: 40px;
+    }
+    .btn-mail {
+      display: inline-flex; align-items: center; gap: 11px;
+      background: var(--charcoal); color: #fff; text-decoration: none;
+      padding: 16px 34px; border-radius: 100px;
+      font-size: 15px; font-weight: 600; letter-spacing: 0.2px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-mail:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(43,48,51,0.35); }
+
+    /* FOOTER */
+    footer {
+      background: var(--charcoal); padding: 44px 52px;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 18px;
+    }
+    .footer-left { display: flex; flex-direction: column; gap: 6px; }
+    .footer-logo { font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -0.3px; }
+    .footer-logo span { color: var(--coral); }
+    .footer-tagline { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 14px; color: rgba(255,255,255,0.3); }
+    .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+    .footer-links { display: flex; gap: 22px; }
+    .footer-links a {
+      font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+      color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--coral); }
+    .footer-socials { display: flex; align-items: center; gap: 18px; }
+    .footer-socials a { color: rgba(255,255,255,0.4); display: inline-flex; transition: color 0.2s, transform 0.2s; }
+    .footer-socials a:hover { color: var(--coral); transform: translateY(-2px); }
+    .footer-socials svg { width: 20px; height: 20px; display: block; }
+    .footer-copy { font-size: 12px; color: rgba(255,255,255,0.22); width: 100%; text-align: center; margin-top: 8px; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* RESPONSIVE */
+    @media (max-width: 820px) {
+      .shell { padding: 0 24px; }
+      .contact { padding: 72px 0; }
+      footer { flex-direction: column; align-items: center; text-align: center; padding: 36px 24px; }
+      .footer-left { align-items: center; }
+      .footer-right { align-items: center; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1; transform: none; transition: none; }
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER (matches site) -->
+  <site-header></site-header>
+
+  <main>
+
+    <!-- INTRO -->
+    <section class="intro shell reveal">
+      <p class="eyebrow ec">Acerca de</p>
+      <h1 class="intro-title">Una apasionada de la Route 66 <em>detrás de la pantalla.</em></h1>
+      <p class="intro-lede">Route 66 Logbook es un estudio de una sola persona. Lo que significa, sobre todo, yo, la carretera y muchas noches en vela.</p>
+    </section>
+
+    <!-- PORTRAIT + OPENING (side by side on desktop, stacked on mobile) -->
+    <section class="split reveal">
+      <div class="split-grid">
+        <div class="split-portrait">
+          <img src="/images/carole-portrait.jpg" alt="Carole en la Route 66">
+        </div>
+        <div class="split-text prose">
+          <p>Hola, soy Carole. Nací en Francia y vivo en Australia, y desde que tengo memoria decía que iría a Estados Unidos. Era mi sueño de infancia. Dentro de ese sueño siempre había una carretera: la Route 66. La Mother Road. Un diner en medio de la nada, un letrero de neón, el desierto abriéndose al frente.</p>
+
+          <p>Manejé un tramo por primera vez en 2017, dentro de un largo recorrido que me llevó por 35 estados y más de 51 000 km, unas 31 700 millas. Hicimos un poco de la 66 en aquel viaje, sobre todo Illinois, como se debe. Bastó eso para enamorarme. Los diners de siempre que todavía sirven malteadas, el neón, los letreros pintados que se desvanecen, la gente que mantiene viva su parte de la historia frente a las cadenas y las autopistas. Supe de inmediato que algún día volvería a recorrerla entera, de un extremo al otro.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY CONTINUES -->
+    <section class="section shell reveal" style="padding-top: 8px;">
+
+      <!-- ROAD PHOTO -->
+      <figure class="figure">
+        <div class="photo photo-wide"><img src="/images/about-road.jpg" alt="En la Route 66"></div>
+        <figcaption>Sullivan, una Chevy G20 de 1986 que nos llevó por Norteamérica y por la Route 66. Aquí frente a Ambler’s Texaco Gas Station, en Dwight, Illinois.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <p>En marzo de 2026 volví para hacer justo eso, de Los Ángeles a Chicago, la ruta completa. Esta vez quería prepararme bien, aprovechar cada milla y conservar el viaje después. Así que reuní las guías y los pasaportes, y con el centenario hay más que nunca. Algunas partes me encantaron. Pero las guías envejecen rápido, y un pasaporte siempre es una lista fija, la idea que otra persona tiene de la ruta. Se les acaban las páginas, dejan de imprimirse y nunca son del todo el viaje que realmente estás haciendo. Porque cada quien vive la Route 66 a su manera.</p>
+      </div>
+
+      <!-- PULL QUOTE -->
+      <div class="pull">
+        <span class="pull-mark" aria-hidden="true">&ldquo;</span>
+        <blockquote>Nunca habrá una guía definitiva de la Route 66. Simplemente no es posible. <span class="hl">La carretera está viva,</span> cambia todo el tiempo. Así que, en lugar de una guía más que queda desactualizada el día que se imprime, quise construir una guía viva.</blockquote>
+      </div>
+
+      <div class="prose">
+        <p>Así que hice esto.</p>
+
+        <p>Route 66 Logbook es la app que me hubiera gustado tener. Un lugar para planear tu viaje antes de salir, guardarlo mientras manejas y mirar atrás para ver cuánto has avanzado: las millas que dejaste atrás, los estados que cruzaste, las paradas que encontraste en el camino. No la versión de la ruta de alguien más. La tuya.</p>
+
+        <p>Y está hecha para la comunidad, no para los anunciantes. La Route 66 sigue viva gracias a quienes la aman, así que son ellos quienes mantienen vivo el mapa: agregan lugares, avisan de lo que cambió y comparten lo que encuentran con quien la maneje después. Sin anuncios, sin ruido, sin nadie que te revenda tu propio viaje. Solo viajeros cuidándose entre sí, y cuidando la ruta.</p>
+
+        <p>Soy diseñadora, no una empresa de tecnología, y construí esto sola, por amor a la carretera. Cada parada se verificó a mano, porque un mapa solo vale la pena si puedes confiar en él. No estoy aquí para venderte un producto perfecto. Si te ayuda a planear tu Route 66, a disfrutar cada milla y a conservar el viaje mucho después de volver a casa, habrá valido cada noche en vela.</p>
+
+        <p>Y esto apenas empieza. Tengo una larga lista de funciones que todavía quiero crear, así que mantente al tanto.</p>
+      </div>
+
+      <!-- SIGN OFF -->
+      <div class="signoff">
+        <p class="road">Nos vemos en el camino.</p>
+        <p class="sig">Carole</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CTA BAND (matches the help page contact band) -->
+  <section class="contact reveal">
+    <div class="shell">
+      <p class="eyebrow">La app</p>
+      <h2 class="contact-title">Gratis para explorar <em>cada milla.</em></h2>
+      <p class="contact-body">Recorre todo el mapa sin pagar nada. Cuando quieras que la ruta recuerde por sí sola, una única compra desbloquea la Bitácora para siempre.</p>
+      <a class="btn-mail" href="/es/#download">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+        Descargar la app
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER (matches site) -->
+  <site-footer></site-footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+  <script src="/header.js" defer></script>
+  <script src="/footer.js" defer></script>
+</body>
+</html>

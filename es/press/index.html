@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <title>Prensa · Route 66 Logbook</title>
+  <meta name="description" content="Comunicado de prensa: Route 66 Logbook, una app de la Route 66 impulsada por la comunidad, invita a los viajeros a ayudar a documentar, registrar y preservar la Mother Road. Ya disponible en iPhone y Android.">
+  <link rel="canonical" href="https://route66logbook.com/es/press/">
+  <link rel="alternate" hreflang="en" href="https://route66logbook.com/press/">
+  <link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/press/">
+  <link rel="alternate" hreflang="es" href="https://route66logbook.com/es/press/">
+  <link rel="alternate" hreflang="x-default" href="https://route66logbook.com/press/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Route 66 Logbook">
+  <meta property="og:url" content="https://route66logbook.com/es/press/">
+  <meta property="og:locale" content="es_419">
+  <meta property="og:title" content="Route 66 Logbook invita a los viajeros a ayudar a documentar, registrar y preservar la Mother Road">
+  <meta property="og:description" content="Una app de la Route 66 impulsada por la comunidad, inspirada en viajes reales por la carretera y ya disponible en iPhone y Android.">
+  <meta property="og:image" content="https://route66logbook.com/images/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Route 66 Logbook invita a los viajeros a ayudar a documentar, registrar y preservar la Mother Road">
+  <meta name="twitter:description" content="Una app de la Route 66 impulsada por la comunidad, inspirada en viajes reales por la carretera y ya disponible en iPhone y Android.">
+  <meta name="twitter:image" content="https://route66logbook.com/images/og-home.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --coral: #ea5b56;
+      --teal: #6daeab;
+      --sand: #f7f4f0;
+      --charcoal: #2b3033;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--sand);
+      color: var(--charcoal);
+      font-family: 'Public Sans', sans-serif;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+    img { max-width: 100%; }
+
+
+    /* SHELL */
+    .shell { max-width: 760px; margin: 0 auto; padding: 0 52px; }
+    .shell.wide { max-width: 1000px; }
+
+    .eyebrow {
+      font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .ec { color: var(--coral); }
+    .et { color: var(--teal); }
+
+    /* INTRO */
+    .intro { padding: 64px 0 28px; }
+    .intro-title {
+      font-weight: 800; font-size: clamp(36px, 5.6vw, 62px);
+      line-height: 0.96; letter-spacing: -2px; margin-bottom: 26px;
+    }
+    .intro-title em { color: var(--coral); font-style: normal; }
+    .intro-lede {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: clamp(19px, 2.4vw, 24px); color: rgba(43,48,51,0.6);
+      line-height: 1.6; max-width: 620px;
+    }
+    .release-meta {
+      display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 30px;
+      font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      color: rgba(43,48,51,0.45);
+    }
+    .release-meta span:first-child { color: var(--teal); }
+
+    /* SECTION SCAFFOLD */
+    .section { padding: 64px 0; }
+
+    /* ARTICLE PROSE */
+    .prose p {
+      font-size: 17px; line-height: 1.78; color: rgba(43,48,51,0.82);
+      margin-bottom: 22px;
+    }
+    .prose p:last-child { margin-bottom: 0; }
+    .prose p.lead { font-size: 19px; color: var(--charcoal); }
+
+    /* PHOTO SLOTS
+       Drop a file into /images with the name shown in the slot and it
+       appears; until then the slot shows its filename and size. */
+    .photo-band { margin: 44px 0; }
+    .photo-cell {
+      position: relative; border-radius: 20px; overflow: hidden; background: #cbbfae;
+    }
+    .photo-cell.r1610 { aspect-ratio: 16 / 10; }
+    .photo-cell.r45 { aspect-ratio: 4 / 5; }
+    .photo-cell.phone {
+      aspect-ratio: 9 / 19.5; border-radius: 28px; background: #3a4044;
+      box-shadow: 0 24px 50px -12px rgba(43,48,51,0.35), 0 8px 18px -6px rgba(43,48,51,0.18);
+    }
+    .photo-placeholder {
+      position: absolute; inset: 0; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 8px;
+      color: rgba(255,255,255,0.55); font-size: 10px; letter-spacing: 2px;
+      text-transform: uppercase; text-align: center; padding: 20px; line-height: 1.8;
+    }
+    .photo-cell img {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; display: block;
+    }
+    .photo-cell.captioned::after {
+      content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 90px;
+      background: linear-gradient(to top, rgba(0,0,0,0.45), transparent); pointer-events: none;
+    }
+    .photo-caption a { color: #fff; text-underline-offset: 2px; }
+    .photo-caption {
+      position: absolute; bottom: 14px; left: 16px; right: 16px; z-index: 2;
+      font-size: 11px; font-weight: 500; color: rgba(255,255,255,0.8); letter-spacing: 0.3px;
+    }
+    .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .screens { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; max-width: 600px; margin-inline: auto; }
+    .screens figcaption {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 15px; color: rgba(43,48,51,0.5); text-align: center; margin-top: 12px;
+    }
+
+    /* PULL QUOTE */
+    .pull { text-align: center; margin: 48px 0; }
+    .pull .pull-mark {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 70px; line-height: 0; color: var(--coral);
+      display: block; height: 34px;
+    }
+    .pull blockquote {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: clamp(26px, 4.2vw, 42px); line-height: 1.3; letter-spacing: -0.5px;
+      color: var(--charcoal); max-width: 640px; margin: 0 auto;
+    }
+    .pull blockquote .hl { color: var(--coral); }
+    .pull cite {
+      display: block; margin-top: 16px; font-style: normal;
+      font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--teal);
+    }
+
+    /* ABOUT (boilerplate) */
+    .boiler {
+      background: var(--charcoal); border-radius: 20px; padding: 40px 40px; margin-top: 56px;
+    }
+    .boiler .eyebrow { color: var(--coral); margin-bottom: 14px; }
+    .boiler h2 {
+      color: #fff; font-weight: 800; font-size: 26px; letter-spacing: -0.6px; margin-bottom: 16px;
+    }
+    .boiler p { font-size: 15px; line-height: 1.78; color: rgba(255,255,255,0.62); }
+
+    /* MEDIA CONTACT BAND */
+    .contact { background: var(--teal); padding: 96px 0; }
+    .contact-grid {
+      display: grid; grid-template-columns: 0.7fr 1.3fr; gap: 52px; align-items: center;
+    }
+    .contact .eyebrow { color: rgba(255,255,255,0.55); }
+    .contact-title {
+      font-weight: 800; font-size: clamp(36px, 5.5vw, 60px);
+      color: #fff; line-height: 0.95; letter-spacing: -2px; margin-bottom: 22px;
+    }
+    .contact-title em { color: var(--charcoal); font-style: normal; }
+    .contact-lines {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 21px; color: rgba(255,255,255,0.8); line-height: 1.6; margin-bottom: 34px;
+    }
+    .contact-lines a { text-decoration: none; }
+    .contact-lines a:hover { color: #fff; }
+    .contact .photo-cell { background: rgba(43,48,51,0.18); }
+    .btn-mail {
+      display: inline-flex; align-items: center; gap: 11px;
+      background: var(--charcoal); color: #fff; text-decoration: none;
+      padding: 16px 34px; border-radius: 100px;
+      font-size: 15px; font-weight: 600; letter-spacing: 0.2px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .contact-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+    .btn-ghost {
+      display: inline-flex; align-items: center;
+      color: #fff; text-decoration: none;
+      padding: 14.5px 32px; border-radius: 100px; border: 1.5px solid rgba(255,255,255,0.6);
+      font-size: 15px; font-weight: 600; letter-spacing: 0.2px;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,0.12); border-color: #fff; }
+    .btn-mail:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(43,48,51,0.35); }
+
+    /* DOWNLOAD BAND (matches the home page) */
+    .download {
+      padding: 140px 52px; position: relative; overflow: hidden;
+      background-color: var(--charcoal);
+      background-image: linear-gradient(rgba(43,48,51,0.5), rgba(43,48,51,0.5)), url('/images/morten-andreassen-mX0tCOykgSY-unsplash.jpg');
+      background-size: cover; background-position: center; background-repeat: no-repeat;
+    }
+    .download-inner { max-width: 680px; margin: 0 auto; text-align: center; }
+    .download-title {
+      font-weight: 800; font-size: clamp(54px, 8.5vw, 112px);
+      color: #fff; line-height: 0.88; letter-spacing: -3.5px; margin-bottom: 26px;
+    }
+    .download-title em { color: var(--coral); font-style: normal; }
+    .download-sub {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 20px; color: rgba(255,255,255,0.6); margin-bottom: 52px; line-height: 1.6;
+    }
+    .download-badges { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+    .badge-btn {
+      display: flex; align-items: center; gap: 14px; background: var(--coral);
+      color: #fff; padding: 15px 30px; border-radius: 16px; text-decoration: none; text-align: left;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .badge-btn:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(234,91,86,0.4); }
+    .badge-btn-android { background: var(--teal); }
+    .badge-btn-android:hover { box-shadow: 0 14px 40px rgba(109,174,171,0.45); }
+    .badge-btn-label { font-size: 10px; opacity: 0.52; display: block; letter-spacing: 0.5px; margin-bottom: 2px; }
+    .badge-btn-store { font-size: 17px; font-weight: 700; display: block; letter-spacing: -0.3px; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* RESPONSIVE */
+    @media (max-width: 820px) {
+      .shell { padding: 0 24px; }
+      .contact { padding: 72px 0; }
+      .contact-grid { grid-template-columns: 1fr; gap: 32px; }
+      .contact .photo-cell { max-width: 300px; }
+      .boiler { padding: 30px 26px; }
+      .download { padding: 100px 24px; }
+    }
+    @media (max-width: 600px) {
+      .pair { grid-template-columns: 1fr; }
+      .screens { grid-template-columns: 1fr; max-width: 260px; margin: 0 auto; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1; transform: none; transition: none; }
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER (matches site) -->
+  <site-header></site-header>
+
+  <main>
+
+    <!-- INTRO -->
+    <section class="intro shell reveal">
+      <p class="eyebrow ec">Comunicado de prensa</p>
+      <h1 class="intro-title">Route 66 Logbook invita a los viajeros a ayudar a documentar, registrar y <em>preservar la Mother Road.</em></h1>
+      <p class="intro-lede">Una app de la Route 66 impulsada por la comunidad, inspirada en viajes reales por la carretera y ya disponible en iPhone y Android, para ayudar a quienes recorren la ruta a descubrir paradas, guardar recuerdos y mantener la información al día.</p>
+      <p class="release-meta"><span>Para publicación inmediata</span></p>
+    </section>
+
+    <!-- HERO PHOTO -->
+    <div class="shell wide">
+      <div class="photo-band">
+        <div class="photo-cell reveal r1610 captioned">
+          <div class="photo-placeholder">images/press-hero.jpg<br>16:10 · approx 1600 × 1000 px</div>
+          <img src="/images/press-hero.jpg" alt="En la carretera, en la Route 66" onerror="this.remove()">
+          <div class="photo-caption">Route 66, 2026 · el año del centenario</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section shell reveal" style="padding-top: 8px;">
+      <div class="prose">
+        <p class="lead">Route 66 Logbook, una app de viaje para quienes recorren la Route 66, ya está disponible en App Store y Google Play. Mapea más de 1000 paradas en los ocho estados de la Route 66, de Chicago a Santa Monica, con los trazados históricos de la carretera dibujados en el mapa, y ofrece a los viajeros una bitácora personal para registrar su propio viaje mientras lo recorren.</p>
+
+        <p>Creada por la diseñadora y viajera de la Route 66 Carole Richard, la app nació de la experiencia directa en la Mother Road. Carole recorrió por primera vez un tramo de la Route 66 en 2017, cruzando Illinois, y volvió en 2026, el año del centenario de la Route 66, para hacer la ruta completa.</p>
+
+        <p>Tras usar guías impresas, descargar varias apps e investigar paradas por el camino, Carole notó un problema recurrente que muchos viajeros de la Route 66 conocen bien: la información cambia rápido. Algunas paradas que aparecían en guías recientes habían cerrado, cambiado de dueño o desaparecido por completo, mientras que otros lugares habían reabierto, se habían restaurado o habían cobrado nueva vida desde la publicación.</p>
+
+        <p>“La Route 66 es algo muy extraño de documentar porque no es fija”, dijo Carole. “Oficialmente, la carretera ya no existe como antes, pero existe, y mucho, en el corazón de la gente. Existe a través de los recuerdos, de las historias, de las personas que todavía la recorren, la restauran, la fotografían, hablan de ella y siguen estando presentes.”</p>
+
+        <p>Esa sensación de cambio se volvió aún más clara en el camino. Algunos lugares están desapareciendo en tiempo real, mientras que otros están siendo restaurados o conservados con esmero por personas decididas a mantener viva la Mother Road.</p>
+
+        <p>“En este viaje vimos lugares que se desvanecían, y en algunos casos desaparecían, justo frente a nosotros”, dijo Carole. “Fort Courage, en Arizona, fue uno de esos momentos. Da tristeza, porque estos lugares son parte de la textura de la ruta, incluso abandonados. Pero también conoces a gente que restaura viejos edificios de carretera, como Ed, a quien conocimos mientras trabajaba en revivir Spencer Station y devolverle el aspecto que tuvo alguna vez. Ese es el otro lado de la Route 66. No es solo pérdida. También es renacimiento.”</p>
+      </div>
+
+      <!-- PHOTO PAIR · loss and revival -->
+      <div class="photo-band pair">
+        <div class="photo-cell reveal r45 captioned">
+          <div class="photo-placeholder">images/press-fort-courage.jpg<br>4:5 · approx 1200 × 1500 px</div>
+          <img src="/images/press-fort-courage.jpg" alt="Fort Courage Trading Post en Houck, Arizona" onerror="this.remove()">
+          <div class="photo-caption">Fort Courage Trading Post · Houck, AZ</div>
+        </div>
+        <div class="photo-cell reveal r45 captioned">
+          <div class="photo-placeholder">images/press-spencer-station.jpg<br>4:5 · approx 1200 × 1500 px</div>
+          <img src="/images/press-spencer-station.jpg" alt="Spencer Station, en Misuri, en proceso de restauración" onerror="this.remove()">
+          <div class="photo-caption">Spencer Station · Misuri</div>
+        </div>
+      </div>
+
+      <div class="prose">
+        <p>Ese contraste es parte de lo que hace tan poderosa a la ruta. Fort Courage Trading Post, en Houck, Arizona, fue demolido a comienzos de 2026 tras años de deterioro, mientras que Spencer Station, en Misuri, está siendo restaurada activamente en el marco de la era del centenario de la carretera. Al mismo tiempo, íconos de toda la vida como el Blue Swallow Motel en Tucumcari, Nuevo México, siguen mostrando a los viajeros cómo se sentía la Route 66 en su época clásica de carretera.</p>
+
+        <p>“Hay lugares famosos que todo el mundo conoce, como el Blue Swallow Motel en Tucumcari, y hay paradas más pequeñas que solo entiendes cuando has estado allí”, dijo Carole. “Algunos lugares están maravillosamente conservados y todavía te dan esa sensación de lo que fue la Route 66. Otros los están recuperando personas con muchísimo cariño. Creo que los viajeros deberían poder verlo. Deberían saber qué sigue ahí, qué ha cambiado, qué se ha salvado y qué vale la pena dedicarle tiempo.”</p>
+      </div>
+
+      <!-- PHOTO · Blue Swallow -->
+      <div class="photo-band">
+        <div class="photo-cell reveal r1610 captioned">
+          <div class="photo-placeholder">images/press-blue-swallow.jpg<br>16:10 · approx 1600 × 1000 px</div>
+          <img src="/images/press-blue-swallow.jpg" alt="El neón del Blue Swallow Motel en Tucumcari, Nuevo México" onerror="this.remove()">
+          <div class="photo-caption">Blue Swallow Motel · Tucumcari, NM</div>
+        </div>
+      </div>
+
+      <div class="prose">
+        <p>La app funciona como una bitácora digital de la Mother Road, una versión moderna del pasaporte impreso de la Route 66. Los viajeros registran las paradas que alcanzan, escriben notas de diario sobre los lugares que significaron algo y ven cómo se suman sus millas, sus días en la carretera y los estados cruzados. Si dan su permiso, la ubicación en segundo plano registra las paradas por las que pasan incluso con la app cerrada, así que nada depende de acordarse de tocar un botón en cada letrero del camino. Las insignias y los niveles marcan el progreso por el camino y hacen que la magnitud del viaje se vea y se sienta como un logro.</p>
+
+        <p>“No es un viaje corto”, dijo Carole. “Cuando lo estás haciendo, es muy satisfactorio ver tu progreso. Puedes mirar la app y pensar: ya cruzamos tantos estados, hemos visto tantos lugares, nos encantó esta parada, nos perdimos aquella, y ahora sabemos a qué queremos volver la próxima vez.”</p>
+      </div>
+
+      <!-- APP SCREENS -->
+      <div class="photo-band screens">
+        <figure>
+          <div class="photo-cell reveal phone">
+            <div class="photo-placeholder">images/press-app-map.jpg<br>9:19.5 · approx 1170 × 2532 px</div>
+            <img src="/images/press-app-map.jpg" alt="La pantalla del mapa de Route 66 Logbook" onerror="this.remove()">
+          </div>
+          <figcaption>El mapa</figcaption>
+        </figure>
+        <figure>
+          <div class="photo-cell reveal phone">
+            <div class="photo-placeholder">images/press-app-logbook.jpg<br>9:19.5 · approx 1170 × 2532 px</div>
+            <img src="/images/press-app-logbook.jpg" alt="La pantalla de la bitácora de Route 66 Logbook" onerror="this.remove()">
+          </div>
+          <figcaption>La bitácora</figcaption>
+        </figure>
+        <figure>
+          <div class="photo-cell reveal phone">
+            <div class="photo-placeholder">images/press-app-gems.jpg<br>9:19.5 · approx 1170 × 2532 px</div>
+            <img src="/images/press-app-gems.jpg" alt="La pestaña Gems de Route 66 Logbook" onerror="this.remove()">
+          </div>
+          <figcaption>Gems</figcaption>
+        </figure>
+      </div>
+
+      <div class="prose">
+        <p>El mapa es también donde entra la comunidad. Los viajeros pueden sugerir paradas que faltan, proponer cambios, añadir fotos y avisar de lugares que han cerrado, reabierto o cambiado. Las paradas nuevas se revisan antes de publicarse y otros viajeros las confirman con el tiempo, lo que ayuda a evitar decepciones cuando un lugar ya no está y deja espacio para nuevos negocios, monumentos restaurados y atracciones de carretera que vuelven a la vida.</p>
+
+        <p>“Lo que ves cuando viajas por la Route 66 y hablas con la gente por el camino es que la carretera pertenece a gente apasionada”, dijo Carole. “Son curiosos, se involucran y son generosos con lo que saben. Esa comunidad es lo que mantiene viva la ruta hoy.”</p>
+      </div>
+
+      <!-- PULL QUOTE -->
+      <div class="pull">
+        <span class="pull-mark" aria-hidden="true">&ldquo;</span>
+        <blockquote>La carretera pertenece a gente apasionada. <span class="hl">Esa comunidad es lo que mantiene viva la ruta hoy.</span></blockquote>
+        <cite>Carole Richard</cite>
+      </div>
+
+      <div class="prose">
+        <p>Carole también invita a los usuarios a compartir comentarios y sugerir nuevas funciones a medida que la app crece. Para ella, el objetivo no es construir la app de forma aislada, sino darle forma junto a las personas que conocen y aman la carretera.</p>
+
+        <p>“De verdad quiero que la gente me diga qué haría la app más útil”, dijo Carole. “Viajeros, dueños de negocios, historiadores de la Route 66, fotógrafos, quienes planean road trips, todos ven la carretera desde un ángulo distinto. Si hay una función que ayudaría de verdad a planificar, viajar, recordar o contribuir, quiero saberlo. El objetivo es construir algo útil para la comunidad, no algo diseñado desde detrás de un escritorio.”</p>
+
+        <p>Una de las funciones que definen a Route 66 Logbook es la pestaña Gems, una lista clasificada por los viajeros con las paradas que la gente recomienda de verdad.</p>
+
+        <p>Gems no incluye contenido patrocinado ni posiciones de pago. Las paradas se ordenan por los corazones que les dan los viajeros, no por quién pagó por estar ahí. El objetivo no es crear una competencia entre paradas, sino ayudar a tomar mejores decisiones al planificar un viaje que fácilmente puede resultar abrumador.</p>
+
+        <p>“Cuando planeas la Route 66 desde muy lejos, puede ser realmente difícil saber qué no te puedes perder”, dijo Carole. “Hay muchísima información, y parte de ella es patrocinada o difícil de interpretar. Google Maps puede servir, pero no siempre te dice qué fue lo que de verdad amaron los viajeros de la Route 66, ni qué lugares todavía te dan esa sensación de lo que fue la carretera.”</p>
+
+        <p>Route 66 Logbook facilita a los viajeros encontrar los lugares que tienen significado en la carretera, desde moteles, diners y letreros de neón bellamente conservados hasta paradas más pequeñas, escondidas o difíciles de encontrar en los distintos trazados.</p>
+
+        <p>“Algunos de los mejores lugares no siempre son los más obvios”, dijo Carole. “Puede que estén un poco apartados del trazado principal, o que no sean fáciles de ver si solo sigues un mapa. Pero cuando llegas, son esos lugares que te hacen pensar: qué bueno que no nos lo perdimos. Quiero que la app ayude a la gente a encontrar esas paradas.”</p>
+
+        <p>La pestaña Gems está pensada para distintos estilos de viaje. Hay quien quiere vagar, tomarse su tiempo y ver qué pasa. Otros vienen de otro continente o recorren la ruta completa en un número limitado de días y necesitan elegir. Al mostrar qué lugares gustaron más a otros viajeros, Route 66 Logbook ayuda a decidir dónde concentrarse, sin quitar la libertad y la espontaneidad que hacen especial a la Mother Road.</p>
+
+        <p>“No se trata de decirle a la gente que hay una sola forma correcta de hacer la Route 66”, dijo Carole. “Se trata de ayudarles a ver qué les resultó significativo a otros viajeros, para que armen un viaje que se sienta bien para ellos y, ojalá, no se pierdan algo que les habría encantado.”</p>
+
+        <p>Aunque ya existen apps de la Route 66, Route 66 Logbook se construyó con un fuerte enfoque en la facilidad de uso, la claridad visual y la conexión emocional. Carole, que trabaja como diseñadora de marca y diseñadora digital, quiso crear algo intuitivo, útil y agradable, respetando al mismo tiempo el carácter de la carretera.</p>
+
+        <p>“Quise usar mi experiencia en diseño para hacer algo que se sienta fácil”, dijo. “No una lista de lugares más, sino algo que te ayude a preparar el viaje, a disfrutarlo mientras estás allí y a guardar un registro de lo que viviste.”</p>
+
+        <p>La privacidad también es central en la app. El seguimiento de ubicación está ahí en beneficio del propio viajero: el seguimiento en segundo plano solo funciona si el usuario lo permite, y la app no incluye publicidad.</p>
+
+        <p>“La bitácora es para el usuario”, dijo Carole. “Le ayuda a recordar dónde ha estado, qué ha visto y qué le importó. El objetivo no es lucrar con los datos de viaje de la gente. El objetivo es ayudar a cada persona a aprovechar al máximo su propio viaje y a mantener a salvo sus propios recuerdos.”</p>
+
+        <p>Route 66 Logbook es gratis de descargar, y el mapa es gratis de usar: los viajeros pueden explorar cada parada, leer los detalles y descubrir lugares a lo largo de la ruta. La bitácora, el diario, el seguimiento de millas, las insignias y la pestaña Gems se desbloquean con una única compra de pago único. No hay suscripción.</p>
+
+        <p>“Me encantaría que todo fuera gratis”, dijo Carole. “Pero construir y mantener una app como esta como se debe requiere tiempo, desarrollo y cuidado continuo. Quise que el mapa y la información de las paradas siguieran siendo accesibles, y que la bitácora fuera una función premium para los viajeros que quieren registrar su recorrido, guardar sus recuerdos y sacarle más partido a la experiencia.”</p>
+
+        <p>Para Carole, el modelo premium también sirve para mantener la app centrada en los viajeros.</p>
+
+        <p>“No quiero que la app esté movida por la publicidad ni por clasificaciones patrocinadas”, dijo. “El objetivo es construir algo útil, honesto e impulsado por la comunidad. Tener una bitácora premium ayuda a sostener el trabajo detrás de la app sin convertir la experiencia en otra plataforma de anuncios.”</p>
+      </div>
+
+      <!-- PHOTO · centennial revival -->
+      <div class="photo-band">
+        <div class="photo-cell reveal r1610 captioned">
+          <div class="photo-placeholder">images/press-revival.jpg<br>16:10 · approx 1600 × 1000 px</div>
+          <img src="/images/press-revival.jpg" alt="Campbell’s Service, una estación de servicio Phillips 66 restaurada y museo de la Route 66" onerror="this.remove()">
+          <div class="photo-caption">Campbell’s Service, un museo de la Route 66 que comparte una colección de más de 1000 piezas de memorabilia · <a href="https://tourroute66.com/" target="_blank" rel="noopener">tourroute66.com</a></div>
+        </div>
+      </div>
+
+      <div class="prose">
+        <p>La app llega en un momento significativo para la Route 66. Con el centenario devolviendo la atención a la histórica carretera, muchos pueblos, museos, pequeños negocios y atracciones de carretera ven un renovado interés por la Mother Road. Los viajeros vuelven no solo por nostalgia, sino por el descubrimiento, la fotografía, la cultura Americana, la historia local y la sensación de libertad que la Route 66 sigue representando.</p>
+
+        <p>“Definitivamente hay un renacimiento en marcha”, dijo Carole. “Parte de eso probablemente lo impulsa el centenario, pero se siente más profundo que eso. La gente sigue queriendo la carretera abierta. Sigue queriendo los diners, el neón, los moteles viejos, los pueblos fantasma, las historias. La Route 66 está llena de recuerdos, pero no es solo el pasado. También surgen cosas nuevas.”</p>
+
+        <p>Aunque Carole vive lejos de la Route 66, ve la app como una forma de seguir conectada con la comunidad y de aportar algo útil desde la distancia.</p>
+
+        <p>“No estoy en la Route 66 todos los días, pero igual quiero ser parte de la comunidad”, dijo. “Quiero escuchar, recibir comentarios y construir algo realmente útil para los viajeros, los dueños de negocios, los historiadores, los fotógrafos y todos los que se preocupan por la carretera. Y, siendo egoísta, quiero construir algo que también me entusiasme usar en mi próximo viaje.”</p>
+
+        <p>Route 66 Logbook ya está disponible en App Store y Google Play. Se anima activamente a viajeros, entusiastas de la Route 66, negocios locales y miembros de la comunidad a enviar sus comentarios a medida que el proyecto crece.</p>
+      </div>
+
+      <!-- BOILERPLATE -->
+      <aside class="boiler">
+        <p class="eyebrow">Texto de presentación</p>
+        <h2>Acerca de Route 66 Logbook</h2>
+        <p>Route 66 Logbook es una app de viaje impulsada por la comunidad para quienes recorren, planifican o recuerdan un viaje por la Route 66. Mapea más de 1000 paradas en los ocho estados de la Route 66, con los trazados históricos dibujados en el mapa, y las clasifica según los viajeros y no según los anunciantes. Los usuarios pueden descubrir paradas, registrar los lugares que alcanzan, llevar un diario, seguir sus millas, ganar insignias y aportar actualizaciones que mantienen el mapa preciso para los futuros viajeros. El mapa es gratis, y la bitácora y Gems se desbloquean con un pago único, sin suscripción. Disponible en iPhone y Android. Creada por la diseñadora y viajera de la Route 66 Carole Richard, la app se inspira en la convicción de que la Mother Road sigue viva gracias a las personas que la recorren, la cuidan y comparten sus historias.</p>
+      </aside>
+    </section>
+
+  </main>
+
+  <!-- MEDIA CONTACT BAND -->
+  <section class="contact reveal">
+    <div class="shell wide">
+      <div class="contact-grid">
+        <div class="photo-cell reveal r45">
+          <div class="photo-placeholder">images/press-carole.jpg<br>4:5 · approx 1200 × 1500 px</div>
+          <img src="/images/press-carole.jpg" alt="Carole Richard, creadora de Route 66 Logbook" onerror="this.remove()">
+        </div>
+        <div>
+          <p class="eyebrow">Contacto de prensa</p>
+          <h2 class="contact-title">Carole Richard, <em>Route 66 Logbook.</em></h2>
+          <p class="contact-lines">
+            <a href="mailto:hello@route66logbook.com">hello@route66logbook.com</a><br>
+            <a href="https://route66logbook.com">route66logbook.com</a><br>
+            <a href="https://www.instagram.com/route66logbook/" target="_blank" rel="noopener">@route66logbook</a>
+          </p>
+          <div class="contact-actions">
+            <a class="btn-mail" href="mailto:hello@route66logbook.com">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+              Ponte en contacto
+            </a>
+            <a class="btn-ghost" href="/es/about">Sobre Carole</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD BAND (matches the home page) -->
+  <section class="download">
+    <div class="download-inner">
+      <h2 class="download-title reveal">¿Todo listo para<br>salir a la <em>carretera?</em></h2>
+      <p class="download-sub reveal">El mapa es gratis para explorar. Un único pago para planificar y registrar tu viaje. Sin suscripción.</p>
+      <div class="download-badges reveal">
+        <a href="https://apps.apple.com/app/route-66-logbook/id6774524322" class="badge-btn" target="_blank" rel="noopener">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+          <div>
+            <span class="badge-btn-label">Descárgala en</span>
+            <span class="badge-btn-store">App Store</span>
+          </div>
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.route66logbook.app" class="badge-btn badge-btn-android" target="_blank" rel="noopener">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.6 9.48l1.84-3.18a.38.38 0 00-.14-.52.38.38 0 00-.52.14l-1.87 3.23a11.36 11.36 0 00-9.82 0L5.22 5.92a.38.38 0 00-.52-.14.38.38 0 00-.14.52L6.4 9.48A10.78 10.78 0 001 18h22a10.78 10.78 0 00-5.4-8.52M7 15.25a1.1 1.1 0 111.1-1.1 1.1 1.1 0 01-1.1 1.1m10 0a1.1 1.1 0 111.1-1.1 1.1 1.1 0 01-1.1 1.1"/></svg>
+          <div>
+            <span class="badge-btn-label">Disponible en</span>
+            <span class="badge-btn-store">Google Play</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER (matches site) -->
+  <site-footer></site-footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+  <script src="/header.js" defer></script>
+  <script src="/footer.js" defer></script>
+</body>
+</html>

@@ -12,14 +12,13 @@
    which drops the logo and floats the links over the hero, in white.
 
    The labels follow <html lang>: the French and Spanish home pages get their
-   own words, and "The app" points back to their own home page. History,
-   Prepare and the guides are English-only pages, so their links do not
-   change with the language. */
+   own words, "The app" points back to their own home page, and History,
+   Prepare and the guides link to their /fr/ or /es/ versions. */
 (function () {
   const LABELS = {
-    en: { app: 'The app',  route: 'The route', history: 'History',  prepare: 'Prepare your trip',  guides: 'Route 66 guides', home: '/' },
-    fr: { app: "L'appli",  route: 'La route',  history: 'Histoire', prepare: 'Préparer son voyage', guides: 'Guides Route 66', home: '/fr/' },
-    es: { app: 'La app',   route: 'La ruta',   history: 'Historia', prepare: 'Preparar el viaje',  guides: 'Guías de la Route 66', home: '/es/' },
+    en: { app: 'The app',  route: 'The route', history: 'History',  prepare: 'Prepare your trip',  guides: 'Route 66 guides', home: '/', base: '' },
+    fr: { app: 'L’app',   route: 'La route',  history: 'Histoire', prepare: 'Préparer ton voyage', guides: 'Guides de la Route 66', home: '/fr/', base: '/fr' },
+    es: { app: 'La app',   route: 'La ruta',   history: 'Historia', prepare: 'Prepara tu viaje',  guides: 'Guías de la Route 66', home: '/es/', base: '/es' },
   };
 
   const template = (t, active) => `
@@ -96,9 +95,9 @@
             <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3.5l3 3 3-3"/></svg>
           </button>
           <ul class="menu" id="route-menu">
-            <li><a href="/history/">${t.history}</a></li>
-            <li><a href="/prepare/">${t.prepare}</a></li>
-            <li><a href="/guides/">${t.guides}</a></li>
+            <li><a href="${t.base}/history/">${t.history}</a></li>
+            <li><a href="${t.base}/prepare/">${t.prepare}</a></li>
+            <li><a href="${t.base}/guides/">${t.guides}</a></li>
           </ul>
         </div>
       </nav>
@@ -111,8 +110,8 @@
       const lang = (document.documentElement.lang || 'en').slice(0, 2);
       const t = LABELS[lang] || LABELS.en;
       const path = location.pathname;
-      const inRoute = /^\/(history|prepare|guides)(\/|$)/.test(path);
-      const active = inRoute ? 'route' : (path === t.home || path === '/' || path === '/index.html') ? 'app' : '';
+      const inRoute = /^(\/(fr|es))?\/(history|prepare|guides)(\/|$)/.test(path);
+      const active = inRoute ? 'route' : (path === t.home || path === t.home.replace(/\/$/, '') || path === '/' || path === '/index.html' || path === t.home + 'index.html') ? 'app' : '';
 
       const root = this.attachShadow({ mode: 'open' });
       root.innerHTML = template(t, active);

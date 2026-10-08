@@ -24,74 +24,506 @@
   </url>
   <url>
     <loc>https://route66logbook.com/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/about/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/about/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/about/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/help/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/help/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/help/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/help/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/help/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/help/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/history/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/history/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/history/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/history/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/history/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/history/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/history/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/history/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/history/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/history/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/history/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/history/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/history/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/history/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/history/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/prepare/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/prepare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/prepare/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/prepare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/prepare/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/prepare/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/prepare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/prepare/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/prepare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/prepare/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/prepare/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/prepare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/prepare/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/prepare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/prepare/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/press/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/press/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/press/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/privacy/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/terms/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/community-guidelines/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/community-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/community-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/community-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/community-guidelines/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/community-guidelines/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/community-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/community-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/community-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/community-guidelines/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/community-guidelines/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/community-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/community-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/community-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/community-guidelines/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-first-timers-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-first-timers-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-first-timers-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-first-timers-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-first-timers-guide/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-first-timers-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-first-timers-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-first-timers-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-first-timers-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-first-timers-guide/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-first-timers-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-first-timers-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-first-timers-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-first-timers-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-first-timers-guide/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/how-many-days-route-66/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/how-many-days-route-66/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/how-many-days-route-66/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/how-many-days-route-66/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/how-many-days-route-66/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/how-many-days-route-66/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/how-many-days-route-66/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/how-many-days-route-66/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/how-many-days-route-66/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/how-many-days-route-66/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/how-many-days-route-66/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/how-many-days-route-66/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/how-many-days-route-66/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/how-many-days-route-66/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/how-many-days-route-66/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-itinerary/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-itinerary/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-itinerary/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-itinerary/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-itinerary/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-itinerary/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/best-route-66-stops/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/best-route-66-stops/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/best-route-66-stops/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/best-route-66-stops/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/best-route-66-stops/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/best-route-66-stops/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/best-route-66-stops/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/best-route-66-stops/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/best-route-66-stops/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/best-route-66-stops/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/best-route-66-stops/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/best-route-66-stops/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/best-route-66-stops/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/best-route-66-stops/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/best-route-66-stops/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-hidden-gems/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-hidden-gems/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-hidden-gems/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-hidden-gems/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-hidden-gems/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-hidden-gems/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-hidden-gems/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-hidden-gems/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-hidden-gems/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-hidden-gems/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-hidden-gems/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-hidden-gems/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-hidden-gems/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-hidden-gems/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-hidden-gems/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-by-state/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-by-state/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-by-state/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-by-state/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-by-state/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-by-state/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-by-state/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-by-state/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-by-state/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-by-state/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-by-state/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-by-state/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-by-state/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-by-state/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-by-state/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-neon-motels-diners/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-neon-motels-diners/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-neon-motels-diners/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-neon-motels-diners/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-neon-motels-diners/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-neon-motels-diners/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-neon-motels-diners/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-neon-motels-diners/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-neon-motels-diners/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-neon-motels-diners/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-neon-motels-diners/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-neon-motels-diners/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-neon-motels-diners/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-neon-motels-diners/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-neon-motels-diners/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-ghost-towns/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-ghost-towns/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-ghost-towns/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-ghost-towns/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-ghost-towns/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-ghost-towns/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-ghost-towns/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-ghost-towns/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-ghost-towns/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-ghost-towns/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-ghost-towns/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-ghost-towns/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-ghost-towns/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-ghost-towns/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-ghost-towns/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-centennial-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-centennial-2026/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-centennial-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-centennial-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-centennial-2026/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-centennial-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-centennial-2026/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-centennial-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-centennial-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-centennial-2026/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-centennial-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-centennial-2026/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-centennial-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-centennial-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-centennial-2026/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-packing-list/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-packing-list/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-packing-list/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-packing-list/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-packing-list/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-packing-list/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-packing-list/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-packing-list/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-packing-list/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-packing-list/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-packing-list/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-packing-list/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-packing-list/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-packing-list/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-packing-list/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-on-a-budget/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-on-a-budget/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-on-a-budget/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-on-a-budget/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-on-a-budget/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-on-a-budget/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-on-a-budget/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-on-a-budget/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-on-a-budget/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-on-a-budget/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-on-a-budget/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-on-a-budget/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-on-a-budget/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-on-a-budget/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-on-a-budget/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-photography-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-photography-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-photography-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-photography-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-photography-guide/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-photography-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-photography-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-photography-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-photography-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-photography-guide/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-photography-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-photography-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-photography-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-photography-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-photography-guide/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-history/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-history/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-history/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-history/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-history/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-history/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-history/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-history/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-history/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-history/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-history/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-history/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-history/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-history/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-history/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-side-trips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-side-trips/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-side-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-side-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-side-trips/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-side-trips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-side-trips/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-side-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-side-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-side-trips/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-side-trips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-side-trips/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-side-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-side-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-side-trips/"/>
   </url>
   <url>
     <loc>https://route66logbook.com/guides/route-66-travel-etiquette/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-travel-etiquette/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-travel-etiquette/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-travel-etiquette/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-travel-etiquette/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/fr/guides/route-66-travel-etiquette/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-travel-etiquette/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-travel-etiquette/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-travel-etiquette/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-travel-etiquette/"/>
+  </url>
+  <url>
+    <loc>https://route66logbook.com/es/guides/route-66-travel-etiquette/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://route66logbook.com/guides/route-66-travel-etiquette/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/guides/route-66-travel-etiquette/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://route66logbook.com/es/guides/route-66-travel-etiquette/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route66logbook.com/guides/route-66-travel-etiquette/"/>
   </url>
 </urlset>

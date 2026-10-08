@@ -128,6 +128,15 @@ const REDIRECT = `  <script>
   </script>
 `;
 
+// Warnings are for things that are incomplete but not wrong — a page not
+// translated yet. They are collected and printed again at the very end so they
+// cannot scroll past. `node build.js --strict` turns any warning into a failure.
+const warnings = [];
+function warn(msg) {
+  warnings.push(msg);
+  console.warn('  WARNING: ' + msg);
+}
+
 function die(msg) {
   console.error('\nbuild failed: ' + msg + '\n');
   process.exit(1);
@@ -246,8 +255,9 @@ function writeFile(rel, body) {
     die(`cannot write ${rel} — ${e.message}`);
   }
 }
-const guide = buildGuide({ ROOT, SITE, die, write: writeFile });
-console.log(`  guides/         ${guide.count} articles and the index`);
+const guide = buildGuide({ ROOT, SITE, die, write: writeFile, warn });
+console.log(`  guides/         ${guide.count} articles and the index` +
+  Object.entries(guide.counts).filter(([l]) => l !== 'en').map(([l, n]) => `; ${l}: ${n} translated`).join(''));
 
 // ── sitemap.xml ───────────────────────────────────────────────────────────────
 //
@@ -256,23 +266,39 @@ console.log(`  guides/         ${guide.count} articles and the index`);
 // rule the hreflang tags follow. No <lastmod>: it is only worth having if it
 // is true, and keeping it true by hand is exactly the kind of derived value
 // that rots.
-const alternates = [
-  `    <xhtml:link rel="alternate" hreflang="en" href="${SITE}/"/>`,
-  `    <xhtml:link rel="alternate" hreflang="fr" href="${SITE}/fr/"/>`,
-  `    <xhtml:link rel="alternate" hreflang="es" href="${SITE}/es/"/>`,
-  `    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE}/"/>`,
-].join('\n');
+// Every page that exists in English is listed, then the French and Spanish
+// copies that actually exist on disk. A page that exists in two or more
+// languages carries xhtml:link alternates for each language it has (plus
+// x-default = English), on every one of its entries — hreflang must be
+// reciprocal. A page in one language only gets no alternates.
+const LANG_PREFIX = { en: '', fr: '/fr', es: '/es' };
+const pageExists = (lang, p) =>
+  fs.existsSync(path.join(ROOT, LANG_PREFIX[lang], p === '/' ? '' : p, 'index.html'));
+const englishPaths = ['/'].concat(OTHER_PAGES, guide.pages.filter((p) => !/^\/(fr|es)\//.test(p)))
+  .filter((p, i, all) => all.indexOf(p) === i);
 
-const homeEntries = ['/', '/fr/', '/es/'].map((path) =>
-  `  <url>\n    <loc>${SITE}${path}</loc>\n${alternates}\n  </url>`
-);
-const otherEntries = OTHER_PAGES.concat(guide.pages).map((path) => `  <url>\n    <loc>${SITE}${path}</loc>\n  </url>`);
+const entries = [];
+for (const p of englishPaths) {
+  const present = ['en', 'fr', 'es'].filter((l) => l === 'en' || pageExists(l, p));
+  const alts = present.length < 2 ? '' :
+    present.map((l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${SITE}${LANG_PREFIX[l]}${p}"/>`)
+      .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${p}"/>`).join('\n') + '\n';
+  for (const l of present) {
+    entries.push(`  <url>\n    <loc>${SITE}${LANG_PREFIX[l]}${p}</loc>\n${alts}  </url>`);
+  }
+}
+const missingPages = [];
+for (const l of ['fr', 'es']) {
+  const gone = englishPaths.filter((p) => !pageExists(l, p));
+  if (gone.length) missingPages.push(`${l}: ${gone.join(' ')}`);
+}
+if (missingPages.length) warn('pages not (yet) translated, so absent from the sitemap in that language — ' + missingPages.join(' | '));
 
 const sitemap =
   '<?xml version="1.0" encoding="UTF-8"?>\n' +
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n' +
   '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' +
-  homeEntries.concat(otherEntries).join('\n') + '\n</urlset>\n';
+  entries.join('\n') + '\n</urlset>\n';
 
 const robots = [
   'User-agent: *',
@@ -296,3 +322,7 @@ for (const [name, body] of [['sitemap.xml', sitemap], ['robots.txt', robots]]) {
 }
 
 console.log(`\nBuilt ${wrote} home pages, ${guide.pages.length} guide pages, a sitemap and robots.txt.\n`);
+if (warnings.length) {
+  console.warn(`${warnings.length} WARNING${warnings.length > 1 ? 'S' : ''}:\n` + warnings.map((w) => '  - ' + w).join('\n') + '\n');
+  if (process.argv.includes('--strict')) die('--strict: the warnings above are failures');
+}

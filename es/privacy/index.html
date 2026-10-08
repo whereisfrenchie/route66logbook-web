@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de privacidad · Route 66 Logbook</title>
+  <meta name="description" content="La política de privacidad de Route 66 Logbook. Qué recopilamos, cómo se usa, con quién se comparte y tus opciones.">
+  <link rel="canonical" href="https://route66logbook.com/es/privacy/">
+  <link rel="alternate" hreflang="en" href="https://route66logbook.com/privacy/">
+  <link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/privacy/">
+  <link rel="alternate" hreflang="es" href="https://route66logbook.com/es/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://route66logbook.com/privacy/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --coral: #ea5b56;
+      --teal: #6daeab;
+      --sand: #f7f4f0;
+      --charcoal: #2b3033;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--sand); color: var(--charcoal);
+      font-family: 'Public Sans', sans-serif; overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+
+
+    .shell { max-width: 760px; margin: 0 auto; padding: 0 52px; }
+
+    /* HERO */
+    .legal-hero { padding: 60px 0 36px; }
+    .eyebrow {
+      font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+      color: var(--coral); margin-bottom: 20px;
+    }
+    .legal-title {
+      font-weight: 800; font-size: clamp(40px, 6.5vw, 72px);
+      line-height: 0.94; letter-spacing: -2.4px; margin-bottom: 18px;
+    }
+    .effective { font-size: 13px; font-weight: 600; letter-spacing: 0.4px; color: rgba(43,48,51,0.4); }
+
+    /* SHORT VERSION CALLOUT */
+    .callout {
+      background: #fff; border: 1px solid rgba(43,48,51,0.08);
+      border-left: 4px solid var(--teal); border-radius: 16px;
+      padding: 26px 28px; margin: 0 0 12px;
+    }
+    .callout-label {
+      font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 12px;
+    }
+    .callout p {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 18px; line-height: 1.65; color: rgba(43,48,51,0.66);
+    }
+
+    /* BODY */
+    .legal-body { padding: 30px 0 70px; }
+    .legal-body section { margin-bottom: 44px; }
+    .legal-body h2 {
+      font-weight: 800; font-size: 22px; letter-spacing: -0.6px;
+      margin-bottom: 16px; line-height: 1.2;
+    }
+    .legal-body h2 .num { color: var(--coral); margin-right: 10px; }
+    .legal-body h3 {
+      font-weight: 700; font-size: 16px; letter-spacing: -0.2px;
+      margin: 22px 0 8px; color: var(--charcoal);
+    }
+    .legal-body p {
+      font-size: 15px; line-height: 1.74; color: rgba(43,48,51,0.72); margin-bottom: 14px;
+    }
+    .legal-body ul { list-style: none; margin: 4px 0 16px; }
+    .legal-body li {
+      position: relative; padding-left: 22px; margin-bottom: 10px;
+      font-size: 15px; line-height: 1.7; color: rgba(43,48,51,0.72);
+    }
+    .legal-body li::before {
+      content: ""; position: absolute; left: 0; top: 10px;
+      width: 7px; height: 7px; border-radius: 50%; background: var(--coral);
+    }
+    .legal-body a { color: var(--coral); text-decoration: none; border-bottom: 1px solid rgba(234,91,86,0.35); }
+    .legal-body a:hover { border-color: var(--coral); }
+    .legal-body strong { font-weight: 700; color: var(--charcoal); }
+
+    /* FOOTER */
+    footer {
+      background: var(--charcoal); padding: 44px 52px;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 18px;
+    }
+    .footer-left { display: flex; flex-direction: column; gap: 6px; }
+    .footer-logo { font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -0.3px; }
+    .footer-logo span { color: var(--coral); }
+    .footer-tagline { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 14px; color: rgba(255,255,255,0.3); }
+    .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+    .footer-links { display: flex; gap: 22px; }
+    .footer-links a {
+      font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+      color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--coral); }
+    .footer-socials { display: flex; align-items: center; gap: 18px; }
+    .footer-socials a { color: rgba(255,255,255,0.4); display: inline-flex; transition: color 0.2s, transform 0.2s; }
+    .footer-socials a:hover { color: var(--coral); transform: translateY(-2px); }
+    .footer-socials svg { width: 20px; height: 20px; display: block; }
+    .footer-copy { font-size: 12px; color: rgba(255,255,255,0.22); width: 100%; text-align: center; margin-top: 8px; }
+
+    @media (max-width: 820px) {
+      .shell { padding: 0 24px; }
+      footer { flex-direction: column; align-items: center; text-align: center; padding: 36px 24px; }
+      .footer-left, .footer-right { align-items: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <site-header></site-header>
+
+  <section class="legal-hero shell">
+    <p class="eyebrow">Legal</p>
+    <h1 class="legal-title">Política de privacidad</h1>
+    <p class="effective">Última actualización: 4 de octubre de 2026</p>
+  </section>
+
+  <div class="shell">
+    <div class="callout">
+      <p class="callout-label">En resumen</p>
+      <p>Recopilo lo mínimo posible para que la app funcione. La app sí usa una herramienta de analítica y seguimiento de errores para que yo pueda ver cómo se usan las funciones y detectar problemas, pero no hay publicidad y nunca vendo tu información. Los lugares por los que pasas se calculan en tu teléfono y se quedan ahí. Puedes eliminar tu cuenta, tu bitácora, tus viajes y tus fotos desde la app en cualquier momento. Los lugares que hayas agregado pueden permanecer en el mapa, pero sin tu nombre.</p>
+    </div>
+  </div>
+
+  <main class="legal-body shell">
+
+    <section>
+      <h2><span class="num">1.</span>Quiénes somos</h2>
+      <p>Route 66 Logbook es una app móvil para iPhone y Android, operada por un trabajador independiente (empresario individual), a quien esta política se refiere como «nosotros», «nos» o «yo».</p>
+      <p>Esta política explica qué información personal maneja la app, cómo se usa, con quién se comparte, y las opciones y los derechos que tienes. Si tienes alguna pregunta al respecto, puedes escribirme a <a href="mailto:hello@route66logbook.com">hello@route66logbook.com</a>.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">2.</span>Información que recopilamos</h2>
+      <p>Puedes explorar el mapa sin una cuenta y sin dar ninguna información personal. La información que se describe a continuación solo se recopila cuando decides crear una cuenta, contribuir al mapa o activar funciones que la necesitan.</p>
+
+      <h3>Información de la cuenta</h3>
+      <p>Cuando creas una cuenta, recopilamos tu dirección de correo electrónico y una contraseña. Nuestro proveedor de autenticación almacena la contraseña únicamente de forma cifrada (con hash) y nosotros nunca podemos verla. También puedes agregar, si quieres, un nombre para mostrar, un avatar y una biografía breve. Son opcionales y se muestran junto a tus contribuciones.</p>
+
+      <h3>Contenido que creas</h3>
+      <p>Cuando contribuyes, guardamos lo que agregas. Esto incluye los lugares que envías al mapa y los detalles que escribes sobre ellos, las fotos que subes, los reportes y las solicitudes de corrección que haces, los votos a favor y los logros que obtienes. La mayor parte de este contenido es visible para otros viajeros, ya que el propósito de la app es mantener la Route 66 documentada como un registro compartido y vivo.</p>
+
+      <h3>Fotos</h3>
+      <p>Las fotos que agregas se vuelven a codificar en tu dispositivo antes de subirse, lo que elimina los metadatos ocultos (como la ubicación GPS y los datos del dispositivo) que las cámaras suelen incluir. No guardamos las coordenadas del lugar donde se tomó una foto.</p>
+
+      <h3>Ubicación</h3>
+      <p>Cuando usas el mapa, la ubicación de tu dispositivo se proporciona a Mapbox para que pueda mostrar dónde estás. Si activas la ubicación en segundo plano, la app puede detectar cuándo pasas por un lugar para registrarlo automáticamente en tu bitácora. <strong>Esta detección ocurre por completo en tu dispositivo.</strong> El registro de los lugares por los que has pasado, y cuándo, se guarda localmente en tu teléfono. No se nos transmite y no se guarda en nuestros servidores.</p>
+
+      <h3>Notificaciones</h3>
+      <p>Si permites las notificaciones, guardamos un token de notificaciones push y lo compartimos con nuestro proveedor de notificaciones, Expo, para que la app pueda enviarlas a tu dispositivo. Puedes desactivar las notificaciones en cualquier momento en los ajustes de tu dispositivo.</p>
+
+      <h3>Compras</h3>
+      <p>La bitácora se desbloquea con una única compra dentro de la app, procesada por la tienda de apps desde la que descargaste la aplicación, ya sea la Apple App Store o Google Play. No vemos ni guardamos los datos de tu tarjeta de pago. Recibimos la confirmación de la compra a través de la tienda, y usamos un proveedor de compras para gestionarla y restaurarla en todos tus dispositivos.</p>
+
+      <h3>Datos de uso y de errores</h3>
+      <p>Para entender cómo se usa la app y para encontrar y corregir problemas, usamos PostHog, una herramienta de analítica y seguimiento de errores. Registra un conjunto de eventos específicos, como abrir la app, cambiar de pestaña, buscar, ver un lugar o marcarlo como favorito y completar una compra, junto con datos técnicos básicos como el tipo de dispositivo, la versión del sistema operativo y la versión de la app, y los errores que encuentra la app. Cuando buscas, se registran las palabras que escribes junto con cuántos resultados aparecieron, para que podamos ver qué buscan los viajeros y no encuentran. Antes de iniciar sesión, esto se vincula solo a un identificador aleatorio. Cuando inicias sesión, esa actividad anterior se vincula a tu cuenta, y la actividad a partir de ese momento se registra bajo ella, para que podamos entender cómo usan la app los viajeros que han iniciado sesión; si cierras sesión, la actividad posterior vuelve a un identificador aleatorio. Usamos esta información únicamente para mejorar la app y mantenerla funcionando. No la usamos para publicidad, y no te rastreamos en otras apps ni sitios web. PostHog procesa estos datos en los Estados Unidos.</p>
+
+      <h3>Este sitio web</h3>
+      <p>Cuando visitas route66logbook.com, PostHog registra qué página viste, la página o el sitio que te envió hasta aquí y los mismos datos técnicos básicos, como tu navegador y el tipo de dispositivo. No instala cookies ni guarda nada en tu dispositivo, por lo que no puede reconocerte de una página a otra ni en una visita posterior, y no está vinculado a tu cuenta de la app. Lo usamos solo para ver qué páginas se leen y cómo encuentra la gente el sitio.</p>
+
+      <h3>Lo que no recopilamos</h3>
+      <p>La app no contiene publicidad ni tecnología de rastreo de terceros más allá de los datos de uso y de errores descritos arriba. No elaboramos un perfil de tu comportamiento para dirigirte contenido, y no te rastreamos en otras apps ni sitios web.</p>
+      <p>Nuestro proveedor de analítica usa la dirección IP desde la que se conecta tu dispositivo para determinar en qué país estás, y registra ese país junto con tu actividad. Conservamos el país y el continente, y nada más preciso: ni ciudad, ni código postal, ni coordenadas. La dirección IP en sí se descarta y no se guarda con tu actividad.</p>
+      <p>Aparte de eso, como cualquier servicio en línea, nuestros proveedores conservan los registros técnicos básicos necesarios para operar la app de forma segura y confiable, como las direcciones IP y las horas de las solicitudes. Esos registros se usan únicamente para operar y proteger el servicio.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">3.</span>Cómo usamos tu información</h2>
+      <p>Usamos la información anterior únicamente para operar la app y las funciones que solicitas. En la práctica, esto significa:</p>
+      <ul>
+        <li>Crear y mantener tu cuenta y permitirte iniciar sesión</li>
+        <li>Mostrar tus contribuciones en el mapa y atribuirlas a tu perfil</li>
+        <li>Conservar tu bitácora, tus logros y tu biblioteca</li>
+        <li>Mostrar tu posición en el mapa y detectar los lugares cercanos</li>
+        <li>Enviar las notificaciones que has solicitado</li>
+        <li>Desbloquear y restaurar tu compra</li>
+        <li>Moderar las contribuciones y mantener el mapa preciso y seguro</li>
+        <li>Responderte cuando nos contactas para pedir soporte</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="num">4.</span>Con quién la compartimos</h2>
+      <p>No vendemos tu información personal, y nunca lo haremos. Solo compartimos información con los proveedores de servicios que hacen funcionar la app, y únicamente en la medida en que la necesitan para prestarnos su servicio:</p>
+      <ul>
+        <li><strong>Supabase</strong> proporciona nuestra base de datos, la autenticación y el almacenamiento de archivos, y aloja la información que envías</li>
+        <li><strong>Mapbox</strong> proporciona el mapa y recibe la ubicación de tu dispositivo para mostrar tu posición</li>
+        <li><strong>Apple y Google</strong> distribuyen la app a través de sus tiendas de apps y procesan tu compra</li>
+        <li><strong>RevenueCat</strong> verifica y gestiona tu compra, y recibe el identificador de tu cuenta (tu ID de usuario de Route 66 Logbook) para que tu desbloqueo pueda restaurarse en todos tus dispositivos</li>
+        <li><strong>Expo</strong> entrega las notificaciones push. Si activas las notificaciones, tu token de notificaciones se envía al servicio push de Expo para que pueda enviarlas a tu dispositivo</li>
+        <li><strong>OpenWeather</strong> proporciona los datos del clima que se usan en algunos logros. Cuando registras un lugar, la ubicación de ese lugar se envía a OpenWeather para que devuelva el clima allí. No recibe tu ubicación continua</li>
+        <li><strong>PostHog</strong> proporciona nuestra analítica y el seguimiento de errores, y recibe los datos de uso y de errores descritos arriba, y las visitas a las páginas del sitio web, para que podamos entender cómo se usa la app y corregir problemas. Estos datos se procesan en los Estados Unidos</li>
+      </ul>
+      <p>También podemos divulgar información si la ley nos lo exige, o cuando sea necesario para proteger los derechos, la seguridad o los bienes de nuestros usuarios o los nuestros.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">5.</span>Dónde se almacena tu información</h2>
+      <p>La información que envías se conserva en infraestructura proporcionada por Supabase, alojada en los Estados Unidos. Nuestro proveedor de analítica y seguimiento de errores, PostHog, también procesa los datos de uso y de errores en los Estados Unidos. Esto significa que, si te encuentras fuera de los Estados Unidos, tu información se transfiere a los Estados Unidos, donde se almacena y se procesa. Algunos de nuestros proveedores de servicios también pueden procesar información en otros países. Dondequiera que se conserve tu información, tomamos medidas razonables para asegurar que se maneje conforme a esta política.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">6.</span>Cuánto tiempo la conservamos</h2>
+      <p>Conservamos la información de tu cuenta y tus contribuciones mientras tu cuenta esté activa. Cuando eliminas tu cuenta, se eliminan tu perfil, tu bitácora y tus viajes, y tus fotos. Los lugares que agregaste permanecen en el mapa, porque forman parte del registro compartido en el que confían otros viajeros, pero ya no están vinculados a ti y se muestran sin tu nombre. El registro en el dispositivo de los lugares por los que has pasado se conserva en tu teléfono y se elimina si eliminas la app.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">7.</span>Tus opciones y derechos</h2>
+      <p>Tú conservas el control de tu información:</p>
+      <ul>
+        <li><strong>Actualízala.</strong> Puedes editar tu nombre para mostrar, tu avatar y tu biografía en la app en cualquier momento.</li>
+        <li><strong>Elimínala.</strong> Puedes eliminar tu cuenta desde Configuración, y luego Eliminar mi cuenta. También puedes solicitar la eliminación en <a href="/es/delete-account">route66logbook.com/delete-account</a>, o escribiéndome un correo, y yo lo haré por ti.</li>
+        <li><strong>Limita la ubicación.</strong> Puedes configurar la ubicación para que solo se use mientras usas la app, o desactivarla, en los ajustes de tu dispositivo. La app sigue funcionando, y tú registras los lugares por tu cuenta.</li>
+        <li><strong>Desactiva las notificaciones.</strong> Puedes desactivarlas en los ajustes de tu dispositivo.</li>
+      </ul>
+      <p>Si te encuentras en Australia, los Australian Privacy Principles te dan derecho a acceder a la información personal que tenemos sobre ti y a corregirla, y a presentar una queja. Puedes contactarme primero en <a href="mailto:hello@route66logbook.com">hello@route66logbook.com</a>, y si no quedas satisfecho, puedes contactar a la Office of the Australian Information Commissioner en <a href="https://www.oaic.gov.au" target="_blank" rel="noopener">oaic.gov.au</a>.</p>
+      <p>Si te encuentras en el Espacio Económico Europeo o en el Reino Unido, también tienes derecho a acceder a tu información, rectificarla, suprimirla, limitar su tratamiento y obtenerla en un formato portable, y a oponerte a ciertos tratamientos. Si te encuentras en California, tienes derecho a saber qué recopilamos, a solicitar su eliminación y a no ser discriminado por ejercer tus derechos. No vendemos información personal. Para ejercer cualquiera de estos derechos, contáctame en la dirección indicada arriba.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">8.</span>Menores de edad</h2>
+      <p>Route 66 Logbook no está dirigido a menores de 16 años, y no recopilamos a sabiendas información personal de ellos. Si crees que un menor nos ha proporcionado información personal, contáctame y la eliminaré.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">9.</span>Seguridad</h2>
+      <p>La información se envía a través de conexiones cifradas, nuestro proveedor de autenticación almacena las contraseñas con hash, y el acceso al backend está restringido. Ningún método de almacenamiento o transmisión es completamente seguro, pero tomamos medidas razonables para proteger tu información y para mantener al mínimo lo que conservamos.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">10.</span>Cambios en esta política</h2>
+      <p>Podemos actualizar esta política de vez en cuando, por ejemplo si la app cambia o si cambia la ley. Cuando lo hagamos, actualizaremos la fecha en la parte superior de esta página. Si los cambios son importantes, lo indicaremos claramente en la app.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">11.</span>Contacto</h2>
+      <p>Si tienes alguna pregunta sobre esta política, o sobre cómo se maneja tu información, escríbeme a <a href="mailto:hello@route66logbook.com">hello@route66logbook.com</a>. Route 66 Logbook es un estudio de una sola persona, así que tu mensaje me llega directamente a mí.</p>
+    </section>
+
+  </main>
+
+  <site-footer></site-footer>
+
+  <script src="/header.js" defer></script>
+  <script src="/footer.js" defer></script>
+</body>
+</html>

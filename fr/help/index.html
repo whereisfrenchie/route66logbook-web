@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aide et assistance · Route 66 Logbook</title>
+  <meta name="description" content="Aide et assistance pour Route 66 Logbook. Comment fonctionne l’app, restaurer un achat, remboursements, suppression du compte, données et vie privée, et comment nous contacter.">
+  <link rel="canonical" href="https://route66logbook.com/fr/help/">
+  <link rel="alternate" hreflang="en" href="https://route66logbook.com/help/">
+  <link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/help/">
+  <link rel="alternate" hreflang="es" href="https://route66logbook.com/es/help/">
+  <link rel="alternate" hreflang="x-default" href="https://route66logbook.com/help/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --coral: #ea5b56;
+      --teal: #6daeab;
+      --sand: #f7f4f0;
+      --charcoal: #2b3033;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--sand);
+      color: var(--charcoal);
+      font-family: 'Public Sans', sans-serif;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+
+
+    /* SHELL */
+    .shell { max-width: 760px; margin: 0 auto; padding: 0 52px; }
+    .wide { max-width: 1000px; }
+
+    .eyebrow {
+      font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .ec { color: var(--coral); }
+    .et { color: var(--teal); }
+
+    /* INTRO */
+    .intro { padding: 64px 0 28px; }
+    .intro-title {
+      font-weight: 800; font-size: clamp(42px, 7vw, 78px);
+      line-height: 0.92; letter-spacing: -2.5px; margin-bottom: 26px;
+    }
+    .intro-title em { color: var(--coral); font-style: normal; }
+    .intro-lede {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: clamp(19px, 2.4vw, 24px); color: rgba(43,48,51,0.6);
+      line-height: 1.6; max-width: 600px;
+    }
+
+    /* SECTION SCAFFOLD */
+    .section { padding: 64px 0; }
+    .section-title {
+      font-weight: 800; font-size: clamp(30px, 4.4vw, 48px);
+      line-height: 0.96; letter-spacing: -1.4px; margin-bottom: 16px;
+    }
+    .section-title em { color: var(--coral); font-style: normal; }
+    .section-intro {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 19px; color: rgba(43,48,51,0.55); line-height: 1.65;
+      max-width: 560px; margin-bottom: 44px;
+    }
+
+    /* PLANS */
+    .plans { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .plan {
+      border-radius: 20px; padding: 36px 34px;
+      border: 1px solid rgba(43,48,51,0.08); background: #fff;
+    }
+    .plan-dark { background: var(--charcoal); border-color: transparent; }
+    .plan-kicker {
+      font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 14px;
+    }
+    .plan-dark .plan-kicker { color: var(--coral); }
+    .plan-name {
+      font-weight: 800; font-size: 26px; letter-spacing: -0.8px; margin-bottom: 6px;
+    }
+    .plan-dark .plan-name { color: #fff; }
+    .plan-price {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 18px; color: rgba(43,48,51,0.5); margin-bottom: 24px;
+    }
+    .plan-dark .plan-price { color: rgba(255,255,255,0.55); }
+    .plan-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+    .plan-list li {
+      position: relative; padding-left: 24px;
+      font-size: 14.5px; line-height: 1.6; color: rgba(43,48,51,0.72);
+    }
+    .plan-dark .plan-list li { color: rgba(255,255,255,0.66); }
+    .plan-list li::before {
+      content: ""; position: absolute; left: 0; top: 9px;
+      width: 8px; height: 8px; border-radius: 50%; background: var(--teal);
+    }
+    .plan-dark .plan-list li::before { background: var(--coral); }
+    .plan-note {
+      margin-top: 22px; font-size: 13px; line-height: 1.6; color: rgba(43,48,51,0.45);
+    }
+    .plan-dark .plan-note { color: rgba(255,255,255,0.4); }
+
+    /* FAQ */
+    .faq-list { display: flex; flex-direction: column; gap: 12px; }
+    details.faq {
+      background: #fff; border: 1px solid rgba(43,48,51,0.08);
+      border-radius: 16px; overflow: hidden; transition: border-color 0.2s;
+    }
+    details.faq[open] { border-color: rgba(234,91,86,0.4); }
+    details.faq summary {
+      list-style: none; cursor: pointer; padding: 24px 26px;
+      display: flex; align-items: center; justify-content: space-between; gap: 20px;
+      font-weight: 700; font-size: 16.5px; letter-spacing: -0.2px;
+    }
+    details.faq summary::-webkit-details-marker { display: none; }
+    .faq-chevron {
+      flex-shrink: 0; width: 22px; height: 22px; position: relative;
+      transition: transform 0.25s ease;
+    }
+    .faq-chevron::before, .faq-chevron::after {
+      content: ""; position: absolute; top: 50%; width: 11px; height: 1.8px;
+      background: var(--coral); border-radius: 2px;
+    }
+    .faq-chevron::before { left: 1px; transform: rotate(45deg); }
+    .faq-chevron::after { right: 1px; transform: rotate(-45deg); }
+    details.faq[open] .faq-chevron { transform: rotate(180deg); }
+    .faq-body { padding: 0 26px 26px; }
+    .faq-body p {
+      font-size: 14.5px; line-height: 1.72; color: rgba(43,48,51,0.66); margin-bottom: 12px;
+    }
+    .faq-body p:last-child { margin-bottom: 0; }
+    .faq-body a { color: var(--coral); text-decoration: none; border-bottom: 1px solid rgba(234,91,86,0.35); }
+    .faq-body a:hover { border-color: var(--coral); }
+    .faq-quote {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 15.5px; color: rgba(43,48,51,0.62); line-height: 1.7;
+      padding: 16px 20px; background: var(--sand); border-radius: 12px;
+      border-left: 3px solid var(--teal); margin: 4px 0 14px;
+    }
+
+    /* CONTACT */
+    .contact { background: var(--teal); padding: 96px 0; text-align: center; }
+    .contact .shell { max-width: 640px; }
+    .contact .eyebrow { color: rgba(255,255,255,0.55); }
+    .contact-title {
+      font-weight: 800; font-size: clamp(36px, 5.5vw, 64px);
+      color: #fff; line-height: 0.95; letter-spacing: -2px; margin-bottom: 24px;
+    }
+    .contact-title em { color: var(--charcoal); font-style: normal; }
+    .contact-body {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 20px; color: rgba(255,255,255,0.72); line-height: 1.7; margin-bottom: 40px;
+    }
+    .btn-mail {
+      display: inline-flex; align-items: center; gap: 11px;
+      background: var(--charcoal); color: #fff; text-decoration: none;
+      padding: 16px 34px; border-radius: 100px;
+      font-size: 15px; font-weight: 600; letter-spacing: 0.2px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-mail:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(43,48,51,0.35); }
+
+    /* FOOTER */
+    footer {
+      background: var(--charcoal); padding: 44px 52px;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 18px;
+    }
+    .footer-left { display: flex; flex-direction: column; gap: 6px; }
+    .footer-logo { font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -0.3px; }
+    .footer-logo span { color: var(--coral); }
+    .footer-tagline { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 14px; color: rgba(255,255,255,0.3); }
+    .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+    .footer-links { display: flex; gap: 22px; }
+    .footer-links a {
+      font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+      color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--coral); }
+    .footer-socials { display: flex; align-items: center; gap: 18px; }
+    .footer-socials a { color: rgba(255,255,255,0.4); display: inline-flex; transition: color 0.2s, transform 0.2s; }
+    .footer-socials a:hover { color: var(--coral); transform: translateY(-2px); }
+    .footer-socials svg { width: 20px; height: 20px; display: block; }
+    .footer-copy { font-size: 12px; color: rgba(255,255,255,0.22); width: 100%; text-align: center; margin-top: 8px; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* RESPONSIVE */
+    @media (max-width: 820px) {
+      .shell { padding: 0 24px; }
+      .plans { grid-template-columns: 1fr; }
+      .contact { padding: 72px 0; }
+      footer { flex-direction: column; align-items: center; text-align: center; padding: 36px 24px; }
+      .footer-left { align-items: center; }
+      .footer-right { align-items: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <site-header></site-header>
+
+  <main>
+
+    <!-- INTRO -->
+    <section class="intro shell reveal">
+      <p class="eyebrow ec">Aide et assistance</p>
+      <h1 class="intro-title">Comment peut-on <em>t’aider ?</em></h1>
+      <p class="intro-lede">Salut. Route 66 Logbook est fait par un petit studio, ce qui veut surtout dire une seule personne. Si quelque chose ne marche pas, ou si tu as simplement une question, tu peux m’écrire directement et je te répondrai en personne.</p>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section shell wide reveal">
+      <p class="eyebrow et">Comment ça marche</p>
+      <h2 class="section-title">Gratuit pour explorer, <em>à toi de noter.</em></h2>
+      <p class="section-intro">Parcours toute la carte gratuitement. Quand tu veux que la route se souvienne d’elle-même, un seul achat débloque le Carnet de bord pour de bon.</p>
+
+      <div class="plans">
+        <div class="plan">
+          <p class="plan-kicker">Gratuit</p>
+          <h3 class="plan-name">La carte</h3>
+          <p class="plan-price">Pas besoin de compte pour jeter un œil</p>
+          <ul class="plan-list">
+            <li>Tous les arrêts des huit États, avec photos, détails et horaires d’ouverture</li>
+            <li>Filtre la carte selon ce que tu aimes, des néons et des diners aux villes fantômes et aux ruines</li>
+            <li>Navigation en un geste vers n’importe quel arrêt grâce à Apple Maps</li>
+          </ul>
+        </div>
+
+        <div class="plan plan-dark">
+          <p class="plan-kicker">Le Carnet de bord</p>
+          <h3 class="plan-name">$14.99 USD</h3>
+          <p class="plan-price">Un seul paiement. À toi pour toujours.</p>
+          <ul class="plan-list">
+            <li>Ton voyage s’enregistre tout seul pendant que tu roules, en notant les arrêts que tu croises</li>
+            <li>Plus de soixante succès, de la première observation à la Mother Road entière</li>
+            <li>Un profil personnel et toute ta bibliothèque de la route</li>
+          </ul>
+          <p class="plan-note">Un achat unique, pas un abonnement. Rien de récurrent à gérer ou à résilier.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section shell reveal">
+      <p class="eyebrow ec">Questions fréquentes</p>
+      <h2 class="section-title">Les questions pratiques</h2>
+
+      <div class="faq-list">
+
+        <details class="faq">
+          <summary>Comment restaurer un achat que j’ai déjà fait ?<span class="faq-chevron"></span></summary>
+          <div class="faq-body">
+            <p>Ouvre l’app et touche n’importe quelle fonction du Carnet de bord pour faire apparaître l’écran de déverrouillage. En bas, tu trouveras Restaurer les achats. Touche-le et ton déverrouillage reviendra sur cet appareil, à condition d’être connecté avec le même identifiant Apple que celui de l’achat.</p>
+            <p>Comme il s’agit d’un achat unique lié à ton identifiant Apple, tu ne seras jamais débité deux fois. Si une restauration n’aboutit pas, écris-moi et on réglera ça ensemble.</p>
+          </div>
+        </details>
+
+        <details class="faq">
+          <summary>Puis-je résilier, et comment fonctionnent les remboursements ?<span class="faq-chevron"></span></summary>
+          <div class="faq-body">
+            <p>Il n’y a rien à résilier. Le Carnet de bord est un achat unique et non un abonnement : il ne se renouvelle pas et ne te sera jamais facturé de nouveau.</p>
+            <p>Les remboursements pour tout ce qui est acheté via l’App Store sont gérés par Apple, pas par moi, donc je ne peux pas en émettre moi-même. Si tu souhaites en demander un, tu peux le faire auprès d’Apple sur <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>. Si quelque chose s’est mal passé, écris-moi aussi et je t’aiderai du mieux que je peux.</p>
+          </div>
+        </details>
+
+        <details class="faq">
+          <summary>Comment supprimer mon compte ?<span class="faq-chevron"></span></summary>
+          <div class="faq-body">
+            <p>Tu peux supprimer ton compte à tout moment depuis l’app. Ouvre Réglages, puis touche Supprimer mon compte. Voici exactement ce que ça fait :</p>
+            <p class="faq-quote">Supprimer ton compte efface définitivement ton profil, tes voyages et tes photos. Les arrêts que tu as ajoutés restent sur la carte pour aider les autres voyageurs, mais ne seront plus liés à toi. C’est irréversible.</p>
+            <p>Si tu préfères ne pas le faire toi-même, écris-moi à <a href="mailto:hello@route66logbook.com">hello@route66logbook.com</a> et je m’en occupe pour toi.</p>
+          </div>
+        </details>
+
+        <details class="faq">
+          <summary>Quelles informations l’app collecte-t-elle ?<span class="faq-chevron"></span></summary>
+          <div class="faq-body">
+            <p>Le moins possible, et rien n’est jamais vendu ni partagé avec des annonceurs. Quand tu crées un compte, je conserve ton adresse e-mail et le profil que tu choisis de construire : un nom d’affichage, ainsi qu’un avatar et une bio facultatifs. Ton mot de passe est chiffré et je ne le vois jamais.</p>
+            <p>Quand tu contribues, je stocke ce que tu ajoutes : les arrêts, photos, signalements et corrections que tu envoies. Les données de localisation cachées des photos sont supprimées sur ton téléphone avant tout envoi. Si tu actives les notifications, je stocke un jeton pour que l’app puisse les envoyer.</p>
+            <p>L’app utilise bien un outil d’analyse et de suivi des erreurs, PostHog, pour que je voie comment les fonctions sont utilisées et que je repère les problèmes. Il enregistre une série d’événements précis : l’ouverture de l’app, le changement d’onglet, la consultation ou la mise en favori d’un arrêt, la finalisation d’un achat et la recherche. Quand tu cherches, les mots que tu tapes sont envoyés avec le nombre de résultats obtenus, pour que je voie ce que les gens cherchent sans le trouver. Il enregistre aussi des détails techniques de base, comme le type de ton appareil et la version de l’app, ainsi que les erreurs que rencontre l’app. Avant ta connexion, cela n’est lié qu’à un identifiant aléatoire ; ensuite, c’est lié à ton compte. Cela n’est jamais utilisé pour la publicité et ne te suit jamais dans d’autres apps ou sur d’autres sites. Il n’y a aucune publicité nulle part dans l’app. Tous les détails se trouvent dans la <a href="/fr/privacy">politique de confidentialité</a>.</p>
+            <p>La carte elle-même repose sur Mapbox, qui reçoit ta position pour pouvoir afficher où tu es.</p>
+          </div>
+        </details>
+
+        <details class="faq">
+          <summary>Pourquoi l’app demande-t-elle la localisation en arrière-plan ?<span class="faq-chevron"></span></summary>
+          <div class="faq-body">
+            <p>Pour que ton voyage s’enregistre tout seul. Route 66 Logbook peut noter automatiquement les arrêts que tu croises, ce qui suppose de repérer que tu es près de l’un d’eux même quand l’app est fermée. C’est pour ça qu’iOS demande la localisation en arrière-plan.</p>
+            <p>Voici le plus important : la correspondance se fait sur ton téléphone. Les arrêts que tu croises, et les moments où tu les croises, sont enregistrés localement sur ton appareil et ne sont jamais envoyés à un serveur.</p>
+            <p>Si tu préfères ne pas l’utiliser, tu peux régler la localisation sur « Lorsque l’app est active », ou la désactiver complètement, dans les Réglages d’iOS. L’app fonctionne toujours à merveille. Tu confirmeras simplement les arrêts toi-même au lieu de les voir notés pour toi.</p>
+          </div>
+        </details>
+
+        <details class="faq">
+          <summary>Ai-je besoin d’un compte pour utiliser l’app ?<span class="faq-chevron"></span></summary>
+          <div class="faq-body">
+            <p>Non. Tu peux explorer toute la carte en invité. Un compte gratuit te permet de contribuer en ajoutant des arrêts à la carte et de garder ton Carnet de bord pendant ton voyage.</p>
+          </div>
+        </details>
+
+        <details class="faq">
+          <summary>Existe-t-il une version Android ?<span class="faq-chevron"></span></summary>
+          <div class="faq-body">
+            <p>Pas encore. Route 66 Logbook n’existe que sur iPhone pour l’instant. S’il y a assez d’intérêt pour une version Android plus tard, je serais ravie d’en créer une.</p>
+          </div>
+        </details>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CONTACT -->
+  <section class="contact reveal">
+    <div class="shell">
+      <p class="eyebrow">Nous contacter</p>
+      <h2 class="contact-title">Parle à une <em>vraie personne.</em></h2>
+      <p class="contact-body">Route 66 Logbook est un studio d’une seule personne : quand tu écris, c’est à moi que tu écris. Je lis chaque message et je réponds en personne, qu’il s’agisse d’un bug, d’un arrêt erroné sur la carte ou simplement d’une question.</p>
+      <a class="btn-mail" href="mailto:hello@route66logbook.com">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        hello@route66logbook.com
+      </a>
+    </div>
+  </section>
+
+  <site-footer></site-footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+  <script src="/header.js" defer></script>
+  <script src="/footer.js" defer></script>
+</body>
+</html>

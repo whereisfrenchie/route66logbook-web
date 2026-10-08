@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{lang}}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,9 @@
   <title>{{title}} · Route 66 Logbook</title>
   <meta name="description" content="{{description}}">
   <link rel="canonical" href="{{url}}">
-  <meta property="og:type" content="article">
+{{alternates}}  <meta property="og:type" content="article">
   <meta property="og:site_name" content="Route 66 Logbook">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="{{ui.og.locale}}">
   <meta property="og:url" content="{{url}}">
   <meta property="og:title" content="{{title}}">
   <meta property="og:description" content="{{description}}">
@@ -32,10 +32,10 @@
 
     <!-- INTRO -->
     <section class="intro shell reveal">
-      <p class="eyebrow ec"><a href="/guides/">Route 66 guides</a> · {{groupName}}</p>
+      <p class="eyebrow ec"><a href="{{prefix}}/guides/">{{ui.guides.name}}</a> · {{groupName}}</p>
       <h1 class="intro-title">{{heading}}</h1>
       <p class="intro-lede">{{standfirst}}</p>
-      <p class="byline"><span>By <a href="/about/">Carole Richard</a></span><span>{{readTime}} min read</span>{{updated}}</p>
+      <p class="byline"><span>{{by}}</span><span>{{readTimeText}}</span>{{updated}}</p>
     </section>
 
     <!-- HERO PHOTO -->
@@ -48,7 +48,7 @@
     <!-- ARTICLE -->
     <article class="article shell prose">
 {{body}}
-      <p class="signoff reveal"><span>Bonne route.</span><span class="signoff-name">Carole</span></p>
+      <p class="signoff reveal"><span>{{ui.signoff}}</span><span class="signoff-name">Carole</span></p>
     </article>
 
   </main>
@@ -56,8 +56,8 @@
   <!-- KEEP READING -->
   <section class="more">
     <div class="shell wide">
-      <p class="eyebrow ec">Keep reading</p>
-      <h2 class="group-title">More <em>guides.</em></h2>
+      <p class="eyebrow ec">{{ui.more.eyebrow}}</p>
+      <h2 class="group-title">{{ui.more.title}}</h2>
       <div class="tiles">
 {{related}}
       </div>

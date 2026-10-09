@@ -463,31 +463,12 @@
      every page. Text endonyms, no flags: a flag names a country, not a
      language, and the app's own picker labels languages this way too
      (src/lib/i18n.ts). */
-  .lang-switch {
-    background: var(--charcoal);
-    display: flex; justify-content: center; align-items: center; gap: 26px;
-    padding: 26px 24px 4px;
-  }
-  .lang-switch a {
-    font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
-    color: rgba(255,255,255,0.5); text-decoration: none;
-    padding-bottom: 4px; border-bottom: 2px solid transparent;
-    transition: color 0.2s, border-color 0.2s;
-  }
-  .lang-switch a:hover { color: var(--coral); }
-  .lang-switch a.is-current { color: #fff; border-bottom-color: var(--coral); }
-
   /* RESPONSIVE */
   @media (max-width: 960px) {
     nav { padding: 16px 24px; }
     .nav-links { display: none; }
     .hero-content { padding: 180px 24px 60px !important; max-width: 100% !important; }
     .hero-logo { width: 130px !important; height: 130px !important; }
-    /* Top-right collides with the 130px logo below 960px — measured, the two
-       overlap at 320. Drop it under the logo instead, where the hero is empty:
-       full endonyms survive at every width and nothing has to be abbreviated. */
-    .lang-switch { gap: 18px; padding: 22px 20px 2px; }
-    .lang-switch a { font-size: 11px; letter-spacing: 0.6px; }
     .hero-bg { display: none; }
     .hero-bg-mobile {
       display: block;

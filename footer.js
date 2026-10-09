@@ -8,17 +8,16 @@
 
    The words and link prefixes follow <html lang> (en / fr / es). It also draws
    the language switcher from the page's <link rel="alternate" hreflang> tags
-   (none on a page = no switcher), unless the page already carries its own
-   .lang-switch (the home page does). The choice is remembered in localStorage
+   (none on a page = no switcher), (the home page included, so every page has the same footer). The choice is remembered in localStorage
    under r66lang, as switcher.js does for the home page.
 */
 (function () {
   const TEXT = {
-    en: { prefix: '', tagline: 'Keep the Mother Road Alive.', press: 'Press', privacy: 'Privacy', terms: 'Terms', guidelines: 'Guidelines', help: 'Help',
+    en: { prefix: '', photos: 'All photographs on this site are © Carole Richard unless credited otherwise. Please don’t copy, repost or reuse them without asking:', tagline: 'Keep the Mother Road Alive.', press: 'Press', privacy: 'Privacy', terms: 'Terms', guidelines: 'Guidelines', help: 'Help',
           instagram: 'Route 66 Logbook on Instagram', facebook: 'Route 66 Logbook on Facebook', copy: 'Built by a Route 66 lover', switchAria: 'Choose a language' },
-    fr: { prefix: '/fr', tagline: 'Faire vivre la Mother Road.', press: 'Presse', privacy: 'Confidentialité', terms: 'Conditions', guidelines: 'Règles', help: 'Aide',
+    fr: { prefix: '/fr', photos: 'Toutes les photos de ce site sont © Carole Richard, sauf mention contraire. Merci de ne pas les copier, republier ni réutiliser sans demander :', tagline: 'Faire vivre la Mother Road.', press: 'Presse', privacy: 'Confidentialité', terms: 'Conditions', guidelines: 'Règles', help: 'Aide',
           instagram: 'Route 66 Logbook sur Instagram', facebook: 'Route 66 Logbook sur Facebook', copy: 'Créé par passion pour la Route 66', switchAria: 'Choisir une langue' },
-    es: { prefix: '/es', tagline: 'Mantén viva la Mother Road.', press: 'Prensa', privacy: 'Privacidad', terms: 'Términos', guidelines: 'Normas', help: 'Ayuda',
+    es: { prefix: '/es', photos: 'Todas las fotografías de este sitio son © Carole Richard, salvo que se indique lo contrario. Por favor, no las copies, no las vuelvas a publicar ni las reutilices sin pedir permiso:', tagline: 'Mantén viva la Mother Road.', press: 'Prensa', privacy: 'Privacidad', terms: 'Términos', guidelines: 'Normas', help: 'Ayuda',
           instagram: 'Route 66 Logbook en Instagram', facebook: 'Route 66 Logbook en Facebook', copy: 'Creado con pasión por la Route 66', switchAria: 'Elegir idioma' },
   };
   const ENDONYM = { en: 'English', fr: 'Français', es: 'Español' };
@@ -57,6 +56,9 @@
       }
       .lang-switch a:hover { color: #ea5b56; }
       .lang-switch a.is-current { color: #fff; border-bottom-color: #ea5b56; }
+      .footer-photos { font-size: 12px; line-height: 1.6; color: rgba(255,255,255,0.35); width: 100%; max-width: 640px; margin: 0 auto; text-align: center; }
+      .footer-photos a { text-decoration: underline; text-underline-offset: 2px; }
+      .footer-photos a:hover { color: #ea5b56; }
       .footer-copy { font-size: 12px; color: rgba(255,255,255,0.22); width: 100%; text-align: center; margin-top: 8px; }
       @media (max-width: 960px) {
         footer { flex-direction: column; align-items: center; text-align: center; padding: 36px 24px; }
@@ -90,6 +92,7 @@
         </div>
       </div>
       <div class="footer-copy">© ${new Date().getFullYear()} Route 66 Logbook · ${t.copy}</div>
+      <p class="footer-photos">${t.photos} <a href="mailto:hello@route66logbook.com">hello@route66logbook.com</a></p>
     </footer>
   `;
 
@@ -102,8 +105,7 @@
   }
 
   function switcherHtml(t, lang) {
-    if (document.querySelector('.lang-switch')) return '';
-    const seen = {};
+        const seen = {};
     const items = [];
     document.querySelectorAll('link[rel="alternate"][hreflang]').forEach((l) => {
       const code = (l.getAttribute('hreflang') || '').toLowerCase();

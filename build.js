@@ -195,8 +195,8 @@ for (const lang of LANGS) {
   const used = new Set();
   const values = resolveValues(raw, lang.strings, used);
 
-  // Derived, not translated: the switcher's current-language marker and the
-  // English-only redirect. Keeping these out of the strings files means a
+  // Derived, not translated: the English-only redirect and schema. Keeping
+  // these out of the strings files means a
   // translator never has to understand them.
   values['@redirect'] = lang.code === 'en' ? REDIRECT : '';
   values['@schema'] = lang.code === 'en'
@@ -204,9 +204,6 @@ for (const lang of LANGS) {
       JSON.stringify(schemaFor(values), null, 2).split('\n').map((l) => '  ' + l).join('\n') +
       '\n  </script>\n'
     : '';
-  for (const c of ['en', 'fr', 'es']) {
-    values['@current.' + c] = c === lang.code ? ' aria-current="page" class="is-current"' : '';
-  }
 
   let html = template.replace(PLACEHOLDER, (m, name) => {
     const key = name.trim();

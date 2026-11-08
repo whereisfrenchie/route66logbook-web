@@ -33,7 +33,7 @@
       }
       a { color: inherit; }
       .footer-left { display: flex; flex-direction: column; gap: 6px; }
-      .footer-logo { font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -0.3px; }
+      .footer-logo { font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -0.01em; }
       .footer-logo span { color: #ea5b56; }
       .footer-tagline { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 14px; color: rgba(255,255,255,0.3); }
       .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }

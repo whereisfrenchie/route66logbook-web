@@ -54,7 +54,7 @@
     .intro-title {
       font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
       font-weight: 800; font-size: clamp(42px, 7vw, 78px);
-      line-height: 0.92; letter-spacing: -2.5px; margin-bottom: 26px;
+      line-height: 0.92; letter-spacing: -0.01em; margin-bottom: 26px;
     }
     .intro-title em { color: var(--coral); font-style: normal; }
     .intro-title .serif { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
@@ -72,10 +72,11 @@
       border-radius: 20px; padding: 28px 24px; text-align: center;
     }
     .stat-num {
+      font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
       font-weight: 800; font-size: 40px; line-height: 1;
-      letter-spacing: -1.5px; margin-bottom: 8px; color: var(--coral);
+      letter-spacing: -0.01em; margin-bottom: 8px; color: var(--coral);
     }
-    .stat:nth-child(even) .stat-num { color: var(--teal); }
+    .stat:nth-child(even) .stat-num { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; color: var(--teal); }
     .stat-label {
       font-size: 10.5px; font-weight: 600; color: rgba(43,48,51,0.5);
       letter-spacing: 1.5px; text-transform: uppercase; line-height: 1.5;
@@ -86,7 +87,7 @@
     .section-title {
       font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
       font-weight: 800; font-size: clamp(30px, 4.4vw, 48px);
-      line-height: 0.96; letter-spacing: -1.4px; margin-bottom: 20px;
+      line-height: 0.96; letter-spacing: -0.01em; margin-bottom: 20px;
     }
     .section-title em { color: var(--coral); font-style: normal; }
     .section-title .serif { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
@@ -116,7 +117,7 @@
       font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
       color: var(--coral); margin-bottom: 14px;
     }
-    .aside-dark h3 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; color: #fff; font-weight: 800; font-size: 24px; letter-spacing: -0.6px; margin-bottom: 14px; }
+    .aside-dark h3 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; color: #fff; font-weight: 800; font-size: 24px; letter-spacing: -0.01em; margin-bottom: 14px; }
     .aside-dark p { font-size: 14.5px; line-height: 1.75; color: rgba(255,255,255,0.62); margin-bottom: 12px; }
     .aside-dark p:last-child { margin-bottom: 0; }
     .aside-dark strong, .chapter .aside-dark p strong { color: #fff; }
@@ -154,7 +155,7 @@
     .timeline-title {
       font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
       font-weight: 800; font-size: clamp(40px, 5.5vw, 72px);
-      color: #fff; line-height: 0.93; letter-spacing: -2px; margin-bottom: 16px;
+      color: #fff; line-height: 0.93; letter-spacing: -0.01em; margin-bottom: 16px;
     }
     .timeline-title em { color: var(--coral); font-style: normal; font-family: 'Instrument Serif', serif; font-weight: 400; font-style: italic; }
     .timeline-sub {
@@ -194,11 +195,12 @@
     }
     .t-card:hover { background: rgba(255,255,255,0.09); }
     .t-card .yr {
-      font-weight: 800; font-size: 32px; letter-spacing: -1px; line-height: 1;
+      font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
+      font-weight: 800; font-size: 32px; letter-spacing: -0.01em; line-height: 1;
       color: var(--teal); display: block; margin-bottom: 8px;
     }
-    .t-item.major .t-card .yr { color: var(--coral); font-size: 40px; }
-    .t-card h4 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 7px; letter-spacing: -0.2px; }
+    .t-item.major .t-card .yr { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; color: var(--coral); font-size: 40px; }
+    .t-card h4 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 7px; letter-spacing: -0.01em; }
     .t-card p { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.7; }
 
     /* CENTENNIAL GRID */
@@ -213,7 +215,7 @@
       font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
       color: var(--teal); margin-bottom: 10px;
     }
-    .cent-card h4 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: -0.4px; margin-bottom: 10px; }
+    .cent-card h4 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 10px; }
     .cent-card p { font-size: 13px; color: rgba(43,48,51,0.55); line-height: 1.7; }
     .cent-note {
       font-family: 'Instrument Serif', serif; font-style: italic;
@@ -227,7 +229,7 @@
     .cta-title {
       font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
       font-weight: 800; font-size: clamp(36px, 5.5vw, 64px);
-      color: #fff; line-height: 0.95; letter-spacing: -2px; margin-bottom: 24px;
+      color: #fff; line-height: 0.95; letter-spacing: -0.01em; margin-bottom: 24px;
     }
     .cta-title em { color: var(--charcoal); font-style: normal; }
     .cta-body {
@@ -250,7 +252,7 @@
       flex-wrap: wrap; gap: 18px;
     }
     .footer-left { display: flex; flex-direction: column; gap: 6px; }
-    .footer-logo { font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -0.3px; }
+    .footer-logo { font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -0.01em; }
     .footer-logo span { color: var(--coral); }
     .footer-tagline { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 14px; color: rgba(255,255,255,0.3); }
     .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }

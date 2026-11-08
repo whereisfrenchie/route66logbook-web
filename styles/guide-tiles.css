@@ -32,7 +32,7 @@
 }
 .tile-title {
   font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
-  font-weight: 800; font-size: 19px; line-height: 1.2; letter-spacing: -0.4px;
+  font-weight: 800; font-size: 19px; line-height: 1.2; letter-spacing: -0.01em;
   margin-bottom: 10px;
 }
 .tile-text {
@@ -62,7 +62,7 @@
 .guides-more-title {
   font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
   font-weight: 800; font-size: clamp(30px, 4.4vw, 48px);
-  line-height: 0.96; letter-spacing: -1.4px;
+  line-height: 0.96; letter-spacing: -0.01em;
 }
 .guides-more-title em { color: var(--coral); font-style: normal; }
 .guides-more-all {
@@ -82,7 +82,7 @@
 .guides-more .tile-photo-label { display: none; }
 .guides-more .tile-body { padding: 14px 16px; justify-content: center; }
 .guides-more .tile-kicker { font-size: 9.5px; letter-spacing: 1.6px; margin-bottom: 6px; }
-.guides-more .tile-title { font-size: 15px; line-height: 1.25; letter-spacing: -0.2px; margin-bottom: 0; }
+.guides-more .tile-title { font-size: 15px; line-height: 1.25; letter-spacing: -0.01em; margin-bottom: 0; }
 .guides-more .tile-text, .guides-more .tile-more { display: none; }
 
 @media (max-width: 960px) {

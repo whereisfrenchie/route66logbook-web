@@ -34,7 +34,7 @@
       a { color: inherit; }
       .logo { display: flex; align-items: center; gap: 14px; text-decoration: none; color: #2b3033; }
       .logo img { width: 52px; height: 52px; object-fit: contain; display: block; flex-shrink: 0; }
-      .logo-word { font-weight: 700; font-size: 16px; letter-spacing: -0.3px; }
+      .logo-word { font-weight: 700; font-size: 16px; letter-spacing: -0.01em; }
       .logo-word span { color: #ea5b56; }
       :host([variant="overlay"]) .logo { display: none; }
 

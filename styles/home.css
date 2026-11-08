@@ -89,12 +89,12 @@
   .hero-title {
     font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
     font-weight: 800; font-size: clamp(48px, 7vw, 92px);
-    color: white; line-height: 0.9; letter-spacing: -2px; margin-bottom: 22px;
+    color: white; line-height: 0.9; letter-spacing: -0.01em; margin-bottom: 22px;
     opacity: 0; animation: fadeUp 0.8s ease forwards 0.5s;
   }
   .hero-title em { color: var(--coral); font-style: normal; white-space: nowrap; }
-  .hero-line-1 { font-size: clamp(44px, 6.5vw, 90px); font-family: 'Instrument Serif', serif; font-style: italic;}
-  .hero-line-2 { display: block; font-size: clamp(54px, 8.5vw, 112px); }
+  .hero-line-1 { font-size: clamp(44px, 6.5vw, 90px); font-family: 'Instrument Serif', serif; font-style: italic; letter-spacing: -0.01em; }
+  .hero-line-2 { display: block; font-size: clamp(54px, 8.5vw, 112px); letter-spacing: -0.01em; }
   .hero-sub {
     font-family: 'Instrument Serif', serif; font-style: italic;
     font-size: clamp(17px, 2.2vw, 22px); color: rgba(255,255,255,0.78);
@@ -146,7 +146,7 @@
   .pain-title {
     font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
     font-weight: 800; font-size: clamp(38px, 5vw, 68px);
-    color: white; line-height: 0.93; letter-spacing: -2px; margin-bottom: 24px;
+    color: white; line-height: 0.93; letter-spacing: -0.01em; margin-bottom: 24px;
   }
   .pain-body {
     font-family: 'Instrument Serif', serif; font-style: italic;
@@ -173,7 +173,7 @@
   .solution-title {
     font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
     font-weight: 800; font-size: clamp(44px, 6.5vw, 90px);
-    color: var(--charcoal); line-height: 0.91; letter-spacing: -2.5px; margin-bottom: 22px;
+    color: var(--charcoal); line-height: 0.91; letter-spacing: -0.01em; margin-bottom: 22px;
   }
   .solution-title em { color: var(--coral); font-style: normal; }
   .solution-intro {
@@ -221,7 +221,7 @@
     font-weight: 800;
     font-size: clamp(32px, 4vw, 52px);
     color: var(--charcoal);
-    letter-spacing: -1.5px;
+    letter-spacing: -0.01em;
     margin-bottom: 12px;
   }
   .features-cta-sub {
@@ -239,19 +239,20 @@
   .feature:nth-child(2) { background: var(--charcoal); }
   .feature:nth-child(2) .feature-title { color: white; }
   .feature:nth-child(2) .feature-text { color: rgba(255,255,255,0.45); }
-  .feature:nth-child(2) .feature-num { color: rgba(255,255,255,0.05); }
+  .feature:nth-child(2) .feature-num { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; color: rgba(255,255,255,0.05); }
   .feature:nth-child(5) { background: var(--teal); }
   .feature:nth-child(5) .feature-title { color: white; }
   .feature:nth-child(5) .feature-text { color: rgba(255,255,255,0.72); }
-  .feature:nth-child(5) .feature-num { color: rgba(255,255,255,0.1); }
+  .feature:nth-child(5) .feature-num { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; color: rgba(255,255,255,0.1); }
   .feature-num {
+    font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
     font-weight: 700; font-size: 58px; color: rgba(43,48,51,0.06);
-    line-height: 1; margin-bottom: 18px; letter-spacing: -2px;
+    line-height: 1; margin-bottom: 18px; letter-spacing: -0.01em;
   }
   .feature-title {
     font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
     font-weight: 700; font-size: 20px; color: var(--charcoal);
-    margin-bottom: 10px; line-height: 1.15; letter-spacing: -0.3px;
+    margin-bottom: 10px; line-height: 1.15; letter-spacing: -0.01em;
   }
   .feature-text { font-size: 13px; color: rgba(43,48,51,0.52); line-height: 1.72; }
 
@@ -262,7 +263,7 @@
   .screenshots-title {
     font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
     font-weight: 800; font-size: clamp(40px, 5.5vw, 72px);
-    color: white; line-height: 0.93; letter-spacing: -2px; margin-bottom: 16px;
+    color: white; line-height: 0.93; letter-spacing: -0.01em; margin-bottom: 16px;
   }
   .screenshots-title em { color: var(--teal); font-style: normal; }
   .screenshots-sub {
@@ -307,7 +308,7 @@
   .editorial-title {
     font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
     font-weight: 800; font-size: clamp(32px, 4.5vw, 58px);
-    color: var(--charcoal); letter-spacing: -1.5px;
+    color: var(--charcoal); letter-spacing: -0.01em;
   }
   .editorial-sub {
     font-family: 'Instrument Serif', serif; font-style: italic;
@@ -349,7 +350,7 @@
   .community-title {
     font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
     font-weight: 800; font-size: clamp(44px, 6.5vw, 90px);
-    color: white; line-height: 0.91; letter-spacing: -2.5px; margin-bottom: 26px;
+    color: white; line-height: 0.91; letter-spacing: -0.01em; margin-bottom: 26px;
   }
   .community-title em { color: var(--charcoal); font-style: normal; }
   .community-body {
@@ -359,8 +360,9 @@
   .stats-row { display: flex; justify-content: center; gap: 64px; margin-bottom: 60px; }
   .stat { text-align: center; }
   .stat-num {
+    font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
     font-weight: 700; font-size: 58px; color: white;
-    line-height: 1; letter-spacing: -2px; margin-bottom: 6px;
+    line-height: 1; letter-spacing: -0.01em; margin-bottom: 6px;
   }
   .stat-label {
     font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.52);
@@ -385,7 +387,7 @@
   .download-title {
     font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
     font-weight: 800; font-size: clamp(54px, 8.5vw, 112px);
-    color: white; line-height: 0.88; letter-spacing: -3.5px; margin-bottom: 26px;
+    color: white; line-height: 0.88; letter-spacing: -0.01em; margin-bottom: 26px;
   }
   .download-title em { color: var(--coral); font-style: normal; }
   .download-sub {
@@ -402,7 +404,7 @@
   .badge-btn-android { background: var(--teal); }
   .badge-btn-android:hover { box-shadow: 0 14px 40px rgba(109,174,171,0.45); }
   .badge-btn-label { font-size: 10px; opacity: 0.52; display: block; letter-spacing: 0.5px; margin-bottom: 2px; }
-  .badge-btn-store { font-size: 17px; font-weight: 700; display: block; letter-spacing: -0.3px; }
+  .badge-btn-store { font-size: 17px; font-weight: 700; display: block; letter-spacing: -0.01em; }
 
   /* ANDROID WAITLIST: sand bg */
 
@@ -416,7 +418,7 @@
   .maker-title {
     font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
     font-weight: 800; font-size: clamp(36px, 5.5vw, 64px);
-    color: #fff; line-height: 0.95; letter-spacing: -2px; margin-bottom: 34px;
+    color: #fff; line-height: 0.95; letter-spacing: -0.01em; margin-bottom: 34px;
   }
   .maker-title em { color: var(--charcoal); font-style: normal; }
   .maker-body {
@@ -440,7 +442,7 @@
     flex-wrap: wrap; gap: 18px;
   }
   .footer-left { display: flex; flex-direction: column; gap: 6px; }
-  .footer-logo { font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -0.3px; }
+  .footer-logo { font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -0.01em; }
   .footer-logo span { color: var(--coral); }
   .footer-tagline { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 14px; color: rgba(255,255,255,0.3); }
   .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }

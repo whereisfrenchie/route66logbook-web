@@ -1,0 +1,21 @@
+/* Route 66 Logbook · title typeface
+   Apfel Grotezk Bold, the same title face the app uses, self-hosted from
+   /fonts/ (SIL Open Font License 1.1 · Collletttivo, design Luigi Gorlero,
+   see /fonts/apfel-grotezk-OFL.txt).
+
+   Titles and headings that used to be heavy Public Sans now set
+       font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
+   in their own rule. Instrument Serif lines are untouched, and body copy,
+   figures, labels and buttons stay in Public Sans.
+
+   Only the Bold cut is loaded: titles ask for 700/800 and get this face
+   without any synthetic bolding.
+*/
+@font-face {
+  font-family: 'Apfel Grotezk';
+  src: url('/fonts/apfel-grotezk-700.woff2') format('woff2'),
+       url('/fonts/apfel-grotezk-700.woff') format('woff');
+  font-weight: 700 900;
+  font-style: normal;
+  font-display: swap;
+}

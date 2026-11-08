@@ -41,6 +41,7 @@ img { max-width: 100%; }
 /* INTRO */
 .intro { padding-top: 64px; padding-bottom: 28px; }
 .intro-title {
+  font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
   font-weight: 800; font-size: clamp(36px, 5.6vw, 62px);
   line-height: 0.96; letter-spacing: -2px; margin-bottom: 26px;
 }
@@ -85,11 +86,13 @@ img { max-width: 100%; }
   margin-bottom: 22px;
 }
 .prose h2 {
+  font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
   font-weight: 800; font-size: clamp(26px, 3.4vw, 34px);
   line-height: 1.05; letter-spacing: -1px; margin: 52px 0 18px;
 }
 .prose h2:first-child { margin-top: 0; }
 .prose h3 {
+  font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
   font-weight: 700; font-size: 20px; letter-spacing: -0.4px; line-height: 1.3;
   margin: 34px 0 10px; color: var(--charcoal);
 }
@@ -312,6 +315,7 @@ img { max-width: 100%; }
 .group { padding-top: 56px; padding-bottom: 8px; }
 .group-head { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; margin-bottom: 28px; flex-wrap: wrap; }
 .group-title {
+  font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
   font-weight: 800; font-size: clamp(30px, 4.4vw, 48px);
   line-height: 0.96; letter-spacing: -1.4px;
 }
@@ -330,6 +334,7 @@ img { max-width: 100%; }
 /* SOURCES (guides page) */
 .sources { padding-top: 72px; padding-bottom: 80px; }
 .sources h2 {
+  font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
   font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
   color: var(--teal); margin-bottom: 8px;
 }
@@ -354,6 +359,7 @@ img { max-width: 100%; }
 }
 .download-inner { max-width: 680px; margin: 0 auto; text-align: center; }
 .download-title {
+  font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
   font-weight: 800; font-size: clamp(54px, 8.5vw, 112px);
   color: #fff; line-height: 0.88; letter-spacing: -3.5px; margin-bottom: 26px;
 }

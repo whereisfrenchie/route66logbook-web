@@ -13,6 +13,8 @@
   <link rel="alternate" hreflang="x-default" href="https://route66logbook.com/prepare/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preload" href="/fonts/apfel-grotezk-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles/fonts.css">
   <style>
     :root {
       color-scheme: light;
@@ -50,6 +52,7 @@
     /* INTRO */
     .intro { padding: 64px 0 40px; }
     .intro-title {
+      font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
       font-weight: 800; font-size: clamp(42px, 7vw, 78px);
       line-height: 0.92; letter-spacing: -2.5px; margin-bottom: 26px;
     }
@@ -115,6 +118,7 @@
     /* SECTION SCAFFOLD */
     .section { padding: 90px 0 0; }
     .section-title {
+      font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
       font-weight: 800; font-size: clamp(30px, 4.4vw, 48px);
       line-height: 0.96; letter-spacing: -1.4px; margin-bottom: 16px;
     }
@@ -140,7 +144,7 @@
       font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
       padding: 7px 16px; border-radius: 100px; margin-bottom: 18px;
     }
-    .way h3 { font-weight: 800; font-size: 21px; letter-spacing: -0.5px; margin-bottom: 6px; }
+    .way h3 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-weight: 800; font-size: 21px; letter-spacing: -0.5px; margin-bottom: 6px; }
     .way-best {
       font-family: 'Instrument Serif', serif; font-style: italic;
       font-size: 14.5px; color: rgba(43,48,51,0.45); margin-bottom: 14px;
@@ -168,7 +172,7 @@
       font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
       color: var(--teal); margin-bottom: 12px;
     }
-    .ride h3 { font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 10px; }
+    .ride h3 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 10px; }
     .ride p { font-size: 13.5px; color: rgba(43,48,51,0.58); line-height: 1.7; margin-bottom: 12px; }
     .ride p:last-child { margin-bottom: 0; }
     .ride ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
@@ -202,7 +206,7 @@
     .season.s2 { background: var(--coral); }
     .season.s3 { background: #fff; border: 1px solid rgba(43,48,51,0.08); }
     .season.s4 { background: var(--charcoal); }
-    .season h3 { font-weight: 800; font-size: 22px; letter-spacing: -0.5px; color: #fff; margin-bottom: 4px; }
+    .season h3 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.5px; color: #fff; margin-bottom: 4px; }
     .season.s3 h3 { color: var(--charcoal); }
     .season .tag {
       font-family: 'Instrument Serif', serif; font-style: italic;
@@ -219,7 +223,7 @@
       background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
       padding: 36px 34px;
     }
-    .receipt h3 { font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 4px; }
+    .receipt h3 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 4px; }
     .receipt .sub {
       font-family: 'Instrument Serif', serif; font-style: italic;
       font-size: 15px; color: rgba(43,48,51,0.45); margin-bottom: 24px;
@@ -235,7 +239,7 @@
       font-weight: 800; font-size: 20px; letter-spacing: -0.5px; color: var(--coral);
     }
     .tips-card { background: var(--charcoal); border-radius: 20px; padding: 36px 34px; }
-    .tips-card h3 { color: #fff; font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 4px; }
+    .tips-card h3 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; color: #fff; font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 4px; }
     .tips-card .sub {
       font-family: 'Instrument Serif', serif; font-style: italic;
       font-size: 15px; color: rgba(255,255,255,0.4); margin-bottom: 24px;
@@ -244,6 +248,7 @@
     .tipline b { color: var(--coral); white-space: nowrap; font-weight: 700; }
     .dodont { margin-top: 26px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1); }
     .dodont h4 {
+      font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
       font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
       color: var(--teal); margin-bottom: 16px;
     }
@@ -261,7 +266,7 @@
       padding: 36px 34px; margin-top: 14px;
     }
     .save-card .ride-kicker { color: var(--coral); }
-    .save-card h3 { font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 18px; }
+    .save-card h3 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.5px; margin-bottom: 18px; }
     .save-card ul { list-style: none; columns: 2; column-gap: 40px; }
     .save-card li {
       position: relative; padding-left: 22px; break-inside: avoid;
@@ -284,7 +289,7 @@
       font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
       color: var(--teal); margin-bottom: 12px;
     }
-    .stay h3 { font-weight: 800; font-size: 20px; letter-spacing: -0.5px; margin-bottom: 12px; }
+    .stay h3 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-weight: 800; font-size: 20px; letter-spacing: -0.5px; margin-bottom: 12px; }
     .stay p { font-size: 13px; color: rgba(43,48,51,0.58); line-height: 1.72; }
     .stay-note {
       font-family: 'Instrument Serif', serif; font-style: italic;
@@ -297,7 +302,7 @@
       background: #fff; border: 1px solid rgba(43,48,51,0.06); border-radius: 20px;
       padding: 30px 30px;
     }
-    .tool h3 { font-weight: 800; font-size: 18px; letter-spacing: -0.4px; margin-bottom: 12px; }
+    .tool h3 { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: -0.4px; margin-bottom: 12px; }
     .tool h3 span { color: var(--coral); }
     .tool p { font-size: 13.5px; color: rgba(43,48,51,0.6); line-height: 1.72; margin-bottom: 10px; }
     .tool p:last-child { margin-bottom: 0; }
@@ -354,6 +359,7 @@
     .packing-band { background: var(--charcoal); padding: 110px 52px; margin-top: 100px; }
     .packing-inner { max-width: 1000px; margin: 0 auto; }
     .packing-title {
+      font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
       font-weight: 800; font-size: clamp(36px, 5vw, 60px);
       color: #fff; line-height: 0.94; letter-spacing: -1.8px; margin-bottom: 14px;
     }
@@ -368,6 +374,7 @@
       border-radius: 16px; padding: 28px 26px;
     }
     .check h3 {
+      font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
       font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
       color: var(--teal); margin-bottom: 18px;
     }
@@ -384,6 +391,7 @@
     .cta-inner { max-width: 640px; margin: 0 auto; }
     .cta-band .eyebrow { color: rgba(255,255,255,0.55); }
     .cta-title {
+      font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
       font-weight: 800; font-size: clamp(36px, 5.5vw, 64px);
       color: #fff; line-height: 0.95; letter-spacing: -2px; margin-bottom: 24px;
     }

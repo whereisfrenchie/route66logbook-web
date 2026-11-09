@@ -376,6 +376,38 @@
   }
   .btn-community:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(43,48,51,0.35); }
 
+  /* REVIEWS: sand bg */
+  .reviews { background: var(--sand); padding: 130px 52px; }
+  .reviews-inner { max-width: 1200px; margin: 0 auto; }
+  .reviews-title {
+    font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
+    font-weight: 800; font-size: clamp(38px, 5vw, 64px);
+    color: var(--charcoal); line-height: 0.95; letter-spacing: -0.01em; margin-bottom: 18px;
+  }
+  .reviews-sub {
+    font-family: 'Instrument Serif', serif; font-style: italic;
+    font-size: 18px; color: rgba(43,48,51,0.5); margin-bottom: 48px;
+  }
+  .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items: stretch; }
+  .review {
+    background: #fff; border-radius: 18px; padding: 30px 28px;
+    display: flex; flex-direction: column; gap: 16px;
+  }
+  .review-stars { color: var(--coral); font-size: 17px; letter-spacing: 3px; line-height: 1; }
+  .review blockquote {
+    font-family: 'Instrument Serif', serif; font-style: italic;
+    font-size: 19px; line-height: 1.55; color: var(--charcoal);
+  }
+  .review-head {
+    display: block; font-family: 'Apfel Grotezk', 'Public Sans', sans-serif;
+    font-style: normal; font-weight: 700; font-size: 16px; margin-bottom: 6px;
+  }
+  .review figcaption {
+    margin-top: auto; font-size: 11px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase;
+    color: rgba(43,48,51,0.45);
+  }
+  .review-name { color: var(--teal); }
+
   /* DOWNLOAD: sand bg */
   .download {
     padding: 160px 52px; position: relative; overflow: hidden;
@@ -489,6 +521,8 @@
     }
     .hero-content { padding: 0 24px 64px; }
     .pain, .solution, .screenshots, .editorial, .community, .download, .android { padding-left: 24px; padding-right: 24px; }
+    .reviews { padding: 90px 24px; }
+    .reviews-grid { grid-template-columns: 1fr; }
     .pain-inner { grid-template-columns: 1fr; gap: 48px; }
     .features-grid { grid-template-columns: 1fr; }
     .feature-row { grid-template-columns: 1fr; gap: 40px; margin-bottom: 60px; padding-bottom: 60px; }

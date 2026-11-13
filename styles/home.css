@@ -598,3 +598,6 @@
     .maker { padding-top: 50px; padding-bottom: 50px; }
     .maker-portrait { width: 100px; height: 100px; }
   }
+
+  /* Numbered feature rows: bigger titles (Nov 2026) */
+  .feature-row .feature-title { font-size: clamp(30px, 3.4vw, 44px); line-height: 1.05; margin-bottom: 14px; }

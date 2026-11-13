@@ -16,9 +16,9 @@
    Prepare and the guides link to their /fr/ or /es/ versions. */
 (function () {
   const LABELS = {
-    en: { app: 'The app',  route: 'The route', history: 'History',  prepare: 'Prepare your trip',  guides: 'Route 66 guides', planner: 'Trip planner', home: '/', base: '' },
-    fr: { app: 'L’app',   route: 'La route',  history: 'Histoire', prepare: 'Préparer ton voyage', guides: 'Guides de la Route 66', planner: 'Planificateur de voyage', home: '/fr/', base: '/fr' },
-    es: { app: 'La app',   route: 'La ruta',   history: 'Historia', prepare: 'Prepara tu viaje',  guides: 'Guías de la Route 66', planner: 'Planificador de viaje', home: '/es/', base: '/es' },
+    en: { app: 'The app',  route: 'The route', history: 'History',  prepare: 'Prepare your trip',  guides: 'Route 66 guides', planner: 'Trip planner', dl: 'Download', home: '/', base: '' },
+    fr: { app: 'L’app',   route: 'La route',  history: 'Histoire', prepare: 'Préparer ton voyage', guides: 'Guides de la Route 66', planner: 'Planificateur de voyage', dl: 'Télécharger', home: '/fr/', base: '/fr' },
+    es: { app: 'La app',   route: 'La ruta',   history: 'Historia', prepare: 'Prepara tu viaje',  guides: 'Guías de la Route 66', planner: 'Planificador de viaje', dl: 'Descargar', home: '/es/', base: '/es' },
   };
 
   const template = (t, active) => `
@@ -71,15 +71,33 @@
 
       .item:focus-visible { outline: 2px solid #6daeab; outline-offset: 4px; border-radius: 4px; }
 
+      /* Download button: teal pill, the same on every page and on the home hero */
+      .dl {
+        font-size: 12px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase;
+        color: #fff; background: #6daeab; text-decoration: none; white-space: nowrap;
+        display: inline-flex; align-items: center; gap: 8px; padding: 11px 20px; border-radius: 100px;
+        transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+      }
+      .dl svg { width: 12px; height: 12px; }
+      .dl:hover { background: #5a9a97; transform: translateY(-1px); box-shadow: 0 10px 26px rgba(109,174,171,0.45); }
+      .dl:focus-visible { outline: 2px solid #2b3033; outline-offset: 3px; }
+
       @media (max-width: 820px) {
         header { padding: 18px 24px; min-height: 80px; }
         :host([variant="overlay"]) header { padding: 22px 24px; }
         .logo img { width: 44px; height: 44px; }
         .logo-word { font-size: 15px; }
         nav { gap: 20px; }
+        .dl { padding: 9px 14px; letter-spacing: 0.8px; }
       }
       @media (max-width: 420px) {
         .logo-word { display: none; }
+        nav { gap: 14px; }
+        .item { white-space: nowrap; letter-spacing: 0.6px; font-size: 11px; }
+        .dl { padding: 8px 12px; letter-spacing: 0.6px; font-size: 11px; }
+        .dl svg { display: none; }
+        /* On the home hero the "app" link points at the page you are on, so it gives way to the download button */
+        :host([variant="overlay"]) a.item { display: none; }
       }
     </style>
     <header>
@@ -101,6 +119,10 @@
             <li><a href="${t.base}/guides/">${t.guides}</a></li>
           </ul>
         </div>
+        <a class="dl" href="${t.home}#download">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v8M4 7l4 4 4-4M2 13h12"/></svg>
+          ${t.dl}
+        </a>
       </nav>
     </header>
   `;

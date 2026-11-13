@@ -92,12 +92,13 @@
       }
       @media (max-width: 420px) {
         .logo-word { display: none; }
-        nav { gap: 14px; }
-        .item { white-space: nowrap; letter-spacing: 0.6px; font-size: 11px; }
-        .dl { padding: 8px 12px; letter-spacing: 0.6px; font-size: 11px; }
-        .dl svg { display: none; }
-        /* On the home hero the "app" link points at the page you are on, so it gives way to the download button */
-        :host([variant="overlay"]) a.item { display: none; }
+      }
+      /* Phones: the download button drops to a second line, under the menu */
+      .br { display: none; }
+      @media (max-width: 600px) {
+        nav { flex-wrap: wrap; justify-content: flex-end; row-gap: 10px; }
+        .item { white-space: nowrap; }
+        .br { display: block; flex-basis: 100%; height: 0; }
       }
     </style>
     <header>
@@ -119,6 +120,7 @@
             <li><a href="${t.base}/guides/">${t.guides}</a></li>
           </ul>
         </div>
+        <span class="br" aria-hidden="true"></span>
         <a class="dl" href="${t.home}#download">
           <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v8M4 7l4 4 4-4M2 13h12"/></svg>
           ${t.dl}

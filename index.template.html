@@ -115,7 +115,7 @@
       <div class="feature-row reveal">
         <div class="feature-row-text">
           <div class="feature-num">01</div>
-          <h3 class="feature-title">{{f1.title}}</h3>
+          <h2 class="feature-title">{{f1.title}}</h2>
           <p class="feature-text">{{f1.text}}</p>
         </div>
         <div class="feature-row-phone">
@@ -127,7 +127,7 @@
       <div class="feature-row feature-row-reverse reveal">
         <div class="feature-row-text">
           <div class="feature-num">02</div>
-          <h3 class="feature-title">{{f2.title}}</h3>
+          <h2 class="feature-title">{{f2.title}}</h2>
           <p class="feature-text">{{f2.text}}</p>
         </div>
         <div class="feature-row-phone">
@@ -139,7 +139,7 @@
       <div class="feature-row reveal">
         <div class="feature-row-text">
           <div class="feature-num">03</div>
-          <h3 class="feature-title">{{f3.title}}</h3>
+          <h2 class="feature-title">{{f3.title}}</h2>
           <p class="feature-text">{{f3.text}}</p>
         </div>
         <div class="feature-row-phone">
@@ -151,7 +151,7 @@
       <div class="feature-row feature-row-reverse reveal">
         <div class="feature-row-text">
           <div class="feature-num">04</div>
-          <h3 class="feature-title">{{f4.title}}</h3>
+          <h2 class="feature-title">{{f4.title}}</h2>
           <p class="feature-text">{{f4.text}}</p>
         </div>
         <div class="feature-row-phone">
@@ -163,7 +163,7 @@
       <div class="feature-row reveal">
         <div class="feature-row-text">
           <div class="feature-num">05</div>
-          <h3 class="feature-title">{{f5.title}}</h3>
+          <h2 class="feature-title">{{f5.title}}</h2>
           <p class="feature-text">{{f5.text}}</p>
         </div>
         <div class="feature-row-phone">
@@ -175,7 +175,7 @@
       <div class="feature-row feature-row-reverse reveal">
         <div class="feature-row-text">
           <div class="feature-num">06</div>
-          <h3 class="feature-title">{{f6.title}}</h3>
+          <h2 class="feature-title">{{f6.title}}</h2>
           <p class="feature-text">{{f6.text}}</p>
         </div>
         <div class="feature-row-phone">
@@ -187,7 +187,7 @@
       <div class="feature-row reveal">
         <div class="feature-row-text">
           <div class="feature-num">07</div>
-          <h3 class="feature-title">{{f7.title}}</h3>
+          <h2 class="feature-title">{{f7.title}}</h2>
           <p class="feature-text">{{f7.text}}</p>
         </div>
         <div class="feature-row-phone">
@@ -197,15 +197,6 @@
 
     </div>
 
-    <!-- CTA after features -->
-    <div class="features-cta reveal">
-      <h3 class="features-cta-title">{{fcta.title}}</h3>
-      <p class="features-cta-sub">{{fcta.sub}}</p>
-      <a href="#download" class="btn-primary">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="white" stroke-width="2"><path d="M8 2v8M4 7l4 4 4-4"/><path d="M2 13h12"/></svg>
-        {{cta.download}}
-      </a>
-    </div>
 
   </section>
 
@@ -215,20 +206,20 @@
       <h2 class="reviews-title reveal">{{rev.title}}</h2>
       <p class="reviews-sub reveal">{{rev.sub}}</p>
       <div class="reviews-grid">
-        <figure class="review reveal" lang="en">
+        <figure class="review reveal" lang="{{meta.lang}}">
           <div class="review-stars" role="img" aria-label="{{rev.stars}}">★★★★★</div>
-          <blockquote>Great guide and logbook. It’s the second time I’m travelling the route and this app has been a game changer. Not only can we see all the stops and filter them, it logs them in our personal logbook and tallies miles! We’ve tried a few other apps but they weren’t as complete, were working with sponsored content, or had out of date info... I highly recommend it and for the price of a meal, it’ll completely change your trip.</blockquote>
-          <figcaption><span class="review-name">Ben M.</span> · Google Play · <span lang="{{meta.lang}}">{{rev.month}}</span></figcaption>
+          <blockquote>{{rev.q1}}</blockquote>
+          <figcaption><span class="review-name">Ben M.</span> · Google Play · {{rev.month}}<span class="review-tr">{{rev.tr}}</span></figcaption>
         </figure>
-        <figure class="review reveal" lang="en">
+        <figure class="review reveal" lang="{{meta.lang}}">
           <div class="review-stars" role="img" aria-label="{{rev.stars}}">★★★★★</div>
-          <blockquote>Even though we’ve been using the free features, this app is awesome! I love that you can see where all the different Route 66 roads are as well as attraction points with summaries.</blockquote>
-          <figcaption><span class="review-name">Reilly H.</span> · Google Play · <span lang="{{meta.lang}}">{{rev.month}}</span></figcaption>
+          <blockquote>{{rev.q2}}</blockquote>
+          <figcaption><span class="review-name">Reilly H.</span> · Google Play · {{rev.month}}<span class="review-tr">{{rev.tr}}</span></figcaption>
         </figure>
-        <figure class="review reveal" lang="en">
+        <figure class="review reveal" lang="{{meta.lang}}">
           <div class="review-stars" role="img" aria-label="{{rev.stars}}">★★★★★</div>
-          <blockquote><strong class="review-head">Fabulous app</strong>I travelled the route in September 2026. This app was great for giving me lists of attractions, restaurants and motels and directions to each one. It is easy to use and has an automatic tracking feature which is very handy. I would 100% recommend this app if driving Route 66</blockquote>
-          <figcaption><span class="review-name">charmed13</span> · App Store · <span lang="{{meta.lang}}">{{rev.month}}</span></figcaption>
+          <blockquote><strong class="review-head">{{rev.q3h}}</strong>{{rev.q3}}</blockquote>
+          <figcaption><span class="review-name">charmed13</span> · App Store · {{rev.month}}<span class="review-tr">{{rev.tr}}</span></figcaption>
         </figure>
       </div>
     </div>
@@ -265,18 +256,7 @@
         <p class="planner-sub">{{pl.sub}}</p>
         <a href="{{meta.path}}trip-planner/" class="btn-primary">{{pl.cta}}</a>
       </div>
-      <ul class="planner-badges reveal" aria-hidden="true">
-          <li><img src="/images/guides/badges/illinois.png" alt="" width="240" height="360" loading="lazy"></li>
-          <li><img src="/images/guides/badges/missouri.png" alt="" width="240" height="360" loading="lazy"></li>
-          <li><img src="/images/guides/badges/kansas.png" alt="" width="240" height="360" loading="lazy"></li>
-          <li><img src="/images/guides/badges/oklahoma.png" alt="" width="240" height="360" loading="lazy"></li>
-          <li><img src="/images/guides/badges/texas.png" alt="" width="240" height="360" loading="lazy"></li>
-          <li><img src="/images/guides/badges/new-mexico.png" alt="" width="240" height="360" loading="lazy"></li>
-          <li><img src="/images/guides/badges/arizona.png" alt="" width="240" height="360" loading="lazy"></li>
-          <li><img src="/images/guides/badges/california.png" alt="" width="240" height="360" loading="lazy"></li>
-      </ul>
-    </div>
-    <div class="planner-photos">
+      <div class="planner-photos reveal">
       <!-- Grid 1: Roy's + Mayor -->
       <div class="photos-grid-top reveal">
         <div class="photo-cell">
@@ -297,6 +277,7 @@
         <div class="photo-cell">
           <img src="/images/4.jpg" alt="{{ed.cap5}}" draggable="false"><p class="photo-caption">{{ed.cap5}}</p>
         </div>
+      </div>
       </div>
     </div>
   </section>

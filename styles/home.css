@@ -412,7 +412,7 @@
   .download {
     padding: 160px 52px; position: relative; overflow: hidden;
     background-color: var(--charcoal);
-    background-image: linear-gradient(rgba(43,48,51,0.5), rgba(43,48,51,0.5)), url('/images/morten-andreassen-mX0tCOykgSY-unsplash.jpg');
+    background-image: linear-gradient(rgba(43,48,51,0.45), rgba(43,48,51,0.45)), url('/images/route66.gif');
     background-size: cover; background-position: center; background-repeat: no-repeat;
   }
   .download-inner { max-width: 680px; margin: 0 auto; text-align: center; position: relative; z-index: 1; }
@@ -547,17 +547,11 @@
   .planner-title { font-family: 'Apfel Grotezk', 'Public Sans', sans-serif; font-weight: 800; font-size: clamp(40px, 5vw, 72px); line-height: 0.95; letter-spacing: -0.01em; color: var(--charcoal); margin-bottom: 22px; }
   .planner-title em { color: var(--coral); font-style: normal; }
   .planner-sub { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 22px; line-height: 1.45; color: rgba(43,48,51,0.75); margin-bottom: 34px; max-width: 520px; }
-  .planner-badges { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px 14px; }
-  .planner-badges img { width: 100%; height: auto; display: block; transition: transform .2s; }
-  .planner-badges li:nth-child(even) { transform: translateY(18px); }
-  .planner-badges li:hover img { transform: translateY(-4px) rotate(-2deg); }
   @media (max-width: 860px) {
     .planner { padding: 90px 24px; }
     .planner-inner { grid-template-columns: 1fr; gap: 40px; }
-    .planner-badges { grid-template-columns: repeat(4, 1fr); gap: 12px; max-width: 360px; }
-    .planner-title br { display: none; }
-    .planner-badges li:nth-child(even) { transform: none; }
-  }
+      .planner-title br { display: none; }
+    }
 
   /* Home reorder (Nov 2026): planner with the photo set, sand community band with five figures, portrait in the maker section */
   .planner { padding-bottom: 110px; }
@@ -580,4 +574,27 @@
     .planner-photos { margin-top: 56px; }
     .stats-row .stat { flex: 1 1 45%; min-width: 0; }
     .maker-portrait { width: 120px; height: 120px; }
+  }
+
+  /* Home polish (Nov 2026) */
+  .hl { color: var(--coral); }
+  .review-tr { display: block; margin-top: 6px; font-style: italic; opacity: .75; }
+  .review-tr:empty { display: none; }
+  .planner-inner { grid-template-columns: 0.9fr 1.1fr; align-items: center; }
+  .planner-photos { margin: 0; max-width: none; display: grid; gap: 10px; }
+  .planner .photos-grid-top, .planner .photos-grid-bottom { margin: 0; }
+  .planner .photos-grid-top .photo-cell { height: 280px; }
+  .planner .photos-grid-bottom { grid-template-rows: 140px 140px; }
+  .planner .photos-grid-bottom .photo-cell { height: 140px; }
+  .planner .pc-wigwam { min-height: 290px; }
+  .maker { padding-top: 50px; padding-bottom: 50px; }
+  .maker-portrait { width: 100px; height: 100px; border-width: 2px; margin-bottom: 18px; }
+  @media (min-width: 861px) {
+    .feature-row { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+    .feat-phone-img { width: 300px; }
+  }
+  @media (max-width: 860px) {
+    .planner-inner { grid-template-columns: 1fr; }
+    .maker { padding-top: 50px; padding-bottom: 50px; }
+    .maker-portrait { width: 100px; height: 100px; }
   }

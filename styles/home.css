@@ -558,3 +558,26 @@
     .planner-title br { display: none; }
     .planner-badges li:nth-child(even) { transform: none; }
   }
+
+  /* Home reorder (Nov 2026): planner with the photo set, sand community band with five figures, portrait in the maker section */
+  .planner { padding-bottom: 110px; }
+  .planner-photos { max-width: 1200px; margin: 90px auto 0; }
+  .community { background: var(--sand); }
+  .community-title { color: var(--charcoal); }
+  .community-title em { color: var(--coral); }
+  .community-body { color: rgba(43,48,51,0.68); }
+  .community .section-eyebrow { color: var(--teal); }
+  .community-inner { max-width: 1100px; }
+  .community-body { max-width: 780px; margin-left: auto; margin-right: auto; }
+  .stats-row { gap: 0; justify-content: space-between; border-top: 2px solid rgba(43,48,51,0.12); border-bottom: 2px solid rgba(43,48,51,0.12); padding: 34px 8px 30px; margin: 0 auto 56px; flex-wrap: wrap; }
+  .stats-row .stat { flex: 1 1 0; min-width: 150px; padding: 8px 10px; }
+  .stats-row .stat-num { color: var(--teal); font-size: clamp(40px, 4.4vw, 60px); }
+  .stats-row .stat-label { color: rgba(43,48,51,0.6); font-size: 12px; letter-spacing: 2px; margin-top: 10px; }
+  .community .download-badges { justify-content: center; }
+  .maker-portrait { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; object-position: 50% 30%; display: block; margin: 0 auto 26px; border: 4px solid #fff; box-shadow: 0 12px 30px rgba(43,48,51,0.25); }
+  .maker-title { font-size: clamp(26px, 3.2vw, 38px); line-height: 1.05; margin-bottom: 28px; }
+  @media (max-width: 860px) {
+    .planner-photos { margin-top: 56px; }
+    .stats-row .stat { flex: 1 1 45%; min-width: 0; }
+    .maker-portrait { width: 120px; height: 120px; }
+  }

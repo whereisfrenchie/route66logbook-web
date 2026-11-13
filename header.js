@@ -16,9 +16,9 @@
    Prepare and the guides link to their /fr/ or /es/ versions. */
 (function () {
   const LABELS = {
-    en: { app: 'The app',  route: 'The route', history: 'History',  prepare: 'Prepare your trip',  guides: 'Route 66 guides', home: '/', base: '' },
-    fr: { app: 'L’app',   route: 'La route',  history: 'Histoire', prepare: 'Préparer ton voyage', guides: 'Guides de la Route 66', home: '/fr/', base: '/fr' },
-    es: { app: 'La app',   route: 'La ruta',   history: 'Historia', prepare: 'Prepara tu viaje',  guides: 'Guías de la Route 66', home: '/es/', base: '/es' },
+    en: { app: 'The app',  route: 'The route', history: 'History',  prepare: 'Prepare your trip',  guides: 'Route 66 guides', planner: 'Trip planner', home: '/', base: '' },
+    fr: { app: 'L’app',   route: 'La route',  history: 'Histoire', prepare: 'Préparer ton voyage', guides: 'Guides de la Route 66', planner: 'Planificateur de voyage', home: '/fr/', base: '/fr' },
+    es: { app: 'La app',   route: 'La ruta',   history: 'Historia', prepare: 'Prepara tu viaje',  guides: 'Guías de la Route 66', planner: 'Planificador de viaje', home: '/es/', base: '/es' },
   };
 
   const template = (t, active) => `
@@ -97,6 +97,7 @@
           <ul class="menu" id="route-menu">
             <li><a href="${t.base}/history/">${t.history}</a></li>
             <li><a href="${t.base}/prepare/">${t.prepare}</a></li>
+            <li><a href="${t.base}/trip-planner/">${t.planner}</a></li>
             <li><a href="${t.base}/guides/">${t.guides}</a></li>
           </ul>
         </div>
@@ -110,7 +111,7 @@
       const lang = (document.documentElement.lang || 'en').slice(0, 2);
       const t = LABELS[lang] || LABELS.en;
       const path = location.pathname;
-      const inRoute = /^(\/(fr|es))?\/(history|prepare|guides)(\/|$)/.test(path);
+      const inRoute = /^(\/(fr|es))?\/(history|prepare|trip-planner|guides)(\/|$)/.test(path);
       const active = inRoute ? 'route' : (path === t.home || path === t.home.replace(/\/$/, '') || path === '/' || path === '/index.html' || path === t.home + 'index.html') ? 'app' : '';
 
       const root = this.attachShadow({ mode: 'open' });

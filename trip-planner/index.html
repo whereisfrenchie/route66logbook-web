@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Route 66 trip planner: your day by day itinerary · Route 66 Logbook</title>
+<meta name="description" content="Plan your Route 66 road trip in a minute. Choose your days, season and interests and get a day by day itinerary from Chicago to Santa Monica, with stops, advice and a shareable link.">
+<link rel="canonical" href="https://route66logbook.com/trip-planner/">
+<link rel="alternate" hreflang="en" href="https://route66logbook.com/trip-planner/">
+<link rel="alternate" hreflang="fr" href="https://route66logbook.com/fr/trip-planner/">
+<link rel="alternate" hreflang="es" href="https://route66logbook.com/es/trip-planner/">
+<link rel="alternate" hreflang="x-default" href="https://route66logbook.com/trip-planner/">
+<link rel="icon" href="/images/route66logbook-logo-shield.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Route 66 Logbook">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://route66logbook.com/trip-planner/">
+<meta property="og:title" content="Route 66 trip planner: your day by day itinerary · Route 66 Logbook">
+<meta property="og:description" content="Plan your Route 66 road trip in a minute. Choose your days, season and interests and get a day by day itinerary from Chicago to Santa Monica, with stops, advice and a shareable link.">
+<meta property="og:image" content="https://route66logbook.com/images/og-home.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Route 66 trip planner: your day by day itinerary · Route 66 Logbook">
+<meta name="twitter:description" content="Plan your Route 66 road trip in a minute. Choose your days, season and interests and get a day by day itinerary from Chicago to Santa Monica, with stops, advice and a shareable link.">
+<meta name="twitter:image" content="https://route66logbook.com/images/og-home.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link rel="preload" href="/fonts/apfel-grotezk-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/styles/fonts.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Route 66 trip planner: your day by day itinerary","url":"https://route66logbook.com/trip-planner/","applicationCategory":"TravelApplication","operatingSystem":"Any","inLanguage":"en","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Route 66 Logbook","url":"https://route66logbook.com/"}}</script>
+<style>
+
+:root{--coral:#ea5b56;--coral-d:#d4473f;--teal:#6daeab;--teal-l:#e3f0ef;--sand:#f7f4f0;--sand-2:#efe9e1;--char:#2b3033;--char-2:#4a5155;--muted:#6f767a;--line:#e3ddd4;--white:#fff;
+--sans:"Public Sans",system-ui,Arial,sans-serif;--title:"Apfel Grotezk","Public Sans",sans-serif;--serif:"Instrument Serif",Georgia,serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--char);background:var(--sand);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+button{font-family:inherit;cursor:pointer}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.hidden{display:none!important}
+h1,h2,h3,.h,.day h4,.panel h4,.steps3 .h4,.r-title,.download-title{font-family:var(--title);font-weight:700;letter-spacing:-.015em;line-height:1.04}
+.lede{font-family:var(--serif);font-style:italic;font-size:clamp(22px,2.4vw,28px);line-height:1.3;color:var(--char-2)}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--coral)}
+.fade{animation:fade .45s ease-out both}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+.link-btn{background:none;border:0;font-weight:600;font-size:14px;color:var(--char);border-bottom:2px solid var(--coral);padding-bottom:2px}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--coral);color:#fff;border:0;border-radius:999px;font-weight:600;font-size:16px;padding:17px 30px;text-decoration:none;transition:background .2s,transform .2s}
+.btn:hover{background:var(--coral-d);transform:translateY(-1px)}
+.btn.dark{background:var(--char)}.btn.dark:hover{background:#1c2022}
+.btn.ghost{background:transparent;color:var(--char);box-shadow:inset 0 0 0 2px var(--char)}
+.btn:disabled{opacity:.35;cursor:not-allowed;transform:none}
+
+/* welcome */
+.hero{padding:84px 0 72px}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(48px,7vw,92px);margin:18px 0 22px}
+.hero h1 .red{color:var(--coral)}
+.hero .lede{max-width:560px;margin-bottom:34px}
+.meta{display:flex;gap:24px;margin-top:26px;color:var(--muted);font-size:15px;flex-wrap:wrap}
+.hero-img{border-radius:28px;overflow:hidden;aspect-ratio:4/5;background:var(--sand-2)}
+.hero-img img{width:100%;height:100%;object-fit:cover;display:block}
+
+.steps3,.hero .steps3{display:grid;grid-template-columns:repeat(3,1fr);align-items:stretch;gap:20px;margin-top:64px}
+.steps3 div{background:var(--white);border-radius:20px;padding:26px 24px}
+.steps3 b{font-size:34px;font-weight:800;color:var(--teal)}
+.steps3 .h4{font-size:17px;font-weight:800;margin:6px 0 4px}
+.steps3 p{color:var(--muted);font-size:15px}
+
+/* quiz */
+.quiz{padding:48px 0 80px}
+.card{background:var(--white);border-radius:28px;max-width:900px;margin:0 auto;padding:44px 52px}
+.prog{display:flex;justify-content:space-between;font-size:13px;font-weight:600;color:var(--muted);margin-bottom:10px}
+.prog b{color:var(--char)}
+.bar{height:6px;background:var(--sand-2);border-radius:99px;margin-bottom:36px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--coral);border-radius:99px;transition:width .35s}
+.hint{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;background:var(--teal-l);color:#3e7f7c;padding:6px 12px;border-radius:99px}
+.q-title{font-size:clamp(30px,3.6vw,44px);margin:14px 0 8px}
+.q-sub{font-family:var(--serif);font-style:italic;font-size:21px;color:var(--muted);margin-bottom:28px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:36px}
+.opt{display:flex;gap:14px;align-items:flex-start;text-align:left;background:var(--sand);border:2px solid transparent;border-radius:18px;padding:18px 20px;color:var(--char);transition:border-color .15s,background .15s}
+.opt:hover{border-color:var(--line)}
+
+.opt h4{font-size:17px;font-weight:600;line-height:1.3}
+.opt p{font-size:14.5px;color:var(--muted);margin-top:3px;line-height:1.45}
+.opt.on{border-color:var(--coral);background:#fdf0ef}
+.nav{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:26px}
+
+/* results */
+.r-hero{background:var(--char);color:#fff;padding:80px 0 70px;position:relative;overflow:hidden}
+.r-hero .eyebrow{color:var(--teal)}
+.r-hero .r-title{font-size:clamp(42px,6.4vw,84px);margin:16px 0 18px;max-width:950px}
+.r-hero .r-title em{font-style:normal;color:var(--coral)}
+.r-hero .lede{color:#cdd2d4;max-width:720px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#41484c;border-radius:20px;overflow:hidden;margin-top:44px}
+.stats div{background:#33393c;padding:22px 24px}
+.stats b{display:block;font-size:34px;font-weight:800;letter-spacing:-.02em}
+.stats span{font-size:13px;color:#a9b0b4;font-weight:500}
+.ribbon{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+
+.note{margin-top:22px;background:rgba(109,174,171,.16);border-left:3px solid var(--teal);padding:14px 18px;border-radius:0 12px 12px 0;color:#dfe8e7;font-size:15.5px;max-width:820px}
+.sec{padding:84px 0}
+.sec.white{background:var(--white)}
+.sec-h{display:flex;justify-content:space-between;align-items:flex-end;gap:28px;margin-bottom:40px}
+.sec-h h2{font-size:clamp(34px,4.4vw,54px);margin-top:10px}
+.sec-h .lede{max-width:420px;font-size:21px}
+.days{display:grid;gap:16px}
+.day{display:grid;grid-template-columns:120px 1fr;gap:28px;background:var(--white);border-radius:24px;padding:28px 30px;border:1px solid var(--line)}
+.sec.white .day{background:var(--sand);border-color:transparent}
+.day .num{font-weight:800}
+.day .num small{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.day .num > b{font-size:46px;letter-spacing:-.03em;color:var(--coral);line-height:1}
+.day h4{font-size:24px;font-weight:800;letter-spacing:-.02em;line-height:1.15}
+.day h4 .arr{color:var(--teal);margin:0 6px}
+.dmeta{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 16px}
+.pill{font-size:12.5px;font-weight:600;border-radius:99px;padding:5px 11px;background:var(--sand-2);color:var(--char-2)}
+.sec.white .pill{background:var(--white)}
+.pill.warn{background:#fde4e2;color:#a8362f}
+.stops{list-style:none;display:grid;gap:9px}
+.stops li{display:flex;gap:12px;align-items:flex-start;font-size:15.5px}
+.stops li i{flex:0 0 8px;height:8px;border-radius:50%;background:var(--coral);margin-top:9px}
+.stops li b{font-weight:600}
+.stops li span{color:var(--muted)}
+.day.extra{border:2px dashed var(--teal)}
+.day.extra .num > b{color:var(--teal)}
+.two,.three{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.three{grid-template-columns:repeat(3,1fr)}
+.panel{background:var(--white);border-radius:24px;padding:32px 32px}
+.sec.white .panel{background:var(--sand)}
+.panel .kicker{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--teal)}
+.panel h4{font-size:24px;font-weight:800;margin:14px 0 8px;letter-spacing:-.02em}
+.panel p,.panel li{font-size:15.5px;color:var(--char-2)}
+.panel ul{padding-left:18px;margin-top:10px;display:grid;gap:6px}
+.check{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.check{list-style:none}
+.check li{display:flex;gap:14px;background:var(--white);border-radius:18px;padding:18px 20px;font-size:15.5px}
+.check li b{display:block;font-weight:600;color:var(--char)}
+.check li span span{display:block;color:var(--char)}
+.check .tick{flex:0 0 26px;height:26px;border-radius:50%;background:var(--teal-l);color:#3e7f7c;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px}
+.app{background:var(--coral);color:#fff}
+.app .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;padding-top:88px;padding-bottom:88px}
+.app .eyebrow{color:#fff;opacity:.85}
+.app h3{font-size:clamp(36px,4.8vw,60px);margin:12px 0 16px}
+.app .lede{color:#fff;opacity:.95;margin-bottom:28px}
+.app ul{list-style:none;display:grid;gap:12px}
+.app li{background:rgba(255,255,255,.14);border-radius:16px;padding:16px 20px;font-size:15.5px}
+.app li b{display:block;font-weight:600;font-size:16.5px}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;padding:52px 0}
+
+/* badges: image from images/badges/, placeholder arch until the file exists */
+.badge{position:relative;display:inline-flex;align-items:center;justify-content:center;width:36px;height:54px;flex:0 0 36px;border-radius:19px 19px 6px 6px;background:var(--coral);color:#fff;font-size:12px;font-weight:800;letter-spacing:.04em;z-index:1}
+.badge img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:transparent}
+.badge.has-img{background:transparent}.badge.has-img b{visibility:hidden}
+.badge.lg{width:64px;height:74px;flex-basis:64px;border-radius:32px 32px 10px 10px;font-size:17px}
+.badge.off{background:#3b4246;color:#7d868a}.badge.off.has-img img{opacity:.3;filter:grayscale(1)}
+.day .num .badge{width:60px;height:90px;flex-basis:60px}
+.ribbon .badge{width:40px;height:60px;flex-basis:40px}
+.ribbon{gap:10px}.ribbon .st{display:flex;flex-direction:column;align-items:center;gap:6px;font-size:12px;font-weight:600;color:#7d868a}
+.ribbon .st.on{color:#fff}
+/* slider */
+.slider-box{background:var(--sand);border-radius:22px;padding:34px 32px 26px;margin-bottom:36px}
+.days-out{display:flex;align-items:baseline;gap:12px}
+.days-out b{font-size:clamp(64px,9vw,104px);font-weight:800;letter-spacing:-.04em;line-height:.9;color:var(--coral)}
+.days-out span{font-size:22px;font-weight:600}
+.days-hint{font-family:var(--serif);font-style:italic;font-size:22px;color:var(--char-2);margin:10px 0 26px;min-height:30px}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:8px;border-radius:99px;background:linear-gradient(to right,var(--coral) var(--fill,22%),var(--sand-2) var(--fill,22%));outline:none}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:30px;height:30px;border-radius:50%;background:#fff;border:3px solid var(--coral);box-shadow:0 2px 8px rgba(0,0,0,.15);cursor:pointer}
+input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;background:#fff;border:3px solid var(--coral);cursor:pointer}
+.ticks{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);font-weight:600;margin-top:12px}
+.day{position:relative}
+.day .num{display:flex;flex-direction:column;align-items:flex-start}
+.day .num .badge{margin-top:14px}
+.day.group .num > b{font-size:34px}
+
+@media (max-width:860px){
+  body{font-size:16px}
+  .hero{padding:48px 0}.hero .wrap,.app .wrap{grid-template-columns:1fr;gap:36px}
+  .steps3,.hero .steps3,.opts,.two,.three,.check{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .card{padding:28px 20px;border-radius:22px}.quiz{padding:20px 0 48px}
+  .sec{padding:56px 0}.sec-h{flex-direction:column;align-items:flex-start}
+  .day{grid-template-columns:1fr;gap:10px;padding:22px}
+  .day .num .badge{position:absolute;top:18px;right:18px;margin:0}
+  .day h4{padding-right:56px}
+  .hero-img{aspect-ratio:4/3}
+}
+@media print{site-header,site-footer,.download,.actions,.app .btn,.no-print{display:none!important}body{background:#fff}.r-hero{background:#fff;color:#000}.r-hero .lede,.note{color:#333}.stats div{background:#f2f2f2}.day{break-inside:avoid}}
+
+/* added: accessibility, sharing, download block (from the site) */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:6px}
+.opt:focus-visible{outline-offset:2px;border-radius:18px}
+#qTitle:focus,#rTitle:focus{outline:none}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.dtext{color:var(--char-2);font-size:15.5px}
+.share-row{display:flex;align-items:center;gap:16px;margin-top:30px;flex-wrap:wrap}
+.share-row span{color:#cfe6e4;font-weight:600;font-size:15px}
+.quiz-top{display:flex;justify-content:flex-end;margin-bottom:12px}
+.download{padding:140px 52px;position:relative;overflow:hidden;background-color:var(--char);background-image:linear-gradient(rgba(43,48,51,.5),rgba(43,48,51,.5)),url("/images/morten-andreassen-mX0tCOykgSY-unsplash.jpg");background-size:cover;background-position:center;text-align:center}
+.download-inner{max-width:680px;margin:0 auto}
+.download .eyebrow.light{color:#fff;opacity:.75;margin-bottom:18px}
+.download-title{font-weight:800;font-size:clamp(54px,8.5vw,112px);color:#fff;line-height:.88;letter-spacing:-.01em;margin-bottom:26px}
+.download-title em{color:var(--coral);font-style:normal}
+.download-sub{font-family:var(--serif);font-style:italic;font-size:20px;color:rgba(255,255,255,.75);margin-bottom:52px;line-height:1.6}
+.download-badges{display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
+.badge-btn{display:flex;align-items:center;gap:14px;background:var(--coral);color:#fff;padding:15px 30px;border-radius:16px;text-decoration:none;text-align:left;transition:transform .2s,box-shadow .2s}
+.badge-btn:hover{transform:translateY(-2px);box-shadow:0 14px 40px rgba(234,91,86,.4)}
+.badge-btn-android{background:var(--teal)}.badge-btn-android:hover{box-shadow:0 14px 40px rgba(109,174,171,.45)}
+.badge-btn-label{font-size:10px;opacity:.7;display:block;letter-spacing:.5px;margin-bottom:2px}
+.badge-btn-store{font-size:17px;font-weight:700;display:block;letter-spacing:-.01em}
+@media (max-width:860px){.download{padding:90px 24px}.meta{gap:6px 14px}.meta span:nth-child(even){display:none}}
+
+.disclaimer{background:var(--white);border-top:1px solid var(--line)}
+.disclaimer .wrap{padding-top:36px;padding-bottom:30px}
+.disclaimer .cta-row{display:flex;align-items:center;justify-content:space-between;gap:20px 32px;flex-wrap:wrap;background:var(--teal-l);border-radius:20px;padding:22px 26px}
+.disclaimer .cta-ask{font-family:var(--title);font-weight:700;font-size:clamp(20px,2.2vw,26px);letter-spacing:-.01em;line-height:1.15;color:var(--char);margin:0}
+.disclaimer .cta{background:var(--teal);padding:14px 26px;font-size:15px;white-space:nowrap}
+.disclaimer .cta:hover{background:#5a9a97}
+.disclaimer .fine{font-size:12px;line-height:1.6;color:var(--muted);margin:18px 2px 0;max-width:none}
+.disclaimer .fine b{font-weight:600;color:var(--char-2)}
+@media (max-width:860px){.disclaimer .cta-row{padding:20px}.disclaimer .cta{width:100%}}
+
+</style>
+</head>
+<body>
+<site-header></site-header>
+<main>
+<section id="welcome" class="fade">
+  <div class="hero"><div class="wrap">
+    <div>
+      <span class="eyebrow">Trip planner · 100 years of the Mother Road</span>
+      <h1>Plan your <span class="red">Route 66</span> trip</h1>
+      <p class="lede">Tell us how long you have, when you’re going and what you love. We’ll map out a day by day route from Chicago to Santa Monica, or the stretch that suits you.</p>
+      <button class="btn" id="startBtn" type="button">Start planning</button>
+      <div class="meta"><span>About 1 minute</span><span>·</span><span>7 questions</span><span>·</span><span>Day by day itinerary</span></div>
+    </div>
+    <div class="hero-img"><img src="/images/3.jpg" alt="Wigwam Motel on Route 66"></div>
+  </div>
+  <div class="wrap steps3">
+    <div><b>01</b><h2 class="h4">Your time</h2><p>How many days, which stretch and which direction.</p></div>
+    <div><b>02</b><h2 class="h4">Your trip</h2><p>Season, vehicle and the pace you like to travel at.</p></div>
+    <div><b>03</b><h2 class="h4">Your road</h2><p>The diners, giants, ghost towns or canyons you came for.</p></div>
+  </div></div>
+  <noscript><p class="wrap">The trip planner needs JavaScript. You can still read our <a href="/guides/route-66-itinerary/">Route 66 itinerary guide</a>.</p></noscript>
+</section>
+<section id="quiz" class="quiz hidden" aria-labelledby="qTitle"><div class="wrap">
+  <div class="card fade" id="qCard">
+    <div class="quiz-top"><button class="link-btn" id="restartBtn" type="button">Start again</button></div>
+    <div class="prog"><span id="qCount"></span><b id="qTag"></b></div>
+    <div class="bar" id="qBarWrap" role="progressbar" aria-valuemin="1" aria-valuemax="7" aria-valuenow="1"><i id="qBar"></i></div>
+    <span class="hint" id="qHint"></span>
+    <h2 class="q-title" id="qTitle" tabindex="-1"></h2>
+    <p class="q-sub" id="qSub"></p>
+    <div id="qOpts"></div>
+    <div class="nav"><button class="link-btn" id="backBtn" type="button">← Back</button><button class="btn" id="nextBtn" type="button">Continue</button></div>
+  </div>
+</div></section>
+<section id="results" class="hidden" aria-live="off"></section>
+</main>
+<section class="disclaimer" aria-label="A starting point, not a guarantee"><div class="wrap">
+  <div class="cta-row">
+    <p class="cta-ask">Want to start mapping what to see?</p>
+    <a class="btn cta" id="ctaApp" href="/#download">Plan your stops in the app</a>
+  </div>
+  <p class="fine"><b>A starting point, not a guarantee.</b> This plan is indicative. Distances are approximate and follow the historic alignments, opening hours and seasons change, some businesses close, and a few old sections of road are unpaved, rough or closed. Check live stop status in Route 66 Logbook, confirm bookings directly, follow local road and weather advice, and drive safely.</p>
+</div></section>
+<site-footer></site-footer>
+<script>
+/* Route 66 Logbook · trip planner. One script for /trip-planner/, /fr/trip-planner/ and /es/trip-planner/.
+   Language follows <html lang>. Stop names, cities and "Route 66" stay English, as on the rest of the site. */
+(function(){
+const L=(document.documentElement.lang||"en").slice(0,2)==="fr"?"fr":((document.documentElement.lang||"").slice(0,2)==="es"?"es":"en");
+const tr=o=>typeof o==="string"?o:(o[L]||o.en);
+const $=id=>document.getElementById(id);
+const track=(ev,props)=>{try{window.posthog&&window.posthog.capture&&window.posthog.capture(ev,Object.assign({lang:L},props||{}))}catch(e){}};
+
+const STATE_NAMES={"Illinois":{fr:"Illinois",es:"Illinois"},"Missouri":{fr:"Missouri",es:"Misuri"},"Kansas":{fr:"Kansas",es:"Kansas"},"Oklahoma":{fr:"Oklahoma",es:"Oklahoma"},"Texas":{fr:"Texas",es:"Texas"},"New Mexico":{fr:"Nouveau-Mexique",es:"Nuevo México"},"Arizona":{fr:"Arizona",es:"Arizona"},"California":{fr:"Californie",es:"California"}};
+const sn=s=>L==="en"?s:STATE_NAMES[s][L];
+const STATES=Object.keys(STATE_NAMES);
+const ABBR={"Illinois":"IL","Missouri":"MO","Kansas":"KS","Oklahoma":"OK","Texas":"TX","New Mexico":"NM","Arizona":"AZ","California":"CA"};
+
+/* ===== UI strings ===== */
+const S={
+ q:{en:"Question",fr:"Question",es:"Pregunta"},of:{en:"of",fr:"sur",es:"de"},
+ slide:{en:"Slide to choose",fr:"Fais glisser pour choisir",es:"Desliza para elegir"},
+ one:{en:"Choose one",fr:"Choisis une réponse",es:"Elige una"},
+ upto:{en:n=>`Choose up to ${n}`,fr:n=>`Jusqu’à ${n} choix`,es:n=>`Elige hasta ${n}`},
+ cont:{en:"Continue",fr:"Continuer",es:"Continuar"},build:{en:"Build my road trip",fr:"Créer mon road trip",es:"Crear mi viaje"},
+ day:{en:"day",fr:"jour",es:"día"},days:{en:"days",fr:"jours",es:"días"},Day:{en:"Day",fr:"Jour",es:"Día"},Days:{en:"Days",fr:"Jours",es:"Días"},
+ to:{en:"to",fr:"à",es:"a"},daysAria:{en:"Number of days",fr:"Nombre de jours",es:"Número de días"},
+ hints:{en:["A day or two: one great stretch of the road.","Under a week: one region, done well.","The whole road at a brisk pace, or a region at leisure.","The classic Route 66 trip, end to end.","The full road with time for detours.","The slow road: time to stay, explore and wander."],
+        fr:["Un jour ou deux : un beau tronçon de la route.","Moins d’une semaine : une région, bien vécue.","Toute la route à bon rythme, ou une région en prenant ton temps.","Le grand classique de la Route 66, d’un bout à l’autre.","Toute la route, avec du temps pour les détours.","La route lente : le temps de rester, d’explorer, de flâner."],
+        es:["Uno o dos días: un gran tramo de la ruta.","Menos de una semana: una región, bien vivida.","Toda la ruta a buen ritmo, o una región con calma.","El viaje clásico por la Route 66, de punta a punta.","Toda la ruta, con tiempo para desvíos.","La ruta lenta: tiempo para quedarte, explorar y deambular."]},
+ eyebrowRes:{en:"Your Route 66 road trip",fr:"Ton road trip sur la Route 66",es:"Tu viaje por la Route 66"},
+ inDays:{en:n=>`in ${n} ${n===1?"day":"days"}`,fr:n=>`en ${n} ${n===1?"jour":"jours"}`,es:n=>`en ${n} ${n===1?"día":"días"}`},
+ west:{en:"Heading west, the way most travellers do, with the Pacific waiting at the end.",fr:"Cap à l’ouest, comme la plupart des voyageurs, avec le Pacifique au bout.",es:"Rumbo al oeste, como la mayoría, con el Pacífico esperándote al final."},
+ east:{en:"Heading east, with the sun at your back and Chicago waiting at the end.",fr:"Cap à l’est, le soleil dans le dos et Chicago au bout.",es:"Rumbo al este, con el sol a tu espalda y Chicago esperándote al final."},
+ milesApprox:{en:"miles, approximately",fr:"miles environ",es:"millas aprox."},perDay:{en:"miles per driving day",fr:"miles par jour de route",es:"millas por día de manejo"},
+ state:{en:"state",fr:"État",es:"estado"},statesW:{en:"states",fr:"États",es:"estados"},
+ dayByDay:{en:"Day by day",fr:"Jour par jour",es:"Día a día"},itin:{en:"Your itinerary",fr:"Ton itinéraire",es:"Tu itinerario"},
+ itinLede:{en:"Days are paced by time, not just miles: driving plus the stops that match what you love. A few highlights per day; the app maps more than 1,000 stops.",fr:"Les journées sont rythmées par le temps, pas seulement les miles : la route plus les arrêts qui te ressemblent. Quelques temps forts par jour ; l’app cartographie plus de 1 000 arrêts.",es:"Los días se calculan por tiempo, no solo por millas: el manejo más las paradas que van contigo. Algunos imperdibles por día; la app tiene más de 1,000 paradas en el mapa."},
+ about:{en:n=>`About ${n} miles`,fr:n=>`Environ ${n} miles`,es:n=>`Unas ${n} millas`},
+ long:{en:"Long driving day",fr:"Longue journée de route",es:"Día largo al volante"},
+ rest:{en:"Rest or detour",fr:"Repos ou détour",es:"Descanso o desvío"},flex:{en:"Flexible",fr:"Libre",es:"Flexible"},
+ kbg:{en:"Know before you go",fr:"Avant de partir",es:"Antes de salir"},seasonVeh:{en:"Season, vehicle and travel",fr:"Saison, véhicule et trajet",es:"Temporada, vehículo y viaje"},
+ checklist:{en:"Checklist",fr:"Check-list",es:"Lista"},before:{en:"Before you leave",fr:"Avant le départ",es:"Antes de partir"},
+ share:{en:"Share my trip",fr:"Partager mon voyage",es:"Compartir mi viaje"},copied:{en:"Link copied",fr:"Lien copié",es:"Enlace copiado"},
+ print:{en:"Print my itinerary",fr:"Imprimer mon itinéraire",es:"Imprimir mi itinerario"},again:{en:"Plan another trip",fr:"Préparer un autre voyage",es:"Planear otro viaje"},
+ back:{en:"Back",fr:"Retour",es:"Atrás"},restart:{en:"Start again",fr:"Recommencer",es:"Empezar de nuevo"},
+ secondNight:{en:c=>`A second night in ${c}`,fr:c=>`Une deuxième nuit à ${c}`,es:c=>`Una segunda noche en ${c}`},
+ secondNightH:{en:"Slow down: revisit the day’s highlights, take the old alignments and find the stops that aren’t on any list.",fr:"Ralentis : reviens sur les temps forts de la veille, emprunte les anciens tracés et trouve les arrêts qui ne figurent sur aucune liste.",es:"Baja el ritmo: vuelve a lo mejor del día, toma los trazados antiguos y encuentra las paradas que no salen en ninguna lista."},
+ freeDays:{en:n=>n===1?"Free day":`${n} free days`,fr:n=>n===1?"Jour libre":`${n} jours libres`,es:n=>n===1?"Día libre":`${n} días libres`},
+ freeH:{en:"Room for weather, side trips you hear about on the road, a national park or two, or simply resting. Many travellers use extra time to drive the original alignments and loops in each state.",fr:"De la marge pour la météo, les détours qu’on te conseillera en route, un parc national ou deux, ou simplement du repos. Beaucoup en profitent pour suivre les tracés d’origine et les boucles de chaque État.",es:"Margen para el clima, desvíos que descubras en el camino, un parque nacional o dos, o simplemente descansar. Muchos aprovechan para recorrer los trazados originales y los circuitos de cada estado."},
+ nShort:{en:(d,a,b)=>`With ${d===1?"one day":d+" days"}, we’ve focused on <b>${a} to ${b}</b>, the stretch that best matches what you love, so you’re exploring rather than just driving.`,
+         fr:(d,a,b)=>`Avec ${d===1?"une journée":d+" jours"}, on s’est concentré sur <b>${a} à ${b}</b>, le tronçon qui colle le mieux à tes envies, pour explorer plutôt que juste rouler.`,
+         es:(d,a,b)=>`Con ${d===1?"un día":d+" días"}, nos enfocamos en <b>${a} a ${b}</b>, el tramo que mejor encaja con lo que te gusta, para explorar y no solo manejar.`},
+ nSection:{en:(a,b)=>`The full road is around 2,300 miles, too much for under a week. We’ve focused on <b>${a} to ${b}</b> instead, so you can enjoy it rather than just drive it.`,
+           fr:(a,b)=>`La route complète fait environ 2 300 miles, trop pour moins d’une semaine. On s’est concentré sur <b>${a} à ${b}</b>, pour en profiter plutôt que de simplement rouler.`,
+           es:(a,b)=>`La ruta completa tiene unas 2,300 millas, demasiado para menos de una semana. Nos enfocamos en <b>${a} a ${b}</b>, para disfrutarla y no solo manejarla.`},
+ nAuto:{en:(a,b)=>`We picked <b>${a} to ${b}</b> because it fits your time and the things you love most.`,fr:(a,b)=>`On a choisi <b>${a} à ${b}</b> : ça colle à ton temps et à ce que tu aimes le plus.`,es:(a,b)=>`Elegimos <b>${a} a ${b}</b> porque encaja con tu tiempo y con lo que más te gusta.`},
+ nMerged:{en:d=>`To fit ${d} days, some days cover a lot of road. Expect a few long driving days, and consider adding time if you can.`,fr:d=>`Pour tenir en ${d} jours, certaines journées couvrent beaucoup de route. Prévois quelques longues journées, et ajoute du temps si tu peux.`,es:d=>`Para que quepa en ${d} días, algunos días cubren mucha ruta. Habrá varios días largos al volante; si puedes, suma tiempo.`},
+ nWhole:{en:d=>`With ${d} days, you have time for the whole road. Choose <b>The whole road</b> on question 2 to see it end to end.`,fr:d=>`Avec ${d} jours, tu as le temps de faire toute la route. Choisis <b>Toute la route</b> à la question 2 pour la voir d’un bout à l’autre.`,es:d=>`Con ${d} días tienes tiempo para toda la ruta. Elige <b>Toda la ruta</b> en la pregunta 2 para verla de punta a punta.`},
+ appEyebrow:{en:"Take it on the road",fr:"Emporte-le sur la route",es:"Llévalo a la ruta"},
+ appTitle:{en:"Ready to<br>hit the <em>road?</em>",fr:"Envie de<br>prendre la <em>route ?</em>",es:"¿Todo listo para<br>salir a la <em>ruta?</em>"},
+ appSub:{en:"Your itinerary is a start. The app is the road, updated by the people driving it. The map is free to explore. One-time unlock to plan and log your trip. No subscription.",
+         fr:"Ton itinéraire est un point de départ. L’app, c’est la route, mise à jour par celles et ceux qui la parcourent. La carte est gratuite. Un achat unique pour planifier ton voyage et tenir ton Carnet. Sans abonnement.",
+         es:"Tu itinerario es un punto de partida. La app es la ruta, actualizada por quienes la recorren. El mapa es gratis. Un pago único para planear tu viaje y llevar tu Bitácora. Sin suscripción."},
+ timeLine:{en:(a,b)=>`About ${a} h driving, ${b} h at stops`,fr:(a,b)=>`Environ ${a} h de route, ${b} h d’arrêts`,es:(a,b)=>`Unas ${a} h de manejo, ${b} h en paradas`},
+ seasonal:{en:"seasonal",fr:"saisonnier",es:"de temporada"},
+ dlLabelA:{en:"Download on the",fr:"Télécharger dans l’",es:"Descárgala en el"},dlLabelG:{en:"Get it on",fr:"Disponible sur",es:"Disponible en"},
+};
+const s=k=>tr(S[k]);
+
+/* ===== Route data, westbound. Miles approximate. Stop status checked against the Route 66 Logbook stops table, Nov 2026. ===== */
+const D=(en,fr,es)=>({en,fr,es});
+const LEGS=[
+ {from:"Chicago",to:"Springfield, IL",mi:210,st:["Illinois"],stops:[
+  ["Begin Historic Route 66 sign",D("The famous sign on Adams Street, downtown Chicago","Le célèbre panneau d’Adams Street, au cœur de Chicago","El famoso letrero de Adams Street, en el centro de Chicago"),["history","photo"]],
+  ["Gemini Giant",D("Wilmington’s spaceman, a classic Muffler Man","Le cosmonaute géant de Wilmington, un Muffler Man culte","El astronauta gigante de Wilmington, un Muffler Man clásico"),["quirky","kids","photo"]],
+  ["Ambler’s Texaco Gas Station",D("A restored 1930s station in Dwight","Une station des années 1930 restaurée, à Dwight","Una gasolinera restaurada de los años 30, en Dwight"),["history","photo"]],
+  ["Route 66 Hall of Fame and Museum",D("Pontiac, plus the town’s murals","À Pontiac, avec les fresques de la ville","En Pontiac, junto con los murales del pueblo"),["history"]],
+  ["Funks Grove Pure Maple Sirup",D("A family maple sirup farm right on the old road","Une ferme familiale de sirop d’érable au bord de la vieille route","Una granja familiar de jarabe de arce junto a la vieja ruta"),["food"]]]},
+ {from:"Springfield, IL",to:"St Louis",mi:110,st:["Illinois","Missouri"],stops:[
+  ["Cozy Dog Drive In",D("Springfield, home of the corn dog on a stick","Springfield, berceau du corn dog sur bâtonnet","Springfield, cuna del corn dog en palito"),["food","neon"]],
+  ["Old Chain of Rocks Bridge",D("Walk the old bridge with its famous bend across the Mississippi","Traverse à pied le vieux pont et son fameux coude au-dessus du Mississippi","Cruza a pie el viejo puente con su famosa curva sobre el Misisipi"),["history","photo","nature"]],
+  ["Ted Drewes Frozen Custard",D("A St Louis Route 66 institution since the 1940s","Une institution de St Louis depuis les années 1940","Toda una institución de St Louis desde los años 40"),["food","neon","kids"]]]},
+ {from:"St Louis",to:"Springfield, MO",mi:225,st:["Missouri"],stops:[
+  ["Meramec Caverns",D("Cave tours near Stanton","Visite des grottes près de Stanton","Recorridos por las cuevas cerca de Stanton"),["nature","kids"]],
+  ["Cuba murals and the Wagon Wheel Motel",D("Mural City, and one of the oldest motels on the road","La ville des fresques, et l’un des plus vieux motels de la route","La ciudad de los murales, y uno de los moteles más antiguos de la ruta"),["motels","history","photo"]],
+  ["Fanning 66 Outpost and Route 66 Rocker",D("A giant rocking chair by the road","Un rocking chair géant au bord de la route","Una mecedora gigante junto a la ruta"),["quirky","kids","photo"]],
+  ["Devil’s Elbow",D("A scenic bend of the Big Piney River on the 1926 alignment","Un joli méandre de la Big Piney River sur le tracé de 1926","Una curva preciosa del río Big Piney en el trazado de 1926"),["nature","photo"]],
+  ["Springfield, MO",D("Known as the birthplace of Route 66","Considérée comme le berceau de la Route 66","Conocida como la cuna de la Route 66"),["history"]]]},
+ {from:"Springfield, MO",to:"Tulsa",mi:185,st:["Missouri","Kansas","Oklahoma"],stops:[
+  ["66 Drive-In",D("Carthage, a vintage drive in still screening films","Carthage, un drive-in d’époque qui projette toujours des films","Carthage, un autocinema de época que sigue proyectando"),["neon","history"]],
+  ["Cars on the Route, Galena",D("A 1934 Kan-O-Tex station with the rusty tow truck that inspired a famous Cars character. Seasonal, closed in winter","Une station Kan-O-Tex de 1934 et la dépanneuse rouillée qui a inspiré un célèbre personnage de Cars. Saisonnier, fermé l’hiver","Una gasolinera Kan-O-Tex de 1934 y la grúa oxidada que inspiró a un famoso personaje de Cars. De temporada, cierra en invierno"),["quirky","kids","photo"]],
+  ["Rainbow Bridge",D("A Marsh arch bridge near Riverton, Kansas","Un pont en arc de type Marsh près de Riverton, Kansas","Un puente de arco tipo Marsh cerca de Riverton, Kansas"),["history","photo"]],
+  ["Coleman Theatre",D("Miami, Oklahoma, a 1929 Spanish Revival theatre","Miami, Oklahoma, un théâtre néo-espagnol de 1929","Miami, Oklahoma, un teatro neocolonial español de 1929"),["history","neon"]],
+  ["Ed Galloway’s Totem Pole Park",D("Folk art totems in Foyil","Des totems d’art populaire à Foyil","Tótems de arte popular en Foyil"),["quirky","photo"]],
+  ["Blue Whale of Catoosa",D("The beloved roadside whale","La célèbre baleine bleue du bord de la route","La querida ballena azul de carretera"),["quirky","kids","photo"]]]},
+ {from:"Tulsa",to:"Elk City",mi:230,st:["Oklahoma"],stops:[
+  ["Cyrus Avery Centennial Plaza",D("Tulsa, honouring the father of Route 66","Tulsa, en hommage au père de la Route 66","Tulsa, en honor al padre de la Route 66"),["history"]],
+  ["Arcadia Round Barn",D("Arcadia’s 1898 round barn","La grange ronde d’Arcadia, de 1898","El granero redondo de Arcadia, de 1898"),["history","photo"]],
+  ["Pops 66",D("A giant soda bottle and hundreds of sodas in Arcadia","Une bouteille de soda géante et des centaines de sodas à Arcadia","Una botella de refresco gigante y cientos de sodas en Arcadia"),["food","neon","kids","photo"]],
+  ["Oklahoma Route 66 Museum",D("Clinton","Clinton","Clinton"),["history"]],
+  ["National Route 66 and Transportation Museum",D("Elk City","Elk City","Elk City"),["history","kids"]]]},
+ {from:"Elk City",to:"Amarillo",mi:160,st:["Oklahoma","Texas"],stops:[
+  ["Tower Station and U-Drop Inn",D("Shamrock’s art deco station and café","La station-café art déco de Shamrock","La gasolinera y café art déco de Shamrock"),["history","neon","photo"]],
+  ["Leaning water tower, Groom",D("Deliberately tilted, and very photogenic","Penché exprès, et très photogénique","Inclinado a propósito, y muy fotogénico"),["quirky","photo"]],
+  ["Cadillac Ranch",D("Spray paint the half buried Cadillacs","Tague les Cadillac à moitié enterrées à la bombe","Pinta con aerosol los Cadillac medio enterrados"),["quirky","kids","photo"]],
+  ["The Big Texan Steak Ranch",D("Amarillo’s famous 72 oz steak challenge","Le fameux défi du steak de 72 onces d’Amarillo","El famoso reto del filete de 72 onzas de Amarillo"),["food","neon"]]]},
+ {from:"Amarillo",to:"Tucumcari",mi:115,st:["Texas","New Mexico"],stops:[
+  ["MidPoint Cafe",D("Adrian, Texas, halfway between Chicago and Santa Monica","Adrian, Texas, à mi-chemin entre Chicago et Santa Monica","Adrian, Texas, a medio camino entre Chicago y Santa Monica"),["food","photo"]],
+  ["Glenrio",D("A near ghost town straddling the Texas and New Mexico line","Un village presque fantôme à cheval sur la frontière du Texas et du Nouveau-Mexique","Un pueblo casi fantasma en la frontera entre Texas y Nuevo México"),["ghost","photo"]],
+  ["Blue Swallow Motel",D("Tucumcari’s neon icon. Book ahead","L’icône néon de Tucumcari. Réserve à l’avance","El ícono de neón de Tucumcari. Reserva con tiempo"),["motels","neon","photo"]],
+  ["Tucumcari murals and neon",D("Best seen after dark","À voir de préférence à la nuit tombée","Mejor de noche"),["neon","photo"]]]},
+ {from:"Tucumcari",to:"Albuquerque",mi:180,st:["New Mexico"],stops:[
+  ["Blue Hole of Santa Rosa",D("A crystal clear spring","Une source à l’eau cristalline","Un manantial de agua cristalina"),["nature","kids","photo"]],
+  ["Route 66 Auto Museum",D("Santa Rosa","Santa Rosa","Santa Rosa"),["history"]],
+  ["Pre 1937 alignment via Santa Fe",D("An optional northern loop, longer but full of history","Une boucle nord facultative, plus longue mais riche en histoire","Un circuito norte opcional, más largo pero lleno de historia"),["history","nature"]],
+  ["Nob Hill and the KiMo Theatre",D("Albuquerque’s neon strip and Pueblo Deco landmark","Le quartier néon d’Albuquerque et son théâtre Pueblo Deco","La franja de neón de Albuquerque y su teatro Pueblo Deco"),["neon","history","photo"]]]},
+ {from:"Albuquerque",to:"Gallup",mi:145,st:["New Mexico"],stops:[
+  ["Old Town Albuquerque",D("Plaza and adobe streets before you leave","La place et les rues en adobe avant de partir","La plaza y las calles de adobe antes de salir"),["history"]],
+  ["Rio Puerco Bridge",D("A Parker truss bridge west of Albuquerque","Un pont à poutres Parker à l’ouest d’Albuquerque","Un puente de armadura Parker al oeste de Albuquerque"),["history","photo"]],
+  ["Continental Divide",D("Crossing the divide near Thoreau","Le passage de la ligne de partage des eaux près de Thoreau","El cruce de la divisoria continental cerca de Thoreau"),["nature","photo"]],
+  ["El Rancho Hotel",D("Gallup’s Hollywood era hotel","L’hôtel de l’âge d’or d’Hollywood à Gallup","El hotel de la época dorada de Hollywood en Gallup"),["motels","history"]]]},
+ {from:"Gallup",to:"Winslow",mi:140,st:["New Mexico","Arizona"],stops:[
+  ["Petrified Forest National Park",D("The only national park with a section of Route 66, plus the Painted Desert","Le seul parc national traversé par un tronçon de la Route 66, avec le Painted Desert","El único parque nacional con un tramo de la Route 66, y el Painted Desert"),["nature","photo","kids"]],
+  ["Wigwam Motel, Holbrook",D("Sleep in a concrete teepee","Dors dans un tipi en béton","Duerme en un tipi de concreto"),["motels","quirky","kids","photo"]],
+  ["Standin’ on the Corner Park",D("Winslow","Winslow","Winslow"),["quirky","photo"]],
+  ["La Posada Hotel",D("Winslow’s restored Harvey House hotel","L’hôtel Harvey House restauré de Winslow","El hotel Harvey House restaurado de Winslow"),["history","motels"]]]},
+ {from:"Winslow",to:"Williams",mi:100,st:["Arizona"],stops:[
+  ["Meteor Crater",D("A short detour to a vast impact crater","Un petit détour vers un immense cratère d’impact","Un breve desvío a un enorme cráter de impacto"),["nature","kids","photo"]],
+  ["Flagstaff",D("A historic downtown at nearly 7,000 ft","Un centre historique à près de 2 100 m d’altitude","Un centro histórico a casi 2,100 m de altura"),["history"]],
+  ["Williams",D("Gateway to the Grand Canyon, with a neon lined main street","Porte du Grand Canyon, avec sa rue principale bordée de néons","Puerta al Gran Cañón, con una calle principal llena de neón"),["neon","history"]]]},
+ {from:"Williams",to:"Kingman",mi:150,st:["Arizona"],stops:[
+  ["Seligman",D("Angel Delgadillo’s gift shop, where the Route 66 revival began","La boutique d’Angel Delgadillo, là où le renouveau de la Route 66 a commencé","La tienda de Angel Delgadillo, donde empezó el renacer de la Route 66"),["history","quirky"]],
+  ["Seligman to Kingman",D("The longest unbroken stretch of the old road","Le plus long tronçon continu de la vieille route","El tramo continuo más largo de la vieja ruta"),["nature","photo"]],
+  ["Hackberry General Store",D("Vintage memorabilia in the desert","Des souvenirs d’époque en plein désert","Recuerdos de época en pleno desierto"),["quirky","photo","ghost"]],
+  ["Powerhouse Visitor Center",D("Home of the Arizona Route 66 Museum, Kingman","Avec le musée de la Route 66 de l’Arizona, à Kingman","Sede del museo de la Route 66 de Arizona, en Kingman"),["history"]]]},
+ {from:"Kingman",to:"Barstow",mi:215,st:["Arizona","California"],stops:[
+  ["Sitgreaves Pass",D("Tight switchbacks through the Black Mountains","Des lacets serrés à travers les Black Mountains","Curvas cerradas por las Black Mountains"),["nature","photo"]],
+  ["Oatman",D("An old mining town with wild burros in the street","Une ancienne ville minière avec des ânes sauvages dans la rue","Un viejo pueblo minero con burros salvajes en la calle"),["ghost","kids","quirky","photo"]],
+  ["The Mojave to Amboy",D("A remote desert road. Fuel up first","Une route désertique isolée. Fais le plein avant","Una ruta remota por el desierto. Carga gasolina antes"),["nature","ghost","photo"]],
+  ["Roy’s Motel and Cafe",D("Amboy’s mid century sign","L’enseigne des années 1950 d’Amboy","El letrero de mediados de siglo de Amboy"),["motels","neon","photo","ghost"]],
+  ["Bagdad Cafe",D("Newberry Springs, of film fame","Newberry Springs, rendu célèbre par le film","Newberry Springs, famoso por la película"),["food","quirky"]]]},
+ {from:"Barstow",to:"Santa Monica",mi:135,st:["California"],stops:[
+  ["Elmer’s Bottle Tree Ranch",D("A folk art forest of bottle trees in Helendale","Une forêt d’arbres à bouteilles en art populaire, à Helendale","Un bosque de árboles de botellas de arte popular, en Helendale"),["quirky","photo"]],
+  ["Wigwam Motel, Rialto",D("The other wigwam motel","L’autre motel wigwam","El otro motel wigwam"),["motels","quirky"]],
+  ["Foothill Boulevard",D("Old 66 through the Inland Empire","La vieille 66 à travers l’Inland Empire","La vieja 66 por el Inland Empire"),["history"]],
+  ["Santa Monica Pier",D("The End of the Trail sign, and the Pacific","Le panneau End of the Trail, et le Pacifique","El letrero End of the Trail, y el Pacífico"),["photo","kids","history"]]]}
+];
+const SECTIONS={whole:[0,14],midwest:[0,4],heartland:[4,8],southwest:[8,14]};
+const EXTRAS=[
+ {city:"Williams",t:D("Grand Canyon day","Journée au Grand Canyon","Día en el Gran Cañón"),h:D("The South Rim is about 60 miles north of Williams. Give it a full day for sunrise or sunset at the rim.","Le South Rim est à environ 60 miles au nord de Williams. Prévois une journée entière pour le lever ou le coucher du soleil au bord du canyon.","El South Rim está a unas 60 millas al norte de Williams. Dale un día entero para ver el amanecer o el atardecer en el borde."),tags:["nature","kids","photo"]},
+ {city:"Albuquerque",t:D("Santa Fe day","Journée à Santa Fe","Día en Santa Fe"),h:D("Art, adobe and history on the pre 1937 alignment, about an hour north of Albuquerque.","Art, adobe et histoire sur le tracé d’avant 1937, à environ une heure au nord d’Albuquerque.","Arte, adobe e historia en el trazado anterior a 1937, a una hora al norte de Albuquerque."),tags:["history","food"]},
+ {city:"Chicago",t:D("Chicago day","Journée à Chicago","Día en Chicago"),h:D("Architecture, the lakefront and deep dish pizza before or after the road.","Architecture, bord du lac et deep dish pizza avant ou après la route.","Arquitectura, la costa del lago y pizza deep dish antes o después de la ruta."),tags:["history","food","photo"]},
+ {city:"St Louis",t:D("St Louis day","Journée à St Louis","Día en St Louis"),h:D("Ride to the top of the Gateway Arch and explore the city.","Monte au sommet de la Gateway Arch et explore la ville.","Sube a lo alto del Gateway Arch y recorre la ciudad."),tags:["history","kids"]},
+ {city:"Tulsa",t:D("Tulsa day","Journée à Tulsa","Día en Tulsa"),h:D("Art deco downtown, the Route 66 Historical Village and the Meadow Gold sign.","Le centre art déco, le Route 66 Historical Village et l’enseigne Meadow Gold.","El centro art déco, el Route 66 Historical Village y el letrero Meadow Gold."),tags:["history","neon"]},
+ {city:"Albuquerque",t:D("Albuquerque day","Journée à Albuquerque","Día en Albuquerque"),h:D("Ride the Sandia Peak Tramway and wander Old Town.","Prends le Sandia Peak Tramway et flâne dans Old Town.","Sube al Sandia Peak Tramway y pasea por Old Town."),tags:["nature","kids"]},
+ {city:"Santa Monica",t:D("Santa Monica and the coast","Santa Monica et la côte","Santa Monica y la costa"),h:D("Celebrate the end, or the start, of the trail with a beach day.","Fête la fin, ou le début, de la route avec une journée à la plage.","Celebra el final, o el comienzo, de la ruta con un día de playa."),tags:["photo","kids","food"]},
+ {city:"Amarillo",t:D("Palo Duro Canyon","Palo Duro Canyon","Palo Duro Canyon"),h:D("The second largest canyon in the US, about 30 miles south of Amarillo.","Le deuxième plus grand canyon des États-Unis, à environ 30 miles au sud d’Amarillo.","El segundo cañón más grande de Estados Unidos, a unas 30 millas al sur de Amarillo."),tags:["nature","photo"]}
+];
+const airport=c=>{if(AIRPORT[c])return AIRPORT[c];const t=TOWNS.find(x=>x[0]===c);if(!t)return c;const n=CANON.slice().sort((p,q)=>Math.abs(p[1]-t[1])-Math.abs(q[1]-t[1]))[0];return AIRPORT[n[0]]};
+const AIRPORT={"Chicago":"Chicago (ORD or MDW)","Springfield, IL":"Springfield, IL (SPI)","St Louis":"St Louis (STL)","Springfield, MO":"Springfield, MO (SGF)","Tulsa":"Tulsa (TUL)","Elk City":"Oklahoma City (OKC)","Amarillo":"Amarillo (AMA)","Tucumcari":"Amarillo (AMA)","Albuquerque":"Albuquerque (ABQ)","Gallup":"Albuquerque (ABQ)","Winslow":"Flagstaff (FLG) or Phoenix (PHX)","Williams":"Flagstaff (FLG) or Phoenix (PHX)","Kingman":"Las Vegas (LAS)","Barstow":"Los Angeles (LAX) or Ontario (ONT)","Santa Monica":"Los Angeles (LAX)"};
+
+/* ===== Questions ===== */
+const Q=[
+ {key:"d",tag:D("Time","Durée","Tiempo"),title:D("How many days do you have on the road?","Combien de jours as-tu sur la route ?","¿Cuántos días tienes para la ruta?"),sub:D("Driving days only, not counting flights.","Uniquement les jours de route, sans compter les vols.","Solo días en la ruta, sin contar vuelos."),range:{min:1,max:60,def:14}},
+ {key:"s",tag:D("Stretch","Tronçon","Tramo"),title:D("Which part of the road?","Quelle partie de la route ?","¿Qué parte de la ruta?"),sub:D("Not sure? We’ll suggest one.","Tu hésites ? On t’en propose une.","¿No sabes? Te sugerimos una."),options:[
+  {id:"whole",t:D("The whole road","Toute la route","Toda la ruta"),d:D("Chicago to Santa Monica, all eight states.","De Chicago à Santa Monica, les huit États.","De Chicago a Santa Monica, los ocho estados.")},
+  {id:"midwest",t:D("The Midwest","Le Midwest","El Medio Oeste"),d:D("Illinois, Missouri and Kansas, into Oklahoma.","Illinois, Missouri et Kansas, jusqu’en Oklahoma.","Illinois, Misuri y Kansas, hasta Oklahoma.")},
+  {id:"heartland",t:D("The heartland","Le cœur du pays","El corazón del país"),d:D("Oklahoma, the Texas panhandle and eastern New Mexico.","L’Oklahoma, le nord du Texas et l’est du Nouveau-Mexique.","Oklahoma, el norte de Texas y el este de Nuevo México.")},
+  {id:"southwest",t:D("The Southwest","Le Sud-Ouest","El Suroeste"),d:D("New Mexico, Arizona and California’s Mojave.","Le Nouveau-Mexique, l’Arizona et le désert des Mojaves.","Nuevo México, Arizona y el desierto de Mojave.")},
+  {id:"auto",t:D("Not sure yet","Je ne sais pas encore","Todavía no sé"),d:D("Recommend a stretch for me.","Propose-moi un tronçon.","Recomiéndame un tramo.")}]},
+ {key:"r",tag:D("Direction","Sens","Dirección"),title:D("Which way will you drive?","Dans quel sens vas-tu rouler ?","¿En qué dirección vas a manejar?"),sub:D("Most people head west, chasing the sunset.","La plupart partent vers l’ouest, en suivant le soleil couchant.","La mayoría va al oeste, siguiendo el atardecer."),options:[
+  {id:"west",t:D("Westbound","Vers l’ouest","Hacia el oeste"),d:D("Chicago towards Santa Monica, the classic way.","De Chicago vers Santa Monica, le sens classique.","De Chicago hacia Santa Monica, el sentido clásico.")},
+  {id:"east",t:D("Eastbound","Vers l’est","Hacia el este"),d:D("Santa Monica towards Chicago.","De Santa Monica vers Chicago.","De Santa Monica hacia Chicago.")}]},
+ {key:"e",tag:D("Season","Saison","Temporada"),title:D("When are you going?","Quand pars-tu ?","¿Cuándo viajas?"),sub:D("The season shapes the road more than you’d think.","La saison change la route plus qu’on ne le croit.","La temporada cambia la ruta más de lo que crees."),options:[
+  {id:"spring",t:D("Spring","Printemps","Primavera"),d:D("March to May.","De mars à mai.","De marzo a mayo.")},
+  {id:"summer",t:D("Summer","Été","Verano"),d:D("June to August.","De juin à août.","De junio a agosto.")},
+  {id:"autumn",t:D("Autumn","Automne","Otoño"),d:D("September to November.","De septembre à novembre.","De septiembre a noviembre.")},
+  {id:"winter",t:D("Winter","Hiver","Invierno"),d:D("December to February.","De décembre à février.","De diciembre a febrero.")},
+  {id:"none",t:D("Not decided","Pas encore décidé","Sin decidir"),d:D("Help me choose.","Aide-moi à choisir.","Ayúdame a elegir.")}]},
+ {key:"i",multi:true,max:3,tag:D("Interests","Envies","Intereses"),title:D("What are you most excited about?","Qu’est-ce qui te fait le plus envie ?","¿Qué es lo que más te emociona?"),sub:D("Choose up to three.","Jusqu’à trois choix.","Elige hasta tres."),options:[
+  {id:"neon",tags:["neon","food"],t:D("Neon and diners","Néons et diners","Neón y diners"),d:D("Glowing signs, milkshakes and pie.","Enseignes lumineuses, milkshakes et tartes.","Letreros brillantes, malteadas y pay.")},
+  {id:"quirky",tags:["quirky"],t:D("Quirky roadside giants","Géants insolites du bord de route","Gigantes curiosos de carretera"),d:D("Muffler Men, blue whales and Cadillacs.","Muffler Men, baleine bleue et Cadillac.","Muffler Men, ballenas azules y Cadillacs.")},
+  {id:"ghost",tags:["ghost"],t:D("Ghost towns and ruins","Villes fantômes et ruines","Pueblos fantasma y ruinas"),d:D("Faded towns and abandoned stations.","Villes oubliées et stations abandonnées.","Pueblos olvidados y gasolineras abandonadas.")},
+  {id:"nature",tags:["nature"],t:D("Desert and canyon landscapes","Déserts et canyons","Desiertos y cañones"),d:D("Big skies, painted deserts, the Grand Canyon.","Grands ciels, déserts colorés, le Grand Canyon.","Cielos enormes, desiertos pintados, el Gran Cañón.")},
+  {id:"history",tags:["history"],t:D("Museums and history","Musées et histoire","Museos e historia"),d:D("The story of the Mother Road.","L’histoire de la Mother Road.","La historia de la Mother Road.")},
+  {id:"motels",tags:["motels"],t:D("Vintage motels","Motels vintage","Moteles vintage"),d:D("Wigwams, neon and mid century charm.","Wigwams, néons et charme des années 1950.","Wigwams, neón y encanto de mediados de siglo.")},
+  {id:"kids",tags:["kids"],t:D("Kid friendly stops","Arrêts pour les enfants","Paradas para niños"),d:D("Things the whole family will love.","Ce qui plaira à toute la famille.","Cosas que le encantarán a toda la familia.")},
+  {id:"photo",tags:["photo"],t:D("Photography","Photographie","Fotografía"),d:D("The most photogenic stops.","Les arrêts les plus photogéniques.","Las paradas más fotogénicas.")}]},
+ {key:"p",tag:D("Pace","Rythme","Ritmo"),title:D("What’s your travel pace?","Quel est ton rythme de voyage ?","¿Cuál es tu ritmo de viaje?"),sub:D("Route 66 rewards slowing down.","La Route 66 récompense ceux qui ralentissent.","La Route 66 premia a quien baja el ritmo."),options:[
+  {id:"3",t:D("Cover ground","Avancer","Avanzar"),d:D("A few key stops a day, more miles.","Quelques arrêts clés par jour, plus de miles.","Pocas paradas clave al día, más millas.")},
+  {id:"4",t:D("Balanced","Équilibré","Equilibrado"),d:D("A good mix of driving and stopping.","Un bon mélange de route et d’arrêts.","Una buena mezcla de manejar y parar.")},
+  {id:"6",t:D("Linger everywhere","Prendre son temps","Sin prisa"),d:D("Every sign, every diner.","Chaque enseigne, chaque diner.","Cada letrero, cada diner.")}]},
+ {key:"v",tag:D("Vehicle","Véhicule","Vehículo"),title:D("What are you driving?","Avec quoi pars-tu ?","¿En qué vas a viajar?"),sub:D("Some stretches suit some vehicles better.","Certains tronçons conviennent mieux à certains véhicules.","Algunos tramos van mejor con ciertos vehículos."),options:[
+  {id:"car",t:D("Car","Voiture","Auto"),d:D("Rental or my own.","De location ou la mienne.","Rentado o propio.")},
+  {id:"rv",t:D("RV or trailer","Camping-car ou caravane","Casa rodante o remolque"),d:D("Motorhome, campervan or towing.","Camping-car, van aménagé ou remorque.","Motorhome, camper o remolque.")},
+  {id:"moto",t:D("Motorcycle","Moto","Moto"),d:D("On two wheels.","Sur deux roues.","Sobre dos ruedas.")},
+  {id:"ev",t:D("Electric vehicle","Véhicule électrique","Vehículo eléctrico"),d:D("Planning around charging.","En prévoyant la recharge.","Planeando las recargas.")}]}
+];
+
+/* ===== Advice ===== */
+const SEASON={
+ spring:{k:D("Spring","Printemps","Primavera"),t:D("Spring on the road","Le printemps sur la route","La primavera en la ruta"),p:D("Mild temperatures and green landscapes make spring a lovely time to go.","Températures douces et paysages verts : le printemps est une belle saison pour partir.","Temperaturas suaves y paisajes verdes: la primavera es un gran momento para ir."),li:[
+  D("Tornado season peaks in Oklahoma, Kansas and the Texas panhandle from late spring, so keep an eye on local forecasts and warnings.","La saison des tornades culmine en Oklahoma, au Kansas et dans le nord du Texas à la fin du printemps : surveille la météo et les alertes locales.","La temporada de tornados alcanza su pico en Oklahoma, Kansas y el norte de Texas a finales de primavera: sigue el pronóstico y las alertas locales."),
+  D("Early spring can still bring snow at higher elevations around Flagstaff and in New Mexico.","En début de printemps, il peut encore neiger en altitude autour de Flagstaff et au Nouveau-Mexique.","A principios de primavera aún puede nevar en las zonas altas de Flagstaff y Nuevo México."),
+  D("Popular motels start filling up from May, so book the icons early.","Les motels mythiques se remplissent dès mai : réserve tôt.","Los moteles más populares se llenan desde mayo: reserva con tiempo.")]},
+ summer:{k:D("Summer","Été","Verano"),t:D("Summer on the road","L’été sur la route","El verano en la ruta"),p:D("The busiest season, with long days and everything open.","La saison la plus fréquentée, avec de longues journées et tout est ouvert.","La temporada más concurrida, con días largos y todo abierto."),li:[
+  D("Desert heat in Arizona and California’s Mojave can pass 110°F (43°C). Drive the desert early in the day, carry plenty of water and watch your engine temperature.","Dans les déserts d’Arizona et des Mojaves, la chaleur peut dépasser 43 °C (110 °F). Traverse le désert tôt le matin, emporte beaucoup d’eau et surveille la température du moteur.","El calor en Arizona y el Mojave puede superar los 43 °C (110 °F). Cruza el desierto temprano, lleva mucha agua y vigila la temperatura del motor."),
+  D("Afternoon thunderstorms are common in the Southwest in July and August.","Les orages de fin de journée sont fréquents dans le Sud-Ouest en juillet et août.","Las tormentas por la tarde son comunes en el Suroeste en julio y agosto."),
+  D("Book motels ahead, especially Tucumcari’s Blue Swallow and the Wigwam Motels.","Réserve tes motels à l’avance, surtout le Blue Swallow à Tucumcari et les Wigwam Motels.","Reserva los moteles con tiempo, sobre todo el Blue Swallow de Tucumcari y los Wigwam Motels.")]},
+ autumn:{k:D("Autumn","Automne","Otoño"),t:D("Autumn on the road","L’automne sur la route","El otoño en la ruta"),p:D("Often the sweet spot: warm days, cooler nights and fewer crowds.","Souvent la saison idéale : journées chaudes, nuits fraîches et moins de monde.","Muchas veces el mejor momento: días cálidos, noches frescas y menos gente."),li:[
+  D("September and October are ideal across the whole road.","Septembre et octobre sont parfaits sur toute la route.","Septiembre y octubre son ideales en toda la ruta."),
+  D("By November, nights get cold at altitude and some seasonal businesses shorten their hours.","En novembre, les nuits deviennent froides en altitude et certains commerces saisonniers réduisent leurs horaires.","En noviembre, las noches se ponen frías en altura y algunos negocios de temporada reducen su horario."),
+  D("Daylight gets shorter, so plan to arrive before dark on remote stretches.","Les jours raccourcissent : prévois d’arriver avant la nuit sur les tronçons isolés.","Los días se acortan: planea llegar antes de que oscurezca en los tramos remotos.")]},
+ winter:{k:D("Winter","Hiver","Invierno"),t:D("Winter on the road","L’hiver sur la route","El invierno en la ruta"),p:D("Quiet and atmospheric, but it needs flexibility.","Calme et plein d’atmosphère, mais il faut rester flexible.","Tranquilo y con mucho ambiente, pero requiere flexibilidad."),li:[
+  D("Snow and ice are possible at higher elevations, especially around Flagstaff (about 7,000 ft) and in northern New Mexico. Check road conditions daily.","Neige et verglas sont possibles en altitude, surtout autour de Flagstaff (environ 2 100 m) et dans le nord du Nouveau-Mexique. Vérifie l’état des routes chaque jour.","Puede haber nieve y hielo en las zonas altas, sobre todo cerca de Flagstaff (unos 2,100 m) y en el norte de Nuevo México. Revisa el estado de las carreteras cada día."),
+  D("Some seasonal attractions, motels and cafés close for the winter, so call ahead.","Certaines attractions, certains motels et cafés ferment l’hiver : appelle avant.","Algunas atracciones, moteles y cafés cierran en invierno: llama antes."),
+  D("Short days mean less time for stops; build in a free day for weather.","Avec des jours courts, il reste moins de temps pour les arrêts : prévois un jour de marge pour la météo.","Los días cortos dejan menos tiempo para paradas: deja un día libre por el clima.")]},
+ none:{k:D("Season","Saison","Temporada"),t:D("When to go","Quand partir","Cuándo ir"),p:D("Late spring and autumn are the favourite times to drive Route 66.","La fin du printemps et l’automne sont les saisons préférées pour la Route 66.","El final de la primavera y el otoño son las épocas favoritas para la Route 66."),li:[
+  D("May, June, September and October usually bring the best balance of weather and open businesses.","Mai, juin, septembre et octobre offrent en général le meilleur équilibre entre météo et commerces ouverts.","Mayo, junio, septiembre y octubre suelen ofrecer el mejor equilibrio entre clima y negocios abiertos."),
+  D("Summer is busiest and hottest in the desert; winter can bring snow at altitude.","L’été est la saison la plus chargée et la plus chaude dans le désert ; l’hiver peut apporter de la neige en altitude.","El verano es la temporada más concurrida y calurosa en el desierto; el invierno puede traer nieve en altura."),
+  D("Whenever you go, book the iconic motels early.","Quelle que soit la saison, réserve tôt les motels mythiques.","Vayas cuando vayas, reserva pronto los moteles icónicos.")]}
+};
+const VEH={
+ car:{k:D("Car","Voiture","Auto"),t:D("Driving a car","En voiture","En auto"),p:D("The easiest way to drive Route 66.","La façon la plus simple de faire la Route 66.","La forma más sencilla de recorrer la Route 66."),li:[
+  D("Any reliable car will do. A one way rental costs more but saves driving back.","N’importe quelle voiture fiable fera l’affaire. Une location aller simple coûte plus cher mais évite le retour.","Cualquier auto confiable sirve. Rentar solo de ida cuesta más, pero te ahorra el regreso."),
+  D("Some original alignments are narrow, rough or gravel. Take them slowly, or rejoin the interstate.","Certains tracés d’origine sont étroits, abîmés ou en gravier. Roule doucement, ou rejoins l’interstate.","Algunos trazados originales son angostos, irregulares o de grava. Tómalos con calma, o vuelve a la interestatal."),
+  D("Fill up before remote stretches such as the Mojave between Needles and Barstow.","Fais le plein avant les tronçons isolés, comme les Mojaves entre Needles et Barstow.","Carga gasolina antes de los tramos remotos, como el Mojave entre Needles y Barstow.")]},
+ rv:{k:D("RV","Camping-car","Casa rodante"),t:D("Travelling by RV or trailer","En camping-car ou avec une caravane","En casa rodante o con remolque"),p:D("Great for freedom, but plan around a few tight spots.","Idéal pour la liberté, mais anticipe quelques passages étroits.","Ideal para la libertad, pero planea algunos puntos estrechos."),li:[
+  D("Large RVs and trailers are better taking I-40 around the Oatman Road over Sitgreaves Pass, which has tight switchbacks and no guardrails in places.","Les grands camping-cars et les caravanes feront mieux de prendre l’I-40 plutôt que la route d’Oatman par Sitgreaves Pass, aux lacets serrés et parfois sans glissières.","Con una casa rodante grande o con remolque, es mejor tomar la I-40 en vez de la ruta de Oatman por Sitgreaves Pass, que tiene curvas cerradas y tramos sin barreras."),
+  D("Some old bridges and town centres are narrow; check clearances and parking before you go in.","Certains vieux ponts et centres-villes sont étroits : vérifie le gabarit et le stationnement avant d’y entrer.","Algunos puentes viejos y centros de pueblo son angostos: revisa la altura libre y el estacionamiento antes de entrar."),
+  D("Book campgrounds ahead in summer, especially near the Grand Canyon.","Réserve les campings à l’avance en été, surtout près du Grand Canyon.","Reserva los campamentos con tiempo en verano, sobre todo cerca del Gran Cañón.")]},
+ moto:{k:D("Motorcycle","Moto","Moto"),t:D("Riding a motorcycle","À moto","En moto"),p:D("Route 66 is one of the great rides, with a few things to plan for.","La Route 66 est l’un des grands itinéraires à moto, avec quelques points à prévoir.","La Route 66 es una de las grandes rutas en moto, con algunas cosas que planear."),li:[
+  D("Expect strong crosswinds across the plains of Oklahoma and Texas.","Attends-toi à de forts vents latéraux dans les plaines de l’Oklahoma et du Texas.","Espera fuertes vientos cruzados en las llanuras de Oklahoma y Texas."),
+  D("Desert heat can be brutal in summer: ride early, hydrate and cover up.","La chaleur du désert peut être rude en été : roule tôt, hydrate-toi et couvre-toi.","El calor del desierto puede ser brutal en verano: sal temprano, hidrátate y cúbrete."),
+  D("Watch for grooved or broken pavement and gravel on older alignments.","Méfie-toi du bitume rainuré ou abîmé et du gravier sur les anciens tracés.","Cuidado con el pavimento ranurado o roto y la grava en los trazados viejos.")]},
+ ev:{k:D("Electric","Électrique","Eléctrico"),t:D("Driving electric","En électrique","En eléctrico"),p:D("Very doable along the main corridors, with a little planning.","Tout à fait faisable sur les grands axes, avec un peu d’organisation.","Muy factible en los corredores principales, con algo de planeación."),li:[
+  D("Charging is good along the I-44 and I-40 corridors and in bigger towns.","La recharge est bien développée le long de l’I-44 et de l’I-40 et dans les grandes villes.","Hay buena carga a lo largo de la I-44 y la I-40 y en las ciudades grandes."),
+  D("Remote stretches are sparse, especially the Mojave between Needles and Barstow and around Amboy. Charge fully in Kingman or Needles before heading out.","Les tronçons isolés en sont presque dépourvus, surtout les Mojaves entre Needles et Barstow et autour d’Amboy. Recharge à fond à Kingman ou Needles avant de partir.","En los tramos remotos casi no hay, sobre todo en el Mojave entre Needles y Barstow y cerca de Amboy. Carga al máximo en Kingman o Needles antes de salir."),
+  D("Desert heat and mountain climbs use more range than you’d expect.","La chaleur du désert et les montées en montagne consomment plus d’autonomie qu’on ne le pense.","El calor del desierto y las subidas de montaña consumen más autonomía de lo que crees.")]}
+};
+const TRAVEL={k:D("Getting there","Y aller","Cómo llegar"),t:D("Flights and car hire","Vols et location","Vuelos y renta de auto"),
+ p:(a,b)=>tr(D(`Fly into ${a} and home from ${b}.`,`Arrive par ${a} et repars de ${b}.`,`Llega por ${a} y regresa desde ${b}.`)),
+ li:[D("One way car hire usually carries a drop off fee, sometimes a large one. Compare companies and book early.","Une location aller simple implique souvent des frais d’abandon, parfois élevés. Compare les loueurs et réserve tôt.","Rentar solo de ida suele tener un cargo por devolución en otra ciudad, a veces alto. Compara compañías y reserva pronto."),
+  D("Visiting from abroad? Check your entry requirements and driving licence rules well before you travel.","Tu viens de l’étranger ? Vérifie bien à l’avance les conditions d’entrée et les règles sur le permis de conduire.","¿Vienes del extranjero? Revisa con tiempo los requisitos de entrada y las reglas sobre la licencia de manejo."),
+  D("Give yourself a buffer night near the airport at each end: jet lag and long drives don’t mix.","Prévois une nuit tampon près de l’aéroport à chaque bout : décalage horaire et longues routes ne font pas bon ménage.","Date una noche de margen cerca del aeropuerto en cada extremo: el jet lag y los viajes largos no combinan.")]};
+const CHECK=[
+ [D("Book the iconic motels early","Réserve tôt les motels mythiques","Reserva pronto los moteles icónicos"),D("The Blue Swallow, the Wigwam Motels and La Posada fill up fast.","Le Blue Swallow, les Wigwam Motels et La Posada se remplissent vite.","El Blue Swallow, los Wigwam Motels y La Posada se llenan rápido.")],
+ [D("Carry some cash","Garde un peu d’espèces","Lleva algo de efectivo"),D("Small towns, gift shops and old diners don’t always take cards.","Les petites villes, boutiques et vieux diners ne prennent pas toujours la carte.","Los pueblos, tiendas y diners antiguos no siempre aceptan tarjeta.")],
+ [D("Download offline maps","Télécharge des cartes hors ligne","Descarga mapas sin conexión"),D("Phone signal drops in the desert and on back roads.","Le réseau disparaît dans le désert et sur les petites routes.","La señal se pierde en el desierto y en caminos secundarios.")],
+ [D("Pack water and snacks","Emporte de l’eau et des en-cas","Lleva agua y botanas"),D("Especially for the Mojave and the long stretches in Arizona and New Mexico.","Surtout pour les Mojaves et les longs tronçons d’Arizona et du Nouveau-Mexique.","Sobre todo para el Mojave y los tramos largos de Arizona y Nuevo México.")],
+ [D("Check opening hours","Vérifie les horaires","Revisa los horarios"),D("Many family run stops close one or two days a week or out of season.","Beaucoup d’arrêts familiaux ferment un ou deux jours par semaine ou hors saison.","Muchos negocios familiares cierran uno o dos días a la semana o fuera de temporada.")],
+ [D("Leave room for detours","Laisse de la place aux détours","Deja espacio para desvíos"),D("The best stories happen when you follow a sign you didn’t plan for.","Les meilleures histoires naissent d’un panneau qu’on n’avait pas prévu de suivre.","Las mejores historias pasan cuando sigues un letrero que no tenías planeado.")]
+];
+
+/* ===== State and flow ===== */
+let step=0,sel={d:14,i:[]},lastQ=-1;
+function go(n,noTrack){
+  step=n;["welcome","quiz","results"].forEach(id=>$(id).classList.add("hidden"));
+  if(n===0)$("welcome").classList.remove("hidden");
+  else if(n<=Q.length){$("quiz").classList.remove("hidden");if(n===1&&!noTrack)track("trip_planner_started");renderQ(n-1)}
+  else{$("results").classList.remove("hidden");renderResults()}
+  const reduce=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  window.scrollTo({top:0,behavior:reduce?"auto":"smooth"});
+}
+function dayHint(n){const h=tr(S.hints);return n<=2?h[0]:n<=6?h[1]:n<=10?h[2]:n<=16?h[3]:n<=25?h[4]:h[5]}
+function renderQ(i){
+  const q=Q[i],card=$("qCard");
+  if(i!==lastQ){card.classList.remove("fade");void card.offsetWidth;card.classList.add("fade");lastQ=i;setTimeout(()=>$("qTitle").focus({preventScroll:true}),50)}
+  $("qCount").textContent=`${s("q")} ${i+1} ${s("of")} ${Q.length}`;$("qTag").textContent=tr(q.tag);
+  $("qBar").style.width=((i+1)/Q.length*100)+"%";$("qBarWrap").setAttribute("aria-valuenow",i+1);
+  $("qTitle").textContent=tr(q.title);$("qSub").textContent=tr(q.sub);
+  const box=$("qOpts");box.innerHTML="";
+  $("nextBtn").textContent=i===Q.length-1?s("build"):s("cont");
+  if(q.range){
+    $("qHint").textContent=s("slide");box.className="";
+    box.innerHTML=`<div class="slider-box"><div class="days-out" aria-hidden="true"><b id="dOut"></b><span id="dUnit"></span></div><p class="days-hint" id="dHint" aria-live="polite"></p>
+      <input type="range" id="dRange" min="${q.range.min}" max="${q.range.max}" value="${sel.d}" aria-label="${s("daysAria")}">
+      <div class="ticks" aria-hidden="true"><span>1 ${s("day")}</span><span>60 ${s("days")}</span></div></div>`;
+    const r=$("dRange");const upd=()=>{sel.d=+r.value;const unit=r.value==="1"?s("day"):s("days");$("dOut").textContent=r.value;$("dUnit").textContent=unit;$("dHint").textContent=dayHint(+r.value);r.setAttribute("aria-valuetext",r.value+" "+unit);r.style.setProperty("--fill",((r.value-1)/59*100)+"%")};
+    r.oninput=upd;upd();$("nextBtn").disabled=false;return;
+  }
+  box.className="opts";
+  $("qHint").textContent=q.multi?tr(S.upto)(q.max):s("one");
+  box.setAttribute("role","group");box.setAttribute("aria-label",tr(q.title));
+  q.options.forEach(o=>{const b=document.createElement("button");b.type="button";b.className="opt";
+    b.innerHTML=`<span><h4>${tr(o.t)}</h4><p>${tr(o.d)}</p></span>`;b.onclick=()=>toggle(q,o);box.appendChild(b)});
+  paint(q);
+}
+const isOn=(q,o)=>q.multi?sel.i.includes(o.id):sel[q.key]===o.id;
+function toggle(q,o){
+  if(q.multi){const a=sel.i;const k=a.indexOf(o.id);if(k>-1)a.splice(k,1);else{if(a.length>=q.max)return;a.push(o.id)}}
+  else sel[q.key]=o.id;
+  paint(q);
+}
+function paint(q){
+  document.querySelectorAll("#qOpts .opt").forEach((b,j)=>{const on=isOn(q,q.options[j]);b.classList.toggle("on",on);b.setAttribute("aria-pressed",on)});
+  $("nextBtn").disabled=!q.options.some(o=>isOn(q,o));
+}
+function next(){if(step<=Q.length)go(step+1)}
+function back(){go(Math.max(0,step-1))}
+function restart(){sel={d:14,i:[]};lastQ=-1;history.replaceState(null,"",location.pathname);go(0)}
+
+/* ===== Shareable link: answers live in the address ===== */
+function toQuery(){const p=new URLSearchParams({d:sel.d,s:sel.s,r:sel.r,e:sel.e,i:sel.i.join("."),p:sel.p,v:sel.v});return location.pathname+"?"+p.toString()}
+function fromQuery(){
+  const p=new URLSearchParams(location.search);if(!p.has("d")||!p.has("s"))return false;
+  const ok=(k,v)=>{const q=Q.find(x=>x.key===k);return q&&q.options.some(o=>o.id===v)};
+  const d=Math.min(60,Math.max(1,parseInt(p.get("d"),10)||14));
+  const r={d,s:p.get("s"),r:p.get("r"),e:p.get("e"),p:p.get("p"),v:p.get("v"),i:(p.get("i")||"").split(".").filter(x=>Q[4].options.some(o=>o.id===x)).slice(0,3)};
+  if(!["s","r","e","p","v"].every(k=>ok(k,r[k])))return false;
+  sel=r;return true;
+}
+
+/* ===== Planning by distance. Positions are miles from Chicago along the app's mapped alignment (0 to 2,315). ===== */
+const STOPS=[["Chicago’s new symbolic starting point of the historic Route 66 sign","Chicago",0,0,1,2,0],["Begin Historic Route 66 Sign","Chicago",0,0,17,1,3],["Navy Pier","Chicago",0,0,7,0,1],["Route 66 'End' Sign (Jackson Blvd & Michigan Ave, Chicago)","Chicago",0,0,17,1,5],["The Art Institute of Chicago","Chicago",0,0,1,0,1],["Cloud Gate","Chicago",0,0,1,1,1],["White Castle No. 16","Chicago",0,0.1,3,0,1],["Palmer House Hilton","Chicago",0,0.1,1,0,0],["The Berghoff Restaurant","Chicago",0,0.2,10,1,3],["Chicago Union Station","Chicago",0,0.8,1,0,0],["Lou Mitchell's","Chicago",0,1,2,1,1],["Henry's Drive-In","Cicero",0,9.1,10,0,1],["Cigars & Stripes Muffler Man","Berwyn",0,10.1,4,0,3],["Berwyn Route 66 Car Show","Berwyn",0,10.5,1,0,1],["Steak N Egger","McCook",0,13.5,2,0,1],["Dell Rhea's Chicken Basket","Willowbrook",0,20.6,10,1,4],["National Shrine and Museum of St. Thérèse","Darien",0,22.9,1,0,0],["Waterfall Glen Forest Preserve","Darien",0,23,128,0,0],["White Fence Farm","Romeoville",0,28.7,2,0,0],["Downtown Plainfield Historic District","Plainfield",0,37.1,1,0,1],["Joliet Iron Works Historic Site","Joliet",0,42.3,1153,0,1],["Rich & Creamy","Joliet",0,42.3,6,0,1],["Rialto Square Theatre","Joliet",0,42.7,9,0,1],["Joliet Area Historical Museum & Route 66 Welcome Center","Joliet",0,42.7,33,1,1],["Jacob Henry Mansion","Joliet",0,42.7,1,0,1],["Abraham Lincoln National Cemetery","Elwood",0,53.9,1,0,0],["The Mar Theatre","Wilmington",0,59.7,9,0,1],["Eagle Hotel","Wilmington",0,59.7,1,0,1],["Gemini Giant","Wilmington",0,59.8,4,1,2],["Polk-a-Dot Drive In","Braidwood",0,63,6,1,1],["Illinois Route 66 Mining Museum","Godley",0,65.8,1,0,0],["Gardner Two-Cell Jail","Gardner",0,70.5,5,0,1],["Pioneer Gothic Church","Dwight",0,80,1,0,1],["Ambler's Texaco Gas Station","Dwight",0,81.2,257,1,4],["Frank L. Smith Bank","Dwight",0,81.3,1,0,2],["Dwight station","Dwight",0,81.3,1,0,1],["Oughton Estate Windmill","Dwight",0,81.5,1,0,2],["Odell Pedestrian Subway","Odell",0,89.5,17,2,1],["Standard Oil Gasoline Station (Odell, Illinois)","Odell",0,89.6,257,1,1],["Meramec Caverns Barn","Cayuga",0,94.8,513,0,0],["Old Log Cabin Restaurant","Pontiac",0,98.8,3,0,2],["Pontiac Burma-Shave Reconstruction","Pontiac",0,98.8,21,0,1],["Route 66 Association of Illinois Hall of Fame and Museum","Pontiac",0,100.2,9,1,1],["Bob Waldmire's VW Microbus","Pontiac",0,100.2,5,0,3],["Walldog Mural and Sign Art Exhibit","Pontiac",0,100.2,512,0,1],["Route 66 Shield Mural","Pontiac",0,100.2,512,0,1],["Livingston County War Museum","Pontiac",0,100.2,1,0,0],["Pontiac-Oakland Museum & Resource Center","Pontiac",0,100.4,33,0,1],["Mario's Pizza (former Cozy Inn)","Pontiac",0,100.5,2,0,0],["Pontiac's Swinging Bridges","Pontiac",0,100.8,129,0,1],["Illinois State Police District 6 Headquarters","Pontiac",0,102.9,5,0,2],["Raymond Schulz Round Barn","Pontiac",0,103,1,0,2],["Route 66, Cayuga to Chenoa","Cayuga",0,104.4,16,0,1],["Chenoa Pharmacy – Historic Location","Chenoa",0,111.6,1,0,0],["Memory Lane","Lexington",0,119.3,17,0,1],["The Shake Shack","Lexington",0,119.8,2,0,1],["Towanda Route 66 Parkway (Dead Man's Curve)","Towanda",0,128.2,145,0,5],["Sprague's Super Service","Normal",0,133.1,257,0,1],["Carl's Ice Cream","Normal",0,133.4,6,0,1],["\"Carl\" the Soda Jerk (The Big Man)","Normal",0,133.4,4,0,1],["Marge the Waitress","Normal",0,133.4,4,0,1],["Normal Theater","Normal",0,133.5,9,0,1],["David Davis Mansion","Bloomington",0,135.4,1,0,0],["Beer Nuts Factory Outlet","Bloomington",0,138.4,34,0,1],["Lucca Grill","Bloomington",0,138.9,3,0,1],["Cruisin' with Lincoln on 66 Visitors Center","Bloomington",0,139,1,0,1],["Funks Grove Pure Maple Sirup","Funks Grove",0,149.3,35,5,2],["Funks Grove Chapel","Shirley",0,149.7,129,0,1],["McLean Route 66 Pinball Mural","McLean",0,153.5,512,0,1],["Downtown McLean & Arcadia Vintage Arcade","McLean",0,153.5,1,0,1],["Shorty’s Barber Shop Mural","McLean",0,153.5,512,0,1],["Historic McLean Depot & Route 66 Interpretive Wayside","McLean",0,153.8,1,0,1],["Dixie Travel Plaza","McLean",0,153.8,259,0,1],["McLean Dixie Truckers Home Original Marker","McLean",0,153.8,1,0,1],["Texaco Big Friend","Atlanta",0,158.9,4,1,1],["Lumi the Pie Lady","Atlanta",0,158.9,6,0,4],["Astro Oil Space Man","Atlanta",0,158.9,4,0,1],["Phillips 66 Cowboy","Atlanta",0,158.9,4,0,1],["Phillips 66 Cowboy Muffler Man (The Captain)","Atlanta",0,158.9,4,0,1],["American Giants Museum","Atlanta",0,158.9,5,1,1],["Snerd Giant","Atlanta",0,158.9,4,0,1],["Viking Carpet Giant","Atlanta",0,158.9,4,0,1],["Indian Brave (Bemidji Nanabozho Brave)","Atlanta",0,158.9,4,0,1],["Paul Bunyon Statue ('Tall Paul')","Atlanta",0,159,4,1,3],["Atlanta Museum (Downey Building)","Atlanta",0,159,1,0,1],["Atlanta Public Library","Atlanta",0,159,1,0,0],["J. H. Hawes Grain Elevator Museum","Atlanta",0,159.1,17,4,1],["Lincoln Heritage Museum","Lincoln",0,169.7,1,0,1],["Route 66 Museum With 12 Foot 2026 Lincoln Cent","Lincoln",0,170.1,1,0,0],["Railsplitter Covered Wagon","Lincoln",0,170.1,4,1,1],["Lincoln Christening Site & Historic Downtown Square (Watermelon Monument)","Lincoln",0,170.2,5,0,1],["Lincoln Grand Theater","Lincoln",0,170.3,9,0,1],["Postville Courthouse State Historic Site","Lincoln",0,171.1,1,0,1],["The Tropics Restaurant Neon Sign","Lincoln",0,171.2,9,1,4],["The Mill on 66 Museum","Lincoln",0,171.5,3,5,1],["Ruth's Hall Building","Elkhart",0,182,2,0,2],["The Old Station","Williamsville",0,188.1,260,0,1],["Williamsville Original Alignment","Williamsville",0,188.2,16,0,1],["Lincoln's New Salem State Historic Site","Petersburg",0,194.3,1,4,1],["Carpenter Park Route 66 Alignment","Sherman",0,195.2,144,0,1],["Pioneer Motel","",0,196.4,72,0,2],["Bel-Air Drive-In Neon Sign (Replica)","Springfield",0,198.6,8,0,1],["Illinois State Fairgrounds Route 66 Experience","Springfield",0,198.6,13,0,1],["A. Lincoln Motel Neon Sign (Replica)","Springfield",0,198.6,8,0,1],["Mahan's Filling Station","Springfield",0,198.7,256,0,1],["Shea's Gas Station Museum","Springfield",0,198.9,257,0,1],["Lincoln Tomb","Springfield",0,199.4,1,1,2],["Oak Ridge Cemetery","Springfield",0,199.4,1,1,1],["Abraham Lincoln Presidential Library and Museum","Springfield",0,200.8,1,0,1],["Maid-Rite Sandwich Shop","Springfield",0,200.9,3,1,2],["Old State Capitol State Historic Site","Springfield",0,201,1,0,1],["Maldaner's Restaurant","Springfield",0,201.1,3,0,1],["Lincoln Home National Historic Site","Springfield",0,201.2,1,1,2],["Illinois State Capitol","Springfield",0,201.2,1,0,2],["The Chili Parlor","Springfield",0,201.6,2,0,0],["Ace Sign Co. Museum","Springfield",0,203.3,8,0,6],["Lauterbach Tire Giant","Springfield",0,203.8,4,0,1],["Cozy Dog Drive In","Springfield",0,204,7,1,18],["Knight's Action Park","Springfield",0,205.6,5,4,1],["Route 66 Drive-In","Springfield",0,205.7,17,4,1],["Route 66 Motorheads Bar, Grill and Museum","Springfield",0,207.6,15,0,5],["Big Ron","",0,207.6,4,0,1],["Chatham Railroad Museum","Chatham",0,210.4,1,0,0],["Sugar Creek Covered Bridge","Glenarm",0,213,129,0,1],["Illinois Route 4-North of Auburn (Auburn Brick Road)","Auburn",0,214.8,17,1,3],["Virden Town Square (Virden Public Square)","Virden",0,223,1,0,1],["Doc's Just Off 66","",0,227.1,2,0,1],["Route 66, Girard to Nilwood","Girard",0,229.3,16,0,1],["Nilwood Turkey Tracks","Nilwood",0,231.3,20,1,1],["Shrine of Our Lady of the Highways","Raymond",0,235.3,1,0,0],["Standard Addition (Carlinville Sears homes neighborhood)","Carlinville",0,238.1,1,0,2],["Loomis House","Carlinville",0,238.8,33,0,1],["Macoupin County Courthouse","Carlinville",0,238.9,1,0,1],["Litchfield Sky View Drive-In","Litchfield",0,246.2,12,5,1],["Litchfield Museum & Route 66 Welcome Center","Litchfield",0,246.9,9,1,1],["Vic Suhling 'Gas For Less' Sign","Litchfield",0,246.9,9,0,1],["Ariston Cafe","Litchfield",0,246.9,10,1,1],["Route 66, Litchfield to Mount Olive","Litchfield",0,251.3,16,0,1],["Mother Jones Monument, Union Miners Cemetery","Mount Olive",0,255.7,1,0,1],["Illinois Coal Museum","Gillespie",0,255.8,1,0,0],["Soulsby Service Station","Mount Olive",0,256.2,257,1,1],["Country Classic Cars","Staunton",0,259.3,32,0,1],["DeCamp Junction (DeCamp Station roadhouse)","Staunton",0,266.1,3,0,1],["St. Paul Lutheran Church","Hamel",0,269.8,1,0,0],["Stagger Inn Again","Edwardsville",0,280.6,2,0,1],["Wildey Theatre","Edwardsville",0,280.8,1,0,0],["West End Service Station","Edwardsville",0,281.1,256,0,2],["World's Largest Catsup Bottle","Collinsville",0,286.2,5,1,0],["Luna Cafe","Mitchell",0,290.5,10,1,6],["Old Chain of Rocks Bridge","Madison",0,293.5,16,1,6],["Old Six Mile Museum (Emmert-Zippel House)","Granite City",0,294.3,1,0,3],["Railroad Worker","Granite City",0,296.4,4,2,0],["Crown Candy Kitchen","St. Louis",1,301.1,2,0,1],["Gateway Arch","St. Louis",1,301.2,1,1,15],["Royal Sonesta Chase Park Plaza","St. Louis",1,304.6,1,0,0],["The Hill (Italian-American neighborhood)","St. Louis",1,307.1,3,0,1],["Donut Drive-In","St. Louis",1,310,2,1,6],["Ted Drewes Frozen Custard","St. Louis",1,310.5,2,1,6],["Thomas Sappington House","Crestwood",1,315.4,1,0,0],["Route 66 State Park Visitor Center & Bridgehead Inn","",1,328.4,1,0,3],["Route 66 State Park","Eureka",1,329,145,0,1],["Campbell's Service – Route 66 Museum","Pacific",1,334.6,1,0,6],["Red Cedar Inn Museum & Visitor Center","Pacific",1,336.1,1,4,2],["Beacon Car Wash (Beacon Court Motel neon tower)","Pacific",1,336.7,9,0,1],["Jesse James Wax Museum","Stanton",1,366.4,5,0,2],["Sullivan Route 66 Mural","Sullivan",1,371.3,512,0,1],["Shamrock Court","Sullivan",1,373,72,0,2],["Historic Bourbon Water Tower","Bourbon",1,378.7,5,0,1],["Bourbon Lodge","Bourbon",1,379.4,320,0,2],["Missouri Hick Bar-B-Que","Cuba",1,389,2,0,3],["Wagon Wheel Motel, Cafe and Station","Cuba",1,389.1,73,1,3],["Hotel Cuba","Cuba",1,389.3,1,0,2],["Phillips 66 / Carr Service Station","Cuba",1,389.5,768,1,5],["Cuba City Jail","Cuba",1,389.6,1,0,3],["Hayes Shoe Store","",1,389.7,544,0,1],["Cuba Route 66 Mural Trail","Cuba",1,389.7,512,0,2],["Wallace House","",1,389.7,513,0,1],["Fanning 66 Outpost & Route 66 Rocker","Fanning",1,393.5,36,1,1],["Rosati, Missouri (formerly Knobview)","Rosati",1,397.3,1,0,2],["4M Vineyards & Farms","Cuba",1,398.5,130,0,1],["St. James Winery","St. James",1,402,34,0,0],["Ole Mule Axes n' Fun / The Historic Mule Trading Post","Rolla",1,409,60,1,0],["Route 66 Downtown Mural","Rolla",1,412.8,512,0,0],["Stonehenge (Missouri S&T)","Rolla",1,412.9,1,0,0],["Buehler Park","Rolla",1,414.2,144,0,1],["Doolittle, Missouri","Doolittle",1,419.5,17,0,0],["Hooker Cut","Devils Elbow",1,433.1,17,1,0],["Devil's Elbow Bridge","Devils Elbow",1,433.5,145,1,0],["Devil's Elbow Original 1926 Route 66 Alignment","Devils Elbow",1,433.9,145,1,0],["Mega Mayor Muffler Man","St. Robert",1,436.7,4,0,1],["Uranus Fudge Factory and General Store","St. Robert",1,436.7,38,0,0],["Route 66 Neon Park","St. Robert",1,439.3,9,0,6],["Frog Rock","Waynesville",1,442,132,0,0],["Old Pulaski County Courthouse (Route 66 Courthouse Museum)","Waynesville",1,442.4,1,0,0],["Old Stagecoach Stop","Waynesville",1,442.4,1,4,0],["Roubidoux Spring","Waynesville",1,442.5,128,0,0],["Wrink's Market / Smokin' Jones BBQ & Wrink's Pies","Lebanon",1,471.6,33,4,0],["Route 66 Museum","Lebanon",1,472.8,33,0,0],["Missouri Welcome Center","Conway",1,491.7,257,0,1],["Webster County Courthouse Square","Marshfield",1,501.3,1,0,0],["Hubble Space Telescope Replica","Marshfield",1,501.3,5,0,0],["Joe's Route 66 Diner","Strafford",1,515,2,0,1],["Rest Haven Court","Springfield",1,523.5,72,0,2],["Historic Route 66 Marker -- Glenstone & Kearney (Springfield)","Springfield",1,523.6,17,0,1],["Rail Haven Motel","Springfield",1,523.9,72,1,1],["Queen’s Gate 66","Springfield",1,523.9,9,0,2],["Pythian Castle","Springfield",1,524.3,1,0,0],["Steak 'n Shake","Springfield",1,524.7,10,0,1],["Abou Ben Adhem Shrine Mosque","Springfield",1,525.3,1,0,0],["Route 66 Welcome Center (Springfield)","Springfield",1,525.5,1,0,2],["Gillioz Theatre","Springfield",1,525.5,9,0,0],["Park Central Square — Birthplace of Route 66 Marker","Springfield",1,525.6,1,1,1],["Hickok-Tutt Shootout Site (Park Central Square)","Springfield",1,525.6,1,0,0],["College Street Route 66 Original Alignment","Springfield",1,525.6,17,0,0],["Rockwood Motor Court","Springfield",1,529.3,64,1,2],["Barber Shop","Springfield",1,529.5,32,0,1],["Whitehall Mercantile","Halltown",1,546.6,33,0,0],["Paris Springs Cobblestone Garage","Paris Springs",1,549.2,257,0,0],["Gary's Gay Parita Sinclair Station","Paris Springs",1,549.3,260,1,7],["Spencer","Spencer",1,550.8,1075,1,4],["Mount Vernon Historic Square","Mount Vernon",1,559.6,1,0,1],["Avilla","Avilla",1,578.5,1041,0,0],["Red Oak II","Carthage",1,587.1,5,1,3],["Battle of Carthage State Historic Site","Carthage",1,588.3,1,0,0],["Star Lanes / Grace Lanes","Carthage",1,588.9,9,0,0],["Jasper County Courthouse","Carthage",1,589,1,1,0],["Boots Court Motel","Carthage",1,589.2,72,1,9],["Park Cemetery","Carthage",1,590.1,129,0,0],["Powers Museum","Carthage",1,590.4,1,0,0],["66 Drive-In","Carthage",1,592.3,1,5,2],["Kneeling Miner Statue","Webb City",1,597.9,1,0,1],["Praying Hands (Webb City)","Webb City",1,598,5,0,0],["Joe Becker Stadium Mickey Mantle & Joe Becker Mural","Joplin",1,599.9,512,0,2],["Empire Market","Joplin",1,600.1,2,0,1],["Liberty Building (Joplin National Bank Building)","Joplin",1,600.7,1,0,0],["Bonnie & Clyde Garage Apartment","Joplin",1,600.8,1,0,0],["George A. Spiva Center for the Arts","Joplin",1,600.8,33,0,0],["Murphysburg Historic District","Joplin",1,601,1,0,0],["Episcopal Church","Joplin",1,601,1,0,2],["Schifferdecker Park","Joplin",1,602.8,129,0,0],["Joplin History & Mineral Museum","Joplin",1,602.9,1,0,2],["Route 66 State Line","Galena",2,606.7,16,0,0],["Galena Drive Through Shield","Galena",2,608.2,16,2,3],["Kan-O-Tex Service Station (Cars on the Route)","Galena",2,608.2,292,1,2],["The Sheriff in Galena! Buick of the Radiator Springs Sheriff","Galena",2,608.2,5,2,4],["Luigi’s Pit Stop","Galena",2,608.2,4,2,4],["Will Rogers Highway Marker (Galena Route 66 Marker)","Galena",2,608.3,17,0,1],["Gearhead Curios","Galena",2,608.3,292,1,1],["Big A the Texaco Giant (Muffler Man) at Gearhead Curios","Galena",2,608.3,4,0,0],["Galena Mining and Historical Museum","Galena",2,608.4,1,0,0],["Nelson's Old Riverton Store","Riverton",2,612,35,1,0],["Rainbow Bridge (Brush Creek Marsh Arch Bridge)","Riverton",2,613.9,17,1,0],["Baxter Springs Civil War Memorial","Baxter Springs",2,616.1,1,0,0],["Baxter Springs Heritage Center and Museum","Baxter Springs",2,616.6,1,0,1],["Baxter Springs Independent Oil and Gas Service Station","Baxter Springs",2,616.7,257,1,2],["Café on the Route","Baxter Springs",2,616.8,3,0,0],["Historic Reedy's Pharmacy Building","Baxter Springs",2,616.8,1,0,0],["Route 66 Soda Fountain","Baxter Springs",2,616.9,8,0,1],["The Spooklight","Quapaw",3,619.4,129,0,2],["Quapaw Welcome Sign","Quapaw",3,623.3,16,0,0],["Dairy King","Commerce",3,629.2,2,0,0],["Mickey Mantle Boyhood Home","Commerce",3,629.9,1,0,0],["Waylan's Ku-Ku Burger","Miami",3,632.8,14,1,1],["Coleman Theatre","Miami",3,633.5,25,1,0],["Miami","Miami",3,633.6,1,0,0],["Hudson Station (The Frozen Elephant)","Miami",3,633.9,258,0,0],["Route 66 Ribbon Road (Sidewalk Highway)","Miami",3,639.4,16,1,1],["Crosstar Flag and Tag Museum","Afton",3,649.7,4,0,2],["Clanton's Cafe","Vinita",3,665.1,3,1,1],["Eastern Trails Museum (Vinita, Oklahoma)","Vinita",3,665.4,1,0,1],["Vinita Route 66 Welcome Center (Phillips 66 Gull-Wing Station)","Vinita",3,665.9,256,0,2],["Big Bill Muffler Man","Vinita",3,668.4,4,0,6],["Big Al (Chef Muffler Man)","Vinita",3,668.4,4,0,4],["The Big Indian","Vinita",3,668.4,4,0,0],["Hi-Way Cafe","Vinita",3,668.4,10,1,0],["Western Motel","Vinita",3,668.8,64,0,0],["Chelsea Area Historical Museum","Chelsea",3,684.5,1,0,1],["Route 66 Pedestrian Underpass","Chelsea",3,684.5,528,0,0],["The Hogue House","Chelsea",3,684.8,1,0,1],["Ed Galloway's Totem Pole Park","Foyil",3,690.4,4,1,0],["Kong's Korner","Claremore",3,696.8,260,0,0],["J.M. Davis Arms & Historical Museum","Claremore",3,703.8,1,0,0],["Dot’s Cafe","Claremore",3,704,2,0,0],["Will Rogers Memorial Museum","Claremore",3,704.1,1,1,0],["Blue Whale of Catoosa","Catoosa",3,715.3,4,1,12],["Rose Bowl Lanes","Tulsa",3,726,1,0,0],["Desert Hills Motel","Tulsa",3,727.2,72,1,0],["Circle Theater","Tulsa",3,728.2,9,0,0],["Golden Driller","Tulsa",3,728.2,5,1,0],["Rosie the Riveter","Tulsa",3,731.9,4,0,2],["Tulsa Deco District Walking Tour","Tulsa",3,731.9,17,0,0],["Stella Atom Space Cowgirl","Tulsa",3,732.6,4,0,2],["Buck Atom, Space Cowboy (Muffler Man)","Tulsa",3,732.6,4,0,1],["Buck Atom's Cosmic Curios on 66","Tulsa",3,732.6,32,0,2],["Meadow Gold Mack","Tulsa",3,732.7,4,0,0],["Cowboy Bob Muffler Man","Tulsa",3,732.7,4,0,5],["Meadow Gold Sign","Tulsa",3,732.7,9,1,1],["Tulsa Garden Center","Tulsa",3,732.7,129,0,0],["Greetings From Route 66 Mural","Tulsa",3,732.7,512,0,1],["William G. Skelly House","Tulsa",3,733.2,1,0,0],["Boston Avenue United Methodist Church","Tulsa",3,733.3,1,0,0],["Greenwood District","Tulsa",3,733.4,1,1,0],["Center of the Universe","Tulsa",3,733.7,4,0,0],["Mayo Hotel","Tulsa",3,733.8,1,0,0],["Cain's Ballroom","Tulsa",3,733.9,9,1,0],["Cyrus Avery Centennial Plaza","Tulsa",3,734,17,1,0],["Goodwill Route 66 Sign","Tulsa",3,734.6,40,0,0],["Happy Burger","Sapulpa",3,744,10,0,0],["Sapulpa Downtown Historic District (Dewey Avenue Corridor)","Sapulpa",3,745,17,0,0],["Gasoline Alley Classics","Sapulpa",3,745.1,33,0,1],["Heart of Route 66 Auto Museum","Sapulpa",3,746,5,0,0],["Tee Pee Drive-In","Sapulpa",3,746.7,9,5,0],["Commemorative Oil Derrick & Pump Jack","Kellyville",3,753.4,1,0,0],["Tank Farm Loop (Route 66 Roadbed)","Bristow",3,763.9,17,0,0],["Bristow Train Depot & Museum (Frisco Depot)","Bristow",3,768.5,1,0,0],["1926 Depew Alignment","Depew",3,776.2,16,0,0],["Rock Cafe","Stroud",3,786.7,11,1,0],["Skyliner Motel","Stroud",3,787.1,72,0,0],["Ozark Trails Obelisk","Stroud",3,789.9,1,0,0],["Rt 66 Bowl","Chandler",3,800.7,10,0,1],["Lincoln Motel","Chandler",3,800.8,64,0,0],["Route 66 Interpretive Center","Chandler",3,801.2,33,0,0],["McClanahan Park & 66 Man Statue","Chandler",3,801.2,4,0,0],["McJerry's Route 66 Gallery","Chandler",3,801.5,1,0,0],["Lincoln County Museum of Pioneer History","Chandler",3,801.7,1,0,0],["Crane Motor Company Building","Chandler",3,801.8,1,0,0],["Boomarang Diner","Chandler",3,801.9,2,0,0],["Seaba's Filling Station","Warwick",3,809.5,257,1,3],["Arcadia Round Barn","Arcadia",3,829.8,1,1,0],["Pops 66","Arcadia",3,830.4,262,1,0],["Edmond Armory","Edmond",3,836,1,0,0],["Edmond Old Town Historic District","Edmond",3,836,33,0,0],["Cheever's Cafe","Oklahoma City",3,850.1,2,0,0],["Tower Theatre","Oklahoma City",3,850.1,8,0,0],["Milk Bottle Grocery","Oklahoma City",3,850.2,4,1,0],["Gold Dome Building","Oklahoma City",3,850.2,1,0,0],["NW 23rd Street Route 66 Alignment","Oklahoma City",3,850.3,16,0,0],["Classen Inn","Oklahoma City",3,850.3,64,0,0],["Oklahoma City National Memorial & Museum","Oklahoma City",3,850.3,1,0,0],["The Survivor Tree, Oklahoma City National Memorial","Oklahoma City",3,850.3,129,0,0],["Skirvin Hilton Hotel","Oklahoma City",3,850.3,1,0,0],["American Banjo Museum","Oklahoma City",3,850.3,33,0,0],["Bricktown Canal","Oklahoma City",3,850.3,1,0,1],["Yale Theater","Oklahoma City",3,850.5,8,0,0],["Plaza District","Oklahoma City",3,850.5,514,0,0],["Winchester Drive-In Theatre","Oklahoma City",3,850.7,9,0,0],["Stockyards City (Cattlemen's Steakhouse anchor)","Oklahoma City",3,850.8,2,0,0],["Cattlemen's Steakhouse","Oklahoma City",3,850.8,3,1,0],["Will Rogers Park (and Will Rogers Gardens)","Oklahoma City",3,852.2,128,0,0],["Western Motel","Bethany",3,856.2,72,0,0],["Lake Overholser Bridge","Oklahoma City",3,857.2,16,1,1],["Yukon Czech Hall","Yukon",3,861.9,1,0,0],["Yukon's Best Flour Sign (Yukon Mill & Grain Co.)","Yukon",3,862.3,520,1,0],["Ranger Motel","El Reno",3,873.8,72,0,0],["Sid's Diner","El Reno",3,875.9,2,1,2],["Onion Burgers Historical Marker (Hungry for History)","El Reno",3,875.9,1,0,0],["Canadian County Historical Museum & Rock Island Depot","El Reno",3,876.1,1,0,0],["Jobe's Country Boy Drive-In","El Reno",3,876.7,2,0,0],["Fort Reno","El Reno",3,880.5,1,0,0],["Cherokee Trading Post","Calumet",3,892.9,294,0,1],["Bridgeport Bridge (William H. Murray Bridge / Pony Bridge)","Geary",3,898.5,17,1,0],["Giant Compass","Hinton",3,898.5,4,0,0],["1930s Portland Cement Concrete Pavement","Hydro",3,910.4,16,0,1],["Lucille's Roadhouse","Weatherford",3,918.4,2,0,0],["Stafford Air & Space Museum","Weatherford",3,919.1,1,0,0],["Heartland of America Museum","Weatherford",3,920.2,1,0,0],["Jerry's Diner","Weatherford",3,920.9,2,0,0],["Weatherford Original Alignment","Weatherford",3,921.7,17,0,0],["Major Tom","Weatherford",3,921.8,4,0,0],["Route 66 Cafe at the Market","Clinton",3,937,2,0,0],["McLain Rogers Park","Clinton",3,938.3,9,0,0],["Oklahoma Route 66 Museum","Clinton",3,938.7,33,1,2],["Route 66 Valentine Diner","Clinton",3,938.7,1,0,0],["Foss Ghost Town","Foss",3,951,1041,0,0],["Canute Original Alignment","Canute",3,958.4,17,0,0],["Parker Drilling Rig No. 114","Elk City",3,966.5,1,0,0],["Westland Theatre","Elk City",3,966.6,8,0,0],["The Old Town Museum Complex","Elk City",3,968.4,1,0,0],["National Route 66 & Transportation Museum (Elk City Museum Complex)","Elk City",3,968.5,1,1,1],["Western Motel","Sayre",3,982.9,72,1,2],["WPA Pedestrian Underpass","Sayre",3,983.9,16,0,0],["Beckham County Courthouse","Sayre",3,984.3,1,0,0],["Main Street Historic District","Sayre",3,984.3,17,0,0],["Sayre City Park","Sayre",3,985.9,128,0,0],["Sandhills Curiosity Shop","Erick",3,1000.3,36,1,2],["100th Meridian Museum","Erick",3,1000.5,1,0,1],["Sam’s Town on 66","Erick",3,1000.7,36,0,0],["Texola One Room Jail (Territorial Jail)","Texola",3,1007.8,1024,0,0],["Will Rogers Highway Marker","Texola",3,1008.4,1,0,0],["Texas State Line Sign","Shamrock",4,1008.6,16,0,0],["Shamrock Country Inn","Shamrock",4,1023.1,64,0,0],["Blarney Stone of Texas","Shamrock",4,1023.2,5,0,0],["Rusty’s on 66","Shamrock",4,1023.4,2,0,0],["Big Cowboy Boot","Shamrock",4,1023.4,4,0,1],["Pioneer West Museum","Shamrock",4,1023.4,1,0,0],["Tower Station and U-Drop Inn Cafe","Shamrock",4,1023.5,264,1,12],["Devil's Rope Museum","McLean",4,1044.3,33,1,0],["McLean Historic Brick Street","McLean",4,1044.5,17,0,1],["Cactus Inn Motel","McLean",4,1045,72,0,0],["Red River Steakhouse","McLean",4,1045,2,0,0],["The Jericho Gap","Clarendon",4,1063.9,17,0,0],["Jericho Ghost Town Ruins","Jericho",4,1064,1025,0,1],["Jericho Cemetery","Jericho",4,1065,1025,0,1],["Britten USA Leaning Water Tower (Leaning Tower of Texas)","Groom",4,1074.7,4,1,0],["Cross of Our Lord Jesus Christ Ministries","Groom",4,1077.3,36,1,0],["Groom Cemetery","Groom",4,1077.8,1,0,0],["The Big Texan Steak Ranch","Amarillo",4,1115.3,14,1,0],["Big Texan Motel","Amarillo",4,1115.3,64,0,0],["Slug Bug Ranch","Conway",4,1116.1,4,1,0],["Cowboy Motel","Amarillo",4,1117.5,64,0,0],["Amarillo Livestock Auction","Amarillo",4,1118,1,0,2],["American Quarter Horse Hall of Fame and Museum","Amarillo",4,1118.3,33,0,0],["Polk Street Historic District","Amarillo",4,1120.1,1,0,1],["Santa Fe Building","Amarillo",4,1120.1,1,0,0],["Historic 6th Street Sign (Route 66 district welcome sign)","Amarillo",4,1121.8,16,0,0],["Golden Light Cafe & Cantina","Amarillo",4,1122,2,1,0],["Borden's Heap-O-Cream Parlor","Amarillo",4,1122.1,2,0,0],["U.S. Route 66-Sixth Street Historic District","Amarillo",4,1122.3,59,1,0],["Moe Dogs Grill","Amarillo",4,1122.4,2,0,1],["Don Harrington Discovery Center","Amarillo",4,1125.6,129,0,0],["Helium Time Columns Monument (Amarillo, Texas)","Amarillo",4,1125.6,5,0,0],["Amarillo Botanical Gardens","Amarillo",4,1125.8,128,0,0],["Jack Sisemore Route 66 RV Museum","Amarillo",4,1126.5,1,0,0],["2nd Amendment Cowboy","Amarillo",4,1129.5,36,1,0],["Cadillac Ranch","Amarillo",4,1130.2,4,1,3],["Tascosa Cemetery (Old Tascosa Boot Hill)","Amarillo",4,1151.3,1,0,1],["Tascosa (Old Tascosa)","Boys Ranch",4,1151.3,1025,0,0],["Bonanza Motel","Vega",4,1156.7,64,0,0],["Oldham County Courthouse","Vega",4,1156.9,1,0,0],["Hickory Inn Cafe","Vega",4,1157,2,0,0],["Vega Motel","Vega",4,1157,72,1,1],["Magnolia Service Station","Vega",4,1157,272,1,0],["Dot's Mini Museum","Vega",4,1157.2,4,0,0],["MidPoint Cafe","Adrian",4,1171.9,34,1,0],["Route 66 Midpoint Sign","Adrian",4,1172,21,1,6],["Russell's Truck and Travel Center","Glenrio",5,1199,261,0,0],["World's Largest Flip Flop and Route 66 Gift Shop","San Jon",5,1213.2,36,0,0],["San Jon","San Jon",5,1213.3,17,0,0],["Roadrunner lodge billboard","Tucumcari",5,1235.6,576,0,0],["Tucumcari Mountain","Tucumcari",5,1236.5,128,0,1],["Del's Restaurant","Tucumcari",5,1237.3,10,1,0],["Palomino Motel","Tucumcari",5,1237.3,72,0,0],["Texaco Trade Station","Tucumcari",5,1237.3,289,0,0],["Roadrunner Lodge Motel","Tucumcari",5,1237.4,72,0,1],["Tee Pee Curios","Tucumcari",5,1237.5,44,1,2],["Blue Swallow Motel","Tucumcari",5,1237.6,73,1,10],["Motel Safari","Tucumcari",5,1237.6,72,1,2],["Americana Motel (Historically State Motor Lodge)","Tucumcari",5,1237.9,64,0,0],["Boulevard Cleaners \"Wash Lady\" Neon Sign","Tucumcari",5,1237.9,8,1,0],["Mesalands Dinosaur Museum","Tucumcari",5,1238,5,0,0],["La Cita Restaurant","Tucumcari",5,1238,14,1,0],["Odeon Theater","Tucumcari",5,1238.1,9,0,1],["Buckaroo Motel","Tucumcari",5,1239,72,0,0],["Tucumcari Convention Center (Route 66 Monument)","Tucumcari",5,1239.1,4,0,1],["Tucumcari Trading Post","Tucumcari",5,1239.5,96,0,1],["Newkirk","Newkirk",5,1272.1,1025,0,0],["Cuervo","Cuervo",5,1281.2,1041,0,0],["Route 66 Auto Museum","Santa Rosa",5,1297.3,33,0,0],["Blue Hole of Santa Rosa","Santa Rosa",5,1298.4,128,1,0],["Park Lake","Santa Rosa",5,1298.6,128,0,0],["Sunset Motel","Santa Rosa",5,1298.9,64,0,0],["Joseph's Bar & Grill","Santa Rosa",5,1299.1,2,1,0],["La Loma Lodge","Santa Rosa",5,1299.2,72,0,0],["Pecos River Bridge","Santa Rosa",5,1299.7,144,0,0],["Castañeda Hotel","Las Vegas",5,1333.5,3,0,0],["\"Calumet Says Howdy!\" Mural (Red Dawn Movie Site)","Las Vegas",5,1333.5,512,0,0],["El Fidel Hotel","Las Vegas",5,1333.5,1,0,0],["Las Vegas NM Bridge Street Historic District","Las Vegas",5,1334.2,1,0,1],["Plaza Hotel","Las Vegas",5,1334.2,1,0,1],["Clines Corners Travel Center","Cline's Corners",5,1358.5,289,1,0],["Cline's Corners Sign","Cline's Corners",5,1358.5,8,0,0],["Pecos National Historical Park","Pecos",5,1360.7,1153,0,0],["The Battle of Glorieta Pass Historical Marker","Glorieta",5,1360.8,17,0,0],["New Mexico Museum of Art","Santa Fe",5,1396.8,1,0,1],["Palace of the Governors","Santa Fe",5,1396.8,1,1,0],["Cathedral Basilica of St. Francis of Assisi (Santa Fe)","Santa Fe",5,1396.8,1,0,0],["Piñon Court by La Fonda","Santa Fe",5,1396.8,64,0,0],["La Fonda","Santa Fe",5,1396.8,1,0,0],["King's Rest Court Inn","Santa Fe",5,1396.8,72,0,0],["Santa Fe Plaza","Santa Fe",5,1396.8,17,1,0],["Loretto Chapel","Santa Fe",5,1396.8,17,0,0],["San Felipe Pueblo Mission Church","San Felipe Pueblo",5,1399.8,1,0,0],["Tinkertown Museum","Sandia Park",5,1399.9,4,5,0],["East Central Route 66 Gateway Sign","Albuquerque",5,1411.4,8,0,0],["Sandia Peak Tramway","Albuquerque",5,1411.5,129,1,0],["Owl Cafe","Albuquerque",5,1413.6,14,0,0],["Bow & Arrow Lodge Motel","Albuquerque",5,1414.9,72,0,0],["Westward Ho Motel","Albuquerque",5,1415.3,72,0,0],["Lumberjack Muffler Man at May Cafe","Albuquerque",5,1415.7,6,1,0],["The Range Café (Bernalillo Flagship)","Bernalillo",5,1416.1,10,0,0],["Hiland Theater","Albuquerque",5,1417,9,0,0],["Nob Hill Historic District (Nob Hill Business District)","Albuquerque",5,1417.9,57,1,0],["Hiway House Motel Neon Sign","Albuquerque",5,1418.1,73,0,1],["Nob Hill Gateway Arch (West / Girard Boulevard)","Albuquerque",5,1418.4,8,1,0],["Frontier Restaurant","Albuquerque",5,1418.7,3,1,0],["University of New Mexico","Albuquerque",5,1418.7,1,0,0],["Maxwell Museum of Anthropology","Albuquerque",5,1419.1,1,0,0],["66 Diner","Albuquerque",5,1419.4,14,0,1],["Albuquerque Convention Center","Albuquerque",5,1420.5,1,0,0],["Hotel Andaluz","Albuquerque",5,1420.6,17,0,0],["Sunshine Theater","Albuquerque",5,1420.6,1,0,0],["Madonna of the Trail","Albuquerque",5,1420.6,1,0,0],["KiMo Theatre","Albuquerque",5,1420.7,9,1,1],["Albuquerque 4th Street (pre-1937 Route 66 alignment)","Albuquerque",5,1420.7,17,0,0],["Albuquerque Crossroads Sign","Albuquerque",5,1420.7,17,1,0],["Dog House Drive In","Albuquerque",5,1421.3,10,1,1],["Garcia's Kitchen (Central Avenue)","Albuquerque",5,1421.8,2,0,0],["High Noon Restaurant & Saloon","Albuquerque",5,1422.1,2,0,0],["San Felipe de Neri Church","Albuquerque",5,1422.1,1,0,0],["Indian Pueblo Cultural Center","Albuquerque",5,1422.1,33,0,0],["Old Town Plaza","Albuquerque",5,1422.1,1,1,1],["Albuquerque Museum","Albuquerque",5,1422.1,1,0,0],["Coronado Historic Site","Bernalillo",5,1422.1,129,0,0],["El Camino Motel & Dining Room","Los Ranchos de Albuquerque",5,1422.1,90,0,1],["Old Town Albuquerque Self-Guided Historic Walk","Albuquerque",5,1422.1,17,0,0],["Sadie's of New Mexico","Albuquerque",5,1422.1,3,0,0],["Old Town Portal Market","Albuquerque",5,1422.1,33,0,0],["Church Street Cafe (Casa de Ruiz)","Albuquerque",5,1422.1,3,0,0],["Monterey Motel","Albuquerque",5,1422.4,72,0,0],["El Vado Motel","Albuquerque",5,1422.5,72,1,2],["West Central Route 66 Gateway Arch","Albuquerque",5,1424.8,8,0,0],["Petroglyph National Monument","Albuquerque",5,1425.9,129,0,0],["Mountain Lodge sign","Albuquerque",5,1429,8,0,1],["West Route 66 Visitor Center","Albuquerque",5,1429,1,0,0],["Nine Mile Hill (Route 66 / Central Avenue West Mesa climb)","Albuquerque",5,1429.4,16,0,0],["Rio Puerco Bridge","Albuquerque",5,1439.2,16,1,0],["Route 66 Casino Hotel","Albuquerque",5,1439.9,4,0,0],["Mesita (Laguna Pueblo)","Mesita",5,1462.9,1,0,0],["San Jose de la Laguna Mission Church","Laguna",5,1468,1,1,0],["New Laguna","New Laguna",5,1470.3,16,0,0],["San Estévan del Rey Mission Church","Acoma Pueblo",5,1474.5,17,1,0],["Sky City Cultural Center and Haak'u Museum","Acoma Pueblo",5,1474.7,33,0,0],["Villa de Cubero Trading Post","Cubero",5,1478.7,355,1,0],["St Joseph’s Church","San Fidel",5,1482.1,1,0,0],["Santa Maria de Acoma Mission Church","McCartys",5,1486.9,1,0,0],["Sands Motel","Grants",5,1498.8,64,0,1],["La Ventana Steakhouse","Grants",5,1499.3,2,0,0],["West Theatre","Grants",5,1499.4,9,0,0],["New Mexico Mining Museum","Grants",5,1499.8,1,0,0],["Route 66 Neon Drive-Thru Arch","Grants",5,1499.9,8,0,1],["Bluewater Lake State Park","Bluewater",5,1523,128,0,0],["Continental Divide Marker","Thoreau",5,1536.5,129,1,1],["Earl's Family Restaurant","Gallup",5,1562.5,2,0,0],["El Rancho Hotel","Gallup",5,1562.9,72,1,6],["Gallup Cultural Center (Santa Fe Railway Depot)","Gallup",5,1563.7,33,0,1],["Sammy C's Rockin' Sports Bar & Grill","Gallup",5,1563.8,2,0,0],["El Morro Theatre","Gallup",5,1563.9,9,0,0],["Jerry's Cafe","Gallup",5,1564,10,1,1],["Gallup Old Trading Post District","Gallup",5,1564,1,0,0],["Richardson Trading Post","Gallup",5,1564.1,36,1,0],["Colonial Motel Sign","Gallup",5,1564.6,72,0,0],["Welcome to Arizona Sign","Lupton",6,1586.5,1,1,1],["Lupton Shops","Lupton",6,1586.9,1,0,0],["Chief Yellowhorse Trading Post","Lupton",6,1586.9,36,1,0],["New Mexico–Arizona State Line","Lupton",6,1587.3,16,0,0],["Querino Canyon Bridge","Houck",6,1602.7,17,0,0],["Painted Desert Inn","Petrified Forest",6,1638,1,1,2],["Petrified Forest National Park","Petrified Forest",6,1638.3,144,1,2],["Highway of Dreams Route 66 Alignment Exhibit","Petrified Forest",6,1640.1,17,0,0],["Route 66 Monument & 1932 Studebaker (Petrified Forest National Park)","Petrified Forest",6,1640.1,17,0,1],["Blue Mesa Trail","Petrified Forest",6,1643.7,128,0,0],["Newspaper Rock Petroglyphs Archeological District","Petrified Forest",6,1643.7,129,0,0],["Crystal Forest Trail","Petrified Forest",6,1644.1,128,0,3],["Petrified Forest National Park (South Entrance)","Petrified Forest",6,1646.9,129,0,0],["Painted Desert Indian Center","Holbrook",6,1647.3,36,0,1],["El Rancho Restaurant","Holbrook",6,1665.1,2,0,0],["Navajo County Historic Courthouse & Museum","Holbrook",6,1665.5,1,0,0],["Hashknife Pony Express (Holbrook departure)","Holbrook",6,1665.5,1,0,0],["Rainbow Rock Shop","Holbrook",6,1665.6,36,1,0],["Romo's Mexican and American Restaurant","Holbrook",6,1665.7,2,0,0],["Brad’s Desert Inn","Holbrook",6,1665.8,64,0,0],["Butterfield Stage Co. Steak House","Holbrook",6,1666,2,0,1],["Wigwam Village #6 (Wigwam Motel)","Holbrook",6,1666.2,64,1,9],["Geronimo Trading Post","Joseph City",6,1671.7,36,0,0],["The Old Fort Marker (Joseph City Mormon Settlement)","Joseph City",6,1676.5,1,0,0],["Jack Rabbit Trading Post","Joseph City",6,1683.1,36,1,1],["Falcon Restaurant","Winslow",6,1699.6,2,0,1],["The Brown Mug Cafe","Winslow",6,1700.1,2,0,0],["La Posada Hotel","Winslow",6,1700.1,3,1,0],["Standin' on the Corner Park","Winslow",6,1700.3,517,1,0],["Snowdrift Art Space","Winslow",6,1700.3,32,0,1],["Smith's Texaco Station","Winslow",6,1700.3,256,1,0],["Old Trails Museum","Winslow",6,1700.3,1,0,0],["Lorenzo Hubbell Trading Post and Warehouse","Winslow",6,1700.6,33,0,0],["Delta Motel","Winslow",6,1702.1,64,0,1],["Meteor City Trading Post","Meteor City",6,1715.4,36,0,1],["Canyon Diablo Bridge","Two Guns",6,1725.1,1041,0,0],["Winona Trading Post Site","Winona",6,1745.2,289,0,0],["Memorial to the Pioneer Women of Arizona (Walnut Canyon DAR Marker)","Flagstaff",6,1751,1,0,0],["Miz Zip's","Flagstaff",6,1757.5,10,1,0],["Hotel Monte Vista","Flagstaff",6,1760.5,65,1,2],["Heritage Square (Flagstaff)","Flagstaff",6,1760.6,1,0,0],["Babbitt Brothers Building","Flagstaff",6,1760.6,33,0,1],["Weatherford Hotel","Flagstaff",6,1760.6,1,0,0],["Flagstaff Visitor Center (Historic Santa Fe Depot)","Flagstaff",6,1760.7,33,0,0],["Motel Du Beau (Du Beau neon tower sign)","Flagstaff",6,1760.8,72,1,0],["Arizona Historical Society – Pioneer Museum","Flagstaff",6,1760.8,1,0,0],["Mother Road Brewing Company","Flagstaff",6,1761,2,0,0],["Northern Arizona University (Old Main)","Flagstaff",6,1761.2,1,0,0],["Louie the Lumberjack Muffler Man (NAU Skydome)","Flagstaff",6,1761.3,4,1,0],["Lowell Observatory","Flagstaff",6,1761.5,129,1,0],["Riordan Mansion State Historic Park","Flagstaff",6,1761.6,1,0,0],["Galaxy Diner","Flagstaff",6,1761.6,2,0,2],["Historic Route 66 Concrete Pavement Section (Bellemont)","Bellemont",6,1770.9,16,0,3],["Navajo Army Depot Entrance Monument (Camp Navajo)","Bellemont",6,1772.2,1,0,1],["Williams Gateway to Grand Canyon Sign","Williams",6,1794.5,17,1,0],["El Rancho Motel","Williams",6,1795.3,72,0,0],["Wild West Junction","Williams",6,1795.5,6,0,1],["Rod's Steak House","Williams",6,1795.5,10,1,0],["The Red Garter Bed & Breakfast Inn","Williams",6,1795.7,64,0,0],["Grand Canyon Hotel","Williams",6,1795.7,1,0,0],["Williams Visitor Center (historic Williams Depot)","Williams",6,1795.8,33,0,2],["Cruiser's Cafe 66","Williams",6,1795.8,2,0,0],["Sultana Bar","Williams",6,1795.8,2,0,0],["Williams Depot (Grand Canyon Railway)","Williams",6,1795.9,1,1,0],["Cars of the Mother Road","Williams",6,1795.9,36,0,0],["Highlander Motel","Williams",6,1796,64,0,0],["Historic Dairy Queen Building","Williams",6,1796.1,2,0,0],["Welcome to Ash Fork – Flagstone Capital Marker","Ash Fork",6,1815.4,17,0,0],["Ash Fork Route 66 Historic Museum","Ash Fork",6,1815.8,1,0,0],["Crookton Road Original Alignment","Bellemont",6,1824.8,16,0,0],["Stagecoach 66 Motel","Seligman",6,1839.2,72,1,0],["Delgadillo's Snow Cap Drive-In","Seligman",6,1840.2,3,5,3],["The Aztec Motel & Creative Space","Seligman",6,1840.2,64,0,0],["Angel & Vilma Delgadillo's Original Route 66 Gift Shop","Seligman",6,1840.2,33,1,6],["The Copper Cart","Seligman",6,1840.4,40,0,1],["Black Cat Bar","Seligman",6,1840.4,2,0,0],["VW Microbus","Seligman",6,1840.4,4,0,0],["Seligman Grocery (mural wall and vintage car)","Seligman",6,1840.4,544,0,0],["The Postcard Motel","Seligman",6,1840.4,64,0,0],["Supai Motel","Seligman",6,1840.4,72,0,1],["Roadkill Cafe","Seligman",6,1840.8,6,0,0],["Historic Route 66 Motel","Seligman",6,1840.8,64,0,2],["\"1860 Arizona Territorial Jail\"","Seligman",6,1840.8,4,0,0],["Route 66 Burma-Shave Signs (Seligman)","Seligman",6,1851,17,0,2],["Grand Canyon Caverns & Inn","Peach Springs",6,1866.7,64,1,0],["Grand Canyon Caverns & Inn (vintage gas-station photo stop)","Peach Springs",6,1866.8,256,1,0],["Hualapai Lodge","Peach Springs",6,1879.3,82,0,0],["Truxton Station (former Whiting Brothers)","Truxton",6,1888.3,257,0,2],["Truxton Canyon / Crozier Canyon Original Route 66 Alignment","Truxton",6,1895.5,144,1,0],["Hackberry General Store","Hackberry",6,1903.2,37,1,2],["Giganticus Headicus","Kingman",6,1909.3,4,1,0],["Rutherford's 66 Family Diner","Kingman",6,1930.3,2,0,0],["Orchard Inn","Kingman",6,1930.4,64,0,1],["El Trovatore Motel","Kingman",6,1930.7,72,0,0],["Bonelli House","Kingman",6,1931.9,1,0,0],["Beale Street Theater","Kingman",6,1932,9,0,0],["Old Trails Garage","Kingman",6,1932,1,0,0],["Desert Drugs Walgreen Agency Neon Sign","Kingman",6,1932.1,9,0,5],["Mr. D'z Route 66 Diner","Kingman",6,1932.2,10,1,6],["Dunton Motors","Kingman",6,1932.2,32,0,1],["Heart of Historic Route 66","Kingman",6,1932.2,8,0,0],["Powerhouse Visitor Center (Arizona Route 66 Museum)","Kingman",6,1932.3,33,1,3],["Locomotive Park (Santa Fe Engine 3759)","Kingman",6,1932.3,1,0,0],["Mohave Museum of History and Arts","Kingman",6,1932.5,17,0,0],["Gold Road Mine Historical Marker","Oatman",6,1947.2,1041,0,0],["Sitgreaves Pass","Oatman",6,1947.2,144,1,1],["Cool Springs Station","Oatman",6,1947.9,288,1,1],["Oatman Hotel (Durlin Hotel)","Oatman",6,1948.9,3,1,0],["Olive Oatman Marker","Oatman",6,1948.9,1,0,1],["Oatman Old Theatre Building","Oatman",6,1948.9,33,0,1],["Oatman Wild Burros","Oatman",6,1948.9,128,1,15],["Welcome to Arizona Sign","Topock",6,1983.7,16,0,0],["Topock66","Topock",6,1983.9,2,0,0],["Old Trails Arch Bridge","Topock",6,1984,16,1,1],["Needles Borax Wagon Welcome Monument","Needles",7,1996.3,1,0,0],["Cub's Liquor","Needles",7,1996.5,8,0,0],["El Garces Hotel","Needles",7,1997,1,1,0],["The Sweet Spot","Needles",7,1997.6,2,0,0],["Wagon Wheel Restaurant","Needles",7,1998.2,6,0,0],["Goffs Welcome Marker","Goffs",7,2025.6,17,0,0],["Goffs Schoolhouse","Goffs",7,2025.6,1,5,3],["Amboy School","Amboy",7,2073.7,1024,0,0],["Roy's Motel & Cafe","Amboy",7,2073.8,328,1,14],["Amboy Crater","Amboy",7,2076.2,128,0,0],["Ludlow Cafe (Ludlow, California)","Ludlow",7,2103.6,2,1,0],["Poe's Cafe Sign","Newberry Springs",7,2126.2,1024,0,1],["Bagdad Cafe","Newberry Springs",7,2133.7,6,1,4],["Henning Motel Sign","Newberry Springs",7,2133.8,1032,1,3],["First Del Taco","Yermo",7,2144.7,1,0,0],["Daggett Garage","Daggett",7,2148.5,1,0,0],["Desert Market","Daggett",7,2148.5,32,1,2],["Alf's Blacksmith Shop","Yermo",7,2148.6,1,0,0],["Daggett (E Clampus Vitus / Daggett Historical Society marker)","Daggett",7,2148.6,17,0,0],["Peggy Sue’s 50’s Diner","Yermo",7,2148.7,6,0,1],["Ski Lodge Roof House (Russian House)","Daggett",7,2148.8,17,0,0],["Barstow Station","Barstow",7,2155.8,38,0,0],["Barstow Original 1926 Alignment","Barstow",7,2155.9,17,0,0],["Barstow Marine Corps Logistics Base Marker","Barstow",7,2157.2,17,0,0],["Roy's Cafe","Barstow",7,2157.4,2,0,0],["Route 66 Mother Road Museum","Barstow",7,2157.5,17,0,0],["Western America Railroad Museum (Barstow, California)","Barstow",7,2157.5,1,0,0],["Casa del Desierto (Barstow Harvey House), Barstow, California","Barstow",7,2157.5,1,1,0],["Mojave River Valley Museum","Barstow",7,2157.6,1,0,0],["El Rancho Motel Sign","Barstow",7,2157.6,8,0,0],["Route 66 Motel","Barstow",7,2157.8,72,1,1],["The Torches Motel","Barstow",7,2157.8,72,0,0],["Helendale Original Route 66 Alignment (National Trails Highway)","Helendale",7,2180.4,16,0,0],["Red Hen Cafe","Helendale",7,2182.4,2,0,0],["Elmer's Bottle Tree Ranch","Helendale",7,2183.5,4,1,4],["Iron Hog Restaurant and Saloon","Oro Grande",7,2188.4,2,0,0],["Emma Jean's Holland Burger Cafe","Victorville",7,2193.6,3,1,6],["Apple Valley Inn","Apple Valley",7,2195,1024,0,0],["Old Town Victorville (D Street Route 66 corridor)","Victorville",7,2195,17,0,0],["California Route 66 Museum","Victorville",7,2195,33,1,0],["Green Spot Motel (Victorville)","Victorville",7,2195.1,89,0,0],["New Corral Motel (Victorville, California)","Victorville",7,2197.3,72,0,2],["Cajon Pass Original 1926 Route 66 Alignment","Cajon Pass",7,2211.9,144,1,0],["Cajon Pass Summit","Cajon Pass",7,2211.9,145,1,1],["Mormon Trail Monument (California Historical Landmark No. 577)","Cajon Pass",7,2214.2,1,0,1],["Blue Cut Historical Marker","Cajon Pass",7,2220.8,17,0,0],["Original McDonald's Site & Museum","San Bernardino",7,2235.4,1,1,10],["Mitla Cafe","San Bernardino",7,2236.5,2,1,0],["San Bernardino Court Street Square","San Bernardino",7,2236.6,17,0,0],["California Theatre","San Bernardino",7,2236.6,9,0,1],["San Manuel Stadium","San Bernardino",7,2236.6,4,0,0],["San Bernardino Railroad History Museum","San Bernardino",7,2236.6,1,0,0],["Wigwam Motel (Wigwam Village #7), Rialto","Rialto",7,2238.9,76,1,12],["Bono's Historic Orange Stand","Fontana",7,2246,5,1,0],["The Sycamore Inn","Rancho Cucamonga",7,2253.6,3,0,0],["Cucamonga Service Station","Rancho Cucamonga",7,2253.6,273,1,0],["Rancho Cucamonga Original 1926 Alignment","Rancho Cucamonga",7,2253.6,257,0,0],["Sycamore Inn","Rancho Cucamonga",7,2255.4,11,0,1],["Magic Lamp Inn","Rancho Cucamonga",7,2255.6,10,1,0],["Madonna of the Trail (Upland, California)","Upland",7,2257.1,1,0,0],["La Paloma","La Verne",7,2263.2,2,0,1],["Pinnacle Peak Steakhouse","La Verne",7,2267,6,0,1],["The Donut Man","Glendora",7,2269.3,2,1,0],["Glendora Foothill Boulevard Original Alignment","Glendora",7,2270.3,16,0,0],["The Hat (Glendora)","Glendora",7,2270.8,2,0,0],["Foothill Drive-In Theatre neon marquee signs","Azusa",7,2272.4,9,1,0],["Azusa Route 66 Centennial Monument & Mural","Azusa",7,2272.9,529,0,0],["Monrovia Theatre (Colonial Theatre) building","Monrovia",7,2278.7,1,0,0],["Old Town Monrovia (Myrtle Avenue commercial historic district)","Monrovia",7,2278.7,1,0,0],["Denny's (former Van de Kamp's) Windmill","Arcadia",7,2280.6,5,1,0],["Rod's Grill","Monrovia",7,2280.7,2,0,0],["Santa Anita Park","Arcadia",7,2281.2,1,4,0],["Los Angeles County Arboretum and Botanic Garden","Arcadia",7,2282.3,129,0,0],["Pasadena Old San Gabriel Mission Marker","Pasadena",7,2284.2,1,0,0],["Saga Motor Hotel","Pasadena",7,2286.1,72,0,0],["Pasadena Colorado Boulevard Original Alignment","Pasadena",7,2286.4,16,1,0],["Bungalow Heaven Historic District","Pasadena",7,2286.7,1,0,0],["Pie 'N Burger","Pasadena",7,2286.9,2,1,0],["The Hat","Pasadena",7,2287,10,0,0],["Pasadena City Hall","Pasadena",7,2287.7,1,1,0],["Old Pasadena Historic District","Pasadena",7,2287.9,49,0,0],["Colorado Street Bridge","Pasadena",7,2287.9,16,1,0],["Norton Simon Museum","Pasadena",7,2287.9,1,0,0],["Greetings From… Pasadena","Pasadena",7,2288,512,0,0],["Castle Green","Pasadena",7,2288,1,0,0],["Tournament House (Wrigley Mansion)","Pasadena",7,2288.4,1,4,0],["El Molino Viejo (The Old Mill)","Pasadena",7,2289.7,1,0,0],["South Pasadena Original Alignment","South Pasadena",7,2290,16,0,0],["Fair Oaks Pharmacy & Soda Fountain","South Pasadena",7,2290,2,1,4],["Eagle Rock (Route 66 1926 Alignment)","Los Angeles",7,2291.2,145,0,0],["Galco's Soda Pop Stop","Los Angeles",7,2292.2,34,1,1],["Route 66 Figueroa Street Alignment","Los Angeles",7,2292.8,16,0,0],["Chicken Boy","Los Angeles",7,2292.8,4,1,1],["Arroyo Seco Parkway (Pasadena Freeway)","Los Angeles",7,2293.5,16,1,0],["Heritage Square Museum","Los Angeles",7,2294.6,1,0,0],["Philippe The Original","Los Angeles",7,2297.2,2,1,3],["Los Angeles Union Station","Los Angeles",7,2297.3,1,1,0],["Olvera Street (El Pueblo de Los Angeles Historical Monument)","Los Angeles",7,2297.3,33,0,0],["Ávila Adobe","Los Angeles",7,2297.3,1,0,0],["Pico House","Los Angeles",7,2297.5,1,0,0],["Original Route 66 Terminus (7th & Broadway)","Los Angeles",7,2297.8,17,1,0],["Paradise Motel","Los Angeles",7,2298,64,0,0],["Sunset Boulevard (Route 66 alignment, Los Angeles)","Los Angeles",7,2300.1,17,0,0],["Bullocks Wilshire","Los Angeles",7,2300.1,1,1,0],["Wiltern Theatre","Los Angeles",7,2300.9,8,0,0],["Greek Theatre (Griffith Park)","Los Angeles",7,2302,128,4,0],["Tam O'Shanter","Los Angeles",7,2302,2,1,0],["Hollywood Sign","Los Angeles",7,2302.9,1,1,0],["Hollywood Pantages Theatre","Los Angeles",7,2303.1,1,0,0],["Capitol Records Building","Los Angeles",7,2303.1,1,0,0],["Hollywood Walk of Fame","Los Angeles",7,2303.2,5,1,0],["Grauman's Chinese Theatre (TCL Chinese Theatre)","Los Angeles",7,2304,1,1,0],["Hollywood Roosevelt Hotel","Los Angeles",7,2304.1,65,0,0],["La Brea Tar Pits and Museum","Los Angeles",7,2304.9,129,0,1],["Barney's Beanery","West Hollywood",7,2306.1,2,0,1],["Tail o' the Pup","West Hollywood",7,2306.2,6,1,0],["Sunset Strip","West Hollywood",7,2306.7,8,0,0],["Beverly Hills Sign","Beverly Hills",7,2308.3,8,1,3],["Will Rogers Memorial Park","Beverly Hills",7,2308.3,129,0,0],["Santa Monica Boulevard (Route 66 alignment through Beverly Hills)","Beverly Hills",7,2308.4,16,0,0],["The Beverly Hills Hotel","Beverly Hills",7,2308.4,1,0,0],["The Apple Pan","Los Angeles",7,2310.7,2,1,0],["Palisades Park","Santa Monica",7,2314.9,128,0,0],["Will Rogers State Beach","Santa Monica",7,2314.9,128,0,0],["Ye Olde King's Head","Santa Monica",7,2315,2,0,1],["The Eden Hotel","Santa Monica",7,2315,1,0,0],["Will Rogers Highway Dedication Plaque (Santa Monica)","Santa Monica",7,2315,1,0,0],["Santa Monica Camera Obscura","Santa Monica",7,2315,5,0,1],["Pacific Park","Santa Monica",7,2315.1,4,0,0],["Santa Monica Looff Hippodrome","Santa Monica",7,2315.1,5,1,0],["Santa Monica Pier","Santa Monica",7,2315.1,14,1,1],["Route 66 \"End of the Trail\" Sign, Santa Monica Pier","Santa Monica",7,2315.1,1,0,1],["Santa Monica Pier Aquarium","Santa Monica",7,2315.1,132,0,0],["Mel's Drive-In (Santa Monica)","Santa Monica",7,2315.2,10,0,4],["Route 66 Western Terminus (Lincoln & Olympic, Santa Monica)","Santa Monica",7,2315.2,17,1,1]]; /* [name, city, stateIndex, miles, categoryBits, flags(1 iconic, 2 family, 4 seasonal), upvotes], snapshot of active stops */
+const CURPOS={"Begin Historic Route 66 sign": 0, "Gemini Giant": 59.8, "Ambler’s Texaco Gas Station": 81.2, "Route 66 Hall of Fame and Museum": 100.2, "Funks Grove Pure Maple Sirup": 149.3, "Cozy Dog Drive In": 204, "Old Chain of Rocks Bridge": 293.5, "Ted Drewes Frozen Custard": 310.5, "Meramec Caverns": 366.7, "Cuba murals and the Wagon Wheel Motel": 389.1, "Fanning 66 Outpost and Route 66 Rocker": 393.5, "Devil’s Elbow": 433.5, "Springfield, MO": 525.4, "66 Drive-In": 592.3, "Cars on the Route, Galena": 608.2, "Rainbow Bridge": 613.9, "Coleman Theatre": 633.5, "Ed Galloway’s Totem Pole Park": 690.4, "Blue Whale of Catoosa": 715.3, "Cyrus Avery Centennial Plaza": 734, "Arcadia Round Barn": 829.8, "Pops 66": 830.4, "Oklahoma Route 66 Museum": 938.7, "National Route 66 and Transportation Museum": 968.5, "Tower Station and U-Drop Inn": 1023.5, "Leaning water tower, Groom": 1074.7, "Cadillac Ranch": 1130.2, "The Big Texan Steak Ranch": 1115.3, "MidPoint Cafe": 1171.9, "Glenrio": 1199.0, "Blue Swallow Motel": 1237.6, "Tucumcari murals and neon": 1238.0, "Blue Hole of Santa Rosa": 1298.4, "Route 66 Auto Museum": 1297.3, "Pre 1937 alignment via Santa Fe": 1396.8, "Nob Hill and the KiMo Theatre": 1420.7, "Old Town Albuquerque": 1422.0, "Rio Puerco Bridge": 1439.2, "Continental Divide": 1536.5, "El Rancho Hotel": 1562.9, "Petrified Forest National Park": 1638.3, "Wigwam Motel, Holbrook": 1666.2, "Standin’ on the Corner Park": 1700.3, "La Posada Hotel": 1700.1, "Meteor Crater": 1717.6, "Flagstaff": 1758.5, "Williams": 1795.7, "Seligman": 1840.2, "Seligman to Kingman": 1860.0, "Hackberry General Store": 1903.2, "Powerhouse Visitor Center": 1932.3, "Sitgreaves Pass": 1947.2, "Oatman": 1948.9, "The Mojave to Amboy": 2050.0, "Roy’s Motel and Cafe": 2073.8, "Bagdad Cafe": 2133.7, "Elmer’s Bottle Tree Ranch": 2183.5, "Wigwam Motel, Rialto": 2238.9, "Foothill Boulevard": 2260.0, "Santa Monica Pier": 2315.1}, CURDB=new Set(["Begin Historic Route 66 Sign", "Gemini Giant", "Ambler's Texaco Gas Station", "Route 66 Association of Illinois Hall of Fame and Museum", "Funks Grove Pure Maple Sirup", "Cozy Dog Drive In", "Old Chain of Rocks Bridge", "Ted Drewes Frozen Custard", "Wagon Wheel Motel, Cafe and Station", "Fanning 66 Outpost & Route 66 Rocker", "Devil's Elbow Bridge", "66 Drive-In", "Kan-O-Tex Service Station (Cars on the Route)", "Rainbow Bridge (Brush Creek Marsh Arch Bridge)", "Coleman Theatre", "Ed Galloway's Totem Pole Park", "Blue Whale of Catoosa", "Cyrus Avery Centennial Plaza", "Arcadia Round Barn", "Pops 66", "Oklahoma Route 66 Museum", "National Route 66 & Transportation Museum (Elk City Museum Complex)", "Tower Station and U-Drop Inn Cafe", "Britten USA Leaning Water Tower (Leaning Tower of Texas)", "Cadillac Ranch", "The Big Texan Steak Ranch", "MidPoint Cafe", "Blue Swallow Motel", "Blue Hole of Santa Rosa", "Route 66 Auto Museum", "KiMo Theatre", "Rio Puerco Bridge", "El Rancho Hotel", "Petrified Forest National Park", "Wigwam Village #6 (Wigwam Motel)", "Standin' on the Corner Park", "La Posada Hotel", "Angel & Vilma Delgadillo's Original Route 66 Gift Shop", "Hackberry General Store", "Powerhouse Visitor Center (Arizona Route 66 Museum)", "Oatman Wild Burros", "Roy's Motel & Cafe", "Bagdad Cafe", "Elmer's Bottle Tree Ranch", "Wigwam Motel (Wigwam Village #7), Rialto", "Santa Monica Pier", "Continental Divide Marker", "Old Town Plaza", "Old Town Albuquerque Self-Guided Historic Walk", "Nob Hill Historic District (Nob Hill Business District)", "Route 66 \"End of the Trail\" Sign, Santa Monica Pier", "Delgadillo's Snow Cap Drive-In"]), CURCITY={"Begin Historic Route 66 sign": ["Chicago", 0], "Gemini Giant": ["Wilmington", 0], "Ambler’s Texaco Gas Station": ["Dwight", 0], "Route 66 Hall of Fame and Museum": ["Pontiac", 0], "Funks Grove Pure Maple Sirup": ["Funks Grove", 0], "Cozy Dog Drive In": ["Springfield", 0], "Old Chain of Rocks Bridge": ["Madison", 0], "Ted Drewes Frozen Custard": ["St. Louis", 1], "Cuba murals and the Wagon Wheel Motel": ["Cuba", 1], "Fanning 66 Outpost and Route 66 Rocker": ["Fanning", 1], "Devil’s Elbow": ["Devils Elbow", 1], "66 Drive-In": ["Carthage", 1], "Cars on the Route, Galena": ["Galena", 2], "Rainbow Bridge": ["Riverton", 2], "Coleman Theatre": ["Miami", 3], "Ed Galloway’s Totem Pole Park": ["Foyil", 3], "Blue Whale of Catoosa": ["Catoosa", 3], "Cyrus Avery Centennial Plaza": ["Tulsa", 3], "Arcadia Round Barn": ["Arcadia", 3], "Pops 66": ["Arcadia", 3], "Oklahoma Route 66 Museum": ["Clinton", 3], "National Route 66 and Transportation Museum": ["Elk City", 3], "Tower Station and U-Drop Inn": ["Shamrock", 4], "Leaning water tower, Groom": ["Groom", 4], "Cadillac Ranch": ["Amarillo", 4], "The Big Texan Steak Ranch": ["Amarillo", 4], "MidPoint Cafe": ["Adrian", 4], "Blue Swallow Motel": ["Tucumcari", 5], "Blue Hole of Santa Rosa": ["Santa Rosa", 5], "Route 66 Auto Museum": ["Santa Rosa", 5], "Nob Hill and the KiMo Theatre": ["Albuquerque", 5], "Rio Puerco Bridge": ["Albuquerque", 5], "El Rancho Hotel": ["Gallup", 5], "Petrified Forest National Park": ["Petrified Forest", 6], "Wigwam Motel, Holbrook": ["Holbrook", 6], "Standin’ on the Corner Park": ["Winslow", 6], "La Posada Hotel": ["Winslow", 6], "Seligman": ["Seligman", 6], "Hackberry General Store": ["Hackberry", 6], "Powerhouse Visitor Center": ["Kingman", 6], "Oatman": ["Oatman", 6], "Roy’s Motel and Cafe": ["Amboy", 7], "Bagdad Cafe": ["Newberry Springs", 7], "Elmer’s Bottle Tree Ranch": ["Helendale", 7], "Wigwam Motel, Rialto": ["Rialto", 7], "Santa Monica Pier": ["Santa Monica", 7], "Meramec Caverns": ["Stanton", 1], "Springfield, MO": ["Springfield", 1], "Glenrio": ["Glenrio", 4], "Tucumcari murals and neon": ["Tucumcari", 5], "Pre 1937 alignment via Santa Fe": ["Santa Fe", 5], "Old Town Albuquerque": ["Albuquerque", 5], "Continental Divide": ["Thoreau", 5], "Meteor Crater": ["Meteor City", 6], "Flagstaff": ["Flagstaff", 6], "Williams": ["Williams", 6], "Sitgreaves Pass": ["Oatman", 6]};
+const CURATED=LEGS.flatMap(l=>l.stops).map(st=>({name:st[0],desc:st[1],tags:st[2],pos:CURPOS[st[0]],city:(CURCITY[st[0]]||[])[0]||"",si:(CURCITY[st[0]]||[])[1],cur:true}));
+const BITTAGS=[[1,"history"],[2,"food"],[4,"quirky"],[8,"neon"],[16,"history"],[64,"motels"],[128,"nature"],[256,"history"],[512,"photo"],[1024,"ghost"]];
+const CATLABEL=[[1024,D("Ghost town","Ville fantôme","Pueblo fantasma")],[64,D("Motel","Motel","Motel")],[8,D("Neon","Néon","Neón")],[2,D("Food","Où manger","Comida")],[4,D("Roadside kitsch","Kitsch","Kitsch")],[128,D("Nature","Nature","Naturaleza")],[512,D("Mural","Fresque","Mural")],[16,D("Original route","Tracé d’origine","Trazado original")],[256,D("Old gas station","Ancienne station","Gasolinera antigua")],[1,D("History","Histoire","Historia")],[32,D("Shop","Boutique","Tienda")]];
+const DBSTOPS=STOPS.filter(x=>!CURDB.has(x[0])&&x[4]!==32).map(x=>{const tags=BITTAGS.filter(([b])=>x[4]&b).map(([,t])=>t);if(x[5]&2)tags.push("kids");if(x[5]&1)tags.push("photo");
+  const lab=(CATLABEL.find(([b])=>x[4]&b)||[0,D("Stop","Arrêt","Parada")])[1];return {name:x[0],city:x[1],si:x[2],pos:x[3],bits:x[4],tags,iconic:!!(x[5]&1),seasonal:!!(x[5]&4),up:x[6],lab}});
+/* Overnight towns: [name, miles, stateIndex, canonical] */
+const TOWNS=[["Chicago",0,0,1],["Joliet",42.5,0],["Pontiac",100.5,0],["Bloomington",137.9,0],["Lincoln",170.5,0],["Springfield, IL",201.5,0,1],["Litchfield",247.6,0],["St Louis",305.8,1,1],["Cuba",390.7,1],["Rolla",412.2,1],["Waynesville",442.3,1],["Lebanon",472.2,1],["Springfield, MO",525.4,1,1],["Carthage",589.4,1],["Joplin",601.1,1],["Miami, OK",634.6,3],["Vinita",667.4,3],["Tulsa",732,3,1],["Chandler",801.4,3],["Oklahoma City",850.8,3],["El Reno",876.4,3],["Weatherford",920.4,3],["Clinton",938.2,3],["Elk City",967.5,3,1],["Shamrock",1021.5,4],["McLean, TX",1044.7,4],["Amarillo",1123.6,4,1],["Tucumcari",1237.7,5,1],["Santa Rosa",1298.7,5],["Las Vegas, NM",1333.8,5],["Santa Fe",1396.8,5],["Albuquerque",1421.4,5,1],["Grants",1498.2,5],["Gallup",1563.7,5,1],["Holbrook",1663.6,6],["Winslow",1700.4,6,1],["Flagstaff",1758.5,6],["Williams",1795.7,6,1],["Seligman",1841.1,6],["Kingman",1930.2,6,1],["Needles",1997.1,7],["Barstow",2157.2,7,1],["Victorville",2195.2,7],["San Bernardino",2236.4,7],["Pasadena",2287.3,7],["Santa Monica",2315.1,7,1]];
+const CANON=TOWNS.filter(x=>x[3]);
+const MOREX=[
+ {city:["Flagstaff","Williams"],t:D("Sedona day","Journée à Sedona","Día en Sedona"),h:D("Red rock country, about 30 miles south of Flagstaff through Oak Creek Canyon.","Le pays des roches rouges, à environ 30 miles au sud de Flagstaff par l’Oak Creek Canyon.","El país de las rocas rojas, a unas 30 millas al sur de Flagstaff por el Oak Creek Canyon."),tags:["nature","photo"]},
+ {city:["Kingman"],t:D("Hoover Dam","Le barrage Hoover","La presa Hoover"),h:D("About 75 miles north of Kingman, on the way to Las Vegas.","À environ 75 miles au nord de Kingman, sur la route de Las Vegas.","A unas 75 millas al norte de Kingman, camino a Las Vegas."),tags:["history","kids","photo"]},
+ {city:["San Bernardino","Barstow"],t:D("Joshua Tree National Park","Parc national de Joshua Tree","Parque Nacional Joshua Tree"),h:D("Desert boulders and Joshua trees, about an hour from San Bernardino.","Rochers du désert et arbres de Josué, à environ une heure de San Bernardino.","Rocas del desierto y árboles de Josué, a una hora de San Bernardino."),tags:["nature","photo"]},
+ {city:["Grants","Albuquerque"],t:D("Acoma Sky City","Acoma Sky City","Acoma Sky City"),h:D("A pueblo on a mesa top, lived in for centuries. Guided tours only.","Un pueblo perché sur une mesa, habité depuis des siècles. Visites guidées uniquement.","Un pueblo sobre una mesa, habitado desde hace siglos. Solo con visita guiada."),tags:["history","photo"]},
+ {city:["Santa Fe","Albuquerque"],t:D("Taos and the High Road","Taos et la High Road","Taos y la High Road"),h:D("Mountain villages and Taos Pueblo, about 70 miles north of Santa Fe.","Villages de montagne et Taos Pueblo, à environ 70 miles au nord de Santa Fe.","Pueblos de montaña y Taos Pueblo, a unas 70 millas al norte de Santa Fe."),tags:["history","nature"]},
+ {city:["Oklahoma City"],t:D("Oklahoma City day","Journée à Oklahoma City","Día en Oklahoma City"),h:D("The National Memorial and Museum, Bricktown and the stockyards.","Le mémorial national et son musée, Bricktown et les stockyards.","El memorial nacional y su museo, Bricktown y los stockyards."),tags:["history"]},
+ {city:["Springfield, IL"],t:D("Lincoln’s Springfield","Le Springfield de Lincoln","El Springfield de Lincoln"),h:D("Lincoln’s home, his tomb and the presidential museum.","La maison de Lincoln, sa tombe et le musée présidentiel.","La casa de Lincoln, su tumba y el museo presidencial."),tags:["history"]},
+ {city:["Santa Monica","Pasadena"],t:D("Hollywood and Griffith Observatory","Hollywood et l’observatoire Griffith","Hollywood y el Observatorio Griffith"),h:D("The Hollywood sign, the Walk of Fame and city views at sunset.","Le panneau Hollywood, le Walk of Fame et la ville au coucher du soleil.","El letrero de Hollywood, el Paseo de la Fama y la ciudad al atardecer."),tags:["photo","kids"]}
+];
+const ALLX=EXTRAS.map(x=>({...x,city:[x.city==="Albuquerque"&&/Santa Fe/.test(x.t.en)?"Santa Fe":x.city].concat(x.city==="Albuquerque"&&/Santa Fe/.test(x.t.en)?["Albuquerque"]:[])})).concat(MOREX);
+
+const ALLTAGS=["neon","food","quirky","ghost","nature","history","motels","kids","photo"];
+function interests(){const t=sel.i.flatMap(id=>Q[4].options.find(o=>o.id===id).tags);return t.length?t:ALLTAGS}
+/* ===== Time model. Edit these estimates freely: minutes spent at a stop, by type. ===== */
+const VISIT={park:150,cave:90,museum:90,crater:75,statePark:60,food:45,nature:45,ghost:30,history:30,shop:20,original:15,photo:5,gas:5,neon:5,kitsch:5,mural:5,motel:5};
+const SPEED=50;            /* average mph on the old road, towns and stops included */
+const STOP_SHARE={3:.5,4:.8,6:1.3}; /* time at stops relative to driving time, by pace: cover ground, balanced, linger */
+function visitMin(x){
+  const n=x.name;
+  if(/national park/i.test(n))return VISIT.park;if(/cavern|\bcave/i.test(n))return VISIT.cave;if(/museum|hall of fame/i.test(n))return VISIT.museum;
+  if(/crater/i.test(n))return VISIT.crater;if(/state park/i.test(n))return VISIT.statePark;
+  const b=x.bits;
+  if(b!=null){if(b&2)return VISIT.food;if(b&1024)return VISIT.ghost;if(b&128)return VISIT.nature;if(b&1)return VISIT.history;if(b&16)return VISIT.original;if(b&256)return VISIT.gas;if(b&8)return VISIT.neon;if(b&4)return VISIT.kitsch;if(b&32)return VISIT.shop;if(b&512)return VISIT.mural;if(b&64)return VISIT.motel;return VISIT.photo}
+  const g=x.tags;
+  return g.includes("food")?VISIT.food:g.includes("nature")?VISIT.nature:g.includes("ghost")?VISIT.ghost:g.includes("history")?VISIT.history:g.includes("motels")?VISIT.motel:VISIT.photo;
+}
+/* How much there is for this traveller along the road: matching stops, weighted by quality, scaled so stops take
+   STOP_SHARE of the driving time overall. Returns a function giving hours from mile 0 to any mile. */
+function timeline(I){
+  const pts=CURATED.concat(DBSTOPS).filter(x=>x.pos!=null&&x.tags.some(t=>I.includes(t)))
+    .map(x=>({pos:x.pos,w:visitMin(x)*(x.cur?1:x.iconic?.8:x.up>0?.45:.25)})).sort((p,q)=>p.pos-q.pos);
+  const total=pts.reduce((m,p)=>m+p.w,0)||1,driveH=2315/SPEED,scale=driveH*(STOP_SHARE[sel.p]||.8)/total;
+  const cum=[];let acc=0;pts.forEach(p=>{acc+=p.w*scale;cum.push(acc)});
+  return pos=>{let lo=0,hi=pts.length;while(lo<hi){const m=(lo+hi)>>1;if(pts[m].pos<=pos)lo=m+1;else hi=m}return pos/SPEED+(lo?cum[lo-1]:0)};
+}
+function chooseOvernights(towns,K,T){ /* exactly K driving days, as even as possible in hours (driving plus stops), favouring classic overnight towns */
+  const m=towns.length-1,ideal=(T(towns[m][1])-T(towns[0][1]))/K,INF=1e15;
+  const dp=[...Array(K+1)].map(()=>Array(m+1).fill(INF)),pr=[...Array(K+1)].map(()=>Array(m+1).fill(-1));dp[0][0]=0;
+  for(let k=1;k<=K;k++)for(let j=1;j<=m;j++)for(let i=0;i<j;i++){if(dp[k-1][i]>=INF)continue;const miles=towns[j][1]-towns[i][1],h=T(towns[j][1])-T(towns[i][1]);
+    const c=dp[k-1][i]+(h-ideal)**2+(miles>320?(miles-320)**2*50:0)-(towns[j][3]?ideal*ideal*.06:0);if(c<dp[k][j]){dp[k][j]=c;pr[k][j]=i}}
+  const path=[m];let j=m;for(let k=K;k>0;k--){j=pr[k][j];path.unshift(j)}return path.map(i=>towns[i]);
+}
+function plan(){
+  const I=interests(),target=sel.d,notes=[];let sec=sel.s;
+  const westy=I.includes("nature")||I.includes("ghost");
+  const span=k=>[CANON[SECTIONS[k][0]][0],CANON[SECTIONS[k][1]][0]];
+  if(sec==="auto"){sec=target>=11?"whole":(westy?"southwest":(I.includes("history")||I.includes("neon")?"midwest":"southwest"));if(sec!=="whole")notes.push(tr(S.nAuto)(...span(sec)))}
+  if(sec==="whole"&&target<=6){sec=westy?"southwest":"midwest";notes.push(tr(S.nSection)(...span(sec)))}
+  const [A,B]=SECTIONS[sec];
+  let canon=CANON.slice(A,B+1);
+  let legs=canon.slice(1).map((c,k)=>({a:canon[k],b:c,mi:c[1]-canon[k][1]}));
+  const CAP=target<=2?230:(target>=7?335:330),tot=x=>x.reduce((m,l)=>m+l.mi,0);let trimmed=false;
+  if(tot(legs)/target>CAP){
+    const sc=l=>CURATED.filter(c=>c.pos>l.a[1]&&c.pos<=l.b[1]).reduce((m,c)=>m+c.tags.filter(t=>I.includes(t)).length,0);
+    let w=legs.length;while(w>1){let ok=false;for(let k=0;k+w<=legs.length;k++)if(tot(legs.slice(k,k+w))/target<=CAP){ok=true;break}if(ok)break;w--}
+    let bk=0,bs=-1;for(let k=0;k+w<=legs.length;k++){const win=legs.slice(k,k+w);if(tot(win)/target>CAP)continue;const sum=win.reduce((m,l)=>m+sc(l),0);if(sum>bs){bs=sum;bk=k}}
+    legs=legs.slice(bk,bk+w);trimmed=true;notes.length=0;
+  }
+  const start=legs[0].a,end=legs[legs.length-1].b,n=legs.length;
+  let towns=TOWNS.filter(x=>x[1]>=start[1]&&x[1]<=end[1]);
+  const want=Math.max(n,Math.min(target-Math.floor(target*.2),towns.length-1));
+  const K=Math.min(target<=n?target:want,towns.length-1);
+  const ov=chooseOvernights(towns,K,timeline(I));
+  let days=ov.slice(1).map((t,k)=>({type:"drive",a:ov[k],b:t}));
+  if(!trimmed&&days.some(d=>d.b[1]-d.a[1]>300))notes.push(tr(S.nMerged)(target));
+  days.forEach((d,k)=>{d.A=d.a;d.B=d.b;d.wFirst=k===0;d.wLast=k===days.length-1;d.mi=Math.round(d.b[1]-d.a[1]);d.lo=d.a[1];d.hi=d.b[1];
+    const st=new Set([d.a[2],d.b[2]]);STOPS.forEach(x=>{if(x[3]>d.lo&&x[3]<=d.hi&&x[2]>=0)st.add(x[2])});d.st=[...st].sort((p,q)=>p-q).map(i=>STATES[i])});
+  if(sel.r==="east"){days=days.reverse();days.forEach(d=>{const t=d.a;d.a=d.b;d.b=t;d.st.reverse()})}
+  days.forEach(d=>{d.from=d.a[0];d.to=d.b[0]});
+  const from=days[0].from,to=days[days.length-1].to;
+  if(trimmed)notes.push(tr(S.nShort)(target,from,to));
+  const cities=[from,...days.map(d=>d.to)];
+  let spare=target-days.length;
+  if(spare>0){
+    const score=x=>x.tags.filter(t=>I.includes(t)).length;
+    ALLX.filter(x=>x.city.some(c=>cities.includes(c))).sort((x,y)=>score(y)-score(x)).slice(0,spare).forEach(x=>{
+      const c=x.city.find(c=>cities.includes(c));let pos=days.findIndex(d=>d.type==="drive"&&d.to===c);pos=pos===-1?(cities[0]===c?-1:days.length-1):pos;
+      days.splice(pos+1,0,{type:"extra",from:c,t:tr(x.t),h:tr(x.h)})});
+    spare=target-days.length;
+    const has=new Set(days.filter(d=>d.type==="extra").map(d=>d.from));
+    const ls=d=>stopsFor(d,99).reduce((m,c)=>m+c.tags.filter(t=>I.includes(t)).length,0);
+    days.filter(d=>d.type==="drive"&&!has.has(d.to)).sort((x,y)=>ls(y)-ls(x)).slice(0,spare).forEach(d=>{days.splice(days.indexOf(d)+1,0,{type:"extra",from:d.to,t:tr(S.secondNight)(d.to),h:s("secondNightH")})});
+    spare=target-days.length;
+    if(spare>0)days.push({type:"group",n:spare,from:to,t:tr(S.freeDays)(spare),h:s("freeH")});
+  }
+  if(sec!=="whole"&&target>=16)notes.push(tr(S.nWhole)(target));
+  const drives=days.filter(d=>d.type==="drive");
+  const miles=drives.reduce((m,d)=>m+d.mi,0),states=[...new Set(drives.flatMap(d=>d.st))];
+  return {sec,days,miles,states,notes,from,to,whole:Math.abs(miles-2315)<5};
+}
+/* Each overnight town owns the stops in its own city (within 20 miles), so they show on the day you arrive there. */
+const townCity=t=>[t[0].replace(/, (IL|MO|OK|TX|NM)$/,"").replace("St Louis","St. Louis"),t[2]];
+const sameCity=(x,t)=>{const [c,si]=townCity(t);return x.city===c&&x.si===si};
+const normName=n=>n.toLowerCase().replace(/^the /,"").replace(/\s*\(.*?\)/g,"").replace(/[^a-z0-9 ]/g,"").trim();
+function owns(x,d){
+  const west=sel.r!=="east",arr=west?d.B:d.A,dep=west?d.A:d.B,hasPrev=west?!d.wFirst:!d.wLast,Z=20;
+  const inRange=west?((x.pos>d.lo&&x.pos<=d.hi)||(d.wFirst&&x.pos===d.lo)):((x.pos>=d.lo&&x.pos<d.hi)||(d.wLast&&x.pos===d.hi));
+  if(sameCity(x,arr)&&Math.abs(x.pos-arr[1])<=Z)return true;
+  if(sameCity(x,dep)&&Math.abs(x.pos-dep[1])<=Z)return !hasPrev;
+  return inRange;
+}
+function stopsFor(d,limit){
+  const I=interests();
+  const cur=CURATED.filter(c=>c.pos!=null&&owns(c,d)).map(c=>({...c,score:100+c.tags.filter(t=>I.includes(t)).length*10}));
+  const db=DBSTOPS.filter(x=>owns(x,d)).map(x=>({...x,score:x.tags.filter(t=>I.includes(t)).length*10+(x.iconic?6:0)+Math.min(x.up,10)*.5}));
+  const n=limit||(+sel.p||4),out=[];
+  /* skip near duplicates: the same place listed twice in the map within a couple of miles */
+  for(const x of cur.concat(db).sort((p,q)=>q.score-p.score)){
+    const nx=normName(x.name);
+    if(out.some(o=>Math.abs(o.pos-x.pos)<3&&(()=>{const no=normName(o.name);return no===nx||(nx.length>6&&no.length>6&&(no.includes(nx)||nx.includes(no)))})()))continue;
+    out.push(x);if(out.length>=n)break;
+  }
+  return out.sort((p,q)=>sel.r==="east"?q.pos-p.pos:p.pos-q.pos);
+}
+
+/* Badges come from the site’s guide artwork: /images/guides/badges/<state>.png */
+function badge(state,cls){const slug=state.toLowerCase().replace(/ /g,"-");
+  return `<span class="badge ${cls||""}"><b>${ABBR[state]}</b><img src="/images/guides/badges/${slug}.png" alt="" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()"></span>`}
+
+function hours(d){
+  const h=x=>{const r=Math.max(.5,Math.round(x*2)/2);return r.toLocaleString(L==="en"?"en-US":L)};
+  const drive=d.mi/SPEED,stops=stopsFor(d).reduce((m,x)=>m+visitMin(x),0)/60;
+  return tr(S.timeLine)(h(drive),h(stops));
+}
+function renderResults(){
+  const P=plan();
+  history.replaceState(null,"",toQuery());
+  track("trip_planner_completed",{days:sel.d,stretch:P.sec,direction:sel.r,season:sel.e,interests:sel.i.join(","),pace:sel.p,vehicle:sel.v});
+  const title=`<em>${P.from}</em> ${s("to")} <em>${P.to}</em>${P.whole?" "+tr(S.inDays)(sel.d):""}`;
+  const drives=P.days.filter(d=>d.type==="drive").length,perDay=Math.round(P.miles/Math.max(1,drives)/5)*5;
+  const nf=n=>n.toLocaleString(L==="en"?"en-US":L);
+  let n=0;
+  const dayHTML=P.days.map(d=>{
+    if(d.type==="group"){const a=n+1,b=n+d.n;n=b;return `<article class="day extra group"><div class="num"><small>${s("Days")}</small><b>${a} ${s("to")} ${b}</b></div><div><h4>${d.t}</h4><div class="dmeta"><span class="pill">${s("flex")}</span></div><p class="dtext">${d.h}</p></div></article>`}
+    n++;const N=String(n).padStart(2,"0");
+    if(d.type==="extra")return `<article class="day extra"><div class="num"><small>${s("Day")}</small><b>${N}</b></div><div><h4>${d.t}</h4><div class="dmeta"><span class="pill">${d.from}</span><span class="pill">${s("rest")}</span></div><p class="dtext">${d.h}</p></div></article>`;
+    const long=d.mi>300;
+    return `<article class="day"><div class="num"><small>${s("Day")}</small><b>${N}</b>${badge(d.st[d.st.length-1])}</div><div>
+      <h4>${d.from}<span class="arr" aria-hidden="true">→</span><span class="sr"> ${s("to")} </span>${d.to}</h4>
+      <div class="dmeta"><span class="pill">${tr(S.about)(nf(d.mi))}</span><span class="pill">${hours(d)}</span><span class="pill">${d.st.map(sn).join(" · ")}</span>${long?`<span class="pill warn">${s("long")}</span>`:""}</div>
+      <ul class="stops">${stopsFor(d).map(x=>`<li><i aria-hidden="true"></i><div><b>${x.name}</b> <span>${x.cur?tr(x.desc):(x.city?x.city+" · ":"")+tr(x.lab)}${x.seasonal?" · "+s("seasonal"):""}</span></div></li>`).join("")}</ul></div></article>`}).join("");
+  const panel=x=>`<div class="panel"><span class="kicker">${tr(x.k)}</span><h4>${tr(x.t)}</h4><p>${typeof x.p==="function"?x.p(airport(P.from),airport(P.to)):tr(x.p)}</p><ul>${x.li.map(li=>`<li>${tr(li)}</li>`).join("")}</ul></div>`;
+  const order=sel.r==="west"?STATES:STATES.slice().reverse();
+  $("results").innerHTML=`
+  <div class="r-hero fade"><div class="wrap">
+    <span class="eyebrow">${s("eyebrowRes")}</span>
+    <h1 class="r-title" tabindex="-1" id="rTitle">${title}</h1>
+    <p class="lede">${sel.r==="west"?s("west"):s("east")}</p>
+    <div class="stats">
+      <div><b>${sel.d}</b><span>${sel.d===1?s("day"):s("days")}</span></div>
+      <div><b>~${nf(P.miles)}</b><span>${s("milesApprox")}</span></div>
+      <div><b>~${perDay}</b><span>${s("perDay")}</span></div>
+      <div><b>${P.states.length}</b><span>${P.states.length===1?s("state"):s("statesW")}</span></div>
+    </div>
+    <div class="ribbon">${order.map(st=>`<span class="st ${P.states.includes(st)?"on":""}">${badge(st,P.states.includes(st)?"":"off")}${sn(st)}</span>`).join("")}</div>
+    ${P.notes.map(t=>`<div class="note">${t}</div>`).join("")}
+    <div class="share-row no-print"><button class="btn" id="shareBtn" type="button">${s("share")}</button><span id="shareMsg" role="status" aria-live="polite"></span></div>
+  </div></div>
+  <section class="sec"><div class="wrap">
+    <div class="sec-h"><div><span class="eyebrow">${s("dayByDay")}</span><h2>${s("itin")}</h2></div><p class="lede">${s("itinLede")}</p></div>
+    <div class="days">${dayHTML}</div>
+  </div></section>
+  <section class="sec white"><div class="wrap">
+    <div class="sec-h"><div><span class="eyebrow">${s("kbg")}</span><h2>${s("seasonVeh")}</h2></div></div>
+    <div class="three">${panel(SEASON[sel.e])}${panel(VEH[sel.v])}${panel(TRAVEL)}</div>
+  </div></section>
+  <section class="sec"><div class="wrap">
+    <div class="sec-h"><div><span class="eyebrow">${s("checklist")}</span><h2>${s("before")}</h2></div></div>
+    <ul class="check">${CHECK.map(c=>`<li><span class="tick" aria-hidden="true">✓</span><span><b>${tr(c[0])}</b><span>${tr(c[1])}</span></span></li>`).join("")}</ul>
+  </div></section>
+  <section class="download" id="download"><div class="download-inner">
+    <p class="eyebrow light">${s("appEyebrow")}</p>
+    <h2 class="download-title">${s("appTitle")}</h2>
+    <p class="download-sub">${s("appSub")}</p>
+    <div class="download-badges">
+      <a href="https://apps.apple.com/app/route-66-logbook/id6774524322" class="badge-btn" target="_blank" rel="noopener" data-store="ios">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        <div><span class="badge-btn-label">${s("dlLabelA")}</span><span class="badge-btn-store">App Store</span></div></a>
+      <a href="https://play.google.com/store/apps/details?id=com.route66logbook.app" class="badge-btn badge-btn-android" target="_blank" rel="noopener" data-store="android">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M17.6 9.48l1.84-3.18a.38.38 0 00-.14-.52.38.38 0 00-.52.14l-1.87 3.23a11.36 11.36 0 00-9.82 0L5.22 5.92a.38.38 0 00-.52-.14.38.38 0 00-.14.52L6.4 9.48A10.78 10.78 0 001 18h22a10.78 10.78 0 00-5.4-8.52M7 15.25a1.1 1.1 0 111.1-1.1 1.1 1.1 0 01-1.1 1.1m10 0a1.1 1.1 0 111.1-1.1 1.1 1.1 0 01-1.1 1.1"/></svg>
+        <div><span class="badge-btn-label">${s("dlLabelG")}</span><span class="badge-btn-store">Google Play</span></div></a>
+    </div>
+  </div></section>
+  <div class="actions wrap no-print">
+    <button class="btn ghost" type="button" onclick="window.print()">${s("print")}</button>
+    <button class="btn" type="button" id="againBtn">${s("again")}</button>
+  </div>`;
+  $("againBtn").onclick=restart;
+  $("results").querySelectorAll("[data-store]").forEach(a=>a.addEventListener("click",()=>track("trip_planner_store_click",{store:a.dataset.store})));
+  $("shareBtn").onclick=async()=>{
+    const url=location.origin+toQuery();track("trip_planner_shared");
+    try{if(navigator.share&&matchMedia("(pointer:coarse)").matches){await navigator.share({title:document.title,url});return}
+      await navigator.clipboard.writeText(url);$("shareMsg").textContent=s("copied")}
+    catch(e){prompt(s("share"),url)}
+  };
+  setTimeout(()=>$("rTitle").focus({preventScroll:true}),50);
+}
+
+/* ===== Boot ===== */
+$("ctaApp").addEventListener("click",e=>{track("trip_planner_cta_click",{screen:step===0?"welcome":(step<=Q.length?"quiz":"results")});const dl=$("download");if(dl){e.preventDefault();dl.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})}});
+$("startBtn").onclick=()=>go(1);$("nextBtn").onclick=next;$("backBtn").onclick=back;$("restartBtn").onclick=restart;
+if(fromQuery()){lastQ=-1;go(Q.length+1,true)}else go(0,true);
+window.addEventListener("popstate",()=>{if(!location.search){sel={d:14,i:[]};go(0,true)}});
+})();
+
+</script>
+<script src="/header.js" defer></script>
+<script src="/footer.js" defer></script>
+</body>
+</html>

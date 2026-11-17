@@ -83,7 +83,7 @@ Springfield, Missouri, se presenta como la cuna de la Route 66 porque el número
 
 ## Llévala contigo en Route 66 Logbook
 
-Usa [Route 66 Logbook](#download) para seguir la carretera histórica, explorar las paradas del camino y guardar un registro de lo que de verdad descubriste. Al final de cada día, guarda la mejor parada, la parada más rara y el lugar que casi te pierdes. Después de una semana, tu bitácora mostrará la forma de tu viaje y no la lista de pendientes de otra persona.
+Usa [Route 66 Logbook](#download) para seguir la carretera histórica, explorar las paradas del camino y guardar un registro de lo que de verdad descubriste. Al final de cada día, guarda la mejor parada, la parada más rara y el lugar que casi te pierdes. Después de una semana, tu diario mostrará la forma de tu viaje y no la lista de pendientes de otra persona.
 
 ![La pantalla del mapa de Route 66 Logbook, con grupos numerados de paradas a lo largo de la Route 66, de Chicago a Los Ángeles](/images/guides/app-map-screenshot.jpg "El mapa de Route 66 Logbook: todas las paradas, de Chicago a Santa Monica") {screen}
 

@@ -58,7 +58,7 @@ Un detalle curioso para los viajeros con ojo de diseño: la palabra “vacancy�
 
 ## Llévalo contigo en Route 66 Logbook
 
-Usa [Route 66 Logbook](#download) para guardar los moteles, diners y letreros a los que quieras volver después del anochecer, y revisa los detalles de cada parada antes de hacer un desvío especial. Prueba dos notas en tu bitácora: “sigue encendido” y “se apagó”. Las dos forman parte de la historia de la Route 66.
+Usa [Route 66 Logbook](#download) para guardar los moteles, diners y letreros a los que quieras volver después del anochecer, y revisa los detalles de cada parada antes de hacer un desvío especial. Prueba dos notas en tu diario: “sigue encendido” y “se apagó”. Las dos forman parte de la historia de la Route 66.
 
 {{cta}}
 

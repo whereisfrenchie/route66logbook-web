@@ -760,7 +760,7 @@ Ahí es donde entra Route 66 Logbook.
 
 La app mapea **más de 1000 paradas a lo largo de la Route 66**, desde los monumentos que ya conoces hasta edificios históricos, diners, moteles, letreros de neón, trazados antiguos, puentes, pueblos fantasma, murales, rarezas del camino y pequeños lugares por los que quizás pasarías de largo. Siempre que es posible, también estamos añadiendo los datos y la historia detrás de ellos, porque saber dónde está algo se vuelve mucho más interesante cuando también sabes por qué está ahí.
 
-Usa el mapa para encontrar los íconos y luego mira qué hay a su alrededor. Guarda los lugares que quieres visitar, lleva el registro de lo que descubras por el camino y deja espacio en tu bitácora para los lugares de los que no habías oído hablar antes de empezar a viajar.
+Usa el mapa para encontrar los íconos y luego mira qué hay a su alrededor. Guarda los lugares que quieres visitar, lleva el registro de lo que descubras por el camino y deja espacio en tu diario para los lugares de los que no habías oído hablar antes de empezar a viajar.
 
 También comparto más historia de la Route 66, fotografías e historias en Instagram, incluidos muchos de los lugares que nunca cabrían en una sola guía como esta.
 
